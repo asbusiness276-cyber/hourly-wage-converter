@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hourly Wage Converter | Quick Salary Calculator</title>
-    <meta name="description" content="Instantly convert your annual salary to hourly wage, monthly, bi-weekly, weekly, and daily earnings with our free calculator.">
+    <title>Hourly Wage Converter | Real-Time Salary & Paycheck Calculator</title>
+    <meta name="description" content="Calculate your true hourly wage, monthly salary, bi-weekly earnings, and weekly take-home with our premium financial wage converter.">
+    
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc; /* slate-50 */
+        }
+        h1, h2, h3, h4, th, .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
         input[type="number"]::-webkit-inner-spin-button,
         input[type="number"]::-webkit-outer-spin-button {
@@ -20,6 +28,7 @@
         }
         input[type="number"] { -moz-appearance: textfield; }
     </style>
+
     <!-- SEO Schema Markup -->
     <script type="application/ld+json">
     {
@@ -51,209 +60,417 @@
     }
     </script>
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col">
+<body class="text-slate-900 antialiased min-h-screen flex flex-col bg-slate-50">
 
-    <!-- Clean White Header (psttoest style) -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-10">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-2 text-xl font-bold text-slate-900 tracking-tight">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
-                </svg>
-                Hourly<span class="text-blue-600">Wage</span>
+    <!-- Top Accent Gradient Bar -->
+    <div class="bg-gradient-to-r from-emerald-500 to-teal-400 h-1.5 w-full"></div>
+
+    <!-- Header: Premium Fintech SaaS Style -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2.5 text-xl font-bold tracking-tight font-heading">
+                <span class="w-9 h-9 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-sm shadow-emerald-600/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </span>
+                <span class="text-slate-900">HourlyWage<span class="text-emerald-600">Converter</span></span>
             </a>
-            <nav class="hidden sm:flex gap-6 text-sm font-medium text-slate-600">
-                <a href="index.html" class="text-blue-600 font-semibold">Calculator</a>
-                <a href="privacy.html" class="hover:text-blue-600 transition-colors">Privacy</a>
-                <a href="terms.html" class="hover:text-blue-600 transition-colors">Terms</a>
-                <a href="contact.html" class="hover:text-blue-600 transition-colors">Contact</a>
+            <nav class="hidden sm:flex items-center gap-7 text-sm font-medium text-slate-600">
+                <a href="index.html" class="text-emerald-600 font-semibold">Calculator</a>
+                <a href="#benchmarks" class="hover:text-slate-900 transition-colors">Benchmarks</a>
+                <a href="#faq" class="hover:text-slate-900 transition-colors">FAQ</a>
+                <a href="privacy.html" class="hover:text-slate-900 transition-colors">Privacy</a>
+                <a href="terms.html" class="hover:text-slate-900 transition-colors">Terms</a>
+                <a href="contact.html" class="hover:text-slate-900 transition-colors">Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+    <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 w-full">
         
-        <div class="text-center max-w-3xl mx-auto mb-10">
-            <h1 class="text-4xl font-extrabold text-slate-900 mb-4 tracking-tight">Hourly Wage Converter</h1>
-            <p class="text-lg text-slate-600">Instantly convert your salary between hourly, daily, weekly, monthly, and annual rates.</p>
+        <!-- Hero Section: Clean & High-Converting -->
+        <div class="text-center max-w-3xl mx-auto mb-8">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/60 mb-3">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                Standard 2,080 Hour Model
+            </span>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight font-heading mb-3">
+                Hourly Wage Converter
+            </h1>
+            <p class="text-base sm:text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
+                Convert your annual salary into hourly, daily, weekly, and monthly rates with instant, real-time calculations.
+            </p>
         </div>
 
-        <!-- Calculator Section -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12">
-            <div class="grid grid-cols-1 lg:grid-cols-12">
-                <div class="lg:col-span-5 p-6 md:p-8 border-b lg:border-b-0 lg:border-r border-slate-200 bg-slate-50/50">
-                    <h2 class="text-lg font-semibold text-slate-900 mb-6">Enter Earnings</h2>
-                    <div class="space-y-5">
-                        <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-1.5">Amount</label>
-                            <div class="relative">
-                                <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-500 font-semibold">$</span>
-                                <input type="number" id="salaryAmount" step="any" min="0" class="block w-full pl-8 pr-4 py-3 text-lg border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-100 focus:border-blue-600 transition-colors outline-none font-semibold text-slate-900 bg-white" value="50000">
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-1.5">Per (Frequency)</label>
-                            <select id="salaryFrequency" class="block w-full px-4 py-3 text-lg border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-100 focus:border-blue-600 transition-colors outline-none font-medium text-slate-900 bg-white cursor-pointer">
-                                <option value="year">Year</option>
-                                <option value="month">Month</option>
-                                <option value="biweek">Bi-Week (2 weeks)</option>
-                                <option value="week">Week</option>
-                                <option value="day">Day</option>
-                                <option value="hour">Hour</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="lg:col-span-7 p-6 md:p-8 bg-white">
-                    <h2 class="text-lg font-semibold text-slate-900 mb-6">Earnings Breakdown</h2>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="col-span-2 bg-blue-50 border border-blue-100 rounded-xl p-5">
-                            <div class="text-blue-800 font-medium text-sm mb-1">Hourly Wage</div>
-                            <div class="text-4xl font-bold text-blue-700" id="resHourly">$0.00</div>
-                        </div>
-                        <div class="border border-slate-200 rounded-xl p-4">
-                            <div class="text-slate-500 font-medium text-sm mb-1">Yearly</div>
-                            <div class="text-xl font-bold text-slate-800" id="resYearly">$0.00</div>
-                        </div>
-                        <div class="border border-slate-200 rounded-xl p-4">
-                            <div class="text-slate-500 font-medium text-sm mb-1">Monthly</div>
-                            <div class="text-xl font-bold text-slate-800" id="resMonthly">$0.00</div>
-                        </div>
-                        <div class="border border-slate-200 rounded-xl p-4">
-                            <div class="text-slate-500 font-medium text-sm mb-1">Bi-Weekly</div>
-                            <div class="text-xl font-bold text-slate-800" id="resBiWeekly">$0.00</div>
-                        </div>
-                        <div class="border border-slate-200 rounded-xl p-4">
-                            <div class="text-slate-500 font-medium text-sm mb-1">Weekly</div>
-                            <div class="text-xl font-bold text-slate-800" id="resWeekly">$0.00</div>
-                        </div>
-                        <div class="col-span-2 border border-slate-200 rounded-xl p-4 flex justify-between items-center bg-slate-50/50">
-                            <div>
-                                <div class="text-slate-500 font-medium text-sm mb-1">Daily (8 hrs)</div>
-                                <div class="text-xl font-bold text-slate-800" id="resDaily">$0.00</div>
-                            </div>
-                            <span class="text-xs font-medium text-slate-500 bg-slate-200 px-2.5 py-1 rounded-full">Standard</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Clean SEO Tables -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-12">
-            <div class="p-6 md:p-8 border-b border-slate-200">
-                <h2 class="text-xl font-bold text-slate-900">Popular Salary to Hourly Conversions</h2>
-            </div>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-slate-50 text-slate-600 text-sm font-semibold border-b border-slate-200">
-                            <th class="p-4">Annual Salary</th>
-                            <th class="p-4">Hourly Wage</th>
-                            <th class="p-4">Weekly Income</th>
-                            <th class="p-4">Monthly Income</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-slate-800 text-sm">
-                        <tr class="border-b border-slate-100 hover:bg-slate-50 cursor-pointer" onclick="setSalary(30000)">
-                            <td class="p-4 font-medium">$30,000 a year</td><td class="p-4 text-blue-600 font-semibold">$14.42 / hour</td><td class="p-4">$576.92</td><td class="p-4">$2,500.00</td>
-                        </tr>
-                        <tr class="border-b border-slate-100 hover:bg-slate-50 cursor-pointer" onclick="setSalary(40000)">
-                            <td class="p-4 font-medium">$40,000 a year</td><td class="p-4 text-blue-600 font-semibold">$19.23 / hour</td><td class="p-4">$769.23</td><td class="p-4">$3,333.33</td>
-                        </tr>
-                        <tr class="border-b border-slate-100 hover:bg-slate-50 cursor-pointer" onclick="setSalary(50000)">
-                            <td class="p-4 font-medium">$50,000 a year</td><td class="p-4 text-blue-600 font-semibold">$24.04 / hour</td><td class="p-4">$961.54</td><td class="p-4">$4,166.67</td>
-                        </tr>
-                        <tr class="border-b border-slate-100 hover:bg-slate-50 cursor-pointer" onclick="setSalary(60000)">
-                            <td class="p-4 font-medium">$60,000 a year</td><td class="p-4 text-blue-600 font-semibold">$28.85 / hour</td><td class="p-4">$1,153.85</td><td class="p-4">$5,000.00</td>
-                        </tr>
-                        <tr class="hover:bg-slate-50 cursor-pointer" onclick="setSalary(100000)">
-                            <td class="p-4 font-medium">$100,000 a year</td><td class="p-4 text-blue-600 font-semibold">$48.08 / hour</td><td class="p-4">$1,923.08</td><td class="p-4">$8,333.33</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- Content Section -->
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8">
-            <article class="prose max-w-none text-slate-600">
-                <h2 class="text-2xl font-bold text-slate-900 mb-4">How to Calculate Your Hourly Wage</h2>
-                <p class="mb-4">Understanding exactly how much you make per hour is crucial. Our <strong>Hourly Wage Converter</strong> breaks down your annual salary into monthly, weekly, and hourly rates.</p>
+        <!-- Calculator Card: High-End Fintech SaaS Card -->
+        <div class="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-slate-100 overflow-hidden mb-16 p-6 sm:p-8 lg:p-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
                 
-                <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">The Standard Formula (2,080 Hours)</h3>
-                <p class="mb-4">In the US, a standard full-time employee works 40 hours per week for 52 weeks, totaling <strong>2,080 hours</strong>.</p>
-                <div class="bg-slate-50 border border-slate-200 p-4 mb-6 rounded-lg text-slate-800">
-                    <strong>Formula:</strong> Annual Salary &divide; 2,080 = Hourly Wage
+                <!-- Inputs Section (Left Side) -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="border-b border-slate-100 pb-4">
+                        <h2 class="text-base font-bold text-slate-900 font-heading">Enter Your Earnings</h2>
+                        <p class="text-xs text-slate-500 mt-0.5">Input your pay and select your payment frequency.</p>
+                    </div>
+
+                    <!-- Amount Field -->
+                    <div>
+                        <label for="salaryAmount" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Compensation Amount</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-400 font-semibold text-lg">$</span>
+                            <input type="number" id="salaryAmount" step="any" min="0" 
+                                class="bg-slate-50 border border-slate-200 rounded-xl pl-9 pr-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20 transition-all duration-200 font-semibold text-slate-900 text-lg w-full outline-none shadow-sm" 
+                                value="50000" placeholder="e.g. 50000">
+                        </div>
+                    </div>
+
+                    <!-- Frequency Field -->
+                    <div>
+                        <label for="salaryFrequency" class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Pay Frequency</label>
+                        <div class="relative">
+                            <select id="salaryFrequency" 
+                                class="bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 focus:bg-white focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20 transition-all duration-200 font-semibold text-slate-900 text-base w-full outline-none cursor-pointer appearance-none shadow-sm">
+                                <option value="year">Per Year (Annual Salary)</option>
+                                <option value="month">Per Month</option>
+                                <option value="biweek">Per Bi-Week (Every 2 Weeks)</option>
+                                <option value="week">Per Week</option>
+                                <option value="day">Per Day (8 Hours)</option>
+                                <option value="hour">Per Hour</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-slate-400">
+                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Standard Info Note -->
+                    <div class="bg-slate-50/80 rounded-xl p-4 border border-slate-100 text-xs text-slate-500 space-y-1">
+                        <div class="flex items-center gap-1.5 font-medium text-slate-700">
+                            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Baseline Assumptions
+                        </div>
+                        <p>&bull; 40 hours per work week</p>
+                        <p>&bull; 52 weeks = 2,080 working hours per year</p>
+                    </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Frequently Asked Questions</h2>
-                <div class="space-y-6">
-                    <div>
-                        <h4 class="text-lg font-semibold text-slate-900">What is the difference between Weekly and Bi-Weekly pay?</h4>
-                        <p class="mt-2">Weekly pay means 52 paychecks a year. Bi-weekly pay means getting paid every two weeks (26 paychecks a year).</p>
+                <!-- Results Section (Right Side) -->
+                <div class="lg:col-span-7">
+                    <div class="border-b border-slate-100 pb-4 mb-6 flex justify-between items-center">
+                        <h2 class="text-base font-bold text-slate-900 font-heading">Earnings Breakdown</h2>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-100">
+                            Gross Rates
+                        </span>
                     </div>
-                    <hr class="border-slate-100">
-                    <div>
-                        <h4 class="text-lg font-semibold text-slate-900">How many working hours are in a year?</h4>
-                        <p class="mt-2">In the US, a standard full-time work year is 2,080 hours (40 hours x 52 weeks).</p>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- Highlighted Hourly Wage Output -->
+                        <div class="col-span-2 bg-gradient-to-br from-emerald-50/80 to-teal-50/40 border border-emerald-200/80 rounded-2xl p-6 sm:p-7 relative overflow-hidden">
+                            <div class="relative z-10 flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+                                <div>
+                                    <div class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-1 font-heading">
+                                        Equivalent Hourly Wage
+                                    </div>
+                                    <div class="text-4xl sm:text-5xl font-extrabold text-emerald-600 tracking-tight font-heading" id="resHourly">
+                                        $0.00
+                                    </div>
+                                </div>
+                                <div class="text-xs font-medium text-emerald-800 bg-emerald-100/70 px-3 py-1 rounded-lg self-start sm:self-auto">
+                                    Base Rate
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Yearly -->
+                        <div class="bg-slate-50/60 border border-slate-100 rounded-xl p-4 sm:p-5 hover:border-slate-200 transition-colors">
+                            <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1 font-heading">Yearly</div>
+                            <div class="text-xl sm:text-2xl font-bold text-slate-900 font-heading" id="resYearly">$0.00</div>
+                        </div>
+
+                        <!-- Monthly -->
+                        <div class="bg-slate-50/60 border border-slate-100 rounded-xl p-4 sm:p-5 hover:border-slate-200 transition-colors">
+                            <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1 font-heading">Monthly</div>
+                            <div class="text-xl sm:text-2xl font-bold text-slate-900 font-heading" id="resMonthly">$0.00</div>
+                        </div>
+
+                        <!-- Bi-Weekly -->
+                        <div class="bg-slate-50/60 border border-slate-100 rounded-xl p-4 sm:p-5 hover:border-slate-200 transition-colors">
+                            <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1 font-heading">Bi-Weekly (26x)</div>
+                            <div class="text-xl sm:text-2xl font-bold text-slate-900 font-heading" id="resBiWeekly">$0.00</div>
+                        </div>
+
+                        <!-- Weekly -->
+                        <div class="bg-slate-50/60 border border-slate-100 rounded-xl p-4 sm:p-5 hover:border-slate-200 transition-colors">
+                            <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1 font-heading">Weekly (52x)</div>
+                            <div class="text-xl sm:text-2xl font-bold text-slate-900 font-heading" id="resWeekly">$0.00</div>
+                        </div>
+
+                        <!-- Daily -->
+                        <div class="col-span-2 bg-slate-50/60 border border-slate-100 rounded-xl p-4 sm:p-5 flex justify-between items-center hover:border-slate-200 transition-colors">
+                            <div>
+                                <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1 font-heading">Daily (8 Working Hours)</div>
+                                <div class="text-xl sm:text-2xl font-bold text-slate-900 font-heading" id="resDaily">$0.00</div>
+                            </div>
+                            <span class="text-xs font-medium text-slate-500 bg-white border border-slate-200/80 px-2.5 py-1 rounded-md">
+                                Standard Workday
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </article>
+
+            </div>
+        </div>
+
+        <!-- Dashboard-Style SEO Table -->
+        <div class="mb-16" id="benchmarks">
+            <div class="mb-6">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 font-heading">Salary Reference</span>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight font-heading mt-1">
+                    Popular Salary to Hourly Conversions
+                </h2>
+                <p class="text-slate-500 text-sm mt-1">
+                    Interactive benchmarks for common US annual salaries converted to hourly, weekly, and monthly rates. Click any row to test.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-slate-200/80 overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse text-sm">
+                        <thead>
+                            <tr class="bg-slate-50/90 border-b border-slate-100 text-xs font-bold uppercase tracking-wider text-slate-500 font-heading">
+                                <th class="px-5 py-4">Annual Salary</th>
+                                <th class="px-5 py-4">Hourly Wage</th>
+                                <th class="px-5 py-4">Weekly Pay</th>
+                                <th class="px-5 py-4">Monthly Pay</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100 text-slate-700" id="seoTableBody">
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(30000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$30,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$14.42 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$576.92</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$2,500.00</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(40000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$40,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$19.23 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$769.23</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$3,333.33</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer bg-emerald-50/20" onclick="setSalary(50000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$50,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$24.04 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$961.54</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$4,166.67</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(60000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$60,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$28.85 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$1,153.85</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$5,000.00</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(75000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$75,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$36.06 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$1,442.31</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$6,250.00</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(100000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$100,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$48.08 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$1,923.08</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$8,333.33</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(125000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$125,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$60.10 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$2,403.85</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$10,416.67</td>
+                            </tr>
+                            <tr class="hover:bg-emerald-50/50 transition-colors cursor-pointer" onclick="setSalary(150000)">
+                                <td class="px-5 py-4 font-semibold text-slate-900">$150,000 / year</td>
+                                <td class="px-5 py-4 font-bold text-emerald-600 font-heading">$72.12 / hr</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$2,884.62</td>
+                                <td class="px-5 py-4 font-medium text-slate-600">$12,500.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEO Knowledge Base & FAQ Section -->
+        <div class="space-y-12" id="faq">
+            <div class="border-t border-slate-200/80 pt-10">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 font-heading">Calculations & Formulas</span>
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 font-heading tracking-tight mt-1 mb-4">
+                    How do you calculate hourly wage from an annual salary?
+                </h2>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    To determine your exact hourly wage from a yearly salary, divide your total annual compensation by the total number of working hours in the year. In the United States, a standard full-time work schedule is 40 hours per week across 52 weeks:
+                </p>
+                <div class="bg-white border border-slate-200/80 rounded-2xl p-6 font-mono text-sm text-slate-800 shadow-sm my-4">
+                    <span class="text-emerald-600 font-bold">Hourly Wage</span> = Annual Salary &divide; 2,080 Hours (40 hours/week &times; 52 weeks)
+                </div>
+                <p class="text-slate-600 leading-relaxed">
+                    For example, if your annual compensation is <strong>$50,000</strong>:
+                    <br>
+                    <span class="font-semibold text-slate-900">$50,000 &divide; 2,080 = $24.04 per hour</span>.
+                </p>
+            </div>
+
+            <div class="border-t border-slate-200/80 pt-10">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 font-heading tracking-tight mb-4">
+                    Frequently Asked Questions
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">How many working hours are in a year?</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            In the US, a standard full-time work year is <strong>2,080 hours</strong> (40 hours &times; 52 weeks). This accounts for 5 working days per week at 8 hours per day across all 52 weeks of the calendar year.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">What is the difference between Weekly and Bi-Weekly pay?</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Weekly pay implies <strong>52 paychecks</strong> per calendar year. Bi-weekly pay means receiving compensation every two weeks, totaling <strong>26 paychecks</strong> per year.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">Are calculations pre-tax or post-tax?</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            All figures represent <strong>gross pay</strong> prior to statutory federal, state, and local taxes, FICA (Social Security & Medicare), and optional deductions (401k, health insurance).
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">What about paid time off (PTO) and holidays?</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            For salaried positions, paid holidays and vacation days are included inside the 2,080 standard hours, so your baseline hourly equivalent remains unaffected.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
 
-    <footer class="bg-white border-t border-slate-200 mt-auto">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-            <div>&copy; <span id="year"></span> Hourly Wage Converter. All rights reserved.</div>
-            <div class="flex gap-6">
-                <a href="privacy.html" class="hover:text-slate-900 transition-colors">Privacy Policy</a>
-                <a href="terms.html" class="hover:text-slate-900 transition-colors">Terms of Service</a>
-                <a href="contact.html" class="hover:text-slate-900 transition-colors">Contact</a>
+    <!-- Footer: Ultra-Clean Fintech SaaS Minimalist -->
+    <footer class="bg-white border-t border-slate-200/80 mt-auto py-10 text-center">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-6 sm:gap-8 text-sm font-medium text-slate-500 mb-4">
+                <a href="index.html" class="hover:text-emerald-600 transition-colors">Calculator</a>
+                <a href="#benchmarks" class="hover:text-emerald-600 transition-colors">Benchmarks</a>
+                <a href="#faq" class="hover:text-emerald-600 transition-colors">FAQ</a>
+                <a href="privacy.html" class="hover:text-emerald-600 transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-emerald-600 transition-colors">Terms of Service</a>
+                <a href="contact.html" class="hover:text-emerald-600 transition-colors">Contact</a>
             </div>
+            <p class="text-xs text-slate-400">
+                &copy; <span id="year"></span> HourlyWageConverter. All rights reserved. For informational and educational purposes only.
+            </p>
         </div>
     </footer>
 
     <script>
+        // Set dynamic year in footer
         document.getElementById('year').textContent = new Date().getFullYear();
+
+        // DOM Elements
         const amountInput = document.getElementById('salaryAmount');
         const freqSelect = document.getElementById('salaryFrequency');
         
-        const formatCurrency = (value) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
+        const resHourly = document.getElementById('resHourly');
+        const resYearly = document.getElementById('resYearly');
+        const resMonthly = document.getElementById('resMonthly');
+        const resBiWeekly = document.getElementById('resBiWeekly');
+        const resWeekly = document.getElementById('resWeekly');
+        const resDaily = document.getElementById('resDaily');
 
-        const calculateEarnings = () => {
-            let amount = parseFloat(amountInput.value) || 0;
-            const freq = freqSelect.value;
-            let annual = 0;
+        // US standard work year constants
+        const HOURS_PER_WEEK = 40;
+        const WEEKS_PER_YEAR = 52;
+        const HOURS_PER_DAY = 8;
+        const WORK_DAYS_PER_WEEK = 5;
+        const MONTHS_PER_YEAR = 12;
+        const HOURS_PER_YEAR = HOURS_PER_WEEK * WEEKS_PER_YEAR; // 2080
 
-            if (freq === 'year') annual = amount;
-            else if (freq === 'month') annual = amount * 12;
-            else if (freq === 'biweek') annual = amount * 26;
-            else if (freq === 'week') annual = amount * 52;
-            else if (freq === 'day') annual = amount * 260;
-            else if (freq === 'hour') annual = amount * 2080;
-
-            document.getElementById('resYearly').textContent = formatCurrency(annual);
-            document.getElementById('resMonthly').textContent = formatCurrency(annual / 12);
-            document.getElementById('resBiWeekly').textContent = formatCurrency(annual / 26);
-            document.getElementById('resWeekly').textContent = formatCurrency(annual / 52);
-            document.getElementById('resDaily').textContent = formatCurrency((annual / 52) / 5);
-            document.getElementById('resHourly').textContent = formatCurrency(annual / 2080) + '/hr';
+        // Currency Formatter
+        const formatCurrency = (value) => {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            }).format(value);
         };
 
-        const setSalary = (val) => {
+        // Calculation Function
+        const calculateEarnings = () => {
+            let inputVal = amountInput.value.replace(/,/g, '');
+            let amount = parseFloat(inputVal);
+            
+            if (isNaN(amount) || amount < 0) amount = 0;
+            
+            const frequency = freqSelect.value;
+            let annualSalary = 0;
+
+            switch (frequency) {
+                case 'year':
+                    annualSalary = amount;
+                    break;
+                case 'month':
+                    annualSalary = amount * MONTHS_PER_YEAR;
+                    break;
+                case 'biweek':
+                    annualSalary = amount * (WEEKS_PER_YEAR / 2); // 26 bi-weeks
+                    break;
+                case 'week':
+                    annualSalary = amount * WEEKS_PER_YEAR;
+                    break;
+                case 'day':
+                    annualSalary = amount * (WORK_DAYS_PER_WEEK * WEEKS_PER_YEAR); // 260 days
+                    break;
+                case 'hour':
+                    annualSalary = amount * HOURS_PER_YEAR;
+                    break;
+            }
+
+            const yearly = annualSalary;
+            const monthly = annualSalary / MONTHS_PER_YEAR;
+            const biWeekly = annualSalary / 26;
+            const weekly = annualSalary / WEEKS_PER_YEAR;
+            const daily = weekly / WORK_DAYS_PER_WEEK;
+            const hourly = annualSalary / HOURS_PER_YEAR;
+
+            resYearly.textContent = formatCurrency(yearly);
+            resMonthly.textContent = formatCurrency(monthly);
+            resBiWeekly.textContent = formatCurrency(biWeekly);
+            resWeekly.textContent = formatCurrency(weekly);
+            resDaily.textContent = formatCurrency(daily);
+            resHourly.textContent = formatCurrency(hourly) + (hourly > 0 ? '/hr' : '');
+        };
+
+        // Quick set from table row click
+        function setSalary(val) {
             amountInput.value = val;
             freqSelect.value = 'year';
             calculateEarnings();
             window.scrollTo({ top: 0, behavior: 'smooth' });
-        };
+        }
 
+        // Event listeners
         amountInput.addEventListener('input', calculateEarnings);
         freqSelect.addEventListener('change', calculateEarnings);
-        
-        // Run calculation immediately
+
+        // Immediate initial calculation
         calculateEarnings();
     </script>
 </body>

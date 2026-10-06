@@ -3,118 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service | WageCalc</title>
-    <meta name="description" content="Terms of Service for WageCalc. Review our informational use terms, calculation disclaimers, and limitation of liability.">
+    <title>Terms of Service | HourlyWageConverter</title>
+    <meta name="description" content="Terms of Service for HourlyWageConverter. Educational usage disclaimers, financial guidance notes, and terms of service.">
+    
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f8fafc; /* slate-50 */
         }
+        h1, h2, h3, h4, th, .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
     </style>
 </head>
-<body class="text-slate-800 antialiased min-h-screen flex flex-col">
+<body class="text-slate-900 antialiased min-h-screen flex flex-col bg-slate-50">
 
-    <header class="bg-white border-b border-gray-200 sticky top-0 z-20">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="index.html" class="flex items-center gap-2 text-gray-900 hover:text-gray-700 transition-colors">
-                <span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-gray-900 text-white font-bold text-sm">
-                    $
+    <!-- Top Accent Gradient Bar -->
+    <div class="bg-gradient-to-r from-emerald-500 to-teal-400 h-1.5 w-full"></div>
+
+    <!-- Header: Premium Fintech SaaS Style -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2.5 text-xl font-bold tracking-tight font-heading">
+                <span class="w-9 h-9 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-sm shadow-emerald-600/30">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
                 </span>
-                <span class="font-bold text-lg sm:text-xl tracking-tight text-gray-900">Hourly Wage Converter</span>
+                <span class="text-slate-900">HourlyWage<span class="text-emerald-600">Converter</span></span>
             </a>
-            <nav class="flex items-center gap-4 sm:gap-6 text-sm font-medium text-gray-600">
-                <a href="index.html" class="hover:text-gray-900 transition-colors">Home</a>
-                <a href="index.html#faq" class="hover:text-gray-900 transition-colors">FAQ</a>
-                <a href="privacy.html" class="hover:text-gray-900 transition-colors">Privacy</a>
-                <a href="terms.html" class="text-blue-600 font-semibold">Terms</a>
-                <a href="contact.html" class="hover:text-gray-900 transition-colors">Contact</a>
+            <nav class="hidden sm:flex items-center gap-7 text-sm font-medium text-slate-600">
+                <a href="index.html" class="hover:text-slate-900 transition-colors">Calculator</a>
+                <a href="index.html#benchmarks" class="hover:text-slate-900 transition-colors">Benchmarks</a>
+                <a href="index.html#faq" class="hover:text-slate-900 transition-colors">FAQ</a>
+                <a href="privacy.html" class="hover:text-slate-900 transition-colors">Privacy</a>
+                <a href="terms.html" class="text-emerald-600 font-semibold">Terms</a>
+                <a href="contact.html" class="hover:text-slate-900 transition-colors">Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+    <main class="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
         <!-- Content Container -->
-        <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-6 sm:p-10">
+        <div class="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-slate-100 p-8 sm:p-12">
             <div class="border-b border-slate-100 pb-6 mb-8">
-                <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Legal Notice</span>
-                <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-1">Terms of Service</h1>
-                <p class="text-slate-500 text-sm mt-2">Last Updated: October 2026</p>
+                <span class="text-emerald-600 font-bold text-xs uppercase tracking-wider font-heading">Terms of Service</span>
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 font-heading tracking-tight">Terms of Service</h1>
+                <p class="text-slate-500 text-sm mt-2">Effective Date: October 2026</p>
             </div>
 
-            <div class="prose prose-slate max-w-none text-slate-600 space-y-6 leading-relaxed">
+            <div class="prose prose-slate max-w-none text-slate-600 space-y-7 leading-relaxed">
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">1. Agreement to Terms</h2>
-                    <p>By accessing or using <strong>WageCalc</strong> ("the Website"), you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this site.</p>
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">1. Agreement to Terms</h2>
+                    <p>By accessing or interacting with <strong>HourlyWageConverter</strong> ("the Website"), you agree to abide by these Terms of Service. If you do not consent to these terms, please refrain from using our calculation tools.</p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">2. Informational & Educational Purposes Only</h2>
-                    <p>The calculators, tools, reference tables, formulas, and estimates provided on WageCalc are for <strong>general informational and illustrative purposes only</strong>. They are based on a standard model of 40 hours per week and 52 weeks per year (2,080 working hours annually).</p>
-                    <p class="mt-2">The calculations do not account for individual payroll specifics, including but not limited to:</p>
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">2. Informational & Illustrative Purposes Only</h2>
+                    <p>All calculations, ratios, formulas, and estimates presented on this website are intended solely for <strong>general informational and planning purposes</strong>. Our formulas assume standard mathematical conventions (e.g., 40 weekly hours over 52 weeks = 2,080 annual working hours).</p>
+                    <p class="mt-2">They do not account for individual payroll complexities, including:</p>
                     <ul class="list-disc pl-6 space-y-2 mt-2">
-                        <li>Federal, state, provincial, or local income taxes and withholdings.</li>
-                        <li>Social Security, Medicare, pension, or other statutory deductions.</li>
-                        <li>Health insurance, 401(k) / retirement contributions, and benefits.</li>
-                        <li>Unpaid leave, overtime pay, bonuses, commissions, or varying shift differentials.</li>
+                        <li>Federal, state, municipal, or provincial tax withholding and bracket thresholds.</li>
+                        <li>Mandatory statutory deductions including Social Security and Medicare (FICA).</li>
+                        <li>Employer-sponsored benefit programs, health insurance premiums, HSA/FSA, or 401(k) retirement withholdings.</li>
+                        <li>Overtime pay rates, night shift differentials, commissions, or discretionary bonuses.</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">3. No Professional Financial or Tax Advice</h2>
-                    <p>The figures produced by this website do not constitute legal, tax, payroll, accounting, or professional financial advice. You should consult a qualified accountant, certified financial planner, tax advisor, or your employer's human resources department before making any employment, budgeting, or financial decisions.</p>
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">3. No Professional Financial or Legal Advice</h2>
+                    <p>Nothing contained on this website constitutes certified financial planning, tax guidance, payroll advisory, or legal counsel. We strongly recommend consulting a certified public accountant (CPA), accredited financial advisor, or qualified payroll specialist before executing contract terms or personal financial commitments.</p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">4. Disclaimer of Warranties and Limitation of Liability</h2>
-                    <p>The Website and all materials are provided on an <strong>"as is"</strong> and <strong>"as available"</strong> basis, without warranties of any kind, whether express or implied. We do not warrant that the calculations are free of errors or that the service will be uninterrupted.</p>
-                    <div class="bg-slate-50 border-l-4 border-blue-600 p-4 rounded-r-xl my-4 text-slate-700">
-                        <strong>Important:</strong> Under no circumstances shall the owners, operators, developers, or affiliates of WageCalc be held liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use of, or inability to use, this calculator, or from any financial decisions made based on its results.
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">4. Disclaimer of Warranties & Limitation of Liability</h2>
+                    <p>The Website and all conversion utilities are provided on an <strong>"as is"</strong> and <strong>"as available"</strong> basis without warranties of any kind.</p>
+                    <div class="bg-slate-50 border-l-4 border-emerald-500 p-5 rounded-r-xl my-4 text-slate-700 text-sm">
+                        <strong class="text-slate-900">Limitation:</strong> In no event shall the creators, operators, or affiliates of HourlyWageConverter be liable for any damages, errors, omissions, or financial choices resulting from reliance on the calculations provided.
                     </div>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">5. Acceptable Use</h2>
-                    <p>You agree to use WageCalc only for lawful purposes. You agree not to attempt to reverse engineer, scrape, overburden, or compromise the technical infrastructure of the Website, nor to use automated scripts that disrupt the experience for other visitors.</p>
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">5. Intellectual Property & Acceptable Use</h2>
+                    <p>The user interface, proprietary calculations, brand identity, and design assets are the intellectual property of HourlyWageConverter. Automated scraping, malicious probing, or unauthorized distribution of this codebase without explicit written consent is strictly prohibited.</p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">6. Intellectual Property</h2>
-                    <p>The layout, design, code, branding, and content of WageCalc are protected by copyright and intellectual property laws. You may not copy, reproduce, distribute, or create derivative works without prior written permission from the website operators.</p>
-                </section>
-
-                <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">7. Modifications to Terms</h2>
-                    <p>We reserve the right to revise these Terms of Service at any time without prior notice. By continuing to use the Website after revisions become effective, you agree to be bound by the updated terms.</p>
-                </section>
-
-                <section>
-                    <h2 class="text-xl font-bold text-slate-900 mb-3">8. Contact Us</h2>
-                    <p>If you have any questions about these Terms of Service, please contact us at <a href="mailto:support@hourlywageconverter.com" class="text-blue-600 hover:underline font-medium">support@hourlywageconverter.com</a> or visit our <a href="contact.html" class="text-blue-600 hover:underline font-medium">Contact page</a>.</p>
+                    <h2 class="text-xl font-bold text-slate-900 font-heading mb-3">6. Contact Information</h2>
+                    <p>For questions regarding these Terms of Service, contact our administrative team at <a href="mailto:support@hourlywageconverter.com" class="text-emerald-600 hover:text-emerald-700 underline font-medium">support@hourlywageconverter.com</a> or visit our <a href="contact.html" class="text-emerald-600 hover:text-emerald-700 underline font-medium">Contact page</a>.</p>
                 </section>
             </div>
         </div>
     </main>
 
-    <footer class="bg-gray-50 border-t border-gray-200 mt-auto py-8 text-center">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap justify-center gap-6 text-sm font-medium text-gray-600 mb-3">
-                <a href="index.html" class="hover:text-gray-900 transition-colors">Home</a>
-                <a href="index.html#faq" class="hover:text-gray-900 transition-colors">FAQ</a>
-                <a href="privacy.html" class="hover:text-gray-900 transition-colors">Privacy Policy</a>
-                <a href="terms.html" class="hover:text-gray-900 transition-colors">Terms of Service</a>
-                <a href="contact.html" class="hover:text-gray-900 transition-colors">Contact Us</a>
+    <!-- Footer: Ultra-Clean Fintech SaaS Minimalist -->
+    <footer class="bg-white border-t border-slate-200/80 mt-auto py-10 text-center">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-6 sm:gap-8 text-sm font-medium text-slate-500 mb-4">
+                <a href="index.html" class="hover:text-emerald-600 transition-colors">Calculator</a>
+                <a href="index.html#benchmarks" class="hover:text-emerald-600 transition-colors">Benchmarks</a>
+                <a href="index.html#faq" class="hover:text-emerald-600 transition-colors">FAQ</a>
+                <a href="privacy.html" class="hover:text-emerald-600 transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="text-emerald-600 font-semibold">Terms of Service</a>
+                <a href="contact.html" class="hover:text-emerald-600 transition-colors">Contact</a>
             </div>
-            <p class="text-xs text-gray-400">
-                &copy; <span id="year"></span> Hourly Wage Converter. All rights reserved. For informational purposes only.
+            <p class="text-xs text-slate-400">
+                &copy; <span id="year"></span> HourlyWageConverter. All rights reserved. For informational and educational purposes only.
             </p>
         </div>
     </footer>
 
     <script>
-        // Set current year in footer
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
