@@ -20,7 +20,7 @@ const article1 = {
   minutes: 14,
   datePublished: '2026-10-06',
   dateModified: '2026-10-17',
-  title: 'How to Convert Hourly Pay to Annual Salary: Complete Guide',
+  title: 'Convert Hourly Pay to Annual Salary',
   h1: 'How to Convert Hourly Pay to Annual Salary',
   desc: 'Learn how to convert hourly pay to annual salary with a simple formula, examples, tables, overtime considerations, unpaid time off, and a free calculator.',
   image: '/assets/images/hourly-wage-salary-guide-featured.jpg',

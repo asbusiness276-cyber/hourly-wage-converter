@@ -11,7 +11,7 @@ export const article5 = {
   minutes: 14,
   datePublished: '2026-10-14',
   dateModified: '2026-10-17',
-  title: 'How Much Is $23 an Hour a Year? Pay Breakdown, Taxes & Budget Guide',
+  title: 'How Much Is $23 an Hour a Year?',
   h1: 'How Much Is $23 an Hour a Year? Full Pay & Budget Breakdown',
   desc: 'Learn how much $23 an hour is a year ($47,840 gross), your exact biweekly and monthly paycheck math, 2026 federal & FICA tax breakdowns, and a realistic take-home budget.',
   image: '/assets/images/how-much-is-23-an-hour-a-year.jpg',
@@ -194,13 +194,13 @@ export const article5 = {
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
-          <h4>52 Paid Weeks (Includes PTO)</h4>
+          <h3>52 Paid Weeks (Includes PTO)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 0 unpaid weeks</p>
           <div class="stat">$47,840.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #16a34a;">Standard baseline compensation</p>
         </div>
         <div class="calendar-compare-card diff">
-          <h4>50 Paid Weeks (2 Unpaid Weeks Off)</h4>
+          <h3>50 Paid Weeks (2 Unpaid Weeks Off)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 2 weeks unpaid leave</p>
           <div class="stat">$46,000.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #b45309;">-$1,840.00 reduction in annual earnings</p>
@@ -438,27 +438,27 @@ export const article5 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Mistake 1: Multiplying weekly pay by 4 to project monthly income ($3,680 vs. $3,986.67).</h4>
+          <h3>Mistake 1: Multiplying weekly pay by 4 to project monthly income ($3,680 vs. $3,986.67).</h3>
           <p>Multiplying a $920 weekly check by 4 gives $3,680.00. But because a calendar year has 52 weeks rather than 48, an average month contains 4.333 weeks (52 ÷ 12). Your true average monthly gross is <strong>$3,986.67</strong>. Budgeting around 4 weeks undercounts your true annual income by four full weeks of wages ($3,680 per year).</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 2: Confusing biweekly (26 checks) with semi-monthly (24 checks) schedules.</h4>
+          <h3>Mistake 2: Confusing biweekly (26 checks) with semi-monthly (24 checks) schedules.</h3>
           <p>Biweekly employees receive 26 paychecks annually (grossing $1,840.00 per check). Semi-monthly employees receive 24 checks annually (grossing $1,993.33 per check). While the annual gross is identical ($47,840), each biweekly check is smaller because two months every year contain three paychecks instead of two.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 3: Forgetting mandatory FICA taxes (7.65%).</h4>
+          <h3>Mistake 3: Forgetting mandatory FICA taxes (7.65%).</h3>
           <p>Social Security (6.2%) and Medicare (1.45%) apply to every single dollar earned from hour one. On a $47,840 gross salary, FICA withholdings total $3,659.76 per year ($140.76 biweekly). Overlooking FICA leads directly to unrealistic take-home expectations.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 4: Budgeting rent and fixed debt against gross earnings.</h4>
+          <h3>Mistake 4: Budgeting rent and fixed debt against gross earnings.</h3>
           <p>Never sign an apartment lease based on your $3,986 gross monthly figure. Always budget against your actual net cash deposit ($3,146 to $3,385/month depending on state taxes and benefit deductions).</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 5: Assuming overtime is permanent base income.</h4>
+          <h3>Mistake 5: Assuming overtime is permanent base income.</h3>
           <p>Overtime can be scaled back or frozen by employers during operational slowdowns. Keep your base living costs (rent, car, utilities) within your standard 40-hour take-home pay, and direct overtime earnings straight into debt payoff or savings.</p>
         </div>
       </div>

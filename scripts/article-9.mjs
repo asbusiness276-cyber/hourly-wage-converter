@@ -11,7 +11,7 @@ export const article9 = {
   minutes: 14,
   datePublished: '2026-10-17',
   dateModified: '2026-10-17',
-  title: 'Biweekly vs. Semi-Monthly Pay: What’s the Difference and Which Is Better?',
+  title: 'Biweekly vs Semi-Monthly Pay: Key Differences',
   h1: 'Biweekly vs. Semi-Monthly Pay: What’s the Difference and Which Is Better?',
   desc: 'Compare biweekly vs. semi-monthly pay: 26 vs. 24 paychecks, paycheck sizes on a $60k salary, the three-paycheck month strategy, overtime rules, and budgeting.',
   image: '/assets/images/biweekly-vs-semi-monthly-pay-difference.jpg',
@@ -63,7 +63,7 @@ export const article9 = {
         <div class="hero-cta-content">
           <span class="hero-cta-badge">Interactive Payroll Tool</span>
           <h2 class="hero-cta-title">Calculate Your Paycheck by Pay Frequency</h2>
-          <p class="hero-cta-desc">Compare gross and estimated net paycheck amounts across biweekly (26 checks), semi-monthly (24 checks), weekly, and monthly schedules instantly.</p>
+          <p class="hero-cta-desc">Compare gross paycheck amounts across biweekly (26 checks), semi-monthly (24 checks), weekly, and monthly schedules instantly. The tool models gross pay with deductions you enter; it does not calculate taxes.</p>
         </div>
         <a href="/paycheck-calculator/" class="calculate-button hero-cta-btn">Open Free Paycheck Calculator</a>
       </div>

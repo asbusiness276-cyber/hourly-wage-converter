@@ -11,7 +11,7 @@ export const article4 = {
   minutes: 10,
   datePublished: '2026-10-14',
   dateModified: '2026-10-17',
-  title: 'How to Calculate Pay With an Overtime Calculator: Step-by-Step Guide',
+  title: 'Calculate Overtime Pay: Step-by-Step Guide',
   h1: 'How to Calculate Pay With an Overtime Calculator',
   desc: 'Master overtime pay calculations step by step. Learn FLSA 40-hour workweek rules, 1.5x time-and-a-half formulas, California double time, blended rates, and 2026 paycheck tax withholding.',
   image: '/assets/images/how-to-calculate-pay-with-overtime-calculator.jpg',
