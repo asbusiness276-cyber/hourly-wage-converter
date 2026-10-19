@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 42" width="226" height="42" fill="none" aria-label="HourlyWage Converter">
+  <g class="logo-mark">
+    <path d="M12 28 C9 20, 11 12, 17 8 C15 13, 16 18, 20 20 C16 23, 14 26, 12 28 Z" fill="#ff5400"/>
+    <path d="M18 7 C22 4, 26 8, 26 14 C24 12, 22 11, 20 14 C19 11, 18 9, 18 7 Z" fill="#22c55e"/>
+    <path d="M26 11 C29 10, 31 13, 30 16 C28 15, 27 16, 25 18 C26 15, 25 13, 26 11 Z" fill="#38bdf8"/>
+    <circle cx="21" cy="27" r="10" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="46 16" fill="none"/>
+    <path d="M21 21 v6 l4 2.5" stroke="#ff7a59" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="28" cy="19" r="2.2" fill="#ff5400"/>
+  </g>
+  <text x="44" y="24" font-family="'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.02em" fill="#ffffff"><tspan fill="#ff7a59">H</tspan>ourly<tspan fill="#38bdf8">Wage</tspan></text>
+  <text x="45" y="36" font-family="'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.16em" fill="#f87171">CONVERTER</text>
+</svg>

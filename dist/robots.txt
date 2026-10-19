@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hourlywageconverter.com/sitemap.xml

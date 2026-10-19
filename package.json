@@ -1,0 +1,11 @@
+{
+  "name": "hourly-wage-converter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

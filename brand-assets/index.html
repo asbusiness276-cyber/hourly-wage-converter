@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HourlyWage Converter — Brand Assets & Logos</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #077ec8;
+      --primary-dark: #055f96;
+      --accent: #ff5400;
+      --accent-red: #ee3524;
+      --success: #22c55e;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      padding: 40px 20px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    header {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03);
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-top: 6px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+      display: flex;
+      flex-direction: column;
+    }
+    .preview-box {
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 180px;
+      background: #ffffff;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+    }
+    .preview-box.checkerboard {
+      background-color: #fafafa;
+      background-image: 
+        linear-gradient(45deg, #f0f0f0 25%, transparent 25%), 
+        linear-gradient(-45deg, #f0f0f0 25%, transparent 25%), 
+        linear-gradient(45deg, transparent 75%, #f0f0f0 75%), 
+        linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+      background-size: 16px 16px;
+      background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    }
+    .preview-box.dark {
+      background: #0f172a;
+      border-bottom-color: #1e293b;
+    }
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .card-title {
+      font-size: 17px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #475569;
+    }
+    .card-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin: 8px 0 16px 0;
+      line-height: 1.45;
+    }
+    .file-meta {
+      font-size: 12px;
+      color: #64748b;
+      background: #f8fafc;
+      padding: 8px 12px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-family: monospace;
+      word-break: break-all;
+    }
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      margin-top: auto;
+    }
+    .btn {
+      flex: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: var(--primary-dark);
+    }
+    .btn-secondary {
+      background: #f1f5f9;
+      color: #334155;
+    }
+    .btn-secondary:hover {
+      background: #e2e8f0;
+    }
+    .color-swatches {
+      margin-top: 32px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+    }
+    .swatches-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .swatch {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .swatch-color {
+      height: 60px;
+    }
+    .swatch-info {
+      padding: 12px;
+      font-size: 13px;
+    }
+    .swatch-name {
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .swatch-hex {
+      font-family: monospace;
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>HourlyWage Converter — Brand Assets</h1>
+        <p class="subtitle">Complete set of vector logos, favicons, app icons, and high-resolution PNGs</p>
+      </div>
+      <div>
+        <span class="badge">Official Assets</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- 1. Primary Logo (Light) -->
+      <div class="card">
+        <div class="preview-box">
+          <img src="logo.svg" alt="Primary Logo" style="max-height: 48px; width: auto;">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            Primary Horizontal Logo
+            <span class="tag">SVG Vector</span>
+          </div>
+          <p class="card-desc">Main site logo with emblem mark and typography. Ideal for headers, light websites, and print.</p>
+          <div class="file-meta">brand-assets/logo.svg &bull; 226 &times; 42 px</div>
+          <div class="btn-group">
+            <a href="logo.svg" target="_blank" class="btn btn-primary" download>Download SVG</a>
+            <a href="logo.png" target="_blank" class="btn btn-secondary" download>Download PNG</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Dark Logo -->
+      <div class="card">
+        <div class="preview-box dark">
+          <img src="logo-dark.svg" alt="Dark Mode Logo" style="max-height: 48px; width: auto;">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            Dark Mode Logo
+            <span class="tag">SVG Vector</span>
+          </div>
+          <p class="card-desc">White and light-accent typography for dark footers, dark mode themes, or navy backgrounds.</p>
+          <div class="file-meta">brand-assets/logo-dark.svg &bull; 226 &times; 42 px</div>
+          <div class="btn-group">
+            <a href="logo-dark.svg" target="_blank" class="btn btn-primary" download>Download SVG</a>
+            <a href="logo-dark.png" target="_blank" class="btn btn-secondary" download>Download PNG</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Emblem Mark Only -->
+      <div class="card">
+        <div class="preview-box checkerboard">
+          <img src="logo-mark.svg" alt="Emblem Mark" style="width: 72px; height: 72px;">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            Emblem Mark (Transparent)
+            <span class="tag">SVG &amp; PNG</span>
+          </div>
+          <p class="card-desc">Isolated brand icon (clock, flame, sprouts) with transparent background. Great for avatars and social badges.</p>
+          <div class="file-meta">brand-assets/logo-mark.svg &bull; 64 &times; 64 (512 &times; 512 PNG)</div>
+          <div class="btn-group">
+            <a href="logo-mark.svg" target="_blank" class="btn btn-primary" download>Download SVG</a>
+            <a href="logo-mark.png" target="_blank" class="btn btn-secondary" download>Download PNG</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Official Favicon (SVG) -->
+      <div class="card">
+        <div class="preview-box" style="background: #f1f5f9;">
+          <img src="favicon.svg" alt="Site Favicon" style="width: 72px; height: 72px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.06));">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            Website Favicon (Vector)
+            <span class="tag">SVG</span>
+          </div>
+          <p class="card-desc">Centered vector favicon with smooth rounded squircle card. Sharp at any browser tab zoom.</p>
+          <div class="file-meta">brand-assets/favicon.svg &bull; 64 &times; 64 px</div>
+          <div class="btn-group">
+            <a href="favicon.svg" target="_blank" class="btn btn-primary" download>Download SVG</a>
+            <a href="favicon.ico" target="_blank" class="btn btn-secondary" download>Download ICO</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Favicon 512x512 PNG -->
+      <div class="card">
+        <div class="preview-box" style="background: #f8fafc;">
+          <img src="favicon-512x512.png" alt="Favicon 512" style="width: 72px; height: 72px; border-radius: 16px;">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            App &amp; PWA Icon
+            <span class="tag">512 &times; 512 PNG</span>
+          </div>
+          <p class="card-desc">High-definition raster icon for web manifests, Apple Touch Icon, Android Chrome, and mobile shortcuts.</p>
+          <div class="file-meta">brand-assets/favicon-512x512.png &bull; 512 &times; 512 px</div>
+          <div class="btn-group">
+            <a href="favicon-512x512.png" target="_blank" class="btn btn-primary" download>Download 512px</a>
+            <a href="favicon-192x192.png" target="_blank" class="btn btn-secondary" download>Download 192px</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Windows Favicon.ico -->
+      <div class="card">
+        <div class="preview-box" style="background: #ffffff;">
+          <img src="favicon-32x32.png" alt="Favicon 32" style="width: 32px; height: 32px;">
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            Standard Browser Favicon
+            <span class="tag">ICO &amp; 32px PNG</span>
+          </div>
+          <p class="card-desc">Classic multi-resolution favicon.ico file compatible with all legacy browsers, bookmarks, and search engines.</p>
+          <div class="file-meta">brand-assets/favicon.ico &bull; 32 &times; 32 &amp; 16 &times; 16</div>
+          <div class="btn-group">
+            <a href="favicon.ico" target="_blank" class="btn btn-primary" download>Download .ICO</a>
+            <a href="favicon-32x32.png" target="_blank" class="btn btn-secondary" download>Download 32px</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand Colors -->
+    <div class="color-swatches">
+      <h2 style="font-size: 18px; font-weight: 700;">Brand Palette &amp; Colors</h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">Hex codes and color tokens used across the HourlyWage Converter brand.</p>
+      <div class="swatches-grid">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #077ec8;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Brand Blue</div>
+            <div class="swatch-hex">#077ec8</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #ff5400;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Accent Orange</div>
+            <div class="swatch-hex">#ff5400</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #ee3524;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Converter Red</div>
+            <div class="swatch-hex">#ee3524</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #22c55e;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Success Green</div>
+            <div class="swatch-hex">#22c55e</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #0f172a;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Navy Slate</div>
+            <div class="swatch-hex">#0f172a</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Official Social Media Channels -->
+    <div class="color-swatches" style="margin-top: 24px;">
+      <h2 style="font-size: 18px; font-weight: 700;">Official Social Media Channels</h2>
+      <p style="font-size: 14px; color: var(--text-muted); margin-top: 4px;">Verified profiles and direct channel links for Hourly Wage Converter.</p>
+      <div class="swatches-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+        <a href="https://www.youtube.com/@hourlywageconverter" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;" class="swatch">
+          <div style="height: 48px; background: #ff0000; display:flex; align-items:center; justify-content:center; color:white;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </div>
+          <div class="swatch-info">
+            <div class="swatch-name">YouTube</div>
+            <div class="swatch-hex">@hourlywageconverter</div>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/hourlywageconverter/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;" class="swatch">
+          <div style="height: 48px; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); display:flex; align-items:center; justify-content:center; color:white;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+          <div class="swatch-info">
+            <div class="swatch-name">Instagram</div>
+            <div class="swatch-hex">@hourlywageconverter</div>
+          </div>
+        </a>
+        <a href="https://www.reddit.com/user/hourlywageconverter/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;" class="swatch">
+          <div style="height: 48px; background: #ff4500; display:flex; align-items:center; justify-content:center; color:white;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+          </div>
+          <div class="swatch-info">
+            <div class="swatch-name">Reddit</div>
+            <div class="swatch-hex">u/hourlywageconverter</div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/hourlywageconverter" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;" class="swatch">
+          <div style="height: 48px; background: #1877f2; display:flex; align-items:center; justify-content:center; color:white;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </div>
+          <div class="swatch-info">
+            <div class="swatch-name">Facebook</div>
+            <div class="swatch-hex">/hourlywageconverter</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
