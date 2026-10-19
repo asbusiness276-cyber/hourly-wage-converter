@@ -12,7 +12,7 @@ const article2 = {
   minutes: 15,
   datePublished: '2026-10-09',
   dateModified: '2026-10-17',
-  title: 'How to Calculate Your Hourly Rate From Annual Salary',
+  title: 'Calculate Hourly Rate From Salary',
   h1: 'How to Calculate Your Hourly Rate From Annual Salary',
   desc: 'Learn how to convert annual salary to hourly pay with a simple formula, examples, work-hour adjustments, unpaid time off, overtime and a free calculator.',
   image: '/assets/images/salary-to-hourly-rate-calculation.jpg',
@@ -608,7 +608,7 @@ const article2 = {
           <span style="font-size:0.8rem;color:#92400e;font-weight:600">Gross vs. Net Breakdown</span>
         </div>
         <div class="study-note-body">
-          <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#78350f">On a $60,000 annual salary ($28.85 gross hourly), an employee with average federal and state taxes and modest healthcare contributions typically takes home approximately <strong>$21.50 to $23.20 per hour</strong> net. To estimate your specific net paycheck, test your numbers on our <a href="/paycheck-calculator/">Paycheck Calculator</a>.</p>
+          <p style="margin:0;font-size:0.95rem;line-height:1.6;color:#78350f">On a $60,000 annual salary ($28.85 gross hourly), an employee with average federal and state taxes and modest healthcare contributions typically takes home approximately <strong>$21.50 to $23.20 per hour</strong> net. To model your gross pay with your own deductions, try our <a href="/paycheck-calculator/">Paycheck Calculator</a> (gross-pay estimates only; it does not calculate tax withholdings).</p>
         </div>
       </div>
 

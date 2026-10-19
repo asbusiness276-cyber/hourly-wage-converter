@@ -11,7 +11,7 @@ export const article7 = {
   minutes: 14,
   datePublished: '2026-10-15',
   dateModified: '2026-10-15',
-  title: 'How Much Is $30 an Hour Annually? Full Pay, Taxes & Take-Home Budget',
+  title: 'How Much Is $30 an Hour Annually?',
   h1: 'How Much Is $30 an Hour Annually? Full Pay & Budget Breakdown',
   desc: 'Learn how much $30 an hour is annually ($62,400 gross), your exact biweekly and monthly paycheck math, 2026 federal & FICA tax breakdowns, and a realistic take-home budget.',
   image: '/assets/images/how-much-is-30-an-hour-annually.jpg',

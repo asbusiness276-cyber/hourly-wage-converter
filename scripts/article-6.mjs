@@ -11,7 +11,7 @@ export const article6 = {
   minutes: 15,
   datePublished: '2026-10-14',
   dateModified: '2026-10-17',
-  title: 'How Much Is $45 an Hour Annually? Full Pay, Taxes & Budget Guide',
+  title: 'How Much Is $45 an Hour Annually?',
   h1: 'How Much Is $45 an Hour Annually? Full Pay & Budget Breakdown',
   desc: 'Learn how much $45 an hour is annually ($93,600 gross), your exact biweekly and monthly paycheck math, 2026 tax brackets, and a realistic wealth-building budget.',
   image: '/assets/images/how-much-is-45-an-hour-annually.jpg',
@@ -328,7 +328,7 @@ export const article6 = {
 
       <!-- Section 7: Taxes & Take-Home Pay -->
       <h2 id="taxes-and-take-home">How Much Is $45 an Hour After 2026 Taxes? (Take-Home Breakdown)</h2>
-      <p>Gross income represents what you earn; net take-home pay is what deposits into your checking account. At $93,600 per year, your income enters the 22% marginal federal tax bracket. Here is the exact 2026 tax calculation for a <strong>single filer taking the standard deduction</strong>:</p>
+      <p>Gross income represents what you earn; net take-home pay is what deposits into your checking account. At $93,600 per year, your income enters the 22% marginal federal tax bracket. Here is an illustrative 2026 tax calculation for a <strong>single filer taking the standard deduction</strong> (figures are estimates based on stated assumptions, not tax advice):</p>
 
       <h3>1. Mandatory 2026 Federal Income Tax & FICA Breakdown</h3>
       <ul>
@@ -411,7 +411,7 @@ export const article6 = {
         <p class="example">Immediate Federal Tax Savings: $9,360.00 × 22% = $2,059.20 in saved taxes!</p>
       </div>
 
-      <p>By contributing $9,360 annually ($780/month or $360 biweekly), you save <strong>$2,059.20 in federal income taxes</strong> immediately. Your take-home pay only drops by approximately $5,700, while your retirement account grows by the full $9,360—instantly handing you a 35%+ return on your tax savings before any employer matching.</p>
+      <p>By contributing $9,360 annually ($780/month or $360 biweekly), you save <strong>$2,059.20 in federal income taxes</strong> immediately. Your take-home pay only drops by approximately $5,700, while your retirement account grows by the full $9,360 — the contribution reduces your current-year taxable income (plus any employer matching, which is separate).</p>
 
       <!-- Section 9: W-2 vs 1099 -->
       <h2 id="w2-vs-1099">W-2 Employee vs. 1099 Contractor at $45/Hour: The Self-Employment Tax Hit</h2>
@@ -425,7 +425,7 @@ export const article6 = {
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Employer pays 50% of FICA taxes ($7,160.40)</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Paid time off, paid holidays, and sick leave</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Subsidized group healthcare and 401(k) matching</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Guaranteed 1.5× overtime protection</li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Overtime pay at 1.5× for eligible non-exempt roles (exempt employees are not entitled to overtime)</li>
           </ul>
           <div class="job-offer-effective">Net Take-Home: ~$70,465 – $74,678 / year</div>
         </div>

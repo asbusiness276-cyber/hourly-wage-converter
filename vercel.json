@@ -5,6 +5,8 @@
   "outputDirectory": "dist",
   "trailingSlash": true,
   "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "www.hourlywageconverter.com" }], "destination": "https://hourlywageconverter.com/$1", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true },
     { "source": "/calculators/hourly-to-salary/", "destination": "/hourly-to-salary-calculator/", "permanent": true },
     { "source": "/calculators/salary-to-hourly/", "destination": "/salary-to-hourly-calculator/", "permanent": true },
     { "source": "/calculators/overtime/", "destination": "/overtime-calculator/", "permanent": true },
