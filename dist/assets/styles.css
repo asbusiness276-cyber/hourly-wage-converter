@@ -1548,16 +1548,29 @@ details.nav-drop:not([open]) .nav-menu {
 
 .article-meta {
   display: flex;
-  gap: 14px;
-  margin-top: 13px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 14px 0 24px;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 500;
+  line-height: 1.5;
 }
 
-.article-meta span + span {
-  border-left: 1px solid var(--border-color);
-  padding-left: 14px;
+.article-meta .meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.article-meta .meta-dot {
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .article-layout {
@@ -3021,8 +3034,12 @@ a.btn-secondary:hover,
 }
 
 .meta-dot {
-  color: #94a3b8;
-  margin: 0 4px;
+  color: #cbd5e1;
+  font-size: 0.82rem;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1px;
 }
 
 .article-author-card {
@@ -4167,7 +4184,27 @@ a.btn-secondary:hover,
     padding: 24px 0 20px;
   }
   .page-head h1 {
-    font-size: 2.1rem;
+    font-size: clamp(1.55rem, 5.8vw, 2.1rem);
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .article-meta {
+    gap: 6px 10px !important;
+    font-size: 0.82rem !important;
+    line-height: 1.45 !important;
+    margin: 10px 0 18px !important;
+  }
+  .article-meta .meta-item {
+    white-space: normal;
+  }
+  .article-meta-author {
+    font-size: 0.84rem;
+  }
+  .article-meta .meta-dot {
+    font-size: 0.75rem;
+    margin: 0 1px;
+    opacity: 0.7;
   }
   .form-card, .article-section, .prose {
     padding: 20px 16px !important;
@@ -4289,7 +4326,19 @@ a.btn-secondary:hover,
     gap: 8px;
   }
   .page-head h1 {
-    font-size: 1.85rem;
+    font-size: clamp(1.4rem, 5.2vw, 1.85rem);
+    line-height: 1.28;
+  }
+  .article-meta {
+    gap: 5px 8px !important;
+    font-size: 0.78rem !important;
+  }
+  .article-meta-author {
+    font-size: 0.82rem !important;
+  }
+  .article-meta-avatar {
+    width: 22px !important;
+    height: 22px !important;
   }
   .form-card, .article-section, .prose {
     padding: 16px 14px !important;
