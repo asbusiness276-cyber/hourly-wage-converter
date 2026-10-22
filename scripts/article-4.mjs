@@ -13,7 +13,7 @@ export const article4 = {
   dateModified: '2026-10-17',
   title: 'Calculate Overtime Pay: Step-by-Step Guide',
   h1: 'How to Calculate Pay With an Overtime Calculator',
-  desc: 'Master overtime pay calculations step by step. Learn FLSA 40-hour workweek rules, 1.5x time-and-a-half formulas, California double time, blended rates, and 2026 paycheck tax withholding.',
+  desc: 'Master overtime pay step by step: FLSA 40-hour workweek rules, 1.5x time-and-a-half formulas, California double time, blended rates, and tax withholding.',
   image: '/assets/images/how-to-calculate-pay-with-overtime-calculator.jpg',
   imageAlt: 'Visual guide and formula showing how to calculate overtime pay at 1.5x time-and-a-half and 2x double time',
   toc: [
