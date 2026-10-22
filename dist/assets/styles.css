@@ -1551,6 +1551,48 @@ details.nav-drop:not([open]) .nav-menu {
   border-top: 1px solid var(--border-color);
 }
 
+.article-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+.filter-btn {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 650;
+  color: var(--ink);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.filter-btn:hover {
+  border-color: #fed7aa;
+  color: var(--accent-blue);
+}
+.filter-btn.is-active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: #fff;
+}
+.filter-btn .filter-count {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--primary-light);
+  color: var(--logo-coral);
+  border-radius: 999px;
+  padding: 1px 7px;
+  margin-left: 6px;
+}
+.filter-btn.is-active .filter-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
 .article-meta {
   display: flex;
   flex-wrap: wrap;

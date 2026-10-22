@@ -735,5 +735,21 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-
-
+// Article category filter (articles page only)
+const articleFiltersEl = document.querySelector('.article-filters');
+if (articleFiltersEl) {
+  const filterGrid = articleFiltersEl.parentElement?.querySelector('.resource-grid');
+  const filterCards = filterGrid ? Array.from(filterGrid.querySelectorAll('.resource-card[data-category]')) : [];
+  const filterButtons = Array.from(articleFiltersEl.querySelectorAll('.filter-btn'));
+  filterButtons.forEach(btn => btn.addEventListener('click', () => {
+    filterButtons.forEach(b => {
+      const active = b === btn;
+      b.classList.toggle('is-active', active);
+      b.setAttribute('aria-pressed', String(active));
+    });
+    const f = btn.dataset.filter;
+    filterCards.forEach(card => {
+      card.style.display = (f === 'all' || card.dataset.category === f) ? '' : 'none';
+    });
+  }));
+}
