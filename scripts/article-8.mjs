@@ -13,7 +13,7 @@ export const article8 = {
   dateModified: '2026-10-16',
   title: 'How Much Is $20 an Hour a Year?',
   h1: 'How Much Is $20 an Hour Annually? Full Pay & Budget Breakdown',
-  desc: 'Discover how much $20 an hour is annually ($41,600 gross), your exact biweekly and monthly paycheck math, 2026 federal & FICA taxes, and a realistic take-home budget.',
+  desc: 'See how much $20 an hour is annually ($41,600 gross): biweekly and monthly paycheck math, 2026 federal and FICA taxes, and a realistic take-home budget.',
   image: '/assets/images/how-much-is-20-an-hour-a-year.jpg',
   imageAlt: 'How Much Is $20 an Hour Annually full pay breakdown and monthly budget guide',
   toc: [

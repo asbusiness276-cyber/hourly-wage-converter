@@ -7,7 +7,7 @@ export const article10 = {
   dateModified: '2026-10-19',
   title: 'No Tax on Overtime in 2026: How It Works',
   h1: 'No Tax on Overtime in 2026: How the Deduction Really Works',
-  desc: 'No tax on overtime is a federal income-tax deduction (2025–2028), not an exemption. Learn what qualifies, the $12,500/$25,000 caps, why paychecks still show withholding, and how to claim it.',
+  desc: 'No tax on overtime is a federal deduction for 2025–2028, not an exemption. See what qualifies, the $12,500/$25,000 caps, and how to claim it on your return.',
   image: '/assets/images/no-tax-on-overtime.jpg',
   imageAlt: 'No Tax on Overtime in 2026 graphic showing a calendar, calculator, cash stacks, and a tax form marked no tax',
   toc: [
@@ -27,7 +27,7 @@ export const article10 = {
   faqs: [
     [
       'Is overtime taxed at a higher rate than regular pay?',
-      'No. Overtime is taxed at your normal marginal income-tax rate — the same rate as the rest of your earnings. It can feel higher because overtime pushes more income into a higher bracket and because employers often withhold at a flat supplemental rate (currently 22% federal) that may exceed your actual rate. The 2025–2028 overtime deduction does not change your withholding; it reduces taxable income when you file.'
+      'No. Overtime is taxed at your normal marginal income-tax rate — the same rate as the rest of your earnings. It can feel higher because overtime pushes more income into a higher bracket and because employers often withhold at a flat supplemental rate (currently 22% federal) that may exceed your actual rate. The 2025–2028 overtime deduction does not change your withholding; it reduces taxable income when you file. See also: Is Overtime Taxed at a Higher Rate? (2026).'
     ],
     [
       'Is all of my overtime pay tax-free under the new law?',
@@ -272,7 +272,7 @@ export const article10 = {
       <div class="faq-list">
         <details>
           <summary>Is overtime taxed at a higher rate than regular pay?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>No. Overtime is taxed at your normal marginal income-tax rate — the same rate as the rest of your earnings. It can feel higher because overtime pushes more income into a higher bracket and because employers often withhold at a flat supplemental rate (currently 22% federal) that may exceed your actual rate. The 2025–2028 overtime deduction does not change your withholding; it reduces taxable income when you file.</p>
+          <p>No. Overtime is taxed at your normal marginal income-tax rate — the same rate as the rest of your earnings. It can feel higher because overtime pushes more income into a higher bracket and because employers often withhold at a flat supplemental rate (currently 22% federal) that may exceed your actual rate. The 2025–2028 overtime deduction does not change your withholding; it reduces taxable income when you file. See also: <a href=\"\/articles\/is-overtime-taxed-at-a-higher-rate\/\">Is Overtime Taxed at a Higher Rate? (2026)</a>.</p>
         </details>
         <details>
           <summary>Is all of my overtime pay tax-free under the new law?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>

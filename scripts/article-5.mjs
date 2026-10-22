@@ -13,7 +13,7 @@ export const article5 = {
   dateModified: '2026-10-17',
   title: 'How Much Is $23 an Hour a Year?',
   h1: 'How Much Is $23 an Hour a Year? Full Pay & Budget Breakdown',
-  desc: 'Learn how much $23 an hour is a year ($47,840 gross), your exact biweekly and monthly paycheck math, 2026 federal & FICA tax breakdowns, and a realistic take-home budget.',
+  desc: 'See how much $23 an hour is a year ($47,840 gross): biweekly and monthly paycheck math, 2026 federal and FICA tax breakdowns, and a realistic take-home budget.',
   image: '/assets/images/how-much-is-23-an-hour-a-year.jpg',
   imageAlt: 'Breakdown of $23 an hour annual salary showing $47,840 gross pay, 2026 taxes, and monthly take-home pay',
   toc: [
