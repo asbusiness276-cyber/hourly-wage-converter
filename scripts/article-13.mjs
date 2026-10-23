@@ -8,6 +8,8 @@ export const article13 = {
   title: 'Minimum Wage by State 2027: Complete List of New Rates',
   h1: 'Minimum Wage by State 2027: Complete List of New Rates',
   desc: 'Minimum wage by state for 2027: every state new rate, tipped wages, and big-city minimums in one complete table, plus what the changes mean for your pay.',
+  image: '/assets/images/minimum-wage-by-state.jpg',
+  imageAlt: 'Minimum Wage by State 2027 guide graphic: a United States map with 2027 rate callouts for Washington at $17.73, California at $17.40, and Michigan at $15.00 an hour, beside a calculator and cash',
   toc: [
     ['short-answer', 'The Short Answer: 2027 in 60 Seconds'],
     ['full-table', 'The Complete 2027 Table: All 50 States + D.C.'],
