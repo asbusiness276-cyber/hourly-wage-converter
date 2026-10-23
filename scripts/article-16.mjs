@@ -50,7 +50,7 @@ export const article16 = {
   ],
   body: `
       <p class="lead">Every pay stub tells two stories about the same work. At the top sits your <strong>gross pay</strong> — the full amount you earned. At the bottom sits your <strong>net pay</strong> — what actually lands in your bank account. On a $60,000 salary, that gap is roughly <strong>$9,610 a year</strong> in federal tax and FICA alone, before state tax or a single benefit deduction. This guide explains both numbers, everything that is taken out between them, and how to run the calculation yourself.</p>
-      <p>Most money mistakes I see readers make with pay come from mixing these two numbers up: budgeting on the gross figure from a job offer, comparing two offers by salary alone, or panicking at a first paycheck that looks "wrong" when it is exactly right. Once you can read the path from gross to net, your stub stops being a mystery.</p>
+      <p>Confusing the two figures leads to predictable mistakes: budgeting on the gross amount named in an offer letter, comparing job offers by salary alone, or assuming a first paycheck contains an error when the math is in fact correct. The sections below trace every step from gross to net, so that each line on your stub has a clear explanation.</p>
       <div class="article-hero-cta">
         <div>
           <h2>Skip to your own numbers</h2>
@@ -64,7 +64,7 @@ export const article16 = {
         <p><strong>Gross pay</strong> is your total earnings before deductions. <strong>Net pay</strong> is gross pay minus every deduction — taxes, retirement contributions, insurance premiums and any other withholding. The formula is one line:</p>
         <div class="formula-card">
           <div class="formula">Net Pay = Gross Pay − All Deductions</div>
-          <p>Everything in this guide is about what hides inside "all deductions" — and how big each piece usually is.</p>
+          <p>The rest of this guide breaks down what sits inside "all deductions" — and how large each piece typically is.</p>
         </div>
         <div class="table-wrap">
           <table class="pay-table">
@@ -89,7 +89,7 @@ export const article16 = {
           <li>Reported tips</li>
           <li>Paid time off taken during the period</li>
         </ul>
-        <p>The two formulas worth memorizing:</p>
+        <p>The two formulas that produce gross pay:</p>
         <div class="formula-card">
           <div class="formula">Hourly: Gross = (Hours × Rate) + (Overtime Hours × Rate × 0.5)</div>
           <div class="formula">Salaried: Gross per check = Annual Salary ÷ Pay Periods per Year</div>
@@ -101,7 +101,7 @@ export const article16 = {
       <section class="article-section" id="net-pay">
         <h2>What Net Pay (Take-Home) Means</h2>
         <p>Net pay is the amount your employer actually hands over after withholding everything the law requires and everything you signed up for. If you have direct deposit, your net pay is the deposit — to the cent. If your deposit ever differs from the net pay line on your stub, that is a genuine error worth raising with payroll the same day.</p>
-        <p>Why does everything quote gross instead? Because net pay is personal. Two coworkers with identical salaries can have different net pay because one files taxes as single and the other as married, one contributes 10% to a 401(k) and the other nothing, one covers a family health plan and the other is on a spouse's. No employer can quote a net figure honestly, so the whole labor market speaks gross — and translating it is your job (or this guide's).</p>
+        <p>Why is gross pay always the quoted figure? Because net pay is personal. Two coworkers with identical salaries can have different net pay because one files taxes as single and the other as married, one contributes 10% to a 401(k) and the other nothing, one covers a family health plan and the other is on a spouse's. No employer can quote a net figure honestly, so the entire labor market quotes gross — and translating it into take-home pay is what the rest of this guide does.</p>
       </section>
 
       <section class="article-section" id="deductions">
@@ -126,7 +126,7 @@ export const article16 = {
 
       <section class="article-section" id="example-salary">
         <h2>Example: A $60,000 Salary, Step by Step</h2>
-        <p>Meet the baseline case: a single filer earning $60,000 in 2026, taking the standard deduction of $16,100, with no benefit deductions — taxes only. Federal income tax first: taxable income is $60,000 − $16,100 = $43,900, which fills the 10% bracket ($12,400 × 10% = $1,240) and part of the 12% bracket ($31,500 × 12% = $3,780), for <strong>$5,020</strong> total. FICA is simpler: 7.65% of the full $60,000 = <strong>$4,590</strong>.</p>
+        <p>The baseline example uses a single filer earning $60,000 in 2026, claiming the standard deduction of $16,100, with no benefit deductions — taxes only. Federal income tax first: taxable income is $60,000 − $16,100 = $43,900, which fills the 10% bracket ($12,400 × 10% = $1,240) and part of the 12% bracket ($31,500 × 12% = $3,780), for <strong>$5,020</strong> total. FICA is simpler: 7.65% of the full $60,000 = <strong>$4,590</strong>.</p>
         <figure>
           <img src="/assets/images/ui-gross-to-net-waterfall-60k.webp" alt="Waterfall chart: $60,000 gross pay minus $5,020 federal tax and $4,590 FICA equals $50,390 net pay" width="800" height="450" loading="lazy">
           <figcaption>Where a $60,000 salary goes: federal tax and FICA are the two deductions every worker pays.</figcaption>
@@ -163,7 +163,7 @@ export const article16 = {
           </table>
         </div>
         <p>Per biweekly check: $2,000.00 gross becomes <strong>$1,690.85</strong> net; monthly take-home averages $3,663.50. Notice the slightly better percentage than the $60,000 earner — a smaller share of this income reaches the 12% bracket's upper end, so the effective tax bite is lighter.</p>
-        <p><strong>Now add real life.</strong> Give this worker a 5% 401(k) contribution ($2,600) and a $150-a-month health premium ($1,800). Federal tax falls to $3,532 — both deductions come out before income tax — and FICA falls slightly to $3,840.30, because the premium (unlike the 401(k)) also escapes FICA. The new net: <strong>$40,227.70 a year, 77.4% of gross</strong>, or $1,547.22 a check. The deposit dropped by about $144 a check — but $100 of it went into the worker's own retirement account, which is why a smaller net is not always a worse outcome.</p>
+        <p><strong>The same worker, with voluntary deductions.</strong> Give this worker a 5% 401(k) contribution ($2,600) and a $150-a-month health premium ($1,800). Federal tax falls to $3,532 — both deductions come out before income tax — and FICA falls slightly to $3,840.30, because the premium (unlike the 401(k)) also escapes FICA. The new net: <strong>$40,227.70 a year, 77.4% of gross</strong>, or $1,547.22 a check. The deposit dropped by about $144 a check — but $100 of it went into the worker's own retirement account, which is why a smaller net is not always a worse outcome.</p>
       </section>
 
       <section class="article-section" id="pay-stub">
