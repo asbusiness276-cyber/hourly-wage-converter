@@ -240,7 +240,7 @@ export const article9 = {
 
       <!-- Section 4: Three-Paycheck Month Phenomenon -->
       <h2 id="three-paycheck-phenomenon">The "Three-Paycheck Month" Phenomenon Explained</h2>
-      <p>One of the most widely discussed perks of a biweekly payroll schedule is the arrival of the <strong>"Three-Paycheck Month"</strong> (often celebrated by personal finance enthusiasts as a "magic month"). But why does it occur, and when can you expect it?</p>
+      <p>One of the most widely discussed perks of a biweekly payroll schedule is the arrival of the <strong>"Three-Paycheck Month"</strong> (often celebrated by personal finance enthusiasts as a "magic month"). But why does it occur, and when can you expect it? For the exact dates, see our guide to the <a href="/articles/three-paycheck-months/">three-paycheck months in 2027</a> — one pay cycle even gets a rare 27th check that year.</p>
 
       <p>A standard calendar year has 365 days (or 366 in a leap year). When you divide 365 days by 7 days per week, you get <strong>52 weeks plus 1 extra day</strong> (or 2 extra days in a leap year). Because a biweekly pay cycle distributes checks every 14 days, you receive 26 checks over those 52 weeks.</p>
 
