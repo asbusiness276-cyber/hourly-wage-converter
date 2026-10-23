@@ -324,7 +324,7 @@ export const article4 = {
 
       <p>When you file your annual tax return, the IRS reconciles your true total annual earnings. Any excess withholding from peak overtime pay periods is refunded directly to your pocket! For a complete step-by-step breakdown of paycheck withholdings, FICA payroll taxes, and 2026 tax brackets, read our comprehensive guide on <a href="/articles/how-to-calculate-taxes-on-paycheck/">how to calculate taxes on a paycheck</a>.</p>
 
-      <p>For tax years 2025–2028 there is also a new federal deduction aimed specifically at overtime: many workers can deduct the premium half of their time-and-a-half pay when they file. See our guide to the <a href="/articles/no-tax-on-overtime/">no tax on overtime deduction</a> for who qualifies, the caps, and how the premium pay is reported.</p>
+      <p>For tax years 2025–2028 there is also a new federal deduction aimed specifically at overtime: many workers can deduct the premium half of their time-and-a-half pay when they file. See our guide to the <a href="/articles/no-tax-on-overtime/">no tax on overtime deduction</a> for who qualifies, the caps, and how the premium pay is reported. A companion deduction in the same law covers tipped income — up to $25,000 a year; see our <a href="/articles/no-tax-on-tips/">no tax on tips guide</a> for its occupation list and phase-outs.</p>
 
       <!-- Section 9: Common Mistakes -->
       <h2 id="common-mistakes">Common Employer &amp; Employee Overtime Mistakes to Watch For</h2>
