@@ -5,7 +5,7 @@ export const article13 = {
   minutes: 11,
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',
-  title: 'Minimum Wage by State 2027: Complete List of New Rates',
+  title: 'Minimum Wage by State 2027: Complete 50-State List',
   h1: 'Minimum Wage by State 2027: Complete List of New Rates',
   desc: 'Minimum wage by state for 2027: every state new rate, tipped wages, and big-city minimums in one complete table, plus what the changes mean for your pay.',
   image: '/assets/images/minimum-wage-by-state.jpg',
