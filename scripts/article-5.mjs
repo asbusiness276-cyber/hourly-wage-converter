@@ -52,7 +52,7 @@ export const article5 = {
     ]
   ],
   body: `
-      <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the federal minimum wage, placing your gross earnings within arm's reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
+      <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the federal minimum wage, placing your gross earnings at $47,840 a year — within arm’s reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
 
       <p>When engineering compensation tools at Hourly Wage Converter, one of the most frequent patterns we see among hourly earners is confusion between gross potential and actual take-home cash flow. Schedule variations, unpaid holiday shutdowns, mandatory payroll taxes, and local housing prices create very different realities for workers earning the exact same $23 rate. A full-time employee with comprehensive paid time off lives a noticeably different financial life than a contract worker taking unpaid time between assignments.</p>
 
