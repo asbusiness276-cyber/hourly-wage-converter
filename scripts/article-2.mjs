@@ -179,7 +179,7 @@ const article2 = {
 
       <!-- Infographic #1: Formula -->
       <div class="featured-image-wrap" style="margin:28px 0">
-        <img src="/assets/images/salary-to-hourly-formula.png" alt="Formula for converting annual salary to hourly rate" class="featured-image" width="1280" height="720" loading="lazy">
+        <img src="/assets/images/salary-to-hourly-formula.webp" alt="Formula for converting annual salary to hourly rate" class="featured-image" width="1280" height="720" loading="lazy">
       </div>
 
       <p>When running this calculation, the two components represent:</p>
@@ -488,7 +488,7 @@ const article2 = {
 
       <!-- Schedule Infographic -->
       <div class="featured-image-wrap" style="margin:28px 0">
-        <img src="/assets/images/salary-hourly-rate-by-work-hours.png" alt="Hourly rate based on annual salary and weekly work hours" class="featured-image" width="1280" height="720" loading="lazy">
+        <img src="/assets/images/salary-hourly-rate-by-work-hours.webp" alt="Hourly rate based on annual salary and weekly work hours" class="featured-image" width="1280" height="720" loading="lazy">
       </div>
 
       <p>Notice the dramatic shift: if an exempt employee earning $60,000 regularly logs 50 hours each week instead of 40, their effective hourly earnings decline from <strong>$28.85 down to $23.08</strong>. You are giving your employer 520 additional hours of uncompensated labor each year—equivalent to working three full months without pay!</p>

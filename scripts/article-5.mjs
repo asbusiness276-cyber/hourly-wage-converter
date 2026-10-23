@@ -52,7 +52,7 @@ export const article5 = {
     ]
   ],
   body: `
-      <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the federal minimum wage, placing your gross earnings at $47,840 a year — within arm’s reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
+      <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the <a href="/articles/minimum-wage-by-state/">federal minimum wage</a>, placing your gross earnings at $47,840 a year — within arm’s reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
 
       <p>When engineering compensation tools at Hourly Wage Converter, one of the most frequent patterns we see among hourly earners is confusion between gross potential and actual take-home cash flow. Schedule variations, unpaid holiday shutdowns, mandatory payroll taxes, and local housing prices create very different realities for workers earning the exact same $23 rate. A full-time employee with comprehensive paid time off lives a noticeably different financial life than a contract worker taking unpaid time between assignments.</p>
 
@@ -184,7 +184,7 @@ export const article5 = {
 
       <figure><img src="/assets/images/ui-card-23hr-annual-breakdown.webp" alt="3D financial desk graphic showing gross annual salary of $47,840 compared to net take-home pay for $23 an hour" width="800" height="450" loading="lazy"><figcaption>Gross annual salary ($47,840) versus estimated net take-home pay (~$40,619) for $23/hr full-time employment.</figcaption></figure>
 
-      <p>To see how this wage compares to neighboring pay grades, explore our comprehensive breakdown on <a href="/hourly/25-an-hour/">$25 an hour</a> and <a href="/hourly/20-an-hour/">$20 an hour</a>.</p>
+      <p>To see how this wage compares to neighboring pay grades, explore our comprehensive breakdown on <a href="/hourly/25-an-hour/">$25 an hour</a> and <a href="/hourly/20-an-hour/">$20 an hour</a> — or read the full <a href="/articles/how-much-is-20-an-hour-a-year/">guide to what $20 an hour pays in a year</a> for the budget math three dollars down.</p>
 
       <!-- Section 4: Unpaid Time Off -->
       <h2 id="unpaid-time-off">How Unpaid Time Off Changes Your Annual Earnings</h2>
