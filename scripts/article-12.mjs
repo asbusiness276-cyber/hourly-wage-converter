@@ -5,7 +5,7 @@ export const article12 = {
   minutes: 10,
   datePublished: '2026-10-22',
   dateModified: '2026-10-22',
-  title: 'No Tax on Tips 2026: Who Qualifies, the $25,000 Limit, and the Full Occupation List',
+  title: 'No Tax on Tips 2026: Who Qualifies & the $25K Limit',
   h1: 'No Tax on Tips 2026: Who Qualifies, the $25,000 Limit, and the Full Occupation List',
   desc: 'No tax on tips is a federal deduction of up to $25,000 for 2025\u20132028. See who qualifies, the full 71-occupation list, phase-outs, and how to claim it.',
   image: '/assets/images/no-tax-on-tips.jpg',

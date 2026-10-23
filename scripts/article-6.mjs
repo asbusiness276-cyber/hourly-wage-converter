@@ -13,7 +13,7 @@ export const article6 = {
   dateModified: '2026-10-17',
   title: 'How Much Is $45 an Hour Annually?',
   h1: 'How Much Is $45 an Hour Annually? Full Pay & Budget Breakdown',
-  desc: 'Learn how much $45 an hour is annually ($93,600 gross), your exact biweekly and monthly paycheck math, 2026 tax brackets, and a realistic wealth-building budget.',
+  desc: 'Learn how much $45 an hour is annually ($93,600 gross): biweekly and monthly paycheck math, 2026 tax brackets, and a realistic wealth-building budget.',
   image: '/assets/images/how-much-is-45-an-hour-annually.jpg',
   imageAlt: 'Breakdown of $45 an hour annual salary showing $93,600 gross income, 2026 tax brackets, and monthly take-home pay',
   toc: [
