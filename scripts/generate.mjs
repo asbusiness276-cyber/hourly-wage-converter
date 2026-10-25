@@ -71,7 +71,7 @@ function writePage(url,title,description,body,active='',schema=null) {
   seoConfiguration[configKey];
   url=routeAliases[originalUrl]||originalUrl;
   const canonical=origin+url;
-  const headTitle=seoConfiguration[configKey]?.seoTitle||(url==='/'?'Hourly Wage Converter | Hourly & Salary Calculator':`${title} | Hourly Wage Converter`);
+  const headTitle=seoConfiguration[configKey]?.seoTitle||(url==='/'?'Hourly Wage Converter | Free Hourly to Salary Calculator':`${title} | Hourly Wage Converter`);
   description=seoConfiguration[configKey]?.description||description;
   const graph=schema?(schema['@graph']||[schema]).map(item=>{const {'@context':context,...rest}=item;return rest;}):[];
   if(url!=='/'){
@@ -157,7 +157,7 @@ const core=coreContent({money,icon,tools,toolCards,pageHead,breadcrumb,converter
 seoConfiguration=core.tools;
 const homeArticlesSection=`<section class="section" style="margin-top:36px"><div class="section-header"><div><span class="eyebrow" style="color:var(--primary);margin-bottom:4px;display:block">Wage &amp; Salary Insights</span><h2>Featured Pay &amp; Salary Guides</h2><p style="color:var(--muted);margin-top:4px;font-size:0.95rem">Practical, research-backed guides on hourly wages, taxes, overtime calculations, and take-home budgets.</p></div><a href="/articles/" class="text-button" style="color:var(--primary);font-weight:600;display:inline-flex;align-items:center;gap:4px">All articles ${icon('chevron',13)}</a></div>${articleCards()}</section>`;
 const homeBody=core.home + homeArticlesSection;
-writePage('/','Hourly Wage Converter', 'Convert hourly wages and salaries into annual, monthly, weekly, and daily gross pay. Customize work hours, unpaid leave, and overtime.',homeBody,'home',faqSchema);
+writePage('/','Hourly Wage Converter', 'Free hourly wage converter: turn any hourly rate into annual, monthly, weekly, and daily gross pay. Adjust hours, unpaid leave, and overtime — no sign-up.',homeBody,'home',faqSchema);
 
 function resultPanel(title,primary,unit,cells,initial,note,assumption='Based on your inputs') {
  return `<aside class="result-card sticky" data-results aria-label="Calculation results"><div class="result-heading"><div class="result-topline"><span>${title}</span><span class="result-tag">ESTIMATE</span></div><div class="result-amount"><span data-out="${primary}">${money(initial[primary])}</span><small>${unit}</small></div><div class="result-assumption" data-assumption>${assumption}</div></div><div class="result-grid">${cells.map(([key,label])=>resultCell(key,label,initial[key])).join('')}</div><div class="result-note">${note}</div><span class="sr-only" data-live aria-live="polite" aria-atomic="true"></span></aside>`;
