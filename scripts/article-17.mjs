@@ -130,7 +130,7 @@ export const article17 = {
             </tbody>
           </table>
         </div>
-        <p>The reverse conversion matters just as much. A $60,000 salary is worth <strong>$30.77 an hour</strong> on a 37.5-hour schedule (1,950 hours a year) but only <strong>$28.85 an hour</strong> if the job actually runs 40 hours a week (2,080 hours). Before comparing two salaries, convert both at the hours each job truly requires — our guide to <a href="/how-many-work-hours-in-a-year/">how many work hours are in a year</a> covers the full calendar math, including holidays and PTO, and the <a href="/hourly-to-salary-calculator/">hourly to salary calculator</a> runs any combination. For what those gross figures become after deductions, see <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a>.</p>
+        <p>The reverse conversion matters just as much. A $60,000 salary is worth <strong>$30.77 an hour</strong> on a 37.5-hour schedule (1,950 hours a year) but only <strong>$28.85 an hour</strong> if the job actually runs 40 hours a week (2,080 hours). Before comparing two salaries, convert both at the hours each job truly requires — our guide to <a href="/how-many-work-hours-in-a-year/">how many work hours are in a year</a> covers the full calendar math, including holidays and PTO, and the <a href="/hourly-to-salary-calculator/">hourly to salary calculator</a> runs any combination. To weigh hours, commute, and paid time off together, run both offers through the <a href="/calculators/salary-comparison/">salary comparison calculator</a>. For what those gross figures become after deductions, see <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a>.</p>
       </section>
 
       <section class="article-section" id="vs-overtime">

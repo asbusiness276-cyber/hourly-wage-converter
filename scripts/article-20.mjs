@@ -123,7 +123,7 @@ export const article20 = {
             </tbody>
           </table>
         </div>
-        <p>The pattern to notice: each $10,000 raise in this range is worth about $8,035 a year in take-home pay, and the effective federal-plus-FICA burden stays near 15–16% of gross throughout — the tax system here is close to proportional for salaries in this band, because all of it sits inside the 10% and 12% brackets. For comparison, <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> works out to $43,962 take-home — more than this $50,000 salary, because the hourly role's gross is $52,000.</p>
+        <p>The pattern to notice: each $10,000 raise in this range is worth about $8,035 a year in take-home pay, and the effective federal-plus-FICA burden stays near 15–16% of gross throughout — the tax system here is close to proportional for salaries in this band, because all of it sits inside the 10% and 12% brackets. For comparison, <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> works out to $43,962 take-home — more than this $50,000 salary, because the hourly role's gross is $52,000. To compare the two offers side by side, including hours, commute, and paid time off, use the <a href="/calculators/salary-comparison/">salary comparison calculator</a>.</p>
       </section>
 
       <section class="article-section" id="overtime-corner">
