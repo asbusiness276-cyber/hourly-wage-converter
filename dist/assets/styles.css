@@ -4864,3 +4864,14 @@ a.btn-secondary:hover,
 
 /* Phase C: formula kit limitation notes */
 .formula-limit { font-size: 0.88rem; color: var(--muted); line-height: 1.55; margin: 0 0 12px; }
+
+/* Article structure: tier cards + methodology verification box */
+.tier-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 16px 0; }
+.tier-card { background: #ffffff; border: 1px solid var(--border-color); border-radius: 12px; padding: 16px; }
+.tier-card-range { font-size: 1.4rem; font-weight: 800; color: var(--primary); }
+.tier-card h3 { margin: 4px 0 6px; font-size: 1rem; }
+.tier-card p { margin: 0; font-size: 0.88rem; color: var(--muted); line-height: 1.5; }
+.article-methodology-box { background: #ffffff; border: 1px solid var(--border-color); border-radius: 12px; padding: 20px 22px; margin: 28px 0; }
+.article-methodology-box h3 { margin: 0 0 10px; font-size: 1.05rem; }
+.article-methodology-box ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.article-methodology-box li { font-size: 0.92rem; line-height: 1.55; }
