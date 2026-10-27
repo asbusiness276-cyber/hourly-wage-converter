@@ -12,12 +12,15 @@ export const article22 = {
   imageAlt: 'Take-home pay photo for a $60,000 salary: a person comparing an offer letter, with papers showing gross $60,000 a year and $50,390 take-home',
   toc: [
     ['short-answer', 'The Short Answer: $50,390 a Year'],
+    ['tax-brackets', '2026 Federal Tax Brackets at a Glance'],
     ['how-math-works', 'How the Math Works, Step by Step'],
     ['why-different', 'Why Your Paycheck May Look Different'],
     ['nearby-salaries', '$60,000 vs Nearby Salaries'],
     ['raise-worth', 'What a Raise Is Really Worth'],
     ['good-salary', 'Is $60,000 a Good Salary?'],
-    ['faqs', 'Frequently Asked Questions'],
+        ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
+['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
   faqs: [
@@ -77,6 +80,18 @@ export const article22 = {
           </table>
         </div>
         <p>The biweekly figure deserves one note: $1,938.08 assumes 26 paychecks. On a semi-monthly schedule (24 paychecks), the same $50,390 arrives as $2,099.58 per check. The annual total is identical — only the split changes.</p>
+      </section>
+
+      <section class="article-section" id="tax-brackets">
+        <h2>2026 Federal Tax Brackets at a Glance</h2>
+        <p>Your take-home depends on which bracket your last dollar falls in — not your whole income. These are the 2026 single-filer brackets used in this guide:</p>
+        <div class="tier-cards">
+          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Taxable income in this range is taxed at 10%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Taxable income in this range is taxed at 12%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Taxable income in this range is taxed at 22%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Taxable income in this range is taxed at 24%.</p></div>
+        </div>
+        <p><strong>In this article:</strong> $60,000 gross → $43,900 taxable → <strong>12% marginal bracket</strong>, but only a <strong>8.4% effective federal rate</strong> ($5,020 ÷ $60,000), because the lower brackets tax the first dollars at lower rates.</p>
       </section>
 
       <section class="article-section" id="how-math-works">
@@ -142,6 +157,29 @@ export const article22 = {
         <h2>Is $60,000 a Good Salary?</h2>
         <p>There is no national answer to that question — only a local one. Federal-only take-home of $4,199.17 a month stretches very differently depending on rent, transport, and household size where you live. What this article gives you is the honest starting number: $50,390 a year after federal tax, before state tax and deductions. Compare that figure — not the $60,000 gross — against your actual monthly costs, and you have a realistic budget baseline. Anyone quoting you the gross figure as spending money is overstating your income by $9,610 a year.</p>
         <p>As a rough budget check, the 50/30/20 split of $4,199.17 a month is $2,099.59 for needs, $1,259.75 for wants, and $839.83 for savings — the three add back to $4,199.17 exactly. If your needs alone exceed $2,099.59, the salary feels tight wherever you live; if they fit comfortably inside it, the salary has room. That is a planning sketch, not a rule — but it is a sketch drawn from take-home pay, which is the only number that can actually be spent.</p>
+      </section>
+
+      <section class="article-section" id="how-to-use">
+        <h2>How to Use the Calculator</h2>
+        <p>Run your own numbers in four steps:</p>
+        <ol>
+          <li><strong>Step 1 — Enter your annual salary</strong> into the salary-to-hourly calculator.</li>
+          <li><strong>Step 2 — Set your schedule:</strong> adjust hours per week and paid weeks to match your job.</li>
+          <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and the result.</li>
+          <li><strong>Step 4 — Compare:</strong> try the nearby salaries in this guide to see how a different pay level changes the result.</li>
+        </ol>
+        <p><a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a></p>
+      </section>
+
+      <section class="article-section" id="limitations">
+        <h2>Limitations</h2>
+        <p>Keep these limits in mind before using any figure above as a budget:</p>
+        <ol>
+          <li><strong>State income tax excluded:</strong> most states tax income too, so actual take-home is lower.</li>
+          <li><strong>Retirement and health deductions excluded:</strong> 401(k) contributions and health premiums come out of your check and are not counted here.</li>
+          <li><strong>Schedule assumption:</strong> figures use the schedule stated in this guide; fewer hours or unpaid weeks change every number.</li>
+          <li><strong>Not tax advice:</strong> figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
+        </ol>
       </section>
 
       <section class="article-section" id="faqs">

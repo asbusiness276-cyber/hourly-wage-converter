@@ -12,12 +12,15 @@ export const article19 = {
   imageAlt: 'Take-home pay photo for $25 an hour: a person at a desk with salary papers showing gross $52,000 a year and $43,962 take-home',
   toc: [
     ['short-answer', 'The Short Answer: $43,962 a Year'],
+    ['tax-brackets', '2026 Federal Tax Brackets at a Glance'],
     ['how-math-works', 'How the Math Works, Step by Step'],
     ['why-different', 'Why Your Paycheck May Look Different'],
     ['nearby-rates', '$25 an Hour vs Nearby Rates'],
     ['overtime-corner', 'The Overtime Corner'],
     ['good-wage', 'Is $25 an Hour a Good Wage?'],
-    ['faqs', 'Frequently Asked Questions'],
+        ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
+['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
   faqs: [
@@ -78,6 +81,18 @@ export const article19 = {
         <p>The biweekly figure deserves one note: $1,690.85 assumes 26 paychecks. On a semi-monthly schedule (24 paychecks), the same $43,962 arrives as $1,831.75 per check. The annual total is identical — only the split changes.</p>
       </section>
 
+      <section class="article-section" id="tax-brackets">
+        <h2>2026 Federal Tax Brackets at a Glance</h2>
+        <p>Your take-home depends on which bracket your last dollar falls in — not your whole income. These are the 2026 single-filer brackets used in this guide:</p>
+        <div class="tier-cards">
+          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Taxable income in this range is taxed at 10%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Taxable income in this range is taxed at 12%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Taxable income in this range is taxed at 22%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Taxable income in this range is taxed at 24%.</p></div>
+        </div>
+        <p><strong>In this article:</strong> $52,000 gross → $35,900 taxable → <strong>12% marginal bracket</strong>, but only a <strong>7.8% effective federal rate</strong> ($4,060 ÷ $52,000), because the lower brackets tax the first dollars at lower rates.</p>
+      </section>
+
       <section class="article-section" id="how-math-works">
         <h2>How the Math Works, Step by Step</h2>
         <p>Five steps, each one verifiable. All figures use 2026 federal rules for a single filer.</p>
@@ -135,6 +150,29 @@ export const article19 = {
       <section class="article-section" id="good-wage">
         <h2>Is $25 an Hour a Good Wage?</h2>
         <p>There is no national answer to that question — only a local one. Federal-only take-home of $3,663.50 a month stretches very differently depending on rent, transport, and household size where you live. What this article gives you is the honest starting number: $43,962 a year after federal tax, before state tax and deductions. Compare that figure — not the $52,000 gross — against your actual monthly costs, and you have a realistic budget baseline. Anyone quoting you the gross figure as spending money is overstating your income by $8,038 a year.</p>
+      </section>
+
+      <section class="article-section" id="how-to-use">
+        <h2>How to Use the Calculator</h2>
+        <p>Run your own numbers in four steps:</p>
+        <ol>
+          <li><strong>Step 1 — Enter your hourly rate</strong> into the hourly-to-salary calculator.</li>
+          <li><strong>Step 2 — Set your schedule:</strong> adjust hours per week and paid weeks to match your job.</li>
+          <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and the result.</li>
+          <li><strong>Step 4 — Compare:</strong> try the nearby rates in this guide to see how a different pay level changes the result.</li>
+        </ol>
+        <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+      </section>
+
+      <section class="article-section" id="limitations">
+        <h2>Limitations</h2>
+        <p>Keep these limits in mind before using any figure above as a budget:</p>
+        <ol>
+          <li><strong>State income tax excluded:</strong> most states tax income too, so actual take-home is lower.</li>
+          <li><strong>Retirement and health deductions excluded:</strong> 401(k) contributions and health premiums come out of your check and are not counted here.</li>
+          <li><strong>Schedule assumption:</strong> figures use the schedule stated in this guide; fewer hours or unpaid weeks change every number.</li>
+          <li><strong>Not tax advice:</strong> figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
+        </ol>
       </section>
 
       <section class="article-section" id="faqs">
