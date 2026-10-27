@@ -128,7 +128,11 @@ export const article14 = {
       <p>The full 2027 federal list: New Year's Day (Friday, January 1), Martin Luther King Jr. Day (Monday, January 18), Presidents Day (Monday, February 15), Memorial Day (Monday, May 31), Juneteenth (Saturday, June 19 — observed Friday, June 18), Independence Day (Sunday, July 4 — observed Monday, July 5), Labor Day (Monday, September 6), Columbus Day (Monday, October 11), Veterans Day (Thursday, November 11), Thanksgiving (Thursday, November 25), and Christmas Day (Saturday, December 25 — observed Friday, December 24). "Observed" dates are when federal offices close when the holiday falls on a weekend; many private employers mirror them.</p>
 
       <!-- Section 5: Calculate -->
-      <h2 id="calculate">How to Calculate Holiday Pay (Worked Examples)</h2>
+      <figure>
+  <img src="/assets/images/ui-holiday-pay-calendar.webp" alt="Illustration of a calendar with a highlighted holiday date beside a clock" width="800" height="450" loading="lazy">
+  <figcaption>Holiday pay turns a calendar date into paid time — the exact terms depend on your employer's policy.</figcaption>
+</figure>
+<h2 id="calculate">How to Calculate Holiday Pay (Worked Examples)</h2>
       <p>The math is simple once you know your multiplier. The formula is:</p>
       <p><strong>Holiday pay = hourly rate × multiplier × holiday hours worked</strong> (for a premium), or <strong>hourly rate × scheduled hours</strong> (for a paid day off).</p>
 
