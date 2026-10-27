@@ -191,7 +191,6 @@ if(form&&results){
       const message=Math.abs(result.difference)<.005?'Both jobs provide the same effective hourly compensation.':`Job ${result.difference>0?'A':'B'} earns ${currency(Math.abs(result.difference))} more per hour of committed time.`;
       const diff=results.querySelector('[data-difference]');diff.replaceChildren();const strong=document.createElement('strong');strong.textContent=message;diff.append(strong);
       announce(`Job A ${currency(result.a.effective)} per hour. Job B ${currency(result.b.effective)} per hour.`);
-      renderReceipt(kind,values,result);
       return;
     }
     for(const [key,value] of Object.entries(result)){
@@ -210,6 +209,12 @@ if(form&&results){
       const quick=document.querySelector('[data-quick-answer]');
       if(quick)quick.textContent=`${currency(result.hourly)}/hour = ${currency(result.annual)}/year. Based on ${num(result.hoursWeek)} regular hours/week and ${num(result.paidWeeks)} paid weeks${result.overtimeHours?`, plus ${num(result.overtimeHours)} overtime hours/week`:''}. Gross earnings before deductions.`;
       announce(`Annual gross pay ${currency(result.annual)}. Regular hourly rate ${currency(result.hourly)}.`);
+      const ms=document.querySelector('[data-milestones]');
+      if(ms){
+        if(result.hourly>0&&result.hoursWeek>0){
+          ms.innerHTML=[10000,50000,100000].map(target=>{const hrs=target/result.hourly;const wks=hrs/result.hoursWeek;return `<div class="milestone-row"><span>Time to earn ${currency(target,0)}</span><strong>${num(hrs)} hours · ~${num(wks)} weeks</strong></div>`;}).join('');
+        } else ms.innerHTML='';
+      }
     }
     if(kind==='paycheck'){
       const labels={weekly:'Weekly',biweekly:'Biweekly',semimonthly:'Semi-monthly',monthly:'Monthly',quarterly:'Quarterly',annual:'Annual'};
@@ -238,24 +243,7 @@ if(form&&results){
       text('[data-assumption]',`${num(values.hours)} billable hours/week · ${num(values.weeks)} weeks/year`);
       announce(`Target freelance rate ${currency(result.rate)} per billable hour.`);
     }
-    renderReceipt(kind,values,result);
   }
-  const renderReceipt=(kind,values,result)=>{
-    try {
-    const box=document.querySelector('[data-receipt]');if(!box)return;
-    const moneyField=(el)=>{const p=el.closest('.field')?.querySelector('.prefix');return !!p&&p.textContent.includes('$');};
-    const inputs=controls.filter(el=>el.name&&!(kind==='overtime'&&el.name==='multiplier'&&values.multiplierMode!=='custom')).map(el=>{
-      const job=el.closest('.job-card')?.querySelector('.job-label')?.textContent;
-      const label=(job?job+' ': '')+(el.closest('.field')?.querySelector('span')?.textContent||el.name);
-      const raw=values[el.name];
-      const val=el.type==='number'?(moneyField(el)?currency(raw):num(raw)):(el.type==='select-one'?el.options[el.selectedIndex]?.text||raw:raw);
-      return `${label}: ${val}`;
-    }).join(' · ');
-    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours'};
-    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year)`};
-    box.innerHTML=`<p class="receipt-line"><strong>Inputs:</strong> ${inputs}</p><p class="receipt-line"><strong>Formula:</strong> ${formulas[kind]||''}</p><p class="receipt-line"><strong>Result:</strong> ${results[kind]||''}</p>`;
-    } catch(e) { /* Receipt is decorative; never break the calculator. */ }
-  };
   const update=()=>{
     try {const values=read(), result=compute(values);render(result,values);return result;}
     catch(error){
@@ -264,7 +252,7 @@ if(form&&results){
       results.querySelectorAll('[data-out]').forEach(el=>el.textContent='—');
       text('[data-assumption]','Check your inputs to see an estimate.');text('[data-difference]','Enter valid numbers for both jobs.');
       const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent='Enter valid numbers above to see your calculation summary.';
-      const receiptBox=document.querySelector('[data-receipt]');if(receiptBox)receiptBox.innerHTML='<p class="caption">Enter valid numbers above to see the receipt.</p>';
+      const msEl=document.querySelector('[data-milestones]');if(msEl)msEl.innerHTML='';
       return null;
     }
   };
@@ -772,3 +760,33 @@ if (articleFiltersEl) {
     });
   }));
 }
+
+// Tool finder (calculators hub only)
+const finderInput = document.querySelector('#tool-finder-input');
+if (finderInput) {
+  const grid = document.querySelector('.directory-grid');
+  const cards = grid ? Array.from(grid.querySelectorAll('.tool-card')) : [];
+  const empty = document.querySelector('#tool-finder-empty');
+  finderInput.addEventListener('input', () => {
+    const q = finderInput.value.trim().toLowerCase();
+    let shown = 0;
+    cards.forEach(card => {
+      const match = !q || card.textContent.toLowerCase().includes(q);
+      card.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = shown > 0;
+  });
+}
+
+// Copy buttons for the methodology formula kit
+document.querySelectorAll('[data-copy-code]').forEach(btn => btn.addEventListener('click', async () => {
+  const code = btn.closest('.formula-kit-block')?.querySelector('code')?.textContent || '';
+  try {
+    await navigator.clipboard.writeText(code);
+    btn.textContent = 'Copied!';
+    setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+  } catch {
+    btn.textContent = 'Copy failed';
+  }
+}));
