@@ -210,6 +210,12 @@ if(form&&results){
       const quick=document.querySelector('[data-quick-answer]');
       if(quick)quick.textContent=`${currency(result.hourly)}/hour = ${currency(result.annual)}/year. Based on ${num(result.hoursWeek)} regular hours/week and ${num(result.paidWeeks)} paid weeks${result.overtimeHours?`, plus ${num(result.overtimeHours)} overtime hours/week`:''}. Gross earnings before deductions.`;
       announce(`Annual gross pay ${currency(result.annual)}. Regular hourly rate ${currency(result.hourly)}.`);
+      const ms=document.querySelector('[data-milestones]');
+      if(ms){
+        if(result.hourly>0&&result.hoursWeek>0){
+          ms.innerHTML=[10000,50000,100000].map(target=>{const hrs=target/result.hourly;const wks=hrs/result.hoursWeek;return `<div class="milestone-row"><span>Time to earn ${currency(target,0)}</span><strong>${num(hrs)} hours · ~${num(wks)} weeks</strong></div>`;}).join('');
+        } else ms.innerHTML='';
+      }
     }
     if(kind==='paycheck'){
       const labels={weekly:'Weekly',biweekly:'Biweekly',semimonthly:'Semi-monthly',monthly:'Monthly',quarterly:'Quarterly',annual:'Annual'};
@@ -265,6 +271,7 @@ if(form&&results){
       text('[data-assumption]','Check your inputs to see an estimate.');text('[data-difference]','Enter valid numbers for both jobs.');
       const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent='Enter valid numbers above to see your calculation summary.';
       const receiptBox=document.querySelector('[data-receipt]');if(receiptBox)receiptBox.innerHTML='<p class="caption">Enter valid numbers above to see the receipt.</p>';
+      const msEl=document.querySelector('[data-milestones]');if(msEl)msEl.innerHTML='';
       return null;
     }
   };
@@ -772,3 +779,33 @@ if (articleFiltersEl) {
     });
   }));
 }
+
+// Tool finder (calculators hub only)
+const finderInput = document.querySelector('#tool-finder-input');
+if (finderInput) {
+  const grid = document.querySelector('.directory-grid');
+  const cards = grid ? Array.from(grid.querySelectorAll('.tool-card')) : [];
+  const empty = document.querySelector('#tool-finder-empty');
+  finderInput.addEventListener('input', () => {
+    const q = finderInput.value.trim().toLowerCase();
+    let shown = 0;
+    cards.forEach(card => {
+      const match = !q || card.textContent.toLowerCase().includes(q);
+      card.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = shown > 0;
+  });
+}
+
+// Copy buttons for the methodology formula kit
+document.querySelectorAll('[data-copy-code]').forEach(btn => btn.addEventListener('click', async () => {
+  const code = btn.closest('.formula-kit-block')?.querySelector('code')?.textContent || '';
+  try {
+    await navigator.clipboard.writeText(code);
+    btn.textContent = 'Copied!';
+    setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+  } catch {
+    btn.textContent = 'Copy failed';
+  }
+}));
