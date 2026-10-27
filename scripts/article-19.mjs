@@ -8,8 +8,8 @@ export const article19 = {
   title: 'How Much Is $25 an Hour After Taxes?',
   h1: '$25 an Hour After Taxes: Your Real Take-Home Pay in 2026',
   desc: '$25 an hour is $52,000 a year gross. After 2026 federal tax and FICA, take-home is $43,962 a year — $3,663.50 a month, $1,690.85 biweekly. Federal only.',
-  image: '/assets/images/25-an-hour-after-taxes.jpg',
-  imageAlt: 'Take-home pay graphic for $25 an hour: gross $52,000 a year reduced by federal tax and FICA to $43,962 take-home, in blue and orange tones',
+  image: '/assets/images/25-an-hour-after-taxes-v2.jpg',
+  imageAlt: 'Take-home pay photo for $25 an hour: a person at a desk with salary papers showing gross $52,000 a year and $43,962 take-home',
   toc: [
     ['short-answer', 'The Short Answer: $43,962 a Year'],
     ['how-math-works', 'How the Math Works, Step by Step'],
