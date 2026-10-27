@@ -4875,3 +4875,7 @@ a.btn-secondary:hover,
 .article-methodology-box h3 { margin: 0 0 10px; font-size: 1.05rem; }
 .article-methodology-box ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
 .article-methodology-box li { font-size: 0.92rem; line-height: 1.55; }
+
+/* Article CTA buttons (.btn used by all article end-CTAs; previously unstyled) */
+.btn { display: inline-block; background: var(--primary); color: #ffffff !important; font-weight: 700; padding: 12px 22px; border-radius: 10px; text-decoration: none; }
+.btn:hover { filter: brightness(1.06); }
