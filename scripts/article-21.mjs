@@ -9,7 +9,7 @@ export const article21 = {
   h1: '$20 an Hour After Taxes: Your Real Take-Home Pay in 2026',
   desc: '$20 an hour is $41,600 a year gross. After 2026 federal tax and FICA, take-home is $35,605.60 a year — $2,967.13 a month, $1,369.45 biweekly. Federal only.',
   image: '/assets/images/20-an-hour-after-taxes.jpg',
-  imageAlt: 'Take-home pay graphic for $20 an hour: gross $41,600 a year reduced by federal tax and FICA to $35,605.60 take-home, in blue and orange tones',
+  imageAlt: 'Take-home pay photo for $20 an hour: a woman at a kitchen table with papers showing gross $41,600 a year and $35,605.60 take-home',
   toc: [
     ['short-answer', 'The Short Answer: $35,605.60 a Year'],
     ['how-math-works', 'How the Math Works, Step by Step'],
