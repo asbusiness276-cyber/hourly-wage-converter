@@ -2284,7 +2284,8 @@ a.btn-secondary:hover,
 
 /* Inline Article Figures & Captions */
 .prose figure {
-  margin: 28px 0;
+  margin: 28px auto;
+  max-width: 800px;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--border-color);
@@ -2296,8 +2297,6 @@ a.btn-secondary:hover,
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
   border-radius: 12px 12px 0 0;
 }
 
@@ -4741,10 +4740,11 @@ a.btn-secondary:hover,
 /* Article Featured Image - 16:9 */
 .featured-image-wrap {
   width: 100%;
+  max-width: 860px;
   aspect-ratio: 16 / 9;
   border-radius: var(--radius-lg, 16px);
   overflow: hidden;
-  margin: 0 0 32px 0;
+  margin: 0 auto 32px auto;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
   border: 1.5px solid var(--border-color);
   background: #f1f5f9;
