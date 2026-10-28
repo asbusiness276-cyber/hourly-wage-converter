@@ -5,7 +5,7 @@ export const article15 = {
   minutes: 10,
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',
-  title: 'Three-Paycheck Months in 2027: Full List of Dates',
+  title: 'Three-Paycheck Months in 2027',
   h1: 'Three-Paycheck Months in 2027: Exact Dates for Every Pay Cycle',
   desc: 'Three-paycheck months in 2027: the exact months and dates for both biweekly pay cycles, why they happen, and the smartest ways to use the extra check.',
   image: '/assets/images/three-paycheck-months.jpg',

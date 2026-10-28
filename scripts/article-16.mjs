@@ -5,7 +5,7 @@ export const article16 = {
   minutes: 10,
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',
-  title: 'Gross Pay vs Net Pay Explained: Formulas & Examples',
+  title: 'Gross Pay vs Net Pay Explained',
   h1: 'Gross Pay vs Net Pay: What Each Number on Your Pay Stub Really Means',
   desc: 'Gross pay vs net pay explained: the definitions, every deduction between them — federal tax, FICA, state tax, 401(k), premiums — plus worked examples.',
   image: '/assets/images/gross-pay-vs-net-pay.jpg',

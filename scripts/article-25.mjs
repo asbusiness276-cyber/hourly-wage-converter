@@ -5,7 +5,7 @@ export const article25 = {
   minutes: 10,
   datePublished: '2026-10-28',
   dateModified: '2026-10-28',
-  title: '$15 an Hour Is How Much a Year? Full-Time, Part-Time & Overtime',
+  title: '$15 an Hour Is How Much a Year?',
   h1: '$15 an Hour Is How Much a Year? $31,200 Full-Time, Before Taxes',
   desc: '$15 an hour is $31,200 a year full-time before taxes — $600 a week, $2,600 a month. See part-time, overtime, unpaid leave, a federal-only take-home estimate.',
   image: '/assets/images/how-much-is-15-an-hour-a-year.jpg',

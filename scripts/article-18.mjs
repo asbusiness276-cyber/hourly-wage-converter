@@ -5,7 +5,7 @@ export const article18 = {
   minutes: 10,
   datePublished: '2026-10-24',
   dateModified: '2026-10-24',
-  title: 'Exempt vs Non-Exempt Employees: Who Gets Overtime Pay?',
+  title: 'Exempt vs Non-Exempt Employees',
   h1: 'Exempt vs Non-Exempt: The Three Tests That Decide Your Overtime Pay',
   desc: 'Exempt vs non-exempt: salary alone doesn\'t decide it. The 2026 federal floor is $684 a week, plus salary-basis and duties tests. Who gets overtime, explained.',
   image: '/assets/images/exempt-vs-non-exempt.jpg',
