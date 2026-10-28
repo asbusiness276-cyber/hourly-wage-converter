@@ -4920,6 +4920,14 @@ a.btn-secondary:hover,
 }
 @media (max-width: 640px) {
   .pay-table.vs-table th, .pay-table.vs-table td { text-align: left; }
+
+/* Description-text tables: label + explanation columns read left-to-right.
+   Numeric pay tables keep the default right alignment for compared amounts. */
+.pay-table.desc-table th, .pay-table.desc-table td { text-align: left; }
+.pay-table.worked-table th, .pay-table.worked-table td { text-align: left; }
+.pay-table.worked-table th:last-child, .pay-table.worked-table td:last-child { text-align: right; }
+.pay-table.text-col-2 th:nth-child(2), .pay-table.text-col-2 td:nth-child(2) { text-align: left; }
+.pay-table.desc-last th:last-child, .pay-table.desc-last td:last-child { text-align: left; }
   .pay-table.vs-table td { padding: 12px 16px; }
 }
 
