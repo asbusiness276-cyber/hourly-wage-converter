@@ -125,7 +125,7 @@ export const article7 = {
       </div>
 
       <div class="table-wrap">
-        <table class="pay-table">
+        <table class="pay-table text-col-2 desc-last">
           <thead>
             <tr>
               <th scope="col">Pay Period</th>
@@ -243,7 +243,7 @@ export const article7 = {
       <p>Not everyone earning $30 an hour works a traditional 40-hour schedule. Many healthcare professionals, freelancers, and specialized consultants work part-time hours while maintaining a high hourly rate. Here is what $30 an hour generates across common part-time schedules over 52 paid weeks:</p>
 
       <div class="table-wrap">
-        <table class="pay-table">
+        <table class="pay-table text-col-2">
           <thead>
             <tr>
               <th scope="col">Weekly Hours</th>
@@ -323,7 +323,7 @@ export const article7 = {
       <p>State taxes create the largest divergence in your actual paycheck. Here is how your take-home pay looks across three typical state tax environments:</p>
 
       <div class="table-wrap">
-        <table class="pay-table">
+        <table class="pay-table text-col-2">
           <thead>
             <tr>
               <th scope="col">State Tax Tier</th>

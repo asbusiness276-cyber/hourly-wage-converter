@@ -97,7 +97,7 @@ export const article21 = {
         <h2>How the Math Works, Step by Step</h2>
         <p>Five steps, each one verifiable. All figures use 2026 federal rules for a single filer.</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>1. Gross pay</td><td>$20 × 40 hours × 52 weeks</td><td>$41,600</td></tr>

@@ -80,7 +80,7 @@ export const article12 = {
       <p>Five gates stand between you and the deduction:</p>
 
       <div class=\"table-wrap\" style=\"margin:20px 0\">
-        <table class=\"pay-table\">
+        <table class=\"pay-table desc-table\">
           <thead>
             <tr>
               <th scope=\"col\">Requirement</th>
@@ -151,7 +151,7 @@ export const article12 = {
       <p>Every qualifying job carries a Treasury Tipped Occupation Code (TTOC). The 2025 proposal listed 68 occupations; the final regulations added three \u2014 visual artists, floral designers, gas pump attendants \u2014 for <strong>71</strong>. What matters is the work you do, not the industry label:</p>
 
       <div class=\"table-wrap\" style=\"margin:20px 0\">
-        <table class=\"pay-table\">
+        <table class=\"pay-table desc-table\">
           <thead>
             <tr>
               <th scope=\"col\">Category</th>

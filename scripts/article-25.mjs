@@ -54,7 +54,7 @@ export const article25 = {
         <h2>The Short Answer: $31,200 a Year</h2>
         <p>At a standard full-time schedule — 40 hours a week, 52 paid weeks a year — <strong>$15 an hour equals $31,200 a year before taxes</strong>. That is the headline number, and every other figure in this guide is built from it:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Pay period</th><th>Math</th><th>Gross pay</th></tr></thead>
             <tbody>
               <tr><td>Hourly</td><td>Your rate</td><td>$15.00</td></tr>
@@ -82,7 +82,7 @@ export const article25 = {
         <h2>The Formulas Behind the Number</h2>
         <p>Three inputs decide your annual pay at any hourly rate. Change any one of them and the answer changes:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th>Input</th><th>Full-time standard</th><th>What changes it</th></tr></thead>
             <tbody>
               <tr><td>Hourly rate</td><td>$15.00</td><td>Your offer, raises, shift differentials</td></tr>
@@ -116,7 +116,7 @@ export const article25 = {
         <p>Each example follows the same Step / Math / Result pattern, so you can check every figure with a pocket calculator. All figures are gross, before taxes.</p>
         <h3>Example 1 — Full-time, 40 hours, 52 paid weeks</h3>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Weekly pay</td><td>$15 × 40 hours</td><td>$600.00</td></tr>
@@ -127,7 +127,7 @@ export const article25 = {
         </div>
         <h3>Example 2 — Part-time, 30 hours, 52 paid weeks</h3>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Weekly pay</td><td>$15 × 30 hours</td><td>$450.00</td></tr>
@@ -138,7 +138,7 @@ export const article25 = {
         </div>
         <h3>Example 3 — Full-time plus 5 overtime hours every week</h3>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Regular pay</td><td>$15 × 40 hours</td><td>$600.00 / week</td></tr>
@@ -151,7 +151,7 @@ export const article25 = {
         </div>
         <h3>Example 4 — Full-time with 2 weeks of unpaid leave</h3>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Weekly pay</td><td>$15 × 40 hours</td><td>$600.00</td></tr>
@@ -167,7 +167,7 @@ export const article25 = {
         <h2>How $15 an Hour Compares</h2>
         <p>Small rate differences compound into thousands of dollars a year. This is why a $2 or $3 raise is worth negotiating hard at this pay level — $3 an hour is $6,240 a year at full-time:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-last">
             <thead><tr><th>Hourly rate</th><th>Annual gross (full-time)</th><th>Gap vs $15/hr</th><th>Limitation</th></tr></thead>
             <tbody>
               <tr class="featured"><td><strong>$15.00 / hr</strong></td><td><strong>$31,200</strong></td><td>—</td><td>Gross, before taxes and deductions</td></tr>
@@ -186,7 +186,7 @@ export const article25 = {
         <h2>Gross Pay vs Take-Home Pay</h2>
         <p>$31,200 is what you earn, not what you keep. A rough federal-only sketch for a single filer in 2026 shows where the money goes — state tax, health premiums, and retirement savings would come out on top of this:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Gross pay</td><td>$15 × 2,080</td><td>$31,200.00</td></tr>

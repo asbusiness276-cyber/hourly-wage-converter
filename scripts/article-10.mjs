@@ -99,7 +99,7 @@ export const article10 = {
       <p>This is the single most misunderstood part of the law. "Qualified overtime compensation" means only the <strong>extra amount paid above your regular rate</strong> — the premium — not your total overtime earnings.</p>
 
       <div class="table-wrap" style="margin:20px 0">
-        <table class="pay-table">
+        <table class="pay-table desc-last">
           <thead>
             <tr>
               <th scope="col">Pay Component ($20/hr base, 5 OT hours)</th>
@@ -192,7 +192,7 @@ export const article10 = {
       <h2 id="who-qualifies">Who Qualifies and Who Does Not</h2>
 
       <div class="table-wrap" style="margin:20px 0">
-        <table class="pay-table">
+        <table class="pay-table desc-table">
           <thead>
             <tr>
               <th scope="col">Situation</th>

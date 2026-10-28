@@ -85,7 +85,7 @@ export const article9 = {
 
       <!-- Quick Comparison Table -->
       <div class="table-wrap" style="margin:20px 0">
-        <table class="pay-table">
+        <table class="pay-table desc-table">
           <thead>
             <tr>
               <th scope="col">Payroll Characteristic</th>
