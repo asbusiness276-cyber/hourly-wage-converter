@@ -48,6 +48,10 @@ export const article8 = {
     [
       'Can I buy a car earning $20 an hour?',
       'Yes, but financial prudence is essential. Financial planners recommend that total automotive costs (loan payment, insurance, gas, and maintenance) not exceed 10% to 15% of your monthly take-home pay. On a $20/hour net income of roughly $2,800 to $2,960 per month, your total vehicle budget should stay between $280 and $440 per month, favoring reliable used vehicles with small loans or cash purchases.'
+    ],
+    [
+      'How much extra do you earn with overtime at $20 an hour?',
+      'Your time-and-a-half overtime rate at $20 an hour is $30 per hour. Working 5 overtime hours every week adds $150 per week in gross pay, or $7,800 over 52 weeks, lifting your annual gross from $41,600 to $49,400. Even 2 overtime hours a week adds $60 weekly, or $3,120 a year — which is why overtime is one of the fastest ways to grow earnings at this wage level.'
     ]
   ],
   body: `
@@ -359,6 +363,10 @@ export const article8 = {
         <details>
           <summary>Can I buy a car earning $20 an hour?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>Yes, but financial prudence is essential. Financial planners recommend that total automotive costs (loan payment, insurance, gas, and maintenance) not exceed 10% to 15% of your monthly take-home pay. On a $20/hour net income of roughly $2,800 to $2,960 per month, your total vehicle budget should stay between $280 and $440 per month, favoring reliable used vehicles with small loans or cash purchases.</p>
+        </details>
+        <details>
+          <summary>How much extra do you earn with overtime at $20 an hour?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>Your time-and-a-half overtime rate at $20 an hour is $30 per hour. Working 5 overtime hours every week adds $150 per week in gross pay, or $7,800 over 52 weeks, lifting your annual gross from $41,600 to $49,400. Even 2 overtime hours a week adds $60 weekly, or $3,120 a year — which is why overtime is one of the fastest ways to grow earnings at this wage level.</p>
         </details>
       </div>
 

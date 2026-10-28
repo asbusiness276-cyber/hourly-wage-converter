@@ -49,6 +49,10 @@ export const article9 = {
     [
       'Which pay schedule is easier for personal household budgeting?',
       'For most households with standard monthly bills (such as rent or mortgage due on the 1st and utilities due mid-month), semi-monthly pay is slightly easier to budget because your income arrives on fixed calendar dates matching your billing cycle. However, disciplined biweekly earners who budget their baseline living expenses around two checks can use the two extra third paychecks each year as an automated savings or debt-payoff booster.'
+    ],
+    [
+      'How does pay frequency affect overtime pay for hourly workers?',
+      'Pay frequency does not change your right to overtime: under the FLSA, overtime is calculated on a fixed 7-day workweek, not on the pay period. A biweekly schedule lines up neatly because each pay period contains exactly two workweeks, so overtime is easy to spot. A semi-monthly period often splits a workweek in half, so your employer must still calculate overtime workweek by workweek — which can mean overtime hours land on a different paycheck than the week you worked them. If a semi-monthly check looks short, compare it against your workweek totals, not just the pay-period dates.'
     ]
   ],
   body: `
@@ -412,6 +416,10 @@ export const article9 = {
         <details>
           <summary>Which pay schedule is easier for personal household budgeting?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>For most households with standard monthly bills (such as rent or mortgage due on the 1st and utilities due mid-month), semi-monthly pay is slightly easier to budget because your income arrives on fixed calendar dates matching your billing cycle. However, disciplined biweekly earners who budget their baseline living expenses around two checks can use the two extra third paychecks each year as an automated savings or debt-payoff booster.</p>
+        </details>
+        <details>
+          <summary>How does pay frequency affect overtime pay for hourly workers?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>Pay frequency does not change your right to overtime: under the FLSA, overtime is calculated on a fixed 7-day workweek, not on the pay period. A biweekly schedule lines up neatly because each pay period contains exactly two workweeks, so overtime is easy to spot. A semi-monthly period often splits a workweek in half, so your employer must still calculate overtime workweek by workweek — which can mean overtime hours land on a different paycheck than the week you worked them. If a semi-monthly check looks short, compare it against your workweek totals, not just the pay-period dates.</p>
         </details>
       </div>
 
