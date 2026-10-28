@@ -4021,7 +4021,7 @@ a.btn-secondary:hover,
   display: none !important;
 }
 
-.sticky.is-too-tall:not(.toc) {
+.sticky.is-too-tall:not(.toc):not(.form-card) {
   position: static;
 }
 
@@ -4969,3 +4969,35 @@ a.btn-secondary:hover,
 /* Article CTA buttons (.btn used by all article end-CTAs; previously unstyled) */
 .btn { display: inline-block; background: var(--primary); color: #ffffff !important; font-weight: 700; padding: 12px 22px; border-radius: 10px; text-decoration: none; }
 .btn:hover { filter: brightness(1.06); }
+
+/* Homepage revamp: steps guide, use-case strip, CTA band, sticky form (v3.12) */
+.home-steps { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 28px; align-items: center; }
+.steps-media { margin: 0; }
+.steps-media img { width: 100%; height: auto; border-radius: 16px; box-shadow: 0 12px 32px rgba(15,23,42,0.14); }
+.steps-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.step-card { display: flex; gap: 14px; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 16px 18px; }
+.step-card h3 { margin: 0 0 4px; font-size: 1.02rem; }
+.step-card p { margin: 0; color: var(--muted); font-size: 0.93rem; line-height: 1.55; }
+.step-card p a { color: var(--primary); font-weight: 600; }
+.step-num { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--primary); color: #ffffff; font-weight: 700; display: grid; place-items: center; }
+.usecase-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.usecase-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-decoration: none; color: var(--ink); display: block; }
+.usecase-card:hover { border-color: var(--primary); }
+.usecase-card h3 { margin: 0 0 6px; font-size: 1rem; }
+.usecase-card p { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
+.usecase-card span { color: var(--primary); font-weight: 600; font-size: 0.9rem; }
+.home-cta { background: linear-gradient(165deg, #0f172a 0%, #1e293b 100%); color: #ffffff; border-radius: 18px; padding: 40px 32px; text-align: center; }
+.home-cta h2 { color: #ffffff; margin: 0 0 10px; }
+.home-cta p { color: rgba(255,255,255,0.78); margin: 0 auto 22px; max-width: 560px; line-height: 1.6; }
+.home-cta-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+@media (min-width: 1025px) {
+  .form-card.sticky.is-too-tall { position: sticky; top: calc(var(--header) + 20px); max-height: calc(100vh - var(--header) - 28px); overflow-y: auto; overscroll-behavior: contain; }
+}
+@media (max-width: 900px) {
+  .home-steps { grid-template-columns: 1fr; }
+  .usecase-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .usecase-strip { grid-template-columns: 1fr; }
+  .home-cta { padding: 32px 20px; }
+}
