@@ -1,4 +1,4 @@
-import {convert,overtime,raise,compare,freelance,paycheck,reversePaycheck,timeCard,retirementImpact} from './math.js?v=3.5';
+import {convert,overtime,raise,compare,freelance,paycheck,reversePaycheck,timeCard,retirementImpact,tenure} from './math.js?v=3.6';
 
 const currency=(n,d=2)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:d,maximumFractionDigits:d}).format(n);
 const num=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
@@ -152,6 +152,7 @@ if(form&&results){
   const kind=form.dataset.calculator;
   let currentResult=null;
   const controls=Array.from(form.querySelectorAll('input,select'));
+  const todayISO=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;};
   const read=()=>Object.fromEntries(controls.map(el=>[el.name,el.type==='number'?(el.value.trim()===''?NaN:Number(el.value)):el.value]));
   const compute=(values)=>{
     for(const el of controls){
@@ -161,6 +162,10 @@ if(form&&results){
       if(kind==='raise'&&el.name==='next'&&values.raiseMode==='percent')continue;
       if(kind==='raise'&&el.name==='raisePercent'&&values.raiseMode!=='percent')continue;
       const value=values[el.name];
+      if(el.type==='date'){
+        if(!value)throw new Error(`Enter a date for ${el.closest('.field').querySelector('span').textContent.toLowerCase()}.`);
+        continue;
+      }
       if(el.type==='number'){
         if(!Number.isFinite(value))throw new Error(`Enter a number for ${el.closest('.field').querySelector('span').textContent.toLowerCase()}.`);
         if(el.min!==''&&value<Number(el.min))throw new Error(`${el.closest('.field').querySelector('span').textContent} must be ${el.min} or greater.`);
@@ -172,6 +177,7 @@ if(form&&results){
     if(kind==='reversePaycheck')return reversePaycheck(values);
     if(kind==='timeCard')return timeCard(values);
     if(kind==='retirement')return retirementImpact(values);
+    if(kind==='tenure')return tenure(values);
     if(kind==='overtime')return overtime({...values,dailyMode:values.otMode==='daily',multiplier:values.multiplierMode==='custom'?values.multiplier:Number(values.multiplierMode)});
     if(kind==='raise')return raise(values);
     if(kind==='comparison')return compare({a:{salary:values.aSalary,bonus:values.aBonus,hours:values.aHours,pto:values.aPto,commute:values.aCommute,match:values.aMatch,health:values.aHealth},b:{salary:values.bSalary,bonus:values.bBonus,hours:values.bHours,pto:values.bPto,commute:values.bCommute,match:values.bMatch,health:values.bHealth}});
@@ -265,6 +271,17 @@ if(form&&results){
       const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`With a ${result.percent}% 401(k) contribution, take-home is ${currency(result.takeHomeWith)} per check (was ${currency(result.takeHomeWithout)}) \u2014 a reduction of ${currency(result.reductionPerCheck)} \u2014 plus ${currency(result.matchPerCheck)} per check in employer match.`;
       announce(`Take-home with 401(k) ${currency(result.takeHomeWith)} per check, down ${currency(result.reductionPerCheck)} from ${currency(result.takeHomeWithout)}.`);
     }
+    if(kind==='tenure'){
+      const fmtDate=(iso)=>{const [y,m,d]=iso.split('-').map(Number);return new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(y,m-1,d)));};
+      out('tenureBreakdown',result.breakdown);
+      out('totalDays',`${num(result.totalDays)} days`);
+      out('totalWeeks',`${result.weeks} weeks and ${result.weeksRemainder} ${result.weeksRemainder===1?'day':'days'}`);
+      out('nextAnniversary',result.nextAnniversaryDisplay);
+      out('daysToAnniversary',`${num(result.daysToAnniversary)} days`);
+      text('[data-assumption]',`${fmtDate(values.start)} \u2192 ${fmtDate(values.end)} \u00b7 calendar time`);
+      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`${result.breakdown} from ${fmtDate(values.start)} to ${fmtDate(values.end)} \u2014 ${num(result.totalDays)} days total.`;
+      announce(`Work tenure ${result.breakdown}.`);
+    }
     if(kind==='converter'||kind==='paycheck'){
       form.querySelectorAll('[data-direction]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.direction===values.period)));
       form.querySelectorAll('[data-preset-group]').forEach(group=>group.hidden=group.dataset.presetGroup!==values.period);
@@ -303,8 +320,8 @@ if(form&&results){
       return `${label}: ${val}`;
     }).join(' · ');
     const stateSuffix=(kind==='paycheck'&&result.statePerCheck>0)?` + state tax ${currency(result.statePerCheck)}`:'';
-    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:values.otMode==='daily'?'(Daily 1.5× after 8h + 2× after 12h, day-7 rule) + weekly 1.5× on remaining hours over 40':'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus + 401(k) match − health premiums) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours',reversePaycheck:'Take-home = gross \u2212 deductions \u2212 federal tax \u2212 FICA \u2212 state tax, solved for gross (2026 brackets, your filing status)',timeCard:'Gross pay = (regular hours \u00d7 rate) + (overtime hours \u00d7 rate \u00d7 multiplier), after unpaid breaks',retirement:'Take-home with 401(k) = gross \u2212 contribution \u2212 federal tax \u2212 FICA \u2212 state tax, with tax on reduced wages (FICA on full wages)'};
-    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross; federal-only take-home (single filer) ${currency(result.takeHomeAnnual)}/year`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}; take-home ${currency(result.takeHome)} (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}${stateSuffix} per check)`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour; total compensation A ${currency(result.a.totalComp)}, B ${currency(result.b.totalComp)}`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year); day rate (8 hours) ${currency(result.dayRate)}`,reversePaycheck:`Required gross ${currency(result.requiredGross)} per check (${currency(result.requiredAnnual)}/year, ${currency(result.requiredHourly)}/hour) to take home ${currency(result.targetTakeHome)} per check`,timeCard:`Total gross ${currency(result.totalPay)} for the week (${currency(result.regularPay)} regular + ${currency(result.overtimePay)} overtime)`,retirement:`Take-home with 401(k) ${currency(result.takeHomeWith)} per check (was ${currency(result.takeHomeWithout)}); contribution ${currency(result.contributionPerCheck)} + match ${currency(result.matchPerCheck)} per check`};
+    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:values.otMode==='daily'?'(Daily 1.5× after 8h + 2× after 12h, day-7 rule) + weekly 1.5× on remaining hours over 40':'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus + 401(k) match − health premiums) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours',reversePaycheck:'Take-home = gross \u2212 deductions \u2212 federal tax \u2212 FICA \u2212 state tax, solved for gross (2026 brackets, your filing status)',timeCard:'Gross pay = (regular hours \u00d7 rate) + (overtime hours \u00d7 rate \u00d7 multiplier), after unpaid breaks',retirement:'Take-home with 401(k) = gross \u2212 contribution \u2212 federal tax \u2212 FICA \u2212 state tax, with tax on reduced wages (FICA on full wages)',tenure:'Full years, then full months, then remaining days between the two dates (a 29 February start uses 28 February in non-leap years)'};
+    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross; federal-only take-home (single filer) ${currency(result.takeHomeAnnual)}/year`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}; take-home ${currency(result.takeHome)} (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}${stateSuffix} per check)`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour; total compensation A ${currency(result.a.totalComp)}, B ${currency(result.b.totalComp)}`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year); day rate (8 hours) ${currency(result.dayRate)}`,reversePaycheck:`Required gross ${currency(result.requiredGross)} per check (${currency(result.requiredAnnual)}/year, ${currency(result.requiredHourly)}/hour) to take home ${currency(result.targetTakeHome)} per check`,timeCard:`Total gross ${currency(result.totalPay)} for the week (${currency(result.regularPay)} regular + ${currency(result.overtimePay)} overtime)`,retirement:`Take-home with 401(k) ${currency(result.takeHomeWith)} per check (was ${currency(result.takeHomeWithout)}); contribution ${currency(result.contributionPerCheck)} + match ${currency(result.matchPerCheck)} per check`,tenure:`${result.breakdown} (${num(result.totalDays)} days total); next anniversary ${result.nextAnniversaryDisplay} (${num(result.daysToAnniversary)} days away)`};
     box.innerHTML=`<p class="receipt-line"><strong>Inputs:</strong> ${inputs}</p><p class="receipt-line"><strong>Formula:</strong> ${formulas[kind]||''}</p><p class="receipt-line"><strong>Result:</strong> ${results[kind]||''}</p>`;
     } catch(e) { /* Receipt is decorative; never break the calculator. */ }
   };
@@ -352,7 +369,7 @@ if(form&&results){
       try{window.history.replaceState(null,'',window.location.pathname);}catch{}
     }
     if(kind==='raise')lastMode=form.querySelector('[name="mode"]')?.value||'annual';
-    setTimeout(()=>{update();announce('Calculator reset to default values.');},0);
+    setTimeout(()=>{if(kind==='tenure'){const endEl=form.elements.namedItem('end');if(endEl)endEl.value=todayISO();}update();announce('Calculator reset to default values.');},0);
     if(source==='results'&&window.innerWidth<=768){
       form.scrollIntoView({behavior:'smooth',block:'start'});
     }
@@ -366,6 +383,7 @@ if(form&&results){
     results.classList.remove('result-error');
     if(window.location.search){try{window.history.replaceState(null,'',window.location.pathname);}catch{}}
     if(kind==='raise')lastMode=form.querySelector('[name="mode"]')?.value||'annual';
+    if(kind==='tenure'){const endEl=form.elements.namedItem('end');if(endEl)endEl.value=todayISO();}
     update();
     announce('Calculator reset to default values.');
   },0));
@@ -415,6 +433,7 @@ if(form&&results){
   if(kind==='converter'&&params.has('amount')){
     const amount=Number(params.get('amount'));if(Number.isFinite(amount)&&amount>=0){form.elements.namedItem('amount').value=amount;form.elements.namedItem('period').value=params.get('period')==='annual'?'annual':'hourly';}
   }
+  if(kind==='tenure'){const endEl=form.elements.namedItem('end');if(endEl)endEl.value=todayISO();}
   update();
 
   // The same compute and render functions power both the UI and the page tool.
@@ -422,7 +441,7 @@ if(form&&results){
   if(context?.registerTool){
     const lifecycle=new AbortController();
     const properties=Object.fromEntries(controls.map(el=>[el.name,el.type==='number'?{type:'number',minimum:Number(el.min||0),...(el.max!==''?{maximum:Number(el.max)}:{})}:{type:'string',enum:Array.from(el.options).map(o=>o.value)}]));
-    const names={converter:'convert_wage',paycheck:'estimate_gross_paycheck',overtime:'calculate_overtime_pay',raise:'calculate_pay_raise',comparison:'compare_job_compensation',freelance:'calculate_freelance_rate',reversePaycheck:'calculate_required_gross_pay',timeCard:'calculate_time_card_pay',retirement:'calculate_401k_paycheck_impact'};
+    const names={converter:'convert_wage',paycheck:'estimate_gross_paycheck',overtime:'calculate_overtime_pay',raise:'calculate_pay_raise',comparison:'compare_job_compensation',freelance:'calculate_freelance_rate',reversePaycheck:'calculate_required_gross_pay',timeCard:'calculate_time_card_pay',retirement:'calculate_401k_paycheck_impact',tenure:'calculate_work_tenure'};
     try{
       Promise.resolve(context.registerTool({
         name:names[kind],title:'Calculate pay',
