@@ -5,7 +5,7 @@ export const article14 = {
   minutes: 11,
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',
-  title: 'Holiday Pay 2026: How It Works, Rates & Your Rights',
+  title: 'Holiday Pay 2026: How It Works',
   h1: 'Holiday Pay: How It Works, Typical Rates, and Your Rights',
   desc: 'Holiday pay explained: federal law does not require it, but most employers offer time-and-a-half or a paid day off. See rates, rules, and worked examples.',
   image: '/assets/images/holiday-pay.jpg',
