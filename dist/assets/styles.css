@@ -4989,14 +4989,15 @@ a.btn-secondary:hover,
 .step-card p a { color: var(--primary); font-weight: 600; }
 .step-num { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--primary); color: #ffffff; font-weight: 700; display: grid; place-items: center; }
 .usecase-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
-.usecase-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-decoration: none; color: var(--ink); display: block; }
+.usecase-card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 20px; text-decoration: none; color: var(--ink); display: flex; flex-direction: column; }
 .usecase-card:hover { border-color: var(--primary); }
 .usecase-card h3 { margin: 0 0 6px; font-size: 1rem; }
 .usecase-card p { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
-.usecase-card span { color: var(--primary); font-weight: 600; font-size: 0.9rem; }
+.usecase-card span { color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-top: auto; }
 .home-cta { background: linear-gradient(165deg, #0f172a 0%, #1e293b 100%); color: #ffffff; border-radius: 18px; padding: 40px 32px; text-align: center; }
 .home-cta h2 { color: #ffffff; margin: 0 0 10px; }
 .home-cta p { color: rgba(255,255,255,0.78); margin: 0 auto 22px; max-width: 560px; line-height: 1.6; }
+.home-cta h2, .home-cta p { text-align: center; }
 .home-cta-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 @media (min-width: 1025px) {
   .form-card.sticky.is-too-tall { position: sticky; top: calc(var(--header) + 20px); max-height: calc(100vh - var(--header) - 28px); overflow-y: auto; overscroll-behavior: contain; }
