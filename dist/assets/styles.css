@@ -1341,15 +1341,16 @@ details.nav-drop:not([open]) .nav-menu {
 }
 
 .result-card .caption {
-  color: #94a3b8;
+  color: #cbd5e1;
+  font-size: 0.85rem;
 }
 
 .result-card .milestone-row {
-  color: #94a3b8;
+  color: #e2e8f0;
 }
 
 .result-card .milestone-row strong {
-  color: #e2e8f0;
+  color: #ffffff;
 }
 
 /* Action Buttons within Result Card */
