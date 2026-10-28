@@ -92,7 +92,7 @@ export const article24 = {
         <h2>The FICA Formulas</h2>
         <p>Three formulas cover every employee paycheck. "Wages" here means your Social Security and Medicare wages — usually your gross pay, with the pre-tax exceptions explained in the Limitations section.</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Social Security</td><td>Smaller of (wages, $184,500) × 6.2%</td><td>Your Social Security withholding</td></tr>
@@ -111,7 +111,7 @@ export const article24 = {
         <h3>Example 1 — $60,000 salary</h3>
         <p>A $60,000 salary sits entirely below the wage base, so both parts apply to the full amount:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Social Security</td><td>$60,000 × 6.2%</td><td>$3,720.00</td></tr>
@@ -125,7 +125,7 @@ export const article24 = {
         <h3>Example 2 — $2,000 biweekly paycheck</h3>
         <p>Per paycheck, the same rates apply to the period's gross pay:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Social Security</td><td>$2,000 × 6.2%</td><td>$124.00</td></tr>
@@ -138,7 +138,7 @@ export const article24 = {
         <h3>Example 3 — $250,000 salary (cap + additional tax)</h3>
         <p>At $250,000, all three steps matter — and the cap visibly lowers the rate:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Social Security</td><td>$184,500 × 6.2% (capped)</td><td>$11,439.00</td></tr>
@@ -156,7 +156,7 @@ export const article24 = {
         <h2>FICA vs Federal Income Tax</h2>
         <p>The most common confusion on a pay stub is treating FICA as just another income tax. They behave very differently:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th>Feature</th><th>FICA</th><th>Federal income tax</th><th>Limitation</th></tr></thead>
             <tbody>
               <tr><td>Rate shape</td><td>Flat: 7.65% (then lower past the cap)</td><td>Brackets: 10% to 37%</td><td>FICA has no brackets or standard deduction</td></tr>

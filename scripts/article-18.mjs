@@ -66,7 +66,7 @@ export const article18 = {
           <figcaption>All three tests must pass. One failure makes the employee non-exempt.</figcaption>
         </figure>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th>Test</th><th>What It Requires</th><th>If It Fails</th></tr></thead>
             <tbody>
               <tr><td><strong>Salary basis</strong></td><td>A predetermined, fixed salary that does not shrink with hours worked or output</td><td>Not a true salary — exemption fails</td></tr>
@@ -96,7 +96,7 @@ export const article18 = {
       <section class="article-section" id="side-by-side">
         <h2>Exempt vs Non-Exempt, Side by Side</h2>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th></th><th>Exempt</th><th>Non-Exempt</th></tr></thead>
             <tbody>
               <tr><td><strong>Pay structure</strong></td><td>Fixed salary, same every week</td><td>Hourly or salaried, with overtime on top</td></tr>
@@ -117,7 +117,7 @@ export const article18 = {
           <figcaption>The same long week pays very differently depending on which side of the line the worker falls on.</figcaption>
         </figure>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Worker</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Non-exempt, $25/hr, 45-hour week</td><td>40 × $25 + 5 × $37.50</td><td><strong>$1,187.50</strong> (overtime premium: $62.50)</td></tr>

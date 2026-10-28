@@ -98,7 +98,7 @@ export const article27 = {
         <h2>What Overtime Adds</h2>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $52.50 instead of $35. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Regular pay</td><td>40 hours × $35</td><td>$1,400.00 per week</td></tr>
@@ -132,7 +132,7 @@ export const article27 = {
         <h2>$35 an Hour After Taxes (Federal Only)</h2>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
             <tbody>
               <tr><td>Step 1 — Gross pay</td><td>$35 × 2,080 hours</td><td>$72,800.00</td></tr>
