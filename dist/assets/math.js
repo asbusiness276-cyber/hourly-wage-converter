@@ -140,6 +140,30 @@ export function reversePaycheck(input) {
   const result = paycheck({...base, amount: annual});
   return {...result, targetTakeHome: target, requiredGross: result.gross, requiredAnnual: annual, requiredHourly: annual / (hours * weeks), requiredWeekly: annual / weeks, requiredMonthly: annual / 12};
 }
+
+export function timeCard(input) {
+  const rate = positive(input.rate, 'Hourly rate');
+  const days = ['mon','tue','wed','thu','fri','sat','sun'].map(d => {
+    const h = nonnegative(input[d] ?? 0, 'Hours for ' + d);
+    if (h > 24) throw new Error('Use up to 24 hours per day.');
+    return h;
+  });
+  const breakMin = nonnegative(input.breakMinutes ?? 0, 'Unpaid break minutes');
+  if (breakMin > 480) throw new Error('Use up to 480 unpaid break minutes per day.');
+  const threshold = nonnegative(input.threshold ?? 40, 'Overtime threshold');
+  if (threshold > 168) throw new Error('Use an overtime threshold up to 168 hours.');
+  const multiplier = positive(input.multiplier ?? 1.5, 'Overtime multiplier');
+  if (multiplier > 3) throw new Error('Use an overtime multiplier up to 3.');
+  const daysWorked = days.filter(h => h > 0).length;
+  const workedHours = days.reduce((a, b) => a + b, 0);
+  const breakHours = (breakMin / 60) * daysWorked;
+  const paidHours = Math.max(0, workedHours - breakHours);
+  const overtimeHours = Math.max(0, paidHours - threshold);
+  const regularHours = paidHours - overtimeHours;
+  const regularPay = regularHours * rate;
+  const overtimePay = overtimeHours * rate * multiplier;
+  return {rate, days, daysWorked, workedHours, breakHours, paidHours, regularHours, overtimeHours, regularPay, overtimePay, totalPay: regularPay + overtimePay, overtimeRate: rate * multiplier, threshold, multiplier, breakMinutes: breakMin};
+}
 export function overtime(input) {
   const weeks=positive(input.weeks,'Paid weeks');
   if (weeks>52) throw new Error('Use at most 168 total hours per week and 52 paid weeks per year.');
