@@ -1,4 +1,4 @@
-import {convert,overtime,raise,compare,freelance,paycheck} from './math.js';
+import {convert,overtime,raise,compare,freelance,paycheck} from './math.js?v=3.1';
 
 const currency=(n,d=2)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:d,maximumFractionDigits:d}).format(n);
 const num=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
@@ -155,7 +155,11 @@ if(form&&results){
   const read=()=>Object.fromEntries(controls.map(el=>[el.name,el.type==='number'?(el.value.trim()===''?NaN:Number(el.value)):el.value]));
   const compute=(values)=>{
     for(const el of controls){
-      if(kind==='overtime'&&el.name==='multiplier'&&values.multiplierMode!=='custom')continue;
+      if(kind==='overtime'&&el.name==='multiplier'&&(values.multiplierMode!=='custom'||values.otMode==='daily'))continue;
+      if(kind==='overtime'&&(el.name==='hoursPerDay'||el.name==='daysPerWeek')&&values.otMode!=='daily')continue;
+      if(kind==='overtime'&&(el.name==='regular'||el.name==='extra')&&values.otMode==='daily')continue;
+      if(kind==='raise'&&el.name==='next'&&values.raiseMode==='percent')continue;
+      if(kind==='raise'&&el.name==='raisePercent'&&values.raiseMode!=='percent')continue;
       const value=values[el.name];
       if(el.type==='number'){
         if(!Number.isFinite(value))throw new Error(`Enter a number for ${el.closest('.field').querySelector('span').textContent.toLowerCase()}.`);
@@ -165,9 +169,9 @@ if(form&&results){
     }
     if(kind==='converter')return convert(values);
     if(kind==='paycheck')return paycheck(values);
-    if(kind==='overtime')return overtime({...values,multiplier:values.multiplierMode==='custom'?values.multiplier:Number(values.multiplierMode)});
+    if(kind==='overtime')return overtime({...values,dailyMode:values.otMode==='daily',multiplier:values.multiplierMode==='custom'?values.multiplier:Number(values.multiplierMode)});
     if(kind==='raise')return raise(values);
-    if(kind==='comparison')return compare({a:{salary:values.aSalary,bonus:values.aBonus,hours:values.aHours,pto:values.aPto,commute:values.aCommute},b:{salary:values.bSalary,bonus:values.bBonus,hours:values.bHours,pto:values.bPto,commute:values.bCommute}});
+    if(kind==='comparison')return compare({a:{salary:values.aSalary,bonus:values.aBonus,hours:values.aHours,pto:values.aPto,commute:values.aCommute,match:values.aMatch,health:values.aHealth},b:{salary:values.bSalary,bonus:values.bBonus,hours:values.bHours,pto:values.bPto,commute:values.bCommute,match:values.bMatch,health:values.bHealth}});
     if(kind==='freelance')return freelance(values);
     throw new Error('Unsupported calculator.');
   };
@@ -188,6 +192,7 @@ if(form&&results){
     if(kind==='comparison'){
       out('aEffective',currency(result.a.effective));out('bEffective',currency(result.b.effective));
       out('aHours',`${num(result.a.committedHours)} committed hours/year`);out('bHours',`${num(result.b.committedHours)} committed hours/year`);
+      out('aTotal',`${currency(result.a.totalComp)} total compensation / year`);out('bTotal',`${currency(result.b.totalComp)} total compensation / year`);
       const message=Math.abs(result.difference)<.005?'Both jobs provide the same effective hourly compensation.':`Job ${result.difference>0?'A':'B'} earns ${currency(Math.abs(result.difference))} more per hour of committed time.`;
       const diff=results.querySelector('[data-difference]');diff.replaceChildren();const strong=document.createElement('strong');strong.textContent=message;diff.append(strong);
       announce(`Job A ${currency(result.a.effective)} per hour. Job B ${currency(result.b.effective)} per hour.`);
@@ -202,13 +207,13 @@ if(form&&results){
       out('primary',currency(result[primary]));
       text('[data-primary-label]',primary==='hourly'?'Your equivalent hourly rate':'Your annual gross pay');text('[data-primary-unit]',primary==='hourly'?'/ hour':'/ year');
       text('[data-assumption]',`${num(result.hoursWeek)} hours/week · ${num(result.paidWeeks)} paid weeks/year${result.overtimeHours?` · ${num(result.overtimeHours)} overtime hours`:''}`);
-      text('[data-result-note]',result.overtimeHours?'Weekly and longer totals include overtime. Hourly, daily, minute, and second figures show the regular rate.':'Monthly and semi-monthly figures are annual averages.');
+      text('[data-result-note]',(result.hourly>1000||result.annual>5000000)?'Unusually high rate — please double-check your entry. Figures assume the entered rate is correct.':result.overtimeHours?'Weekly and longer totals include overtime. Hourly, daily, minute, and second figures show the regular rate.':'Monthly and semi-monthly figures are annual averages.');
       const suffix=form.querySelector('[name="amount"]').closest('.input-wrap').querySelector('.suffix');
       suffix.textContent={hourly:'/ hour',daily:'/ day',weekly:'/ week',biweekly:'/ 2 wk',semimonthly:'/ half mo',monthly:'/ month',annual:'/ year'}[values.period];
       const label=form.querySelector('[name="amount"]').closest('.field').querySelector('span');
       label.textContent={hourly:'Hourly wage',annual:'Annual salary',daily:'Daily wage',weekly:'Weekly pay',biweekly:'Biweekly pay',semimonthly:'Semi-monthly pay',monthly:'Monthly salary'}[values.period];
       const quick=document.querySelector('[data-quick-answer]');
-      if(quick)quick.textContent=`${currency(result.hourly)}/hour = ${currency(result.annual)}/year. Based on ${num(result.hoursWeek)} regular hours/week and ${num(result.paidWeeks)} paid weeks${result.overtimeHours?`, plus ${num(result.overtimeHours)} overtime hours/week`:''}. Gross earnings before deductions.`;
+      if(quick)quick.textContent=`${currency(result.hourly)}/hour = ${currency(result.annual)}/year. Based on ${num(result.hoursWeek)} regular hours/week and ${num(result.paidWeeks)} paid weeks${result.overtimeHours?`, plus ${num(result.overtimeHours)} overtime hours/week`:''}. Gross earnings before deductions. Federal-only take-home estimate (single filer): ${currency(result.takeHomeAnnual)}/year.`;
       announce(`Annual gross pay ${currency(result.annual)}. Regular hourly rate ${currency(result.hourly)}.`);
       const ms=document.querySelector('[data-milestones]');
       if(ms){
@@ -221,8 +226,8 @@ if(form&&results){
       const labels={weekly:'Weekly',biweekly:'Biweekly',semimonthly:'Semi-monthly',monthly:'Monthly',quarterly:'Quarterly',annual:'Annual'};
       text('[data-assumption]',`${labels[values.payFrequency]} · ${result.periods} ${result.periods===1?'check':'checks'}/year`);
       const input=form.querySelector('[name="amount"]');input.closest('.field').querySelector('span').textContent=values.period==='annual'?'Annual salary':'Hourly wage';input.closest('.input-wrap').querySelector('.suffix').textContent=values.period==='annual'?'/ year':'/ hour';
-      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Estimated ${labels[values.payFrequency].toLowerCase()} gross paycheck: ${currency(result.gross)}. Regular pay ${currency(result.regularPay)}, overtime ${currency(result.overtimePay)}, bonus ${currency(result.bonus)}. After entered deductions: ${currency(result.adjusted)}. Taxes are not calculated.`;
-      announce(`Gross paycheck ${currency(result.gross)}. After entered deductions ${currency(result.adjusted)}.`);
+      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Estimated ${labels[values.payFrequency].toLowerCase()} gross paycheck: ${currency(result.gross)}. Regular pay ${currency(result.regularPay)}, overtime ${currency(result.overtimePay)}, bonus ${currency(result.bonus)}. After entered deductions: ${currency(result.adjusted)}. Federal-only take-home estimate: ${currency(result.takeHome)} per check (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}). State tax excluded.`;
+      announce(`Gross paycheck ${currency(result.gross)}. After entered deductions ${currency(result.adjusted)}. Federal-only take-home ${currency(result.takeHome)} per check.`);
     }
     if(kind==='converter'||kind==='paycheck'){
       form.querySelectorAll('[data-direction]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.direction===values.period)));
@@ -230,13 +235,17 @@ if(form&&results){
       form.querySelectorAll('[data-fill="amount"]').forEach(button=>button.classList.toggle('is-selected',Number(button.dataset.value)===values.amount&&button.dataset.payMode===values.period));
     }
     if(kind==='overtime'){
-      text('[data-assumption]',`${num(values.regular)} regular + ${num(values.extra)} overtime hours/week`);
+      text('[data-assumption]',values.otMode==='daily'?`${num(values.hoursPerDay)} hours/day × ${num(values.daysPerWeek)} days/week (daily rule)`:`${num(values.regular)} regular + ${num(values.extra)} overtime hours/week`);
       form.querySelector('[data-custom-multiplier]').hidden=values.multiplierMode!=='custom';
+      const dailyFields=form.querySelector('[data-daily-fields]');if(dailyFields)dailyFields.hidden=values.otMode!=='daily';
+      const multField=form.elements.namedItem('multiplierMode')?.closest('.field');if(multField)multField.hidden=values.otMode==='daily';
+      form.querySelectorAll('[data-multiplier]').forEach(btn=>{btn.hidden=values.otMode==='daily';});
       if(values.multiplierMode!=='custom')form.elements.namedItem('multiplier').value=values.multiplierMode;
-      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Overtime rate: ${currency(result.overtimeRate)}/hour. ${num(values.extra)} extra hours add ${currency(result.overtimePay)} to ${currency(result.regularPay)} regular pay, for ${currency(result.total)} total weekly gross pay.`;
+      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=values.otMode==='daily'?`Daily-rule overtime: ${num(result.ot15Hours)} hours at 1.5×, ${num(result.dtHours)} hours at 2×, ${num(result.weeklyOtHours)} weekly overtime hours. Total weekly gross pay ${currency(result.total)}.`:`Overtime rate: ${currency(result.overtimeRate)}/hour. ${num(values.extra)} extra hours add ${currency(result.overtimePay)} to ${currency(result.regularPay)} regular pay, for ${currency(result.total)} total weekly gross pay.`;
       announce(`Total weekly gross pay ${currency(result.total)}.`);
     }
     if(kind==='raise'){
+      const pctDiv=form.querySelector('[data-percent-mode]');if(pctDiv)pctDiv.hidden=values.raiseMode!=='percent';
       const change=result.percent===0?'No change in pay':`${num(Math.abs(result.percent))}% ${result.percent>0?'increase':'decrease'} in pay`;
       text('[data-assumption]',change);announce(`${change}. Annual change ${currency(result.annual)}.`);
     }
@@ -250,15 +259,15 @@ if(form&&results){
     try {
     const box=document.querySelector('[data-receipt]');if(!box)return;
     const moneyField=(el)=>{const p=el.closest('.field')?.querySelector('.prefix');return !!p&&p.textContent.includes('$');};
-    const inputs=controls.filter(el=>el.name&&!(kind==='overtime'&&el.name==='multiplier'&&values.multiplierMode!=='custom')).map(el=>{
+    const inputs=controls.filter(el=>el.name&&!(kind==='overtime'&&el.name==='multiplier'&&(values.multiplierMode!=='custom'||values.otMode==='daily'))&&!(kind==='overtime'&&(el.name==='hoursPerDay'||el.name==='daysPerWeek')&&values.otMode!=='daily')&&!(kind==='overtime'&&(el.name==='regular'||el.name==='extra')&&values.otMode==='daily')&&!(kind==='raise'&&el.name==='next'&&values.raiseMode==='percent')&&!(kind==='raise'&&el.name==='raisePercent'&&values.raiseMode!=='percent')).map(el=>{
       const job=el.closest('.job-card')?.querySelector('.job-label')?.textContent;
       const label=(job?job+' ': '')+(el.closest('.field')?.querySelector('span')?.textContent||el.name);
       const raw=values[el.name];
       const val=el.type==='number'?(moneyField(el)?currency(raw):num(raw)):(el.type==='select-one'?el.options[el.selectedIndex]?.text||raw:raw);
       return `${label}: ${val}`;
     }).join(' · ');
-    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours'};
-    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year)`};
+    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:values.otMode==='daily'?'(Daily 1.5× after 8h + 2× after 12h, day-7 rule) + weekly 1.5× on remaining hours over 40':'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus + 401(k) match − health premiums) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours'};
+    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross; federal-only take-home (single filer) ${currency(result.takeHomeAnnual)}/year`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}; federal-only take-home ${currency(result.takeHome)} (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)} per check)`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour; total compensation A ${currency(result.a.totalComp)}, B ${currency(result.b.totalComp)}`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year); day rate (8 hours) ${currency(result.dayRate)}`};
     box.innerHTML=`<p class="receipt-line"><strong>Inputs:</strong> ${inputs}</p><p class="receipt-line"><strong>Formula:</strong> ${formulas[kind]||''}</p><p class="receipt-line"><strong>Result:</strong> ${results[kind]||''}</p>`;
     } catch(e) { /* Receipt is decorative; never break the calculator. */ }
   };
@@ -359,7 +368,7 @@ if(form&&results){
       const label=parent.querySelector('.result-label,.result-topline>span,.adjusted-result>span')?.textContent||parent.querySelector('span')?.textContent||output.dataset.out;
       lines.push(`${label}: ${output.textContent}`);
     }
-    lines.push(results.querySelector('[data-assumption]')?.textContent||'');lines.push('Gross pay estimate. Taxes are not calculated.');
+    lines.push(results.querySelector('[data-assumption]')?.textContent||'');lines.push('Gross pay estimate with a federal-only take-home line where shown. State tax excluded.');
     const value=lines.join('\n');
     try{await navigator.clipboard.writeText(value);if(status)status.textContent='Results copied.';}
     catch{results.querySelector('.copy-fallback')?.remove();const area=document.createElement('textarea');area.value=value;area.className='copy-fallback';area.setAttribute('aria-label','Results to copy');results.append(area);area.focus();area.select();if(status)status.textContent='Select and copy the results below.';}
@@ -379,7 +388,7 @@ if(form&&results){
     try{
       Promise.resolve(context.registerTool({
         name:names[kind],title:'Calculate pay',
-        description:'Set the visible calculator inputs and calculate the result. Unspecified fields keep their current values. All wage results are gross estimates.',
+        description:'Set the visible calculator inputs and calculate the result. Unspecified fields keep their current values. Gross figures are estimates; take-home lines, where shown, are federal-only estimates.',
         inputSchema:{type:'object',properties,additionalProperties:false},
         annotations:{readOnlyHint:false,untrustedContentHint:false},
         execute(input){
