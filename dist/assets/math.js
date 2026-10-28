@@ -326,3 +326,45 @@ export function tenure(input){
   const fmt=(dt)=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(dt);
   return {years:y,months:m,days:d,totalDays,weeks,weeksRemainder,nextAnniversary:ann.toISOString().slice(0,10),nextAnniversaryDisplay:fmt(ann),daysToAnniversary,breakdown:`${pl(y,'year')}, ${pl(m,'month')}, ${pl(d,'day')}`};
 }
+
+export function paydayFinder(input){
+  const period=input.frequency==='weekly'?7:input.frequency==='biweekly'?14:null;
+  if(!period)throw new Error('Choose a pay frequency.');
+  const anchor=parseISODate(input.anchor);
+  const today=parseISODate(input.today);
+  const dayMs=86400000;
+  const toDays=(dt)=>Math.round(dt.getTime()/dayMs);
+  const windowStart=new Date(Date.UTC(today.getUTCFullYear(),today.getUTCMonth(),1));
+  const windowEnd=new Date(Date.UTC(today.getUTCFullYear(),today.getUTCMonth()+12,1));
+  const startDays=toDays(windowStart), endDays=toDays(windowEnd);
+  let cur=anchor;
+  const curDays=toDays(cur);
+  if(curDays<startDays){
+    const jumps=Math.ceil((startDays-curDays)/period);
+    cur=new Date(cur.getTime()+jumps*period*dayMs);
+  }else if(curDays>startDays){
+    const jumps=Math.floor((curDays-startDays)/period);
+    cur=new Date(cur.getTime()-jumps*period*dayMs);
+  }
+  while(cur<windowStart)cur=new Date(cur.getTime()+period*dayMs);
+  const paydays=[];
+  let guard=0;
+  while(cur<windowEnd&&guard<5000){paydays.push(cur);cur=new Date(cur.getTime()+period*dayMs);guard++;}
+  if(guard>=5000)throw new Error('Payday window is too large.');
+  const fmtDay=(dt)=>new Intl.DateTimeFormat('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(dt);
+  const fmtDate=(dt)=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(dt);
+  const fmtMonth=(dt)=>new Intl.DateTimeFormat('en-US',{month:'long',year:'numeric',timeZone:'UTC'}).format(dt);
+  const nextPayday=paydays.find(d=>d>today);
+  if(!nextPayday)throw new Error('No payday found in the next 12 months.');
+  const byMonth=new Map();
+  for(const d of paydays){
+    const key=`${d.getUTCFullYear()}-${d.getUTCMonth()}`;
+    if(!byMonth.has(key))byMonth.set(key,{label:fmtMonth(d),dates:[]});
+    byMonth.get(key).dates.push(fmtDate(d));
+  }
+  const threshold=period===7?5:3;
+  const usual=period===7?4:2;
+  const extraMonths=[...byMonth.values()].filter(m=>m.dates.length>=threshold);
+  const extraChecks=extraMonths.reduce((sum,m)=>sum+(m.dates.length-usual),0);
+  return {frequency:input.frequency,nextPayday:nextPayday.toISOString().slice(0,10),nextPaydayDisplay:fmtDay(nextPayday),windowLabel:`${fmtMonth(windowStart)} \u2013 ${fmtMonth(new Date(Date.UTC(today.getUTCFullYear(),today.getUTCMonth()+11,1)))}`,totalPaydays:paydays.length,extraMonthCount:extraMonths.length,extraChecks,extraMonths};
+}
