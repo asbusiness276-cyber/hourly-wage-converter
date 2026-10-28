@@ -164,6 +164,38 @@ export function timeCard(input) {
   const overtimePay = overtimeHours * rate * multiplier;
   return {rate, days, daysWorked, workedHours, breakHours, paidHours, regularHours, overtimeHours, regularPay, overtimePay, totalPay: regularPay + overtimePay, overtimeRate: rate * multiplier, threshold, multiplier, breakMinutes: breakMin};
 }
+
+export function retirementImpact(input) {
+  const annual = positive(input.annual, 'Annual salary');
+  if (!(input.payFrequency in payFrequencies)) throw new Error('Choose a valid pay frequency.');
+  const periods = payFrequencies[input.payFrequency];
+  const pct = nonnegative(input.percent ?? 0, 'Contribution percent');
+  if (pct > 100) throw new Error('Use a contribution percent up to 100.');
+  const matchPct = nonnegative(input.matchPercent ?? 0, 'Employer match percent');
+  if (matchPct > 100) throw new Error('Use an employer match percent up to 100.');
+  const matchUpTo = nonnegative(input.matchUpTo ?? 0, 'Match limit percent');
+  if (matchUpTo > 100) throw new Error('Use a match limit up to 100% of pay.');
+  const filingStatus = input.filingStatus === 'married' ? 'married' : 'single';
+  const state = input.state || '';
+  const grossPerCheck = annual / periods;
+  // IRS 2026 employee elective-deferral limit (Notice 2025-67); catch-ups not modeled.
+  const rawAnnualContribution = annual * pct / 100;
+  const annualContribution = Math.min(rawAnnualContribution, 24500);
+  const contributionPerCheck = annualContribution / periods;
+  const matchablePerCheck = Math.min(contributionPerCheck, grossPerCheck * matchUpTo / 100);
+  const matchPerCheck = matchablePerCheck * matchPct / 100;
+  // Take-home without 401(k): full taxes via the paycheck engine (no deductions).
+  const base = paycheck({period: 'annual', amount: annual, hoursWeek: 40, weeks: 52, payFrequency: input.payFrequency, filingStatus, state});
+  // With 401(k): federal + state on reduced wages, FICA still on full wages.
+  const reducedAnnual = Math.max(0, annual - annualContribution);
+  const thReduced = takeHome(reducedAnnual, filingStatus);
+  const ficaFull = ficaTax(annual);
+  const federalWith = thReduced.federal / periods;
+  const ficaWith = ficaFull.total / periods;
+  const stateWith = stateTax(state, filingStatus, reducedAnnual) / periods;
+  const takeHomeWith = grossPerCheck - contributionPerCheck - federalWith - ficaWith - stateWith;
+  return {annual, periods, grossPerCheck, percent: pct, annualContribution, contributionPerCheck, matchPercent: matchPct, matchUpTo, matchPerCheck, annualMatch: matchPerCheck * periods, federalPerCheck: federalWith, ficaPerCheck: ficaWith, statePerCheck: stateWith, takeHomeWith, takeHomeWithout: base.takeHome, reductionPerCheck: base.takeHome - takeHomeWith, taxSavedPerCheck: (base.federalPerCheck + base.statePerCheck) - (federalWith + stateWith), atLimit: rawAnnualContribution > 24500, filingStatus, state};
+}
 export function overtime(input) {
   const weeks=positive(input.weeks,'Paid weeks');
   if (weeks>52) throw new Error('Use at most 168 total hours per week and 52 paid weeks per year.');
