@@ -1,4 +1,4 @@
-import {convert,overtime,raise,compare,freelance,paycheck} from './math.js?v=3.2';
+import {convert,overtime,raise,compare,freelance,paycheck,reversePaycheck} from './math.js?v=3.3';
 
 const currency=(n,d=2)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:d,maximumFractionDigits:d}).format(n);
 const num=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
@@ -169,6 +169,7 @@ if(form&&results){
     }
     if(kind==='converter')return convert(values);
     if(kind==='paycheck')return paycheck(values);
+    if(kind==='reversePaycheck')return reversePaycheck(values);
     if(kind==='overtime')return overtime({...values,dailyMode:values.otMode==='daily',multiplier:values.multiplierMode==='custom'?values.multiplier:Number(values.multiplierMode)});
     if(kind==='raise')return raise(values);
     if(kind==='comparison')return compare({a:{salary:values.aSalary,bonus:values.aBonus,hours:values.aHours,pto:values.aPto,commute:values.aCommute,match:values.aMatch,health:values.aHealth},b:{salary:values.bSalary,bonus:values.bBonus,hours:values.bHours,pto:values.bPto,commute:values.bCommute,match:values.bMatch,health:values.bHealth}});
@@ -241,6 +242,13 @@ if(form&&results){
       const thLabel=results.querySelector('[data-takehome-label]');if(thLabel)thLabel.textContent=values.state?`Estimated take-home · federal + FICA + ${values.state} state tax`:'Estimated take-home · federal + FICA only';
       const bdP=results.querySelector('[data-breakdown]');if(bdP)bdP.innerHTML=payBarInner('Where this check goes',[['seg-takehome','Take-home',result.takeHome],['seg-federal','Federal tax',result.federalPerCheck],['seg-fica','FICA',result.ficaPerCheck],['seg-state','State tax',result.statePerCheck],['seg-deductions','Entered deductions',result.deductions]],result.gross);
     }
+    if(kind==='reversePaycheck'){
+      const labels={weekly:'Weekly',biweekly:'Biweekly',semimonthly:'Semi-monthly',monthly:'Monthly',quarterly:'Quarterly',annual:'Annual'};
+      text('[data-assumption]',`${labels[values.payFrequency]} \u00b7 ${result.periods} ${result.periods===1?'check':'checks'}/year`);
+      const bdR=results.querySelector('[data-breakdown]');if(bdR)bdR.innerHTML=payBarInner('Where the required check goes',[['seg-takehome','Take-home',result.targetTakeHome],['seg-federal','Federal tax',result.federalPerCheck],['seg-fica','FICA',result.ficaPerCheck],['seg-state','State tax',result.statePerCheck],['seg-deductions','Entered deductions',result.deductions]],result.requiredGross);
+      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`To take home ${currency(result.targetTakeHome)} per ${labels[values.payFrequency].toLowerCase()} check, you need ${currency(result.requiredGross)} gross per check (${currency(result.requiredAnnual)} a year, ${currency(result.requiredHourly)} an hour).`;
+      announce(`Required gross pay ${currency(result.requiredGross)} per check to take home ${currency(result.targetTakeHome)}.`);
+    }
     if(kind==='converter'||kind==='paycheck'){
       form.querySelectorAll('[data-direction]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.direction===values.period)));
       form.querySelectorAll('[data-preset-group]').forEach(group=>group.hidden=group.dataset.presetGroup!==values.period);
@@ -279,8 +287,8 @@ if(form&&results){
       return `${label}: ${val}`;
     }).join(' · ');
     const stateSuffix=(kind==='paycheck'&&result.statePerCheck>0)?` + state tax ${currency(result.statePerCheck)}`:'';
-    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:values.otMode==='daily'?'(Daily 1.5× after 8h + 2× after 12h, day-7 rule) + weekly 1.5× on remaining hours over 40':'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus + 401(k) match − health premiums) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours'};
-    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross; federal-only take-home (single filer) ${currency(result.takeHomeAnnual)}/year`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}; take-home ${currency(result.takeHome)} (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}${stateSuffix} per check)`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour; total compensation A ${currency(result.a.totalComp)}, B ${currency(result.b.totalComp)}`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year); day rate (8 hours) ${currency(result.dayRate)}`};
+    const formulas={converter:values.period==='annual'?'Annual salary ÷ (hours per week × paid weeks per year)':'Hourly rate × hours per week × paid weeks per year',paycheck:'Annual gross pay ÷ scheduled checks per year',overtime:values.otMode==='daily'?'(Daily 1.5× after 8h + 2× after 12h, day-7 rule) + weekly 1.5× on remaining hours over 40':'(Regular rate × regular hours) + (regular rate × multiplier × overtime hours)',raise:'(New pay − current pay) ÷ current pay × 100',comparison:'(Salary + bonus + 401(k) match − health premiums) ÷ [(work + commute hours) × (52 − PTO weeks)]',freelance:'[Desired income ÷ (1 − tax reserve) + expenses] ÷ (1 − profit margin) ÷ billable hours',reversePaycheck:'Take-home = gross \u2212 deductions \u2212 federal tax \u2212 FICA \u2212 state tax, solved for gross (2026 brackets, your filing status)'};
+    const results={converter:`${currency(result.hourly)}/hour = ${currency(result.annual)}/year, gross; federal-only take-home (single filer) ${currency(result.takeHomeAnnual)}/year`,paycheck:`Gross ${currency(result.gross)} per check; after entered deductions ${currency(result.adjusted)}; take-home ${currency(result.takeHome)} (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}${stateSuffix} per check)`,overtime:`Total weekly gross pay ${currency(result.total)} (regular ${currency(result.regularPay)} + overtime ${currency(result.overtimePay)})`,raise:`${num(result.percent)}% change; annual change ${currency(result.annual)}`,comparison:`Job A ${currency(result.a.effective)} per committed hour; Job B ${currency(result.b.effective)} per committed hour; difference ${currency(Math.abs(result.difference))} per hour; total compensation A ${currency(result.a.totalComp)}, B ${currency(result.b.totalComp)}`,freelance:`Target rate ${currency(result.rate)} per billable hour (required revenue ${currency(result.revenue)} per year); day rate (8 hours) ${currency(result.dayRate)}`,reversePaycheck:`Required gross ${currency(result.requiredGross)} per check (${currency(result.requiredAnnual)}/year, ${currency(result.requiredHourly)}/hour) to take home ${currency(result.targetTakeHome)} per check`};
     box.innerHTML=`<p class="receipt-line"><strong>Inputs:</strong> ${inputs}</p><p class="receipt-line"><strong>Formula:</strong> ${formulas[kind]||''}</p><p class="receipt-line"><strong>Result:</strong> ${results[kind]||''}</p>`;
     } catch(e) { /* Receipt is decorative; never break the calculator. */ }
   };
@@ -398,7 +406,7 @@ if(form&&results){
   if(context?.registerTool){
     const lifecycle=new AbortController();
     const properties=Object.fromEntries(controls.map(el=>[el.name,el.type==='number'?{type:'number',minimum:Number(el.min||0),...(el.max!==''?{maximum:Number(el.max)}:{})}:{type:'string',enum:Array.from(el.options).map(o=>o.value)}]));
-    const names={converter:'convert_wage',paycheck:'estimate_gross_paycheck',overtime:'calculate_overtime_pay',raise:'calculate_pay_raise',comparison:'compare_job_compensation',freelance:'calculate_freelance_rate'};
+    const names={converter:'convert_wage',paycheck:'estimate_gross_paycheck',overtime:'calculate_overtime_pay',raise:'calculate_pay_raise',comparison:'compare_job_compensation',freelance:'calculate_freelance_rate',reversePaycheck:'calculate_required_gross_pay'};
     try{
       Promise.resolve(context.registerTool({
         name:names[kind],title:'Calculate pay',
@@ -568,6 +576,7 @@ const searchIndex = [
   { title: 'Salary to Hourly Calculator', url: '/salary-to-hourly-calculator/', category: 'Calculator', desc: 'Find the hourly equivalent of your annual salary based on your working schedule.' },
   { title: 'Hourly to Salary Calculator', url: '/hourly-to-salary-calculator/', category: 'Calculator', desc: 'See what your hourly rate adds up to over a year with custom hours and unpaid leave.' },
   { title: 'Paycheck Calculator', url: '/paycheck-calculator/', category: 'Calculator', desc: 'Estimate gross pay per paycheck for weekly, biweekly, semi-monthly, or monthly pay cycles.' },
+  { title: 'Reverse Paycheck Calculator', url: '/calculators/reverse-paycheck/', category: 'Calculator', desc: 'Work backwards from a take-home target to the gross pay, salary, and hourly rate you need.' },
   { title: 'Overtime Calculator', url: '/overtime-calculator/', category: 'Calculator', desc: 'Calculate overtime pay at 1.5x time-and-a-half or double time for extra weekly hours.' },
   { title: 'Salary Increase & Raise Calculator', url: '/calculators/salary-increase/', category: 'Calculator', desc: 'Calculate your raise in dollars and percentage change across all pay periods.' },
   { title: 'Salary Comparison Calculator', url: '/calculators/salary-comparison/', category: 'Calculator', desc: 'Compare two job offers factoring in salary, bonus, work hours, PTO, and commute.' },
