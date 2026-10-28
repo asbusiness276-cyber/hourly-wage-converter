@@ -1343,6 +1343,12 @@ details.nav-drop:not([open]) .nav-menu {
 .result-card .caption {
   color: #cbd5e1;
   font-size: 0.85rem;
+  padding: 0 28px;
+}
+
+.result-card .milestones {
+  padding: 12px 28px 0;
+  border-top-color: rgba(255, 255, 255, 0.06);
 }
 
 .result-card .milestone-row {
