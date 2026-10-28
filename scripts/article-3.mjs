@@ -58,6 +58,11 @@ export const article3 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Work in order: start with gross pay, subtract pre-tax deductions, then FICA, then 2026 federal withholding, then state tax — what remains is your net pay.</p>
+      </div>
+
       <p class="lead">Few moments in working life are as disorienting as opening a brand-new paycheck. You calculate your hourly rate or annual salary on paper, wait eagerly for payday, and expect a clean round number. But when direct deposit arrives on Friday morning, hundreds of dollars have vanished before reaching your bank account. A pay stub looks like a blur of acronyms: <strong>FIT</strong>, <strong>FICA OASDI</strong>, <strong>FICA MED</strong>, <strong>SIT</strong>, and <strong>Pre-Tax Sec 125</strong>.</p>
 
       <p>Workers often assume payroll taxes are a single flat fee or an opaque black box. In reality, paycheck withholdings follow deterministic IRS rules based on gross pay, pre-tax exemptions, statutory payroll contributions, and progressive tax brackets.</p>
@@ -409,5 +414,11 @@ export const article3 = {
       </div>
 
       <p>Ready to audit your next paycheck or model an upcoming raise? Use our free <a href="/paycheck-calculator/">Paycheck Calculator</a>, estimate extra shift earnings with our <a href="/overtime-calculator/">Overtime Calculator</a>, or convert between wages and salaries with our <a href="/">Hourly Wage Converter</a>.</p>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Pre-tax deductions, such as 401(k) contributions and medical premiums, lower the pay that tax is calculated on.</li>
+        <li>FICA and federal withholding are separate lines — FICA covers Social Security and Medicare, while federal withholding follows the 2026 brackets.</li>
+        <li>State tax is the last step and it varies by state, so the federal steps alone do not give your final take-home pay.</li>
+      </ol>
   `
 };

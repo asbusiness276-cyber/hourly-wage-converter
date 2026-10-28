@@ -48,6 +48,11 @@ export const article17 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>No federal law defines full-time work at 40 hours — the health coverage law counts 30 hours, labor statistics counts 35, and most employers use 40.</p>
+      </div>
+
       <p class="lead">Ask how many hours a week counts as full-time and you will get a confident answer — 40 — that no federal law actually contains. The Fair Labor Standards Act, the main U.S. wage law, <strong>does not define full-time employment at all</strong>. Depending on which rulebook you open, full-time is <strong>30 hours</strong> (health coverage law), <strong>35 hours</strong> (labor statistics), or <strong>40 hours</strong> (most employers' policy). This guide explains each standard, who it applies to, and what your schedule means for your pay and benefits.</p>
       <p>The distinction matters because the label controls real money: whether your employer must offer you health insurance, whether you earn paid time off and retirement benefits, and how a salary converts into an hourly rate. Two people working identical 32-hour weeks can hold different statuses at different companies — and both can be entirely lawful.</p>
       <div class="article-hero-cta">
@@ -173,5 +178,11 @@ export const article17 = {
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>The Fair Labor Standards Act, the main U.S. wage law, does not define full-time employment at all.</li>
+        <li>Health coverage law (ACA) counts 30 hours; labor statistics (BLS) counts 35.</li>
+        <li>Most employers use 40 hours as their full-time standard — but that is a policy choice, not a federal definition.</li>
+      </ol>
   `
 };

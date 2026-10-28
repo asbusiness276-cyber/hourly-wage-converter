@@ -48,6 +48,11 @@ export const article12 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>No tax on tips is a federal deduction of up to $25,000 for tax years 2025–2028 — you still report all tips as income, then deduct when you file.</p>
+      </div>
+
       <p class=\"lead\">\"No tax on tips\" is real \u2014 but it is a deduction, not an exemption. For tax years 2025 through 2028, workers in 71 listed occupations can deduct up to $25,000 of qualified tips. Tips are still reported as income, still owe Social Security and Medicare tax, and your paycheck is unchanged during the year \u2014 your final federal income-tax bill is not.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I build the calculators tipped workers use, and this is their most-asked tax question. This guide pulls the whole rule set into one place: who qualifies, what counts, the full 71-occupation list, the phase-out, worked examples, and how to claim it.</p>
@@ -359,5 +364,11 @@ export const article12 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>Rules follow Internal Revenue Code Section 224, added by the One Big Beautiful Bill Act (signed July 4, 2025), and the IRS final regulations published April 13, 2026 (effective June 12, 2026), which set the 71-occupation TTOC list, the $25,000 cap, and the $100-per-$1,000 phase-out over $150,000 ($300,000 joint) of modified AGI. Savings figures are illustrative marginal-rate math, before state taxes and credits. State notes reflect 2026 guidance. This article is general education, not personal tax advice. To model the paycheck your tips are added to, use our <a href=\"/paycheck-calculator/\">Paycheck Calculator</a> or browse the <a href=\"/calculators/\">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>It is a deduction, not an exemption — report all tips as income first, then deduct up to $25,000.</li>
+        <li>Federal income tax only — Social Security and Medicare tax (7.65%) still applies, and state rules vary.</li>
+        <li>It is occupation-based — only tips earned in one of the 71 listed occupations qualify.</li>
+      </ol>
   `
 };

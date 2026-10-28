@@ -50,6 +50,11 @@ export const article23 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$100,000 a year is $79,180 after federal income tax and FICA — $6,598.33 a month, or $3,045.38 every two weeks.</p>
+      </div>
+
       <p class="lead">A $100,000 salary is <strong>$79,180 a year after taxes</strong> — $6,598.33 a month, or $3,045.38 every two weeks. That is 79.2% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions, health premiums, or bonuses. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
       <p>This is the fifth article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home), the second covered <a href="/articles/50000-a-year-after-taxes/">$50,000 a year after taxes</a> ($42,355 take-home), the third covered <a href="/articles/20-an-hour-after-taxes/">$20 an hour after taxes</a> ($35,605.60 take-home), and the fourth covered <a href="/articles/60000-a-year-after-taxes/">$60,000 a year after taxes</a> ($50,390 take-home). If you want the concept behind these numbers — what gross pay is, what net pay is, and why the two diverge — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> covers it. This article does one specific job: the complete take-home math for one salary, $100,000 a year.</p>
       <div class="article-hero-cta">
@@ -210,5 +215,11 @@ export const article23 = {
         </div>
         <a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Take-home is $79,180 a year — 79.2% of gross pay.</li>
+        <li>Federal tax and FICA only, single filer, standard deduction — state tax is not included.</li>
+        <li>401(k), health premiums, and other benefit deductions are not included.</li>
+      </ol>
   `
 };

@@ -50,6 +50,11 @@ export const article20 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$50,000 a year is $42,355 after 2026 federal income tax and FICA — $3,529.58 a month, or $1,629.04 every two weeks.</p>
+      </div>
+
       <p class="lead">A $50,000 salary sounds like $50,000 — but after 2026 federal income tax and FICA, you keep <strong>$42,355 a year: $3,529.58 a month, or $1,629.04 every two weeks</strong>. That is 84.7% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions or health premiums. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
       <p>This is the second article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home — slightly more than this $50,000 salary, because $25 an hour over a full year is $52,000 gross). If you want the concept behind these numbers, our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> explains what gross and net mean and why they diverge.</p>
       <div class="article-hero-cta">
@@ -203,5 +208,11 @@ export const article20 = {
         </div>
         <a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Take-home is $42,355 a year — 84.7% of gross pay.</li>
+        <li>Federal tax only, single filer, standard deduction — state income tax is not included.</li>
+        <li>401(k), health premiums, and other benefit deductions are not included either.</li>
+      </ol>
   `
 };
