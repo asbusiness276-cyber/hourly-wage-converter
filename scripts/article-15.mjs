@@ -48,6 +48,11 @@ export const article15 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>If your first 2027 payday is Friday, January 1, your three-paycheck months are January, July, and December — with a rare 27th paycheck in the year.</p>
+      </div>
+
       <p class="lead">If you are paid biweekly, a few months every year quietly hand you a third paycheck — and 2027 is a special case. Because 2027 has 53 Fridays, one of the two biweekly pay cycles receives a rare <strong>27th paycheck</strong>. Which months are yours depends on a single fact: the date of your first payday in January. If it is Friday, January 1, your three-paycheck months are <strong>January, July, and December</strong>. If it is Friday, January 8, they are <strong>April and October</strong>.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I verify pay-cycle math like this against the calendar every year, because it drives the calculators and budgeting guides our readers rely on. Below you will find both 2027 cycles written out payday by payday, a three-step method to find your own months on any payday weekday, the honest truth about whether the third check is "extra," and a plan for using it well when it lands.</p>
@@ -197,5 +202,11 @@ export const article15 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>All 2027 payday dates were computed by stepping 14 days at a time from the two anchor paydays (Friday, January 1 and Friday, January 8, 2027) and cross-checked against the 2027 calendar, which contains 53 Fridays; Thursday examples were computed the same way from January 7 and January 14 anchors. Money examples use gross pay before taxes and deductions: $62,400 ÷ 26 = $2,400 per biweekly check; $20 × 80 hours = $1,600. Employer practices for 27-payday years (dividing salary by 26 vs. 27, and paying a day early when a payday falls on a bank holiday) vary — confirm yours with payroll. This article is general education, not financial advice. To model your own schedule, use our <a href="/paycheck-calculator/">Paycheck Calculator</a> or browse the <a href="/calculators/">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Cycle A (first payday Friday, January 1, 2027): three paychecks in January (1, 15, 29), July (2, 16, 30), and December (3, 17, 31).</li>
+        <li>Cycle B (first payday Friday, January 8, 2027): three paychecks in April (2, 16, 30) and October (1, 15, 29), with the usual 26 paychecks.</li>
+        <li>2027 is unusual because it starts and ends on a Friday, giving it 53 Fridays — the alignment one cycle needs for a 27th payday.</li>
+      </ol>
   `
 };

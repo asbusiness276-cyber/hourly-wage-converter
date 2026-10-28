@@ -50,6 +50,11 @@ export const article22 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$60,000 a year is $50,390 after federal income tax and FICA — $4,199.17 a month, or $1,938.08 every two weeks.</p>
+      </div>
+
       <p class="lead">A $60,000 salary is <strong>$50,390 a year after taxes</strong> — $4,199.17 a month, or $1,938.08 every two weeks. That is 84.0% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions, health premiums, or bonuses. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
       <p>This is the fourth article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home), the second covered <a href="/articles/50000-a-year-after-taxes/">$50,000 a year after taxes</a> ($42,355 take-home), and the third covered <a href="/articles/20-an-hour-after-taxes/">$20 an hour after taxes</a> ($35,605.60 take-home). If you want the concept behind these numbers — what gross pay is, what net pay is, and why the two diverge — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> covers it. This article does one specific job: the complete take-home math for one salary, $60,000 a year.</p>
       <div class="article-hero-cta">
@@ -211,5 +216,11 @@ export const article22 = {
         </div>
         <a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Take-home is $50,390 a year — 84.0% of gross pay.</li>
+        <li>Federal tax and FICA only, single filer — before state tax.</li>
+        <li>401(k) contributions, health premiums, and other deductions are not included.</li>
+      </ol>
   `
 };

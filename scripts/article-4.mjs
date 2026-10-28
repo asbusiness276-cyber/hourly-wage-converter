@@ -56,6 +56,11 @@ export const article4 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Overtime is 1.5× your regular rate for hours over 40 in a workweek — at $30 an hour, overtime pays $45 an hour.</p>
+      </div>
+
       <p class="lead">Overtime pay is one of the most powerful financial levers available to hourly workers, nurses, tradespeople, and shift employees. It turns an ordinary paycheck into an aggressive tool for eliminating debt, building emergency savings, or funding major family goals. Yet overtime is also one of the most frequently misunderstood and miscalculated line items on modern American pay stubs.</p>
 
       <p>Every week at Hourly Wage Converter, we hear from workers who clocked 48 or 52 hours expecting a massive paycheck, only to feel blindsided on payday when their net direct deposit looks lighter than expected. Sometimes the confusion stems from payroll software withholding higher estimated taxes on a single large paycheck; other times, employers fail to properly calculate the FLSA "regular rate of pay" when shift differentials or production bonuses are involved.</p>
@@ -414,5 +419,11 @@ export const article4 = {
       <div class="card" style="padding:16px 20px;background:var(--slate-50);border-radius:10px;margin:24px 0 0">
         <p style="margin:0;font-size:0.86rem;color:var(--muted);line-height:1.5"><em>Disclaimer: This guide is provided for educational and payroll calculation purposes only and does not constitute formal legal or tax advice. Overtime rules may vary under state labor codes, prevailing wage statutes, and union collective bargaining agreements. Consult a qualified payroll specialist, labor attorney, or the U.S. Department of Labor for guidance on specific workplace disputes.</em></p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>The FLSA threshold is 40 hours in a workweek; only hours beyond it earn the overtime premium.</li>
+        <li>Under California’s daily rule, double time (2×) applies — $60 an hour on a $30 base rate.</li>
+        <li>Blended rates apply when you work at different rates in the same week — the overtime rate is based on the weighted average, not just your base rate.</li>
+      </ol>
   `
 };

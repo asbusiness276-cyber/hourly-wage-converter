@@ -50,6 +50,11 @@ export const article21 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$20 an hour is $41,600 a year gross; after 2026 federal income tax and FICA you keep $35,605.60 — $2,967.13 a month, or $1,369.45 every two weeks.</p>
+      </div>
+
       <p class="lead">At $20 an hour on a standard full-time schedule, you earn <strong>$41,600 a year before taxes</strong>. After 2026 federal income tax and FICA, you keep <strong>$35,605.60 — $2,967.13 a month, or $1,369.45 every two weeks</strong>. That is 85.6% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions, health premiums, or overtime. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
       <p>This is the third article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home) and the second covered <a href="/articles/50000-a-year-after-taxes/">$50,000 a year after taxes</a> ($42,355 take-home). If you want the concept behind these numbers — what gross pay is, what net pay is, and why the two diverge — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> covers it. This article does one specific job: the complete take-home math for one rate, $20 an hour.</p>
       <div class="article-hero-cta">
@@ -204,5 +209,11 @@ export const article21 = {
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Take-home is $35,605.60 a year — 85.6% of gross pay.</li>
+        <li>Federal tax only, single filer, standard deduction — state tax is not included.</li>
+        <li>Benefit deductions like 401(k) and health premiums are not included.</li>
+      </ol>
   `
 };

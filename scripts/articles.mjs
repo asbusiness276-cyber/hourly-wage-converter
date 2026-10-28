@@ -102,6 +102,11 @@ const article1 = {
       ]
     ],
     body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Multiply your hourly rate by your weekly hours and your paid weeks — $25 an hour at 40 hours a week for 52 weeks is $52,000 a year gross.</p>
+      </div>
+
       <p class="lead">Converting an hourly wage to an annual salary is one of the most important financial calculations you will make. Whether you are reviewing a new job offer, comparing competing compensation packages, asking for a raise, or budgeting your household expenses for the year ahead, understanding how an hourly rate translates into annual earnings gives you total clarity over your financial life.</p>
 
       <!-- Above the Fold Hero CTA -->
@@ -635,6 +640,12 @@ const article1 = {
         <h3>How We Calculate Annual Salary</h3>
         <p>Our standard hourly-to-annual calculation multiplies the hourly wage by hours worked per week and weeks worked per year. For a conventional full-time schedule, the calculation uses 40 hours per week and 52 weeks per year, or 2,080 hours annually. Users can adjust these assumptions when their schedule differs. All estimates represent gross compensation before payroll deductions, taxes, and contributions. For comprehensive mathematical documentation, see our full <a href="/methodology/">Calculation Methodology</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>The core formula is hourly rate × hours per week × paid weeks (2,080 hours for a standard full-time year).</li>
+        <li>At $25 an hour, full-time gross pay is $1,000 a week, $2,000 biweekly, and about $4,333.33 a month.</li>
+        <li>Unpaid weeks lower the total — two unpaid weeks bring $25 an hour down to $50,000 a year — while overtime is extra on top.</li>
+      </ol>
     `
 };
 

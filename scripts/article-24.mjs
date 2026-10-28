@@ -49,6 +49,11 @@ export const article24 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>FICA tax is 7.65% of your pay — 6.2% Social Security up to the $184,500 wage base, plus 1.45% Medicare.</p>
+      </div>
+
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: 7.65% of Your Pay</h2>
         <p>FICA is the payroll tax that funds Social Security and Medicare. Every paycheck, your employer withholds <strong>7.65% of your gross pay</strong> for it — and then pays a matching 7.65% on top, so the two programs together receive <strong>15.3%</strong> of your wages. It is not income tax, it has no brackets, and you cannot adjust it on your W-4. It simply runs on every dollar you earn, with one big exception: the Social Security part stops once your yearly wages pass $184,500.</p>
@@ -223,5 +228,11 @@ export const article24 = {
         </div>
         <a class="btn" href="/paycheck-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Social Security is 6.2% up to the $184,500 wage base — earnings above that base are no longer charged the Social Security part.</li>
+        <li>Medicare is 1.45% of your pay.</li>
+        <li>FICA is separate from federal income tax — it funds Social Security and Medicare.</li>
+      </ol>
   `
 };

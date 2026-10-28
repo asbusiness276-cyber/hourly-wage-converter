@@ -48,6 +48,11 @@ export const article18 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Being paid a salary does not make you exempt from overtime — you must pass all three FLSA tests: salary basis, at least $684 a week, and qualifying executive, administrative, or professional duties.</p>
+      </div>
+
       <p class="lead">Being paid a salary does not make you exempt from overtime. Under the Fair Labor Standards Act, an employee is exempt only if they pass <strong>three tests at once</strong>: they are paid on a salary basis, they earn at least <strong>$684 a week</strong>, and their actual duties fit an executive, administrative, or professional exemption. Fail any one test and overtime is owed — no matter what the job title says, and no matter how the offer letter describes the role.</p>
       <p>This distinction decides real money. A non-exempt employee working 50 hours earns overtime for the 10 hours beyond 40; an exempt employee working the same 50 hours earns exactly the same salary as a 40-hour week. The sections below explain each test, the salary rule that was announced, vacated, and then formally withdrawn, and the worked examples that show which side of the line you fall on.</p>
       <div class="article-hero-cta">
@@ -175,5 +180,11 @@ export const article18 = {
         </div>
         <a class="btn" href="/overtime-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Salary alone is not enough — fail any one of the three tests and overtime is owed.</li>
+        <li>The salary test is at least $684 a week, paid on a salary basis.</li>
+        <li>The duties test is about your actual duties fitting an executive, administrative, or professional exemption.</li>
+      </ol>
   `
 };

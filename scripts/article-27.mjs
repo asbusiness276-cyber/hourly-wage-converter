@@ -51,6 +51,11 @@ export const article27 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$35 an hour is $72,800 a year full-time before taxes — $1,400 a week and $6,066.67 a month.</p>
+      </div>
+
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: $72,800 a Year</h2>
         <p>At $35 an hour on a standard full-time schedule — 40 hours a week, 52 weeks a year — you earn <strong>$72,800 a year before taxes</strong>. The formula is one multiplication: hourly rate × hours per week × weeks per year. Here that is $35 × 40 × 52 = $72,800, or 2,080 paid hours in the year. Everything else in this guide is a variation on that one number: fewer hours, overtime hours, unpaid weeks, and what taxes leave behind.</p>
@@ -225,5 +230,11 @@ export const article27 = {
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Full-time gross pay is $72,800 a year — $1,400 a week, $6,066.67 a month.</li>
+        <li>Part-time, overtime, and unpaid weeks change the total — the guide works through each case.</li>
+        <li>Whether $35 an hour covers a comfortable life depends on your rent and location — in a high-rent metro, the same money is tight.</li>
+      </ol>
   `
 };

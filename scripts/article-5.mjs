@@ -56,6 +56,11 @@ export const article5 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$23 an hour is $47,840 a year gross on a standard full-time schedule — $920 a week and $3,986.67 a month before taxes.</p>
+      </div>
+
       <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the <a href="/articles/minimum-wage-by-state/">federal minimum wage</a>, placing your gross earnings at $47,840 a year — within arm’s reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
 
       <p>When engineering compensation tools at Hourly Wage Converter, one of the most frequent patterns we see among hourly earners is confusion between gross potential and actual take-home cash flow. Schedule variations, unpaid holiday shutdowns, mandatory payroll taxes, and local housing prices create very different realities for workers earning the exact same $23 rate. A full-time employee with comprehensive paid time off lives a noticeably different financial life than a contract worker taking unpaid time between assignments.</p>
@@ -529,5 +534,11 @@ export const article5 = {
       </div>
 
       <p>To customize your schedule, model unpaid leave, or audit your paycheck deductions, explore our free interactive tools: use the <a href="/">Hourly Wage Converter</a>, calculate shift earnings with our <a href="/overtime-calculator/">Overtime Calculator</a>, or verify your pay stubs with our <a href="/paycheck-calculator/">Paycheck Calculator</a>.</p>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Full-time gross pay is $47,840 a year, or $3,986.67 a month before taxes.</li>
+        <li>Overtime can lift the same rate to $56,810 a year.</li>
+        <li>Do not multiply weekly pay by 4 for a monthly figure — that undercounts the year, because calendar months average more than 4 weeks.</li>
+      </ol>
   `
 };
