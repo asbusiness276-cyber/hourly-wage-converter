@@ -175,7 +175,7 @@ const toc=(title,items)=>`<aside class="toc sticky"><span class="eyebrow">A clos
 const core=coreContent({money,icon,tools,toolCards,pageHead,breadcrumb,converterTool,wageTable,salaryLinks,formulas,toc,faqHtml,faqs,salaryRates,hourlyRates});
 seoConfiguration=core.tools;
 const homeArticlesSection=`<section class="section" style="margin-top:36px"><div class="section-header"><div><span class="eyebrow" style="color:var(--primary);margin-bottom:4px">Wage &amp; Salary Insights</span><h2>Featured Pay &amp; Salary Guides</h2><p style="color:var(--muted);margin-top:4px;font-size:0.95rem">Practical, research-backed guides on hourly wages, taxes, overtime calculations, and take-home budgets.</p></div><a href="/articles/" class="text-button" style="color:var(--primary);font-weight:600;display:inline-flex;align-items:center;gap:4px">All articles ${icon('chevron',13)}</a></div>${articleCards(6,[...articles].slice(-6).reverse())}</section>`;
-const homeBody=core.homeTop + core.homeMid + homeArticlesSection + core.homeDeep + core.homeCta;
+const homeBody=core.homeTop + core.homeMid + homeArticlesSection + core.homeDeep + core.homeFaq + core.homeAuthor + core.homeCta;
 writePage('/','Hourly Wage Converter', 'Free hourly wage converter: turn any hourly rate into annual, monthly, weekly, and daily gross pay. Adjust hours, unpaid leave, and overtime — no sign-up.',homeBody,'home',faqSchema);
 
 function resultPanel(title,primary,unit,cells,initial,note,assumption='Based on your inputs') {
