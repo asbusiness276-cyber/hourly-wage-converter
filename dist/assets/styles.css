@@ -5015,3 +5015,6 @@ a.btn-secondary:hover,
 @media (max-width: 1100px) {
   .tool-layout > .sticky { position: static !important; }
 }
+
+/* CTA band buttons: .calculate-button carries margin-top:24px for standalone use; inside the flex row it made the red button shorter than the white one (flex stretch + margin). Zero it here so both buttons render exactly equal height. */
+.home-cta-actions .calculate-button { margin-top: 0; }
