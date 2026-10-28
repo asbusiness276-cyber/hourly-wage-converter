@@ -47,6 +47,11 @@ export const article11 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>No — overtime is taxed at your normal marginal rate, not a higher one; overtime checks only look heavily taxed because employers often withhold at a flat 22%.</p>
+      </div>
+
       <p class=\"lead\">No — overtime pay is taxed at exactly the same rate as the rest of your earnings. There is no special \"overtime tax rate,\" and your employer cannot tax overtime hours more heavily than regular hours. If an overtime check looks like it lost a bigger bite to taxes, two ordinary mechanics explain it: the flat 22% withholding employers commonly use on overtime, and the way marginal tax brackets work. Neither one means you actually owe more.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I hear this question constantly — usually right after someone works a heavy overtime week and stares at a pay stub that looks wrong. This guide separates what is <em>withheld</em> from your check from what you actually <em>owe</em>, walks through the math with real numbers, and shows where the 2026 overtime deduction fits into the picture.</p>
@@ -292,5 +297,11 @@ export const article11 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>Overtime pay examples in this guide use the federal Fair Labor Standards Act baseline: time-and-a-half (1.5×) the regular hourly rate for hours over 40 per workweek. The 22% figure is the flat federal withholding rate employers commonly apply to supplemental wages (overtime, bonuses, commissions) up to $1 million per year; actual withholding varies by employer and W-4 elections. Marginal-rate math is illustrative — your real liability depends on total income, filing status, and deductions. The 2026 Social Security wage base ($184,500) and standard deduction ($16,100 single / $32,200 joint) follow current IRS guidance. This article is general education, not personal tax advice. To model your gross overtime earnings, use our <a href=\"/overtime-calculator/\">Overtime Calculator</a> or browse the <a href=\"/calculators/\">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Withholding is not your tax rate — the flat 22% often withheld from overtime is not necessarily what you owe.</li>
+        <li>Extra overtime dollars can spill into a higher bracket, but only those extra dollars are taxed at the higher rate.</li>
+        <li>The 2026 deduction for the overtime premium is separate from how overtime itself is taxed.</li>
+      </ol>
   `
 };

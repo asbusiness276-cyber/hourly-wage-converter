@@ -49,6 +49,11 @@ export const article16 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Gross pay is what you earn; net pay is what lands in your bank account — on a $60,000 salary, federal tax and FICA alone take roughly $9,610 a year.</p>
+      </div>
+
       <p class="lead">Every pay stub tells two stories about the same work. At the top sits your <strong>gross pay</strong> — the full amount you earned. At the bottom sits your <strong>net pay</strong> — what actually lands in your bank account. On a $60,000 salary, that gap is roughly <strong>$9,610 a year</strong> in federal tax and FICA alone, before state tax or a single benefit deduction. This guide explains both numbers, everything that is taken out between them, and how to run the calculation yourself.</p>
       <p>Confusing the two figures leads to predictable mistakes: budgeting on the gross amount named in an offer letter, comparing job offers by salary alone, or assuming a first paycheck contains an error when the math is in fact correct. The sections below trace every step from gross to net, so that each line on your stub has a clear explanation.</p>
       <div class="article-hero-cta">
@@ -222,5 +227,11 @@ export const article16 = {
         </div>
         <a class="btn" href="/paycheck-calculator/">Calculate my paycheck</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Gross pay sits at the top of the pay stub; net pay sits at the bottom — they describe the same work.</li>
+        <li>Between them sit federal tax, FICA, state tax, 401(k) contributions, and premiums.</li>
+        <li>The roughly $9,610 gap on $60,000 is federal tax and FICA alone — before state tax or any benefit deduction.</li>
+      </ol>
   `
 };

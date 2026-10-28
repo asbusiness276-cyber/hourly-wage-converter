@@ -51,6 +51,11 @@ export const article10 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>No tax on overtime is a federal deduction for the overtime premium only — capped at $12,500 for single filers ($25,000 joint) for tax years 2025 through 2028, not an exemption.</p>
+      </div>
+
       <p class="lead">"No tax on overtime" sounds like overtime pay just became tax-free. It did not. The 2025 law created a <strong>federal income-tax deduction for the overtime premium only</strong> — claimed when you file your return, capped per year, and temporary through 2028. Your paychecks still show withholding, your state taxes are mostly unchanged, and the full 1.5× overtime rate was never on the table.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I see the same confusion every tax season: workers expecting bigger paychecks, then frustration when nothing changes. This guide explains exactly what the deduction covers, walks through the math with real numbers, and shows how to claim it — so you get the benefit you are actually owed and stop expecting one you are not.</p>
@@ -340,5 +345,11 @@ export const article10 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>Overtime pay examples in this guide use the federal Fair Labor Standards Act baseline: time-and-a-half (1.5×) the regular hourly rate for hours over 40 per workweek. The deduction figures ($12,500 single / $25,000 joint caps; tax years 2025–2028; premium-only qualification) reflect the federal provision as enacted; thresholds and IRS guidance can change, so verify against current IRS instructions before filing. This article is general education, not personal tax advice. To model your gross overtime earnings, use our <a href="/overtime-calculator/">Overtime Calculator</a> or browse the <a href="/calculators/">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>It is a deduction, not an exemption — you still owe tax on overtime during the year and deduct part of it when you file.</li>
+        <li>Only the premium qualifies: on time-and-a-half pay, just the extra “half” is deductible.</li>
+        <li>Federal income tax only — Social Security, Medicare, and most state income taxes still apply to the full amount, and withholding is unchanged.</li>
+      </ol>
   `
 };

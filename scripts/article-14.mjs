@@ -48,6 +48,11 @@ export const article14 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>No federal law requires holiday pay in the United States — most employers offer it voluntarily, usually as time-and-a-half or a paid day off.</p>
+      </div>
+
       <p class="lead">Here is the surprise at the heart of holiday pay in the United States: no federal law requires it. Not the paid day off, not time-and-a-half on Christmas, not double time on Thanksgiving. Yet most workers get some form of it — because employers offer it voluntarily. With Thanksgiving (Thursday, November 26, 2026) and Christmas (Friday, December 25, 2026) coming up, this guide explains exactly how holiday pay works, what the typical rates are, and how to calculate what a holiday shift is worth to you.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I build the calculators workers use to check premiums like these every day. The questions readers send us about holiday pay almost always start with a wrong assumption about the law — so this guide starts with the law, then gets practical: the three forms holiday pay takes, the 2026–2027 holiday calendar with verified dates, worked calculations at real pay rates, and what to do if your employer offers nothing at all.</p>
@@ -209,5 +214,11 @@ export const article14 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>The legal summary reflects U.S. Department of Labor guidance on the Fair Labor Standards Act (holiday pay "is generally a matter of agreement between an employer and an employee"; the FLSA does not require payment for time not worked). The 81% figure is the Bureau of Labor Statistics estimate of private-industry workers with paid holidays. Holiday dates and weekdays were verified against the federal holiday schedule for 2026–2027, including weekend "observed" dates. Worked examples use the standard formulas in the calculation section; the salaried daily rate divides annual salary by 260 workdays (52 × 5). This article is general education, not legal or tax advice — your handbook, contract, and state rules control your actual pay. To model a paycheck with holiday hours, use our <a href="/paycheck-calculator/">Paycheck Calculator</a> or browse the <a href="/calculators/">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>The FLSA does not require private employers to pay for holidays off or at a premium.</li>
+        <li>It is still very common — about 81% of private-sector workers receive paid holidays, according to the Bureau of Labor Statistics.</li>
+        <li>When employers do pay extra for working a holiday, it is usually time-and-a-half (1.5×) or double time (2×) — and the 2026 dates are Thanksgiving, November 26, and Christmas, December 25.</li>
+      </ol>
   `
 };

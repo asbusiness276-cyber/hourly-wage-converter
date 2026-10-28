@@ -78,6 +78,11 @@ const article2 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Divide your annual gross salary by your total scheduled hours for the year — $60,000 ÷ 2,080 hours is $28.85 an hour.</p>
+      </div>
+
       <p class="lead">If you know your annual salary but want to understand what you are actually making per hour, you can convert your salary into an hourly rate by dividing your annual gross salary by the total number of hours you work in a year. In a standard full-time American work schedule of 40 hours per week across 52 weeks, dividing your annual salary by 2,080 hours gives you your baseline hourly equivalent. For example, an annual salary of $60,000 divided by 2,080 hours equals approximately $28.85 per hour.</p>
 
       <p>However, the 2,080-hour number is only a starting benchmark. Your true hourly value changes substantially if your position requires 45 or 50 hours each week, if you take unpaid leave, or if your compensation includes bonuses and paid time off (PTO). In this comprehensive guide, we will break down the exact mathematical formulas, schedule adjustments, real-world salary comparisons, and common payroll pitfalls so you can accurately measure what your time is really worth.</p>
@@ -834,6 +839,12 @@ const article2 = {
         <h3>How We Calculate Hourly Rates</h3>
         <p>Our standard salary-to-hourly calculation divides annual gross salary by total scheduled annual hours. For full-time employees, the benchmark is 40 hours per week over 52 weeks (2,080 annual hours). Users can adjust weekly hours, paid weeks, and overtime factors to reflect nonstandard schedules. All results represent gross earnings before taxes and statutory withholdings. For complete payroll mathematics and rounding rules, see our full <a href="/methodology/">Calculation Methodology</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>The standard full-time benchmark is 40 hours a week × 52 weeks = 2,080 hours.</li>
+        <li>Longer weeks lower your effective rate — that same $60,000 salary at 45 hours a week (2,340 hours) is $25.64 an hour.</li>
+        <li>Paid time off is part of your salary — do not subtract paid vacation when finding your standard hourly rate.</li>
+      </ol>
   `
 };
 

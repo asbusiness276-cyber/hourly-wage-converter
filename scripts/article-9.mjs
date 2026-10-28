@@ -56,6 +56,11 @@ export const article9 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>Biweekly pay means 26 paychecks a year; semi-monthly means 24 — on a $60,000 salary that is $2,307.69 per biweekly check versus $2,500 per semi-monthly check.</p>
+      </div>
+
       <p class="lead">When evaluating a new job offer or reviewing your payroll setup, one line item often causes unexpected confusion: <em>Is the position paid biweekly or semi-monthly?</em> While both sound like "getting paid twice a month," they are governed by fundamentally different calendar mechanics, yield different paycheck amounts, and drastically alter your monthly cash flow.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I routinely see workers assume that 26 biweekly paychecks and 24 semi-monthly paychecks produce identical monthly bank deposits. While your <strong>total annual gross compensation</strong> remains exactly the same, how and when those dollars arrive in your checking account changes everything—from how you schedule mortgage and rent payments to how you handle overtime calculations and annual savings goals.</p>
@@ -454,5 +459,11 @@ export const article9 = {
         <h3>Calculation Methodology &amp; Payroll Standards</h3>
         <p>All paycheck calculations in this guide are derived from statutory 2,080-hour full-time work baselines (40 hours per week × 52 weeks). Biweekly earnings divide annual salary by 26 equal periods; semi-monthly earnings divide annual salary by 24 equal periods. Overtime compliance references federal Fair Labor Standards Act guidelines codified under 29 CFR § 778.104. To convert your exact wage numbers or model deductions, explore our complete suite of tools in the <a href="/calculators/">Calculator Directory</a> or read our transparent <a href="/methodology/">Calculation Methodology</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Same annual pay, different check size: $2,307.69 biweekly versus $2,500 semi-monthly on $60,000.</li>
+        <li>Biweekly pay creates two three-paycheck months a year — in those months the biweekly worker gets $6,923.07, making up the monthly difference.</li>
+        <li>Budget fixed bills (rent, groceries, car, insurance, utilities) within the two regular checks, and treat the third check as extra.</li>
+      </ol>
   `
 };

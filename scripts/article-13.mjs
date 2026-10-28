@@ -47,6 +47,11 @@ export const article13 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>In 2027, Washington leads the states at $17.73 an hour, while the federal minimum stays $7.25 — find your state’s rate in the full table.</p>
+      </div>
+
       <p class=\"lead\">On January 1, 2027, the minimum wage rises in more than a dozen states \u2014 while 20 states stay parked at the $7.25 federal floor, unchanged since 2009. Washington leads the states at $17.73 an hour, Washington, D.C. tops everything at $18.40, and Michigan makes one of the year\u2019s biggest jumps to $15.00.</p>
 
       <p>As the technical tools architect at Hourly Wage Converter, I track these rates because they feed the calculators workers use every day. This guide puts every verified 2027 rate in one place: all 50 states plus D.C., tipped wages, the big-city rates that beat their states, and what the new numbers mean for an actual paycheck.</p>
@@ -250,5 +255,11 @@ export const article13 = {
         <h3>Calculation Methodology &amp; Sources</h3>
         <p>State rates were verified in October 2026 against state labor department announcements, official 2027 wage schedules, and the Federal Register (federal contractor rates). Annual-pay figures use 40 hours \u00d7 52 weeks ($17.73 \u00d7 2,080 = $36,878; $15.00 \u00d7 2,080 = $31,200; $7.25 \u00d7 2,080 = $15,080), gross pay before taxes and deductions. Oregon and Vermont 2027 rates were unannounced at verification time; several city 2027 rates likewise. This article is general education, not legal or tax advice. To model the paycheck a 2027 rate produces, use our <a href=\"/paycheck-calculator/\">Paycheck Calculator</a> or browse the <a href=\"/calculators/\">Calculator Directory</a>.</p>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Highest state: Washington, $17.73 an hour (January 1, 2027); Connecticut ($17.48) and California ($17.40) follow.</li>
+        <li>Highest anywhere: Washington, D.C., at $18.40 (January through June 2027).</li>
+        <li>Federal floor: $7.25, unchanged since 2009 — still the legal minimum in 20 states; the federal tipped cash wage stays $2.13.</li>
+      </ol>
   `
 };

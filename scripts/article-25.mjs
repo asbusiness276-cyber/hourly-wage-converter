@@ -50,6 +50,11 @@ export const article25 = {
     ],
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$15 an hour is $31,200 a year full-time before taxes — $600 a week and $2,600 a month.</p>
+      </div>
+
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: $31,200 a Year</h2>
         <p>At a standard full-time schedule — 40 hours a week, 52 paid weeks a year — <strong>$15 an hour equals $31,200 a year before taxes</strong>. That is the headline number, and every other figure in this guide is built from it:</p>
@@ -255,5 +260,11 @@ export const article25 = {
         </div>
         <a class="btn" href="/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Full-time gross pay is $31,200 a year — $600 a week, $2,600 a month.</li>
+        <li>The guide also covers part-time math, overtime, and unpaid leave — the same rate pays less when hours or weeks drop.</li>
+        <li>A federal-only take-home estimate is inside — your actual paycheck also depends on your W-4, your state, and your deductions.</li>
+      </ol>
   `
 };

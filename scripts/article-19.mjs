@@ -50,6 +50,11 @@ export const article19 = {
     ]
   ],
   body: `
+      <div class="methodology-box">
+        <h3>Quick Answer</h3>
+        <p>$25 an hour is $52,000 a year gross; after 2026 federal income tax and FICA you keep $43,962 — $3,663.50 a month, or $1,690.85 every two weeks.</p>
+      </div>
+
       <p class="lead">At $25 an hour on a standard full-time schedule, you earn <strong>$52,000 a year before taxes</strong>. After 2026 federal income tax and FICA, you keep <strong>$43,962 — $3,663.50 a month, or $1,690.85 every two weeks</strong>. That is 84.5% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions, health premiums, or overtime. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
       <p>If you want the concept behind these numbers — what gross pay is, what net pay is, and why the two diverge — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> covers it. This article does one specific job: the complete take-home math for one rate, $25 an hour.</p>
       <div class="article-hero-cta">
@@ -204,5 +209,11 @@ export const article19 = {
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
+      <h2>3 Things to Remember</h2>
+      <ol>
+        <li>Take-home is $43,962 a year — 84.5% of gross pay.</li>
+        <li>These figures are federal tax only, for a single filer taking the standard deduction — state tax is not included.</li>
+        <li>401(k) contributions, health premiums, and other deductions are also not included, so your actual check may be lower.</li>
+      </ol>
   `
 };
