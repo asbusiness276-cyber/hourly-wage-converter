@@ -290,3 +290,39 @@ export function takeHome(gross, filingStatus='single') {
   const fica=ficaTax(g);
   return {gross:g,taxable,federal,socialSecurity:fica.socialSecurity,medicare:fica.medicare,additionalMedicare:fica.additional,fica:fica.total,takeHome:g-federal-fica.total,effectiveRate:g>0?(federal+fica.total)/g:0};
 }
+
+const daysInMonth=(y,m)=>new Date(Date.UTC(y,m+1,0)).getUTCDate();
+function parseISODate(s){
+  const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||'');
+  if(!m)throw new Error('Enter a valid date.');
+  const y=+m[1],mo=+m[2],d=+m[3];
+  const dt=new Date(Date.UTC(y,mo-1,d));
+  if(dt.getUTCFullYear()!==y||dt.getUTCMonth()!==mo-1||dt.getUTCDate()!==d)throw new Error('Enter a valid date.');
+  return dt;
+}
+export function tenure(input){
+  const s=parseISODate(input.start), e=parseISODate(input.end);
+  if(e<s)throw new Error('End date must be on or after the start date.');
+  const sm=s.getUTCMonth(), sd=s.getUTCDate();
+  const anniversary=(n)=>{
+    const t=new Date(Date.UTC(s.getUTCFullYear(),sm+n,1));
+    t.setUTCDate(Math.min(sd,daysInMonth(t.getUTCFullYear(),t.getUTCMonth())));
+    return t;
+  };
+  let y=e.getUTCFullYear()-s.getUTCFullYear();
+  let anchor=anniversary(y*12);
+  if(anchor>e){y--;anchor=anniversary(y*12);}
+  let m=0;
+  while(m<11&&anniversary(y*12+m+1)<=e)m++;
+  anchor=anniversary(y*12+m);
+  const d=Math.round((e-anchor)/86400000);
+  const totalDays=Math.round((e-s)/86400000);
+  const weeks=Math.floor(totalDays/7), weeksRemainder=totalDays%7;
+  let ay=e.getUTCFullYear();
+  let ann=new Date(Date.UTC(ay,sm,Math.min(sd,daysInMonth(ay,sm))));
+  if(ann<=e){ay++;ann=new Date(Date.UTC(ay,sm,Math.min(sd,daysInMonth(ay,sm))));}
+  const daysToAnniversary=Math.round((ann-e)/86400000);
+  const pl=(n,w)=>`${n} ${w}${n===1?'':'s'}`;
+  const fmt=(dt)=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(dt);
+  return {years:y,months:m,days:d,totalDays,weeks,weeksRemainder,nextAnniversary:ann.toISOString().slice(0,10),nextAnniversaryDisplay:fmt(ann),daysToAnniversary,breakdown:`${pl(y,'year')}, ${pl(m,'month')}, ${pl(d,'day')}`};
+}
