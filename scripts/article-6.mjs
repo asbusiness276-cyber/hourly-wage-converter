@@ -51,6 +51,10 @@ export const article6 = {
     [
       'How much overtime do you need at $45 an hour to make six figures ($100,000+)?',
       'Your overtime rate at $45 an hour is $67.50 per hour ($45 × 1.5). To bridge the gap from $93,600 to $100,000, you need just $6,400 in overtime earnings—which requires only 95 total overtime hours per year, or less than 2 hours of overtime per week (just 1.83 hours). Working 4 hours of overtime weekly adds $14,040 annually, pushing your total gross compensation to $107,640.'
+    ],
+    [
+      'How much more tax does a 1099 contractor pay than a W-2 employee at $45 an hour?',
+      'A W-2 employee at $45 an hour pays 7.65% in FICA taxes — $7,160.40 on $93,600 — because the employer covers the other half. A 1099 contractor pays the full self-employment tax of 15.3% on 92.35% of net earnings, which is about $13,225 on the same $93,600 before any business-expense deductions — roughly $6,065 more. Contractors can narrow that gap with deductible business expenses and by deducting half of self-employment tax from income, but the headline rate is why a $45 contractor rate and a $45 employee rate are not directly comparable.'
     ]
   ],
   body: `
@@ -544,6 +548,10 @@ export const article6 = {
         <details>
           <summary>How much overtime do you need at $45 an hour to make six figures ($100,000+)?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>Your overtime rate at $45 an hour is $67.50 per hour ($45 × 1.5). To bridge the gap from $93,600 to $100,000, you need just $6,400 in overtime earnings—which requires only 95 total overtime hours per year, or less than 2 hours of overtime per week (just 1.83 hours). Working 4 hours of overtime weekly adds $14,040 annually, pushing your total gross compensation to $107,640.</p>
+        </details>
+        <details>
+          <summary>How much more tax does a 1099 contractor pay than a W-2 employee at $45 an hour?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>A W-2 employee at $45 an hour pays 7.65% in FICA taxes — $7,160.40 on $93,600 — because the employer covers the other half. A 1099 contractor pays the full self-employment tax of 15.3% on 92.35% of net earnings, which is about $13,225 on the same $93,600 before any business-expense deductions — roughly $6,065 more. Contractors can narrow that gap with deductible business expenses and by deducting half of self-employment tax from income, but the headline rate is why a $45 contractor rate and a $45 employee rate are not directly comparable.</p>
         </details>
       </div>
 

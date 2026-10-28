@@ -49,6 +49,10 @@ export const article5 = {
     [
       'What is the overtime rate for $23 an hour?',
       'Under the Fair Labor Standards Act (FLSA), time-and-a-half overtime is 1.5 times your regular base wage. For $23 an hour, your overtime rate is $34.50 per hour ($23 × 1.5). Working 5 hours of overtime per week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross annual pay to $56,810.00.'
+    ],
+    [
+      'How much is $23 an hour working part-time?',
+      'It depends on your weekly hours, using the same $23 rate: at 20 hours a week you earn $460 per week, or $23,920 a year (52 weeks); at 25 hours, $575 per week or $29,900 a year; at 30 hours, $690 per week or $35,880 a year; and at 35 hours, $805 per week or $41,860 a year. These are gross figures before taxes — part-time schedules can also mean fewer paid hours toward benefits that full-time roles often include, so compare the full offer, not just the hourly rate.'
     ]
   ],
   body: `
@@ -489,6 +493,10 @@ export const article5 = {
         <details>
           <summary>What is the overtime rate for $23 an hour?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>Under the Fair Labor Standards Act (FLSA), time-and-a-half overtime is 1.5 times your regular base wage. For $23 an hour, your overtime rate is $34.50 per hour ($23 × 1.5). Working 5 hours of overtime per week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross annual pay to $56,810.00.</p>
+        </details>
+        <details>
+          <summary>How much is $23 an hour working part-time?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>It depends on your weekly hours, using the same $23 rate: at 20 hours a week you earn $460 per week, or $23,920 a year (52 weeks); at 25 hours, $575 per week or $29,900 a year; at 30 hours, $690 per week or $35,880 a year; and at 35 hours, $805 per week or $41,860 a year. These are gross figures before taxes — part-time schedules can also mean fewer paid hours toward benefits that full-time roles often include, so compare the full offer, not just the hourly rate.</p>
         </details>
       </div>
 

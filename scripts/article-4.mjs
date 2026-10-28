@@ -49,6 +49,10 @@ export const article4 = {
     [
       'Does working overtime push you into a higher tax bracket and make you lose money?',
       'No, this is a pervasive payroll myth. The United States uses a progressive marginal tax bracket system. When extra overtime pay crosses into a higher tax bracket, only the specific dollars earned above that threshold are taxed at the higher marginal rate. All income below the bracket threshold remains taxed at lower rates. Working overtime will always increase your total take-home pay.'
+    ],
+    [
+      'When does double time apply instead of time-and-a-half?',
+      'Federal law only requires time-and-a-half for hours over 40 in a workweek, so double time is not a federal rule — it comes from state law, union contracts, or employer policy. The best-known example is California, where non-exempt employees earn double time for hours over 12 in a single workday, and for hours over 8 on the seventh consecutive day of work in a workweek. Check your state rules and your employer policy before assuming a rate, and use the overtime calculator with a 2.0 multiplier to model double-time hours.'
     ]
   ],
   body: `
@@ -384,6 +388,10 @@ export const article4 = {
         <details>
           <summary>Does working overtime push you into a higher tax bracket and make you lose money?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>No, this is a pervasive payroll myth. The United States uses a progressive marginal tax bracket system. When extra overtime pay crosses into a higher tax bracket, only the specific dollars earned above that threshold are taxed at the higher marginal rate. All income below the bracket threshold remains taxed at lower rates. Working overtime will always increase your total take-home pay.</p>
+        </details>
+        <details>
+          <summary>When does double time apply instead of time-and-a-half?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>Federal law only requires time-and-a-half for hours over 40 in a workweek, so double time is not a federal rule — it comes from state law, union contracts, or employer policy. The best-known example is California, where non-exempt employees earn double time for hours over 12 in a single workday, and for hours over 8 on the seventh consecutive day of work in a workweek. Check your state rules and your employer policy before assuming a rate, and use the overtime calculator with a 2.0 multiplier to model double-time hours.</p>
         </details>
       </div>
 

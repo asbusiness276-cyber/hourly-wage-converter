@@ -51,6 +51,10 @@ export const article3 = {
     [
       'Why was my bonus taxed at a higher rate than my normal paycheck?',
       'Bonuses and supplemental wages are often subjected to a flat 22% federal supplemental withholding rate by employer payroll systems, regardless of your normal tax bracket. If your typical marginal tax rate is only 10% or 12%, this creates the illusion of a massive penalty on payday. However, when you file your annual tax return, your bonus is simply added to your total annual taxable income, and any excess withholding is refunded to you.'
+    ],
+    [
+      'How can I change how much tax is withheld from my paycheck?',
+      'File a new Form W-4 with your employer — you can do this at any time, not just at hiring. To reduce withholding, claim the dependents and other credits you qualify for in Step 3; to increase withholding (for example, to cover a side income), enter an extra amount per pay period in Step 4(c). Most employers apply the change within one or two pay periods. If you are unsure of the right amount, use the IRS Tax Withholding Estimator and then check the result against your next pay stub.'
     ]
   ],
   body: `
@@ -373,6 +377,10 @@ export const article3 = {
         <details>
           <summary>Why was my bonus taxed at a higher rate than my normal paycheck?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
           <p>Bonuses and supplemental wages are often subjected to a flat 22% federal supplemental withholding rate by employer payroll systems, regardless of your normal tax bracket. If your typical marginal tax rate is only 10% or 12%, this creates the illusion of a massive penalty on payday. However, when you file your annual tax return, your bonus is simply added to your total annual taxable income, and any excess withholding is refunded to you.</p>
+        </details>
+        <details>
+          <summary>How can I change how much tax is withheld from my paycheck?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
+          <p>File a new Form W-4 with your employer — you can do this at any time, not just at hiring. To reduce withholding, claim the dependents and other credits you qualify for in Step 3; to increase withholding (for example, to cover a side income), enter an extra amount per pay period in Step 4(c). Most employers apply the change within one or two pay periods. If you are unsure of the right amount, use the IRS Tax Withholding Estimator and then check the result against your next pay stub.</p>
         </details>
       </div>
 
