@@ -117,6 +117,29 @@ export function paycheck(input) {
   const takeHomePerCheck=gross-deductions-federalPerCheck-ficaPerCheck-statePerCheck;
   return {gross,regularPay,overtimePay,bonus,deductions,adjusted:gross-deductions,annual:baseAnnual+overtimeAnnual,periods,hourlyRate,overtimeRate:hourlyRate*multiplier,totalHours:hours+extra,filingStatus,taxAnnualBase,ficaWages,federalAnnual:th.federal,ficaAnnual:th.fica,federalPerCheck,ficaPerCheck,taxPerCheck:federalPerCheck+ficaPerCheck+statePerCheck,takeHome:takeHomePerCheck,state:input.state||'',stateAnnual,statePerCheck};
 }
+
+export function reversePaycheck(input) {
+  const target = nonnegative(input.targetTakeHome, 'Desired take-home pay');
+  if (!(input.payFrequency in payFrequencies)) throw new Error('Choose a valid pay frequency.');
+  const periods = payFrequencies[input.payFrequency];
+  const hours = positive(input.hoursWeek, 'Regular hours per week');
+  const weeks = positive(input.weeks ?? 52, 'Paid weeks per year');
+  if (hours > 168 || weeks > 52) throw new Error('Use up to 168 hours a week and 52 paid weeks per year.');
+  const base = {period: 'annual', hoursWeek: hours, overtimeHours: 0, multiplier: 1.5, weeks, payFrequency: input.payFrequency, bonus: input.bonus || 0, preTax: input.preTax || 0, postTax: input.postTax || 0, otherDeductions: input.otherDeductions || 0, filingStatus: input.filingStatus, state: input.state || ''};
+  const f = (annual) => paycheck({...base, amount: annual}).takeHome;
+  // Take-home rises with gross (top combined marginal rate stays below 100%), so bisection converges.
+  let lo = 0, hi = Math.max(target * periods, 1);
+  let guard = 0;
+  while (f(hi) < target && guard++ < 100) hi *= 2;
+  if (f(hi) < target) throw new Error('Could not solve for the required gross pay.');
+  for (let i = 0; i < 80; i++) {
+    const mid = (lo + hi) / 2;
+    if (f(mid) < target) lo = mid; else hi = mid;
+  }
+  const annual = (lo + hi) / 2;
+  const result = paycheck({...base, amount: annual});
+  return {...result, targetTakeHome: target, requiredGross: result.gross, requiredAnnual: annual, requiredHourly: annual / (hours * weeks), requiredWeekly: annual / weeks, requiredMonthly: annual / 12};
+}
 export function overtime(input) {
   const weeks=positive(input.weeks,'Paid weeks');
   if (weeks>52) throw new Error('Use at most 168 total hours per week and 52 paid weeks per year.');
