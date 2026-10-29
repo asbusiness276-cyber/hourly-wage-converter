@@ -874,8 +874,8 @@ if (articleFiltersEl) {
 // Tool finder (calculators hub only)
 const finderInput = document.querySelector('#tool-finder-input');
 if (finderInput) {
-  const grid = document.querySelector('.directory-grid');
-  const cards = grid ? Array.from(grid.querySelectorAll('.tool-card')) : [];
+  const cards = Array.from(document.querySelectorAll('.directory-grid .tool-card'));
+  const groups = Array.from(document.querySelectorAll('.directory-group'));
   const empty = document.querySelector('#tool-finder-empty');
   finderInput.addEventListener('input', () => {
     const q = finderInput.value.trim().toLowerCase();
@@ -884,6 +884,10 @@ if (finderInput) {
       const match = !q || card.textContent.toLowerCase().includes(q);
       card.style.display = match ? '' : 'none';
       if (match) shown++;
+    });
+    groups.forEach(sec => {
+      const any = Array.from(sec.querySelectorAll('.tool-card')).some(c => c.style.display !== 'none');
+      sec.style.display = any ? '' : 'none';
     });
     if (empty) empty.hidden = shown > 0;
   });
