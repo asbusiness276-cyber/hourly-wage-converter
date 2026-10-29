@@ -2468,6 +2468,25 @@ a.btn-secondary:hover,
   text-decoration: underline !important;
 }
 
+/* Table organization pass (2026-10-29): one consistent system —
+   text/comparison tables read left-to-right on desktop too (vs-table
+   was left-aligned only on mobile); text-heavy tables wrap instead of
+   forcing sideways scroll; two-column label/value tables (pair-table)
+   give values one straight left edge instead of pushing them to the
+   far right; compact numeric grids (fit) hug their content instead of
+   stretching across the page. */
+.pay-table.vs-table th, .pay-table.vs-table td { text-align: left; }
+.pay-table.desc-table th, .pay-table.desc-table td,
+.pay-table.worked-table th, .pay-table.worked-table td { white-space: normal; }
+.pay-table.text-col-2 th:nth-child(2), .pay-table.text-col-2 td:nth-child(2) { white-space: normal; }
+.pay-table.pair-table th, .pay-table.pair-table td { text-align: left; }
+.pay-table.pair-table th:first-child, .pay-table.pair-table td:first-child { width: 56%; }
+.table-wrap.fit { width: fit-content; max-width: 100%; }
+.table-wrap.fit .pay-table { width: auto; }
+@media (max-width: 640px) {
+  .pay-table.vs-table, .pay-table.desc-table, .pay-table.worked-table, .pay-table.pair-table { min-width: 0; }
+}
+
 .prose a.btn,
 .prose .btn,
 a.btn {
