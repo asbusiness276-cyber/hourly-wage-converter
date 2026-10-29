@@ -67,7 +67,7 @@ export const article26 = {
         <h2>A Complete Sample Pay Stub</h2>
         <p>Meet our example worker: hourly, $28 an hour, paid biweekly. This check covers the pay period October 12–25, 2026, paid October 30, 2026 — the 20th paycheck of the year. She worked 80 regular hours and 4 overtime hours. Here is her whole stub, current period and year-to-date side by side:</p>
         <div class="table-wrap">
-          <table class="pay-table">
+          <table class="pay-table desc-table">
             <thead><tr><th>Line</th><th>Current period</th><th>Year-to-date</th></tr></thead>
             <tbody>
               <tr><td>Regular pay (80 hrs × $28.00)</td><td>$2,240.00</td><td>$44,800.00</td></tr>
