@@ -2443,6 +2443,31 @@ a.btn-secondary:hover,
   max-width: 74ch;
 }
 
+/* References list (2026-10-29): clean source rows instead of a wall of
+   underlined blue text — the source name stays a clear link (underline
+   on hover), the description sits quietly beside it in muted text. */
+.references-section ul {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+.references-section li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--muted);
+  line-height: 1.55;
+}
+.references-section li:last-child {
+  border-bottom: 0;
+  padding-bottom: 2px;
+}
+.references-section li a {
+  text-decoration: none !important;
+}
+.references-section li a:hover {
+  text-decoration: underline !important;
+}
+
 .prose a.btn,
 .prose .btn,
 a.btn {
