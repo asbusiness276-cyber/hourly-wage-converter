@@ -2431,6 +2431,18 @@ a.btn-secondary:hover,
 
 /* The red .btn CTA used throughout article bodies gets the same rescue —
    it was missing here, so prose/section link rules underlined it (2026-10-29). */
+/* Author page polish (2026-10-29): hero action buttons centre against
+   the identity block instead of hanging at the top; bio text keeps a
+   readable measure inside its full-width card. */
+@media (min-width: 1025px) {
+  .author-primary-actions {
+    align-self: center;
+  }
+}
+#author-bio p {
+  max-width: 74ch;
+}
+
 .prose a.btn,
 .prose .btn,
 a.btn {
