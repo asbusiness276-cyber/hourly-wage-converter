@@ -1604,7 +1604,7 @@ details.nav-drop:not([open]) .nav-menu {
 .article-section a:not(.tool-card):not(.conversion-link):not(.resource-card):not(.btn-linkedin):not(.btn-author-contact):not(.btn) {
   color: var(--accent-blue);
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 3px;
 }
 
@@ -2393,7 +2393,7 @@ details.nav-drop:not([open]) .nav-menu {
 
 .prose a {
   color: var(--accent-blue);
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 3px;
   font-weight: 550;
 }
@@ -2487,6 +2487,15 @@ a.btn-secondary:hover,
   .pay-table.vs-table, .pay-table.desc-table, .pay-table.worked-table, .pay-table.pair-table { min-width: 0; }
 }
 
+/* Link style (user rule, 2026-10-29): no underlined links anywhere at
+   rest — links are read by colour and weight; the underline returns
+   only while hovering. */
+.prose a:hover,
+.article-section a:not(.tool-card):not(.conversion-link):not(.resource-card):not(.btn-linkedin):not(.btn-author-contact):not(.btn):hover,
+.article-methodology-text a:hover {
+  text-decoration: underline;
+}
+
 .prose a.btn,
 .prose .btn,
 a.btn {
@@ -2528,7 +2537,7 @@ a.btn {
 
 .article-methodology-text a {
   color: var(--accent-blue);
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 3px;
   font-weight: 600;
 }
