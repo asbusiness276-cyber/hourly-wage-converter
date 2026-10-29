@@ -2496,6 +2496,58 @@ a.btn-secondary:hover,
   text-decoration: underline;
 }
 
+/* Grouped Calculators menu (2026-10-29, user request): the header
+   Calculators dropdown opens by category, matching the directory
+   groups and hub pages. Other dropdowns keep the single-column menu. */
+.nav-menu-groups {
+  left: 0;
+  transform: none;
+  width: max-content;
+  max-width: 94vw;
+  padding: 12px;
+  animation: fadeInUp 0.15s ease-out;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.nav-menu-groups > a {
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 6px;
+}
+.nav-groups {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  gap: 4px 20px;
+}
+.nav-group {
+  display: grid;
+  gap: 2px;
+  align-content: start;
+}
+.nav-menu a.nav-group-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+@media (max-width: 1280px) {
+  .nav-groups { grid-template-columns: repeat(2, max-content); }
+}
+@media (max-width: 1100px) {
+  .nav-groups { grid-template-columns: 1fr; }
+  .nav-group { border-top: 1px solid #e2e8f0; padding-top: 4px; }
+  .nav-group:first-child { border-top: 0; padding-top: 0; }
+}
+
+/* Prose tables keep a readable measure even on full-width prose
+   pages (methodology); article columns are narrower than this cap,
+   so it changes nothing there. */
+.prose .table-wrap { max-width: 880px; }
+
 .prose a.btn,
 .prose .btn,
 a.btn {
