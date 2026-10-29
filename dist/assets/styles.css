@@ -2178,6 +2178,25 @@ details.nav-drop:not([open]) .nav-menu {
   border-color: #bbf7d0;
 }
 
+.tool-card-img {
+  display: block;
+  width: calc(100% + 48px);
+  max-width: none;
+  margin: -24px -24px 16px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.tool-hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin: 28px 0 4px;
+}
+
 .tool-card h3 {
   font-size: 1.08rem;
   margin-bottom: 8px;
