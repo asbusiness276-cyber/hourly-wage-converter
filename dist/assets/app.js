@@ -147,6 +147,7 @@ if(stickyPanels.length){
 
 const form=document.querySelector('[data-calculator]');
 const results=document.querySelector('[data-results]');
+const extrasRoot=document.querySelector('[data-results-extras]');
 let liveTimer;
 if(form&&results){
   const kind=form.dataset.calculator;
@@ -187,7 +188,7 @@ if(form&&results){
     if(kind==='freelance')return freelance(values);
     throw new Error('Unsupported calculator.');
   };
-  const out=(name,text)=>results.querySelectorAll(`[data-out="${name}"]`).forEach(el=>{el.textContent=text;});
+  const out=(name,text)=>{results.querySelectorAll(`[data-out="${name}"]`).forEach(el=>{el.textContent=text;});if(extrasRoot)extrasRoot.querySelectorAll(`[data-out="${name}"]`).forEach(el=>{el.textContent=text;});};
   const payBarInner=(title,segs,total)=>{
     const shown=segs.filter(s=>s[2]>0);
     if(!(total>0)||!shown.length)return '';
@@ -227,7 +228,7 @@ if(form&&results){
       text('[data-primary-label]',primary==='hourly'?'Your equivalent hourly rate':'Your annual gross pay');text('[data-primary-unit]',primary==='hourly'?'/ hour':'/ year');
       text('[data-assumption]',`${num(result.hoursWeek)} hours/week · ${num(result.paidWeeks)} paid weeks/year${result.overtimeHours?` · ${num(result.overtimeHours)} overtime hours`:''}`);
       text('[data-result-note]',(result.hourly>1000||result.annual>5000000)?'Unusually high rate — please double-check your entry. Figures assume the entered rate is correct.':result.overtimeHours?'Weekly and longer totals include overtime. Hourly, daily, minute, and second figures show the regular rate.':'Monthly and semi-monthly figures are annual averages.');
-      const bdC=results.querySelector('[data-breakdown]');if(bdC)bdC.innerHTML=payBarInner('Where your annual pay goes',[['seg-takehome','Take-home',result.takeHomeAnnual],['seg-federal','Federal tax',result.federalTax],['seg-fica','FICA',result.ficaTax]],result.annual);
+      const bdC=(extrasRoot&&extrasRoot.querySelector('[data-breakdown]'))||results.querySelector('[data-breakdown]');if(bdC)bdC.innerHTML=payBarInner('Where your annual pay goes',[['seg-takehome','Take-home',result.takeHomeAnnual],['seg-federal','Federal tax',result.federalTax],['seg-fica','FICA',result.ficaTax]],result.annual);
       const suffix=form.querySelector('[name="amount"]').closest('.input-wrap').querySelector('.suffix');
       suffix.textContent={hourly:'/ hour',daily:'/ day',weekly:'/ week',biweekly:'/ 2 wk',semimonthly:'/ half mo',monthly:'/ month',annual:'/ year'}[values.period];
       const label=form.querySelector('[name="amount"]').closest('.field').querySelector('span');
@@ -349,11 +350,11 @@ if(form&&results){
     catch(error){
       currentResult=null;
       form.querySelector('[data-error]').textContent=error.message;results.classList.add('result-error');
-      results.querySelectorAll('[data-out]').forEach(el=>el.textContent='—');
+      results.querySelectorAll('[data-out]').forEach(el=>el.textContent='—');if(extrasRoot)extrasRoot.querySelectorAll('[data-out]').forEach(el=>el.textContent='—');
       text('[data-assumption]','Check your inputs to see an estimate.');text('[data-difference]','Enter valid numbers for both jobs.');
       const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent='Enter valid numbers above to see your calculation summary.';
       const receiptBox=document.querySelector('[data-receipt]');if(receiptBox)receiptBox.innerHTML='<p class="caption">Enter valid numbers above to see the receipt.</p>';
-      results.querySelectorAll('[data-breakdown]').forEach(el=>{el.innerHTML='';});
+      results.querySelectorAll('[data-breakdown]').forEach(el=>{el.innerHTML='';});if(extrasRoot)extrasRoot.querySelectorAll('[data-breakdown]').forEach(el=>{el.innerHTML='';});
       const msEl=document.querySelector('[data-milestones]');if(msEl)msEl.innerHTML='';
       return null;
     }

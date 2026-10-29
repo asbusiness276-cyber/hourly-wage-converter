@@ -1139,6 +1139,41 @@ details.nav-drop:not([open]) .nav-menu {
   border: 1px solid #1e293b;
 }
 
+/* Result extras band: the converter's detail blocks (take-home monthly/
+   biweekly, pay breakdown, per-minute figures, earn milestones) live in a
+   full-width dark band BELOW the tool layout, so the side panel stays close
+   to the form's height and no empty column gap opens beside it (2026-10-29). */
+.result-extras {
+  margin: 0 0 32px;
+  padding: 24px 28px 12px;
+}
+.result-extras-title {
+  margin: 0 0 14px;
+  font-size: 1.08rem;
+  color: #ffffff;
+}
+.result-extras-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.result-extras .adjusted-result {
+  margin: 0;
+}
+.result-extras .pay-breakdown {
+  padding-left: 0;
+  padding-right: 0;
+}
+.result-extras .micro-results {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (max-width: 640px) {
+  .result-extras-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .result-heading {
   padding: 28px 28px 22px;
   position: relative;
