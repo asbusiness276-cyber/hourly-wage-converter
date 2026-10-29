@@ -4005,6 +4005,111 @@ a.btn-secondary:hover,
   font-weight: 750;
 }
 
+/* Footer calculators dropdown (2026-10-29): the full list of 14 stays one
+   click away without stretching the footer column. */
+.footer-more summary {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.86rem;
+  color: #cbd5e1;
+  font-weight: 600;
+  padding: 5px 0;
+  cursor: pointer;
+  list-style: none;
+}
+.footer-more summary::-webkit-details-marker {
+  display: none;
+}
+.footer-more summary svg {
+  transition: transform 0.2s ease;
+}
+.footer-more[open] summary svg {
+  transform: rotate(180deg);
+}
+.footer-more summary:hover {
+  color: #ffffff;
+}
+
+/* Homepage author bio (2026-10-29): About the Author section near the
+   bottom of the homepage, modelled on agecalculatorlab.com. */
+.home-author .eyebrow {
+  display: block;
+  margin-bottom: 12px;
+}
+.home-author-card {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+.home-author-photo {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+}
+.home-author-body h2 {
+  margin: 0 0 4px;
+}
+.home-author-role {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0 0 12px;
+}
+.home-author-body p {
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0 0 12px;
+}
+.home-author-link {
+  color: var(--primary);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.home-author-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.home-author-stats > div {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 18px 12px;
+  text-align: center;
+}
+.home-author-stats strong {
+  display: block;
+  font-size: 1.55rem;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.home-author-stats span {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+@media (max-width: 700px) {
+  .home-author-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 20px;
+  }
+  .home-author-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .footer-col a {
   display: block;
   font-size: 0.86rem;
