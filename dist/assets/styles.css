@@ -4040,7 +4040,7 @@ a.btn-secondary:hover,
   display: none !important;
 }
 
-.sticky.is-too-tall:not(.toc):not(.form-card) {
+.sticky.is-too-tall:not(.toc) {
   position: static;
 }
 
@@ -5018,9 +5018,10 @@ a.btn-secondary:hover,
 .home-cta p { color: rgba(255,255,255,0.78); margin: 0 auto 22px; max-width: 560px; line-height: 1.6; }
 .home-cta h2, .home-cta p { text-align: center; }
 .home-cta-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-@media (min-width: 1025px) {
-  .form-card.sticky.is-too-tall { position: sticky; top: calc(var(--header) + 20px); max-height: calc(100vh - var(--header) - 28px); overflow-y: auto; overscroll-behavior: contain; }
-}
+/* 2026-10-29 (user request): the form card no longer scrolls internally.
+   A form taller than the viewport is static (base .is-too-tall rule), so the
+   whole calculator stays in the page flow and nothing is hidden in a clipped
+   card, matching agecalculatorlab.com. Short forms still stick. */
 @media (max-width: 900px) {
   .home-steps { grid-template-columns: 1fr; }
   .usecase-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
