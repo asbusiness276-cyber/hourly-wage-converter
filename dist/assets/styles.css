@@ -2481,8 +2481,11 @@ a.btn-secondary:hover,
 .pay-table.text-col-2 th:nth-child(2), .pay-table.text-col-2 td:nth-child(2) { white-space: normal; }
 .pay-table.pair-table th, .pay-table.pair-table td { text-align: left; }
 .pay-table.pair-table th:first-child, .pay-table.pair-table td:first-child { width: 56%; }
-.table-wrap.fit { width: fit-content; max-width: 100%; }
-.table-wrap.fit .pay-table { width: auto; }
+/* Spread tables (2026-10-29, user feedback): numeric grids fill
+   their container edge-to-edge — no dead space beside the table —
+   with columns sharing the width evenly so values line up at even
+   intervals instead of floating. */
+.pay-table.spread { table-layout: fixed; }
 @media (max-width: 640px) {
   .pay-table.vs-table, .pay-table.desc-table, .pay-table.worked-table, .pay-table.pair-table { min-width: 0; }
 }
@@ -2542,11 +2545,6 @@ a.btn-secondary:hover,
   .nav-group { border-top: 1px solid #e2e8f0; padding-top: 4px; }
   .nav-group:first-child { border-top: 0; padding-top: 0; }
 }
-
-/* Prose tables keep a readable measure even on full-width prose
-   pages (methodology); article columns are narrower than this cap,
-   so it changes nothing there. */
-.prose .table-wrap { max-width: 880px; }
 
 .prose a.btn,
 .prose .btn,
