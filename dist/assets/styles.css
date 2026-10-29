@@ -4070,6 +4070,17 @@ a.btn-secondary:hover,
   flex-direction: column;
   justify-content: center;
 }
+/* FAQ columns flush (2026-10-29): the left column stretches to the
+   accordion's height and its help card fills the column, so both
+   columns end on exactly the same line. */
+.faq-side {
+  display: flex;
+  flex-direction: column;
+}
+.faq-side-card {
+  flex: 1;
+}
+
 .faq-side-card {
   margin-top: 22px;
   background: #ffffff;
