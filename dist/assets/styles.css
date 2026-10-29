@@ -4055,9 +4055,20 @@ a.btn-secondary:hover,
    the left, accordion on the right, so the wide section never looks empty. */
 .faq-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.5fr);
+  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.32fr);
   gap: 40px;
-  align-items: start;
+  align-items: stretch;
+}
+.faq-layout .faq-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.faq-layout .faq-list details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .faq-side-card {
   margin-top: 22px;
@@ -4094,6 +4105,7 @@ a.btn-secondary:hover,
   .faq-side {
     position: sticky;
     top: calc(var(--header) + 20px);
+    align-self: start;
   }
 }
 @media (max-width: 900px) {
