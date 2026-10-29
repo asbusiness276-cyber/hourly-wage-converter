@@ -293,7 +293,7 @@ if(form&&results){
       out('extraChecks',`${num(result.extraChecks)} extra ${result.extraChecks===1?'check':'checks'}`);
       text('[data-assumption]',`${result.windowLabel} \u00b7 ${result.frequency==='weekly'?'Weekly':'Biweekly'} cycle`);
       const bd=results.querySelector('[data-breakdown]');
-      if(bd)bd.innerHTML=result.extraMonths.length?result.extraMonths.map(m=>`<div class="milestone-row"><span>${m.label}</span><strong>${m.dates.join(', ')}</strong></div>`).join(''):'<p class="caption">No extra-check months in this window.</p>';
+      if(bd)bd.innerHTML=result.extraMonths.length?result.extraMonths.map(m=>`<div class="payday-month"><span class="payday-month-label">${m.label}</span><span class="payday-dates">${m.dates.map(d=>{const pp=d.replace(',','').split(' ');return `<span class="payday-chip">${pp[0].slice(0,3)} ${pp[1]}</span>`;}).join('')}</span></div>`).join(''):'<p class="caption">No extra-check months in this window.</p>';
       const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Next payday ${result.nextPaydayDisplay}. ${result.extraMonthCount} extra-check ${result.extraMonthCount===1?'month':'months'} in ${result.windowLabel}.`;
       announce(`Next payday ${result.nextPaydayDisplay}.`);
     }
