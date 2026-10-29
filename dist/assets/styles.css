@@ -2546,6 +2546,26 @@ a.btn-secondary:hover,
   .nav-group:first-child { border-top: 0; padding-top: 0; }
 }
 
+/* Detail-band alignment (2026-10-29, user screenshot): one organized
+   structure inside the "Your pay in detail" band. Milestone rows now
+   use the same label/value grid as the site's pair tables — the value
+   starts at one straight left edge (56%) instead of hugging the far
+   right with an empty middle — and the milestones share the band's
+   own side padding instead of a double inset. The per-minute trio
+   gets hairline dividers so its three columns read as one table. */
+.result-extras .milestones { padding-left: 0; padding-right: 0; }
+.result-extras .milestone-row {
+  display: grid;
+  grid-template-columns: 56% 1fr;
+  gap: 12px;
+  padding: 9px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.result-extras .micro-results { gap: 0; }
+.result-extras .micro-results > div { padding-left: 18px; }
+.result-extras .micro-results > div:first-child { padding-left: 0; }
+.result-extras .micro-results > div + div { border-left: 1px solid rgba(255, 255, 255, 0.08); }
+
 .prose a.btn,
 .prose .btn,
 a.btn {
