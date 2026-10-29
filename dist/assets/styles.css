@@ -2185,19 +2185,8 @@ details.nav-drop:not([open]) .nav-menu {
   transform: scale(1.08);
 }
 
-/* 2nd in 3-part cycle: Logo Blue */
-.tool-card:nth-child(3n+2) .icon {
-  background: #f0f7fc;
-  color: var(--accent-blue);
-  border-color: #bae6fd;
-}
-
-/* 3rd in 3-part cycle: Logo Green */
-.tool-card:nth-child(3n) .icon {
-  background: #f0fdf4;
-  color: var(--accent-green-dark);
-  border-color: #bbf7d0;
-}
+/* Tool-card icon colours are per-tool now (inline tints from iconTints in
+   generate.mjs, one colour family per calculator — 2026-10-29). */
 
 .tool-card:hover {
   border-color: #fed7aa;
@@ -4007,6 +3996,58 @@ a.btn-secondary:hover,
 
 /* Footer calculators dropdown (2026-10-29): the full list of 14 stays one
    click away without stretching the footer column. */
+/* Homepage FAQ two-column layout (2026-10-29): sticky intro + help card on
+   the left, accordion on the right, so the wide section never looks empty. */
+.faq-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.5fr);
+  gap: 40px;
+  align-items: start;
+}
+.faq-side-card {
+  margin-top: 22px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+}
+.faq-side-card h3 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+.faq-side-card p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+.faq-side-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.faq-side-actions .calculate-button {
+  margin-top: 0;
+}
+.faq-contact-link {
+  color: var(--primary);
+  font-weight: 600;
+}
+@media (min-width: 1025px) {
+  .faq-side {
+    position: sticky;
+    top: calc(var(--header) + 20px);
+  }
+}
+@media (max-width: 900px) {
+  .faq-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
 .footer-more summary {
   display: flex;
   align-items: center;
