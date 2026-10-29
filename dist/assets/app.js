@@ -239,7 +239,7 @@ if(form&&results){
       const ms=document.querySelector('[data-milestones]');
       if(ms){
         if(result.hourly>0&&result.hoursWeek>0){
-          ms.innerHTML=[10000,50000,100000].map(target=>{const hrs=target/result.hourly;const wks=hrs/result.hoursWeek;return `<div class="milestone-row"><span>Time to earn ${currency(target,0)}</span><strong>${num(hrs)} hours · ~${num(wks)} weeks</strong></div>`;}).join('');
+          ms.innerHTML=[10000,50000,100000].map(target=>{const hrs=target/result.hourly;const wks=hrs/result.hoursWeek;return `<div class="milestone-row"><span>Time to earn ${currency(target,0)}</span><strong>${num(hrs)} hours</strong><span class="milestone-weeks">~${num(wks)} weeks</span></div>`;}).join('');
         } else ms.innerHTML='';
       }
     }
