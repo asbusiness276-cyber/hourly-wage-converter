@@ -1601,7 +1601,7 @@ details.nav-drop:not([open]) .nav-menu {
   margin-bottom: 0;
 }
 
-.article-section a:not(.tool-card):not(.conversion-link):not(.resource-card):not(.btn-linkedin):not(.btn-author-contact) {
+.article-section a:not(.tool-card):not(.conversion-link):not(.resource-card):not(.btn-linkedin):not(.btn-author-contact):not(.btn) {
   color: var(--accent-blue);
   font-weight: 600;
   text-decoration: underline;
@@ -2427,6 +2427,16 @@ a.btn-secondary:hover,
 .cta-secondary:hover {
   color: var(--primary) !important;
   text-decoration: none !important;
+}
+
+/* The red .btn CTA used throughout article bodies gets the same rescue —
+   it was missing here, so prose/section link rules underlined it (2026-10-29). */
+.prose a.btn,
+.prose .btn,
+a.btn {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
 }
 
 /* Article Methodology / Gross Pay Notice */
