@@ -2119,7 +2119,7 @@ details.nav-drop:not([open]) .nav-menu {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 20px 0;
+  padding: 16px 0;
   font-weight: 650;
   font-size: 0.98rem;
   color: var(--ink);
@@ -4204,9 +4204,9 @@ a.btn {
    the left, accordion on the right, so the wide section never looks empty. */
 .faq-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.32fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.2fr);
   gap: 40px;
-  align-items: stretch;
+  align-items: start;
 }
 .faq-layout .faq-list {
   display: flex;
@@ -4214,20 +4214,15 @@ a.btn {
   margin: 0;
 }
 .faq-layout .faq-list details {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex: none;
 }
-/* FAQ columns flush (2026-10-29): the left column stretches to the
-   accordion's height and its help card fills the column, so both
-   columns end on exactly the same line. */
+/* FAQ columns (2026-10-29, revised on user feedback): both columns
+   take their natural height — the earlier stretch-to-flush design
+   (PRs #96–#99) left empty space inside the accordion rows, which
+   the user flagged. The side card is natural height too. */
 .faq-side {
   display: flex;
   flex-direction: column;
-}
-.faq-side-card {
-  flex: 1;
 }
 
 .faq-side-card {
@@ -4265,9 +4260,8 @@ a.btn {
   .faq-side {
     position: sticky;
     top: calc(var(--header) + 20px);
-    /* No align-self here: the column must stretch to the accordion's
-       height so the help card (flex: 1) can fill it — PR #98's stretch
-       was silently defeated by an align-self: start left from PR #96. */
+    /* The side column keeps its natural height (align-items: start
+       on the layout) and sticks while the taller accordion scrolls. */
   }
 }
 @media (max-width: 900px) {
