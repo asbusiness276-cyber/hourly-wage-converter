@@ -9,7 +9,7 @@ export const article27 = {
   h1: '$35 an Hour Is How Much a Year? $72,800 Full-Time, Before Taxes',
   desc: '$35 an hour is $72,800 a year full-time ($1,400 a week, $6,066.67 a month) before taxes. Part-time, overtime, unpaid weeks, and federal take-home pay inside.',
   image: '/assets/images/how-much-is-35-an-hour-a-year.jpg',
-  imageAlt: 'Wage illustration for $35 an hour: a paycheck beside a clock and calendar with coins stacking upward',
+  imageAlt: 'Wage photograph for $35 an hour: a paycheck beside a clock and calendar with coins stacking upward',
   toc: [
     ['short-answer', 'The Short Answer: $72,800 a Year'],
     ['pay-breakdown', '$35 an Hour in Every Pay Period'],

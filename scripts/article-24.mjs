@@ -9,7 +9,7 @@ export const article24 = {
   h1: 'What Is FICA Tax? The 7.65% Deduction on Every Paycheck, Explained',
   desc: 'FICA tax is 7.65% of your pay — 6.2% Social Security up to the $184,500 wage base plus 1.45% Medicare. Learn how it works, when it stops, and what it costs.',
   image: '/assets/images/what-is-fica-tax.jpg',
-  imageAlt: 'FICA tax illustration: a paycheck split into Social Security and Medicare portions, showing the 7.65% employee deduction',
+  imageAlt: 'FICA tax photograph: a paycheck split into Social Security and Medicare portions, showing the 7.65% employee deduction',
   toc: [
     ['short-answer', 'The Short Answer: 7.65% of Your Pay'],
     ['fica-tiers', 'FICA at a Glance: What Applies at Each Wage Level'],

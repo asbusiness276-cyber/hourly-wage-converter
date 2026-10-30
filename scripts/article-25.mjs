@@ -9,7 +9,7 @@ export const article25 = {
   h1: '$15 an Hour Is How Much a Year? $31,200 Full-Time, Before Taxes',
   desc: '$15 an hour is $31,200 a year full-time before taxes — $600 a week, $2,600 a month. See part-time, overtime, unpaid leave, a federal-only take-home estimate.',
   image: '/assets/images/how-much-is-15-an-hour-a-year.jpg',
-  imageAlt: 'Illustration of a $15-an-hour paycheck: a stack of coins, a pay document, and a calendar week in blue and orange',
+  imageAlt: 'Photograph of a $15-an-hour paycheck: a stack of coins, a pay document, and a calendar week in blue and orange',
   toc: [
     ['short-answer', 'The Short Answer: $31,200 a Year'],
     ['what-15-means', 'What $15 an Hour Actually Means'],

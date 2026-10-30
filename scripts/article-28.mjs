@@ -9,7 +9,7 @@ export const article28 = {
   h1: '$40 an Hour Is How Much a Year? $83,200 Full-Time, Before Taxes',
   desc: '$40 an hour is $83,200 a year full-time ($1,600 a week, $6,933.33 a month) before taxes. Schedules, overtime, unpaid weeks, and federal take-home inside.',
   image: '/assets/images/how-much-is-40-an-hour-a-year.jpg',
-  imageAlt: 'Wage illustration for $40 an hour: a paycheck beside a clock and calendar with coins stacking upward',
+  imageAlt: 'Wage photograph for $40 an hour: a paycheck beside a clock and calendar with coins stacking upward',
   toc: [
     ['short-answer', 'The Short Answer: $83,200 a Year'],
     ['pay-breakdown', '$40 an Hour in Every Pay Period'],

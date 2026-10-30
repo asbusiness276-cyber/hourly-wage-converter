@@ -9,7 +9,7 @@ export const article26 = {
   h1: 'How to Read Your Pay Stub, Line by Line (With a Worked Sample)',
   desc: 'Learn to read your pay stub line by line: gross pay, FICA, federal and state withholding, pre-tax vs post-tax deductions, and YTD — with a worked sample stub.',
   image: '/assets/images/how-to-read-your-pay-stub.jpg',
-  imageAlt: 'Pay stub illustration: a large pay stub document with a magnifying glass, an orange calculator, and a stack of coins beside it',
+  imageAlt: 'Pay stub photograph: a large pay stub document with a magnifying glass, an orange calculator, and a stack of coins beside it',
   toc: [
     ['short-answer', 'The Short Answer: Read Top to Bottom'],
     ['sample-stub', 'A Complete Sample Pay Stub'],
