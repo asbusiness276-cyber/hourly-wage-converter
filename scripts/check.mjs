@@ -60,6 +60,7 @@ assert.equal(overtime({rate:20,dailyMode:true,hoursPerDay:14,daysPerWeek:1,weeks
 const rpT=raise({current:60000,raiseMode:'percent',raisePercent:10,hours:8,days:5,weeks:52,mode:'annual'});assert.equal(rpT.percent,10);assert.equal(rpT.annual,6000);
 const coT=compare({a:{salary:60000,bonus:2000,match:5,health:200,hours:40,pto:2,commute:5},b:{salary:65000,bonus:0,hours:45,pto:3,commute:5}});close(coT.a.effective,62600/2250);assert.equal(coT.a.totalComp,65000);
 close(freelance({income:60000,expenses:6000,hours:25,weeks:48,tax:25,margin:10}).dayRate,79.62962962962963*8);
+close(freelance({income:60000,expenses:6000,hours:25,weeks:48,tax:25,margin:10}).retainer,7962.962962962963);
 const root=path.resolve(import.meta.dirname,'../dist');
 const routes=JSON.parse(fs.readFileSync(path.join(root,'routes.json'),'utf8'));
 let links=0;
