@@ -254,7 +254,7 @@ export function freelance(input) {
   if (tax>=1 || margin>=1 || hours>168 || weeks>52) throw new Error('Reserves and margins must be less than 100%. Use up to 168 hours and 52 weeks.');
   const revenue=(income/(1-tax)+expenses)/(1-margin);
   const rate=revenue/(hours*weeks);
-  return {revenue,billableHours:hours*weeks,rate,dayRate:rate*8,income,expenses,reserve:income/(1-tax)-income,profit:revenue*margin};
+  return {revenue,billableHours:hours*weeks,rate,dayRate:rate*8,retainer:revenue/12,income,expenses,reserve:income/(1-tax)-income,profit:revenue*margin};
 }
 
 // 2026 federal figures (IRS Revenue Procedure 2025-32). Federal only; state tax excluded.
