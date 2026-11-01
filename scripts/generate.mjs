@@ -384,10 +384,10 @@ const categoryIntro={
  'Freelance tools':'Set a billable rate that covers more than your salary wish: the income you want, business expenses, a tax reserve, and a profit margin, divided by the hours you can actually bill.'
 };
 const categoryDesc={
- 'Pay converters':'Convert hourly rates to annual salaries and salaries to hourly rates, with the schedule behind each figure. Two free calculators, no sign-up.',
+ 'Pay converters':'Convert hourly rates to annual salaries and salaries to hourly rates, with the schedule behind each figure, in both directions. Two calculators, no sign-up.',
  'Paycheck tools':'Estimate gross and take-home pay per check, price overtime and time and a half, or work backwards from a take-home target. Seven free paycheck calculators.',
  'Raises & job offers':'Measure a raise in dollars and percent, compare two job offers by pay per committed hour, or check work tenure from a start date. Three free calculators.',
- 'Freelance tools':'Build a billable rate around your income goal, expenses, tax reserve, and profit margin. One free calculator, no sign-up.'
+ 'Freelance tools':'Build a billable rate around your income goal, expenses, tax reserve, and profit margin, divided by the hours you can actually bill. Free, no sign-up.'
 };
 for(const cat of Object.keys(categorySlugMap)){
  const catTools=tools.filter(t=>categoryMap[t.slug]===cat);
