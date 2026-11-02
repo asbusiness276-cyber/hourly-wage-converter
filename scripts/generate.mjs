@@ -352,7 +352,7 @@ const categorySlugMap={'Pay converters':'pay-converters','Paycheck tools':'paych
 const categoryHtml=(t)=>{const c=categoryMap[t.slug];if(!c)return '';return `<p class="caption tool-meta">Category: <a href="/calculators/${categorySlugMap[c]}/">${c}</a> \u00b7 No sign-up required \u00b7 Runs entirely in your browser</p>`;};
 const relatedGuidesMap={
  'salary-to-hourly':[['How to calculate an hourly rate from a salary','/articles/how-to-calculate-hourly-rate-from-salary/'],['How to convert hourly pay to annual salary','/articles/how-to-convert-hourly-pay-to-annual-salary/']],
- 'hourly-to-salary':[['How to convert hourly pay to annual salary','/articles/how-to-convert-hourly-pay-to-annual-salary/'],['Gross pay vs net pay: what actually lands in your account','/articles/gross-pay-vs-net-pay/']],
+ 'hourly-to-salary':[['How to convert hourly pay to annual salary','/articles/how-to-convert-hourly-pay-to-annual-salary/'],['Gross pay vs net pay: what actually lands in your account','/articles/gross-pay-vs-net-pay/'],['How much is $40 an hour a year?','/articles/how-much-is-40-an-hour-a-year/']],
  'paycheck':[['How to calculate taxes on a paycheck','/articles/how-to-calculate-taxes-on-paycheck/'],['Gross pay vs net pay','/articles/gross-pay-vs-net-pay/'],['What is FICA tax?','/articles/what-is-fica-tax/']],
  'overtime':[['How to calculate pay with an overtime calculator','/articles/how-to-calculate-pay-with-overtime-calculator/'],['Is overtime taxed at a higher rate?','/articles/is-overtime-taxed-at-a-higher-rate/'],['No tax on overtime: what the law actually says','/articles/no-tax-on-overtime/'],['What is double time pay?','/articles/what-is-double-time-pay/']],
  'time-and-a-half':[['How to calculate pay with an overtime calculator','/articles/how-to-calculate-pay-with-overtime-calculator/'],['Is overtime taxed at a higher rate?','/articles/is-overtime-taxed-at-a-higher-rate/'],['No tax on overtime: what the law actually says','/articles/no-tax-on-overtime/'],['What is double time pay?','/articles/what-is-double-time-pay/']],
@@ -418,7 +418,7 @@ const hourlyTierNotes={
  20:`<p>$20 an hour equals $41,600 a year full-time before taxes. This rate is widely advertised for warehouse, delivery driving, customer service, and entry-level healthcare support positions, and it is a frequent step up from minimum-wage work.</p>`,
  25:`<p>$25 an hour comes to $52,000 a year full-time \u2014 near the middle of the US hourly wage distribution. You will see this rate in skilled-trade apprenticeships, administrative professional roles, and experienced service positions.</p>`,
  30:`<p>$30 an hour equals $62,400 a year full-time. This band covers experienced tradespeople, IT support specialists, licensed practical nurses, and other roles that typically require a credential, license, or several years of experience.</p>`,
- 40:`<p>$40 an hour equals $83,200 a year full-time. Registered nurses, software developers, electricians, and other licensed or degree-holding professionals commonly earn in this range.</p>`,
+ 40:`<p><a href="/articles/how-much-is-40-an-hour-a-year/">$40 an hour</a> equals $83,200 a year full-time. Registered nurses, software developers, electricians, and other licensed or degree-holding professionals commonly earn in this range.</p>`,
  50:`<p>$50 an hour crosses the six-figure line at $104,000 a year full-time. This is typical for senior professional roles, specialized consultants, and high-skill contract work billed by the hour.</p>`
 };
 const salaryTierNotes={
