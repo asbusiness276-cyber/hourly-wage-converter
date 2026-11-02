@@ -6,6 +6,7 @@ export const article29 = {
   datePublished: '2026-10-29',
   dateModified: '2026-10-29',
   title: 'What Is Double Time Pay? How to Calculate It and When You Get It',
+  seoTitle: 'What Is Double Time Pay? | Hourly Wage Converter',
   h1: 'Double Time Pay: Twice Your Rate — and Federal Law Never Requires It',
   desc: 'Double time pays 2× your hourly rate, but federal law never requires it. Learn when it applies, how to calculate it, and see worked examples at $25 an hour.',
   image: '/assets/images/what-is-double-time-pay.jpg',

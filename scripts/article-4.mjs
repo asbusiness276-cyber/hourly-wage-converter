@@ -12,6 +12,7 @@ export const article4 = {
   datePublished: '2026-10-14',
   dateModified: '2026-10-17',
   title: 'Calculate Overtime Pay: Step-by-Step Guide',
+  seoTitle: 'Calculate Overtime Pay Step-by-Step | Hourly Wage Converter',
   h1: 'How to Calculate Pay With an Overtime Calculator',
   desc: 'Master overtime pay step by step: FLSA 40-hour workweek rules, 1.5x time-and-a-half formulas, California double time, blended rates, and tax withholding.',
   image: '/assets/images/how-to-calculate-pay-with-overtime-calculator.jpg',

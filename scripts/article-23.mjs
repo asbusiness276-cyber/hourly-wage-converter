@@ -6,6 +6,7 @@ export const article23 = {
   datePublished: '2026-10-27',
   dateModified: '2026-10-27',
   title: 'How Much Is $100,000 a Year After Taxes?',
+  seoTitle: '$100,000 a Year After Taxes | Hourly Wage Converter',
   h1: '$100,000 a Year After Taxes: Your Real Take-Home Pay in 2026',
   desc: 'How much is $100,000 a year after taxes? $79,180 take-home for a single filer — federal tax, FICA breakdown, and monthly, biweekly, weekly, and hourly pay.',
   image: '/assets/images/100000-a-year-after-taxes.jpg',
