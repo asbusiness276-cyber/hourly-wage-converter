@@ -5558,3 +5558,35 @@ a.btn {
 .pay-table.ot-state-table th:nth-child(2) { width: 31%; }
 .pay-table.ot-state-table th:nth-child(3) { width: 10%; }
 .pay-table.ot-state-table th:nth-child(4) { width: 44%; }
+
+/* ==========================================================================
+   LAYOUT FIXES — BATCH 2.2 (2026-11-02): result-panel legend receipt
+   width; quick-rates examples grid centred partial rows.
+   ========================================================================== */
+
+/* Result-panel breakdown legend ("Where your annual pay goes" / "Where
+   this check goes"): the legend list is capped at receipt width and
+   stays left-aligned inside the full-width dark panel, so each label
+   and its value read as a close pair instead of stretching apart
+   across the panel. Rows share the same grid tracks, so the values
+   stay aligned with each other. Covers both the server-rendered panel
+   and the app.js re-render (same classes). The panel, its headline
+   figures and the pay bar keep their full width; the cap only bites
+   above 540px, so narrow screens are unchanged. */
+.pay-legend { max-width: 540px; }
+
+/* Quick-rates examples grids ("Popular hourly wage examples" on the
+   hourly-to-salary calculator — 9 rates; the homepage rate strip — 8):
+   the same centred flex rows as .directory-grid, at this grid's own
+   column widths (4 across, then 2 under 1100px, then 1 under 640px;
+   gap is 12px), so a partial last row — the lone $100/hour card —
+   sits centred instead of stranded against the left edge. Full rows
+   keep exactly the widths the old grid gave them. */
+.conversion-links.quick-rates { display: flex; flex-wrap: wrap; justify-content: center; }
+.conversion-links.quick-rates > * { flex: 0 1 calc(25% - 9px); }
+@media (max-width: 1100px) {
+  .conversion-links.quick-rates > * { flex-basis: calc(50% - 6px); }
+}
+@media (max-width: 640px) {
+  .conversion-links.quick-rates > * { flex-basis: 100%; }
+}
