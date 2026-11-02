@@ -728,7 +728,7 @@ details.nav-drop:not([open]) .nav-menu {
 
 .text-button:hover {
   color: var(--primary);
-  border-color: var(--primary-subtle);
+  border-color: var(--primary-border);
   background: var(--primary-light);
   transform: translateY(-1px);
 }
@@ -3615,7 +3615,7 @@ a.btn {
 
 .article-author-link:hover {
   gap: 9px;
-  color: var(--primary-dark);
+  color: var(--primary-hover);
 }
 
 .article-author-linkedin-btn {
