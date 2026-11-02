@@ -6,6 +6,7 @@ export const article17 = {
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',
   title: 'How Many Hours a Week Is Full-Time Work?',
+  seoTitle: 'How Many Hours Is Full-Time Work? | Hourly Wage Converter',
   h1: 'How Many Hours Is Full-Time? What the Law and Employers Actually Say',
   desc: 'How many hours a week is full-time? The FLSA sets no definition, the ACA counts 30 hours, the BLS counts 35, and most employers use 40. All four, compared.',
   image: '/assets/images/full-time-hours.jpg',

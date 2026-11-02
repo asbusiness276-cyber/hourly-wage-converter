@@ -6,6 +6,7 @@ export const article11 = {
   datePublished: '2026-10-20',
   dateModified: '2026-10-20',
   title: 'Is Overtime Taxed at a Higher Rate? (2026)',
+  seoTitle: 'Is Overtime Taxed at a Higher Rate? | Hourly Wage Converter',
   h1: 'Is Overtime Taxed at a Higher Rate? (2026)',
   desc: 'No \u2014 overtime is taxed at your normal marginal rate, not a higher one. See why overtime checks look heavily taxed, how brackets work, and the 2026 deduction.',
   image: '/assets/images/is-overtime-taxed-at-a-higher-rate.jpg',

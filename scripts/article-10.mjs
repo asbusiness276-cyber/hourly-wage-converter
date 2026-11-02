@@ -6,6 +6,7 @@ export const article10 = {
   datePublished: '2026-10-19',
   dateModified: '2026-10-19',
   title: 'No Tax on Overtime in 2026: How It Works',
+  seoTitle: 'No Tax on Overtime in 2026 | Hourly Wage Converter',
   h1: 'No Tax on Overtime in 2026: How the Deduction Really Works',
   desc: 'No tax on overtime is a federal deduction for 2025–2028, not an exemption. See what qualifies, the $12,500/$25,000 caps, and how to claim it on your return.',
   image: '/assets/images/no-tax-on-overtime.jpg',

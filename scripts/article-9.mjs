@@ -12,6 +12,7 @@ export const article9 = {
   datePublished: '2026-10-17',
   dateModified: '2026-10-17',
   title: 'Biweekly vs Semi-Monthly Pay Differences',
+  seoTitle: 'Biweekly vs Semi-Monthly Pay | Hourly Wage Converter',
   h1: 'Biweekly vs. Semi-Monthly Pay: What’s the Difference and Which Is Better?',
   desc: 'Compare biweekly vs. semi-monthly pay: 26 vs. 24 paychecks, paycheck sizes on a $60k salary, the three-paycheck month strategy, overtime rules, and budgeting.',
   image: '/assets/images/biweekly-vs-semi-monthly-pay-difference.jpg',

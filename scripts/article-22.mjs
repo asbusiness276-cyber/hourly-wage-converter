@@ -6,6 +6,7 @@ export const article22 = {
   datePublished: '2026-10-27',
   dateModified: '2026-10-27',
   title: 'How Much Is $60,000 a Year After Taxes?',
+  seoTitle: '$60,000 a Year After Taxes | Hourly Wage Converter',
   h1: '$60,000 a Year After Taxes: Your Real Take-Home Pay in 2026',
   desc: 'How much is $60,000 a year after taxes? Take-home is $50,390 a year ($4,199.17 a month) for a single filer — federal tax and FICA only, before state tax.',
   image: '/assets/images/60000-a-year-after-taxes.jpg',

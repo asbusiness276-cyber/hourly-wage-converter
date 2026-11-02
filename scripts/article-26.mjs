@@ -6,6 +6,7 @@ export const article26 = {
   datePublished: '2026-10-29',
   dateModified: '2026-10-29',
   title: 'How to Read Your Pay Stub, Line by Line',
+  seoTitle: 'How to Read Your Pay Stub | Hourly Wage Converter',
   h1: 'How to Read Your Pay Stub, Line by Line (With a Worked Sample)',
   desc: 'Learn to read your pay stub line by line: gross pay, FICA, federal and state withholding, pre-tax vs post-tax deductions, and YTD — with a worked sample stub.',
   image: '/assets/images/how-to-read-your-pay-stub.jpg',
