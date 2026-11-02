@@ -606,8 +606,9 @@ details.nav-drop:not([open]) .nav-menu {
 
 .head-badge {
   flex-shrink: 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  margin-top: 16px;
   gap: 8px;
   font-size: 0.84rem;
   font-weight: 600;
@@ -1094,6 +1095,45 @@ details.nav-drop:not([open]) .nav-menu {
   transform: rotate(-45deg);
 }
 
+/* Layout pass 2026-11-02: card-header Reset buttons (form cards and job
+   cards) get the same secondary spec as .btn-secondary instead of the
+   small plain text-button treatment. */
+.card-header .text-button {
+  background: #ffffff;
+  border: 1.5px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  color: var(--slate-700);
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 12px 24px;
+  min-height: 48px;
+  justify-content: center;
+}
+
+.card-header .text-button svg {
+  color: var(--slate-500);
+}
+
+.card-header .text-button:hover {
+  background: var(--slate-50);
+  border-color: var(--slate-400);
+  color: var(--slate-900);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-header .text-button:hover svg {
+  color: var(--primary);
+}
+
+/* Layout pass 2026-11-02: on /contact/ the Send Email primary carries
+   .calculate-button's default 24px top margin into the shared flex row,
+   dropping it below Copy Email Address; remove it so the pair shares
+   one height (both are min-height 48px) with aligned bottoms. */
+.contact-layout .calculate-button {
+  margin-top: 0;
+}
+
 .form-foot {
   display: flex;
   gap: 8px;
@@ -1405,25 +1445,32 @@ details.nav-drop:not([open]) .nav-menu {
 }
 
 .result-actions button {
+  /* Layout pass 2026-11-02: unified secondary style — identical spec to
+     .btn-secondary so Edit schedule / Copy results / Reset match the
+     form Reset buttons. */
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-sm);
-  padding: 8px 14px;
-  min-height: 38px;
-  color: #f1f5f9;
-  font-size: 0.82rem;
-  font-weight: 600;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid var(--slate-300);
+  border-radius: var(--radius-md);
+  padding: 12px 24px;
+  min-height: 48px;
+  color: var(--slate-700);
+  font-size: 0.95rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.18s ease;
+  white-space: nowrap;
 }
 
 .result-actions button:hover {
-  background: rgba(255, 255, 255, 0.18);
-  color: #ffffff;
+  background: var(--slate-50);
+  border-color: var(--slate-400);
+  color: var(--slate-900);
   transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .result-actions button svg {
@@ -1500,16 +1547,12 @@ details.nav-drop:not([open]) .nav-menu {
 }
 
 .toc.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: calc(var(--header) + 20px);
-  max-height: calc(100vh - var(--header) - 32px);
-  overflow-y: auto;
-  overscroll-behavior: contain;
+  /* Layout pass 2026-11-02: the sidebar renders at its natural height —
+     no sticky pinning and no internal max-height scrollbar, so the card
+     never ends early beside a long empty column and every TOC item
+     stays visible. */
+  position: static;
   align-self: start;
-  z-index: 20;
-  scrollbar-width: thin;
-  scrollbar-color: #cbd5e1 transparent;
 }
 
 .toc::-webkit-scrollbar {
@@ -2480,7 +2523,12 @@ a.btn-secondary:hover,
 .pay-table.worked-table th, .pay-table.worked-table td { white-space: normal; }
 .pay-table.text-col-2 th:nth-child(2), .pay-table.text-col-2 td:nth-child(2) { white-space: normal; }
 .pay-table.pair-table th, .pay-table.pair-table td { text-align: left; }
-.pay-table.pair-table th:first-child, .pay-table.pair-table td:first-child { width: 56%; }
+.pay-table.pair-table th:first-child, .pay-table.pair-table td:first-child { width: auto; }
+/* Layout pass 2026-11-02: pair tables hug their content — the bordered
+   wrap shrinks to the table so label and value read as a pair with no
+   dead strip inside a full-width box. */
+.table-wrap:has(> .pay-table.pair-table) { width: fit-content; }
+.pay-table.pair-table { width: auto; }
 /* Spread tables (2026-10-29, user feedback): numeric grids fill
    their container edge-to-edge — no dead space beside the table —
    with columns sharing the width evenly so values line up at even
@@ -4451,18 +4499,13 @@ a.btn {
 @media (min-width: 1101px) {
   aside.toc,
   .toc.sticky {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: calc(var(--header) + 20px) !important;
-    max-height: calc(100vh - var(--header) - 32px) !important;
-    overflow-y: auto !important;
-    overscroll-behavior: contain !important;
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
     align-self: start !important;
-    z-index: 20 !important;
   }
   .toc.is-too-tall {
-    position: -webkit-sticky !important;
-    position: sticky !important;
+    position: static !important;
   }
 }
 
