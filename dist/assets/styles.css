@@ -1395,9 +1395,10 @@ details.nav-drop:not([open]) .nav-menu {
 }
 
 .pay-legend-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 10px minmax(0, 56%) auto;
   align-items: center;
-  gap: 8px;
+  column-gap: 8px;
   font-size: 0.82rem;
   color: #94a3b8;
 }
@@ -1410,7 +1411,6 @@ details.nav-drop:not([open]) .nav-menu {
 }
 
 .pay-legend-row strong {
-  margin-left: auto;
   color: #ffffff;
   font-variant-numeric: tabular-nums;
 }
@@ -2534,6 +2534,11 @@ a.btn-secondary:hover,
    with columns sharing the width evenly so values line up at even
    intervals instead of floating. */
 .pay-table.spread { table-layout: fixed; }
+/* Tool-picker table on /calculators/ (layout pass 2026-11-02, batch 1.5):
+   fixed layout with a 38% question column so the tool column starts
+   well before mid-page instead of at a 50/50 split. */
+.pay-table.tool-picker { table-layout: fixed; }
+.pay-table.tool-picker th:first-child { width: 38%; }
 @media (max-width: 640px) {
   .pay-table.vs-table, .pay-table.desc-table, .pay-table.worked-table, .pay-table.pair-table { min-width: 0; }
 }
@@ -4506,6 +4511,16 @@ a.btn {
   }
   .toc.is-too-tall {
     position: static !important;
+  }
+  /* Layout pass 2026-11-02 (batch 1.5): short tool/reference asides
+     (.toc-pin) stick on desktop at the standard sticky offset so the
+     sidebar column never trails off as a long empty strip. Natural
+     height, no max-height, no internal scroll. Article "In this
+     guide" TOCs do not carry .toc-pin and stay static (batch 1). */
+  .toc.toc-pin {
+    position: sticky !important;
+    top: calc(var(--header) + 20px);
+    align-self: start !important;
   }
 }
 
