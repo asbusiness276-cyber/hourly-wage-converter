@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const article3 = {
   slug: 'how-to-calculate-taxes-on-paycheck',
   breadcrumb: 'Paycheck Taxes',
-  category: 'Tax & Payroll Guides',
+  category: 'Taxes & Deductions',
   minutes: 15,
   datePublished: '2026-10-13',
   dateModified: '2026-10-17',

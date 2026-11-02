@@ -1,7 +1,7 @@
 export const article16 = {
   slug: 'gross-pay-vs-net-pay',
   breadcrumb: 'Gross Pay vs Net Pay',
-  category: 'Tax & Payroll Guides',
+  category: 'Taxes & Deductions',
   minutes: 10,
   datePublished: '2026-10-23',
   dateModified: '2026-10-23',

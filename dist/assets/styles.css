@@ -1714,7 +1714,7 @@ details.nav-drop:not([open]) .nav-menu {
 
 .resource-card p {
   font-size: 0.9rem;
-  color: var(--ink-muted);
+  color: var(--muted);
   line-height: 1.6;
   margin: 0;
   flex: 1;
@@ -5500,3 +5500,61 @@ a.btn {
 
 /* CTA band buttons: .calculate-button carries margin-top:24px for standalone use; inside the flex row it made the red button shorter than the white one (flex stretch + margin). Zero it here so both buttons render exactly equal height. */
 .home-cta-actions .calculate-button { margin-top: 0; }
+/* ==========================================================================
+   Layout pass 2026-11-02, batch 2: balanced grids (no lone orphan item on
+   a partial last row), overtime state table column widths. (The article
+   excerpt colour fix is in place above: .resource-card p used the
+   undefined var(--ink-muted), so excerpts inherited the blue link colour
+   and shifted on hover; they now use var(--muted) like .tool-card p.)
+   ========================================================================== */
+
+/* Rate preset chips: chips grow to fill each row of the form, so no row
+   ends with a single chip stranded in empty space (the lone "$100" chip
+   in the hourly group). Applies to both preset groups (9 hourly rates,
+   10 salaries) in every converter form. */
+.preset { flex: 1 1 auto; text-align: center; }
+
+/* Directory grids (/calculators/ groups, /hourly/ and /salary/ index
+   cards): centred flex rows keep the 3-across card widths, and a partial
+   last row (7 paycheck tools = 3+3+1; the single freelance card) sits
+   centred instead of stranded against the left edge. Breakpoint widths
+   mirror the old grid: 3 across, then 2 under 1100px, then 1 under
+   640px. */
+.directory-grid { display: flex; flex-wrap: wrap; justify-content: center; }
+.directory-grid > * { flex: 0 1 calc(33.333% - 13.34px); }
+@media (max-width: 1100px) {
+  .directory-grid > * { flex-basis: calc(50% - 10px); }
+}
+@media (max-width: 640px) {
+  .directory-grid > * { flex-basis: 100%; }
+}
+
+/* Calculator hub grids (2, 7, 3 and 1 tools): same centred-row treatment
+   at 4 across, matching the .tool-grid breakpoints (2 across under
+   1280px, 1 under 640px). Only hub pages carry the hub-grid class; the
+   inline-styled 2-column tool grids elsewhere are untouched. */
+.tool-grid.hub-grid { display: flex; flex-wrap: wrap; justify-content: center; }
+.tool-grid.hub-grid > .tool-card { flex: 0 1 calc(25% - 13.5px); }
+@media (max-width: 1280px) {
+  .tool-grid.hub-grid > .tool-card { flex-basis: calc(50% - 9px); }
+}
+@media (max-width: 640px) {
+  .tool-grid.hub-grid > .tool-card { flex-basis: 100%; }
+}
+
+/* Result grids: an odd final cell (the 7-cell converter panel on salary
+   guides) spans the full row instead of sitting alone at half width
+   with a stray divider. */
+.result-grid > :last-child:nth-child(odd) { grid-column: 1 / -1; border-right: 0; padding-right: 0; }
+
+/* Overtime rules by state: the daily-overtime table gets fixed layout
+   with content-matched column widths and wrapping text, so the long
+   "Who it covers" entries no longer squeeze the other columns into
+   nowrap slivers (base .pay-table cells are nowrap) and the table
+   fills its width evenly. */
+.pay-table.ot-state-table { table-layout: fixed; }
+.pay-table.ot-state-table th, .pay-table.ot-state-table td { white-space: normal; }
+.pay-table.ot-state-table th:nth-child(1) { width: 15%; }
+.pay-table.ot-state-table th:nth-child(2) { width: 31%; }
+.pay-table.ot-state-table th:nth-child(3) { width: 10%; }
+.pay-table.ot-state-table th:nth-child(4) { width: 44%; }

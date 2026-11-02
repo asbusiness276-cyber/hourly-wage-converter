@@ -1,7 +1,7 @@
 export const article24 = {
   slug: 'what-is-fica-tax',
   breadcrumb: 'What Is FICA Tax?',
-  category: 'Tax & Payroll Guides',
+  category: 'Taxes & Deductions',
   minutes: 10,
   datePublished: '2026-10-27',
   dateModified: '2026-10-27',
