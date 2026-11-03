@@ -10,7 +10,7 @@ export const article29 = {
   h1: 'Double Time Pay: Twice Your Rate — and Federal Law Never Requires It',
   desc: 'Double time pays 2× your hourly rate, but federal law never requires it. Learn when it applies, how to calculate it, and see worked examples at $25 an hour.',
   image: '/assets/images/what-is-double-time-pay.jpg',
-  imageAlt: 'Night-shift worker standing beside a giant clock showing hours past midnight, with rising stacks of gold coins under a crescent moon, in deep blue and orange',
+  imageAlt: 'A tired night-shift worker holding a thermos in a dim workshop beneath a large round wall clock',
   toc: [
     ['short-answer', 'The Short Answer'],
     ['what-is-double-time', 'What Is Double Time Pay?'],
