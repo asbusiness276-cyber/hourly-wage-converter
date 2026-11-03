@@ -5506,9 +5506,10 @@ a.btn {
   .home-cta { padding: 32px 20px; }
 }
 
-/* Mobile fix: below 1100px the tool layout stacks to one column, so sticky form/result panels would overlap each other — force them static there. Desktop (>=1101px, two columns) keeps sticky behavior. */
+/* Mobile fix: below 1100px the tool and comparison layouts stack to one column, so sticky form/result panels would overlap each other — force them static there. Desktop (>=1101px, two columns) keeps sticky behavior. The comparison layout was missing from this rule (manager watch item 0.6, 2026-11-03) — its result card now matches the tool-layout rule. */
 @media (max-width: 1100px) {
   .tool-layout > .sticky { position: static !important; }
+  .comparison-layout > .sticky { position: static !important; }
 }
 
 /* CTA band buttons: .calculate-button carries margin-top:24px for standalone use; inside the flex row it made the red button shorter than the white one (flex stretch + margin). Zero it here so both buttons render exactly equal height. */
