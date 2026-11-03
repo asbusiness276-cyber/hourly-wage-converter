@@ -19,6 +19,8 @@ export const article17 = {
     ['employers', 'How Employers Actually Set Full-Time'],
     ['hours-and-pay', 'What Your Hours Mean for Your Pay'],
     ['vs-overtime', 'Full-Time Status vs Overtime: Two Separate Questions'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -148,6 +150,30 @@ export const article17 = {
           <li><strong>Exemption is a third question.</strong> Whether overtime applies at all also depends on the exempt/non-exempt classification — duties and salary tests, not hours or labels.</li>
         </ul>
         <p>One more benefits connection: full-time schedules are also what accumulate paid holidays at most employers — our <a href="/articles/holiday-pay/">holiday pay guide</a> explains how those policies typically work and what the law does and does not require.</p>
+      </section>
+
+      <section class="article-section" id="how-to-use">
+        <h2>How to Use the Calculator</h2>
+        <p>See what your own schedule pays over a year in four steps:</p>
+        <ol>
+          <li><strong>Step 1 — Enter your hourly rate</strong> (the $25 rate used throughout this guide, or your own) into the hourly to salary calculator.</li>
+          <li><strong>Step 2 — Set your real weekly hours:</strong> try the schedule you actually work — 30, 35, 37.5, or 40 hours.</li>
+          <li><strong>Step 3 — Keep paid weeks at 52</strong> for a standard full-time year, then read the annual figure: $45,500 at 35 hours, $52,000 at 40.</li>
+          <li><strong>Step 4 — Rerun at the other thresholds:</strong> the same rate at the ACA's 30-hour line and the BLS 35-hour line shows how much of your income is schedule, not wage.</li>
+        </ol>
+        <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+      </section>
+
+      <section class="article-section" id="limitations">
+        <h2>Limitations</h2>
+        <ol>
+          <li><strong>No calculator can assign your status:</strong> full-time has no single federal definition — the FLSA does not define it, the ACA's 30-hour rule covers only health coverage at large employers, and your own employer's handbook decides your benefits.</li>
+          <li><strong>Benefit thresholds differ by benefit:</strong> an employer can set one hour threshold for PTO and another for retirement-plan eligibility, so a single "full-time" label may not describe your whole package.</li>
+          <li><strong>The ACA rule is narrower than it sounds:</strong> it applies only to employers with 50 or more full-time-equivalent staff, and only to the offer of health coverage — not to pay, leave, or other benefits.</li>
+          <li><strong>Annual figures assume 52 fully paid weeks:</strong> unpaid leave, seasonal schedules, and gaps between jobs all reduce the real annual total below the converted figure.</li>
+          <li><strong>Status is not overtime:</strong> whether you are owed time-and-a-half depends on hours worked past 40 in a workweek and on exempt status — never on the full-time or part-time label.</li>
+          <li><strong>Other rules use their own hour counts:</strong> programs such as FMLA leave (1,250 hours in 12 months) and some state paid-leave laws apply separate tests that this guide's four standards do not capture.</li>
+        </ol>
       </section>
 
       <section class="article-section" id="faqs">

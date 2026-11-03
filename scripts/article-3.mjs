@@ -29,6 +29,8 @@ export const article3 = {
     ['final-paycheck-result', 'The Complete Paycheck Breakdown: Gross to Net Pay Table'],
     ['supplemental-bonus-myth', 'Why Bonuses and Overtime Checks Seem Taxed Higher'],
     ['common-w4-mistakes', 'Common Form W-4 Mistakes That Distort Your Paycheck'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Paycheck Taxes'],
     ['key-takeaways', 'Key Takeaways & Paycheck Audit Checklist']
   ],
@@ -356,6 +358,28 @@ export const article3 = {
           <p>Marriage, divorce, purchasing a home, having a child, or picking up freelance income all change your tax liability. Review your W-4 annually to ensure your paycheck withholding matches your financial goals.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Build the gross side of this guide's example first, then run the five tax steps on it:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate and hours:</strong> the $25 rate and 80 biweekly hours from this guide's example, or your own rate and schedule.</li>
+        <li><strong>Step 2 — Add your pre-tax deductions:</strong> enter your health premium and 401(k) amounts ($100 and $100 per check in the example) to see how they reshape the gross figures.</li>
+        <li><strong>Step 3 — Read the gross breakdown:</strong> pay per check and per year before taxes — $2,000 per biweekly check in the example.</li>
+        <li><strong>Step 4 — Finish the net number with the 5 steps above:</strong> apply FICA to the FICA wage base, federal withholding using the bracket table, then your state tax, to land on your take-home pay.</li>
+      </ol>
+      <p><a class="btn" href="/paycheck-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>The calculator does not compute your taxes:</strong> it models gross pay and deductions; your actual withholding comes from IRS Publication 15-T tables and your W-4, which is why this guide works the tax steps separately.</li>
+        <li><strong>One example profile:</strong> the worked numbers assume a single filer taking the standard deduction on a biweekly schedule — married filing jointly, head of household, extra jobs, or a different pay frequency all change the result.</li>
+        <li><strong>Withholding is an estimate, not the final tax:</strong> credits, other income, and adjustments settle on your annual return, so a perfectly calculated paycheck can still end in a refund or a balance due.</li>
+        <li><strong>State and local rules vary widely:</strong> some states do not follow the federal treatment of pre-tax deductions, and local taxes (such as New York City's) stack on top of state tax.</li>
+        <li><strong>FICA has edges the example never reaches:</strong> Social Security stops at the $184,500 wage base for 2026, and the 0.9% Additional Medicare Tax begins above $200,000 — neither appears in a $52,000 example.</li>
+        <li><strong>Post-tax items sit outside the five steps:</strong> Roth contributions, garnishments, and union dues come out after taxes and are not modeled in the framework above.</li>
+      </ol>
 
       <!-- Section: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Paycheck Taxes</h2>

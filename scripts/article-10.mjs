@@ -22,6 +22,8 @@ export const article10 = {
     ['state-taxes', 'What About State Income Taxes?'],
     ['how-to-claim', 'How to Claim the Deduction at Tax Time'],
     ['common-mistakes', 'Common Misconceptions to Avoid'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About No Tax on Overtime'],
     ['key-takeaways', 'Key Takeaways & Action Plan']
   ],
@@ -270,6 +272,28 @@ export const article10 = {
         <li><strong>"This is permanent."</strong> The provision covers 2025–2028. Plan as if it ends unless Congress acts.</li>
         <li><strong>"I need to itemize."</strong> It is above-the-line; standard-deduction filers qualify.</li>
       </ul>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Estimate the premium you can deduct in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your base hourly rate</strong> (the $20 rate from this guide's example, or your own) into the overtime calculator.</li>
+        <li><strong>Step 2 — Enter your overtime hours</strong> for a typical week — the hours you work past 40.</li>
+        <li><strong>Step 3 — Read the overtime total at 1.5×, then take one third of it:</strong> at time-and-a-half, exactly one third of the overtime pay is the premium — $50 of the $150 in the example — and the premium is the only part that counts toward the deduction.</li>
+        <li><strong>Step 4 — Scale it to your year and check the cap:</strong> multiply the weekly premium by your overtime weeks, then compare with the $12,500 single / $25,000 joint cap — your deductible amount is the smaller of the two.</li>
+      </ol>
+      <p><a class="btn" href="/overtime-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Temporary window:</strong> the deduction exists for tax years 2025–2028 only; unless Congress extends it, overtime premiums are fully taxable again from 2029.</li>
+        <li><strong>Premium only, and only FLSA-required premium:</strong> the base-rate portion of overtime hours stays fully taxable, and voluntary premiums the FLSA does not require — such as holiday double time under a company policy — generally do not qualify.</li>
+        <li><strong>Caps and phase-out apply:</strong> the deduction is capped at $12,500 single / $25,000 joint per year and phases down above income thresholds set by IRS guidance — verify the current figures for the year you are filing.</li>
+        <li><strong>Federal income tax only:</strong> Social Security and Medicare tax still apply to the full overtime amount, and most states have not conformed, so state tax usually still applies to the premium as well.</li>
+        <li><strong>Nothing changes during the year:</strong> withholding continues as before and the calculator models gross pay only — it does not compute the deduction; the benefit is settled on your return.</li>
+        <li><strong>Your W-2 is the anchor:</strong> the deduction builds on the qualified overtime your employer reports separately (required from 2026 W-2s) — if that figure is wrong or missing, the discrepancy has to be resolved with your employer and your pay stubs.</li>
+      </ol>
 
       <!-- Section 11: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About No Tax on Overtime</h2>

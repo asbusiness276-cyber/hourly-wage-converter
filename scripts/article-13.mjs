@@ -17,6 +17,8 @@ export const article13 = {
     ['tipped-wages', 'Tipped Minimum Wages for 2027'],
     ['city-rates', 'Big-City Rates Higher Than the State'],
     ['what-it-means', 'What the New Rates Mean for Your Paycheck'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About 2027 Minimum Wage'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -209,6 +211,28 @@ export const article13 = {
       <img src=\"/assets/images/ui-minimum-wage-annual-math-2027.webp\" alt=\"Infographic showing 2027 full-time annual pay: $17.73 an hour equals $36,878 a year, $15.00 equals $31,200, and $7.25 equals $15,080\" width=\"800\" height=\"450\" loading=\"lazy\">
 
       <p>Two things the table doesn\u2019t show: <strong>overtime</strong> is calculated on your regular rate, so a higher minimum lifts overtime pay too \u2014 see the <a href=\"/overtime-calculator/\">overtime calculator</a>; and <strong>take-home pay</strong> is what lands in your account, which is always less than these gross figures \u2014 model it with the <a href=\"/paycheck-calculator/\">paycheck calculator</a> or convert any rate with the <a href=\"/hourly-to-salary-calculator/\">hourly-to-salary calculator</a>.</p>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id=\"how-to-use\">How to Use the Calculator</h2>
+      <p>Turn your state's 2027 rate into a paycheck in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Find your rate in the table above:</strong> start with your state's 2027 minimum, then check the city table — if your city sets a higher rate, that is your number (Washington state: $17.73; Burien: $22.49).</li>
+        <li><strong>Step 2 — Enter the rate and your hours</strong> into the paycheck calculator — 40 hours a week for the full-time figures used in this guide.</li>
+        <li><strong>Step 3 — Set your pay frequency:</strong> weekly, biweekly, or semi-monthly, matching how your employer actually pays you.</li>
+        <li><strong>Step 4 — Read your gross pay per check and per year:</strong> at $17.73 full-time that is $36,878 a year before taxes — then compare it with your current rate to see what the 2027 change is worth to you.</li>
+      </ol>
+      <p><a class=\"btn\" href=\"/paycheck-calculator/\">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id=\"limitations\">Limitations</h2>
+      <ol>
+        <li><strong>Rates are a snapshot:</strong> every figure here was verified in October 2026 — Oregon and Vermont had not announced 2027 rates yet, and Washington, D.C. adjusts again mid-2027, so confirm your rate before relying on it.</li>
+        <li><strong>Local rates can override the table:</strong> dozens of cities and counties set higher minimums than their states, and only the highest confirmed ones are listed — your local ordinance is the one that legally applies where you work.</li>
+        <li><strong>Tipped work follows different numbers:</strong> tip credits and cash wages vary by state, and eight states require the full minimum before tips — the headline rate is not the whole story for tipped workers.</li>
+        <li><strong>Not every job is covered the same way:</strong> small-employer thresholds, youth and training wages, certain industries, and federal-contractor rates can follow different schedules than the statewide figure.</li>
+        <li><strong>Effective dates differ:</strong> most 2027 rates start January 1, but Alaska's begins July 1 and Florida's September 30, 2026 — a raise can arrive mid-year rather than on New Year's Day.</li>
+        <li><strong>Annual figures assume full-time, fully paid work:</strong> 40 hours a week for 52 weeks, before taxes and deductions — part-time schedules, unpaid time off, and seasonal work all land lower.</li>
+      </ol>
 
       <!-- Section 7: FAQs -->
       <h2 id=\"faqs\">Frequently Asked Questions About 2027 Minimum Wage</h2>
