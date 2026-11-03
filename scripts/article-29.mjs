@@ -81,6 +81,10 @@ export const article29 = {
 
       <section class="article-section" id="when-you-get-it">
         <h2>When Do You Actually Get Double Time?</h2>
+        <figure>
+          <img src="/assets/images/what-is-double-time-pay-night-shift.jpg" alt="Night-shift warehouse crew stacking boxes on a pallet under bright lights, dark windows behind them" width="1280" height="720" loading="lazy">
+          <figcaption>Double time most often shows up on night, holiday, and seventh-day shifts — the hours nobody else wants.</figcaption>
+        </figure>
         <p>Double time comes through exactly three doors. They are listed here in order of how binding they are — a statute binds every covered employer, while a policy binds only the employer who wrote it.</p>
         <h3>1. California law</h3>
         <p>California is the only state that mandates double time statewide, under Labor Code §510. Two triggers:</p>
@@ -124,6 +128,10 @@ export const article29 = {
 
       <section class="article-section" id="worked-examples">
         <h2>Double Time, Worked Step by Step</h2>
+        <figure>
+          <img src="/assets/images/what-is-double-time-pay-time-clock.jpg" alt="Worker punching a time card into a wall-mounted time clock at the end of a long shift in a dim workshop" width="1280" height="720" loading="lazy">
+          <figcaption>Your time card is the record that decides whether those extra hours were paid at double time.</figcaption>
+        </figure>
         <p><strong>Example 1 — a holiday week at $25 an hour.</strong> Your employer's written policy pays double time for hours worked on a company holiday. In one week you work 40 regular hours, 8 of them on the holiday itself:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
