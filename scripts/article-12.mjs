@@ -18,6 +18,8 @@ export const article12 = {
     ['how-much-save', 'How Much You Save: Worked Examples'],
     ['how-to-claim', 'How to Claim It: Reporting, W-2s, and Your Return'],
     ['state-taxes', 'State Taxes: Your State May Not Follow'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About No Tax on Tips'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -284,6 +286,28 @@ export const article12 = {
       </ul>
 
       <p>State positions were still moving through 2026, so confirm your state's current rule before assuming the saving doubles. Our <a href=\"/articles/how-to-calculate-taxes-on-paycheck/\">paycheck tax guide</a> shows where state tax fits in a pay stub.</p>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id=\"how-to-use\">How to Use the Calculator</h2>
+      <p>Model the paycheck your tips ride on in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your base hourly wage and hours</strong> for a typical pay period into the paycheck calculator — the wage side of your pay, before tips.</li>
+        <li><strong>Step 2 — Set your pay frequency:</strong> weekly or biweekly, whichever matches your employer's schedule.</li>
+        <li><strong>Step 3 — Read your gross wage per check,</strong> then add your typical tips for the period on top: in Example 1, Maria's $21,000 of wages carries $13,500 of reported tips across the year.</li>
+        <li><strong>Step 4 — Estimate the deduction's value:</strong> qualified tips up to $25,000, times your marginal rate — Maria's $13,500 at 12% saves about $1,620 at filing time, not in the check itself.</li>
+      </ol>
+      <p><a class=\"btn\" href=\"/paycheck-calculator/\">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id=\"limitations\">Limitations</h2>
+      <ol>
+        <li><strong>Temporary and capped:</strong> the deduction covers tax years 2025–2028 and tops out at $25,000 per return — a cap two tipped spouses share; married filing separately cannot claim it, and a Social Security number must be on the return.</li>
+        <li><strong>The phase-out shrinks it:</strong> the maximum falls by $100 for every $1,000 of modified AGI above $150,000 ($300,000 joint) and reaches zero at $400,000 ($550,000 joint).</li>
+        <li><strong>The occupation list is fixed:</strong> only tips earned in one of the 71 listed occupations qualify, and tips tied to a specified service trade or business are excluded — even if customers tip you every day.</li>
+        <li><strong>Not every payment is a qualified tip:</strong> only voluntary, cash-equivalent tips reported on a W-2, a 1099, or Form 4137 count — mandatory service charges, automatic gratuities, in-kind gifts, and cryptocurrency tips do not, and unreported tips cannot be deducted.</li>
+        <li><strong>Income tax only:</strong> Social Security and Medicare tax (7.65%) still applies to every tip, and for the self-employed the deduction also cannot exceed the net income of the business the tips came from.</li>
+        <li><strong>States go their own way:</strong> some conform automatically, some wrote their own version, and some — Illinois and Georgia among them — require an add-back, so the federal saving does not guarantee a state one.</li>
+      </ol>
 
       <!-- Section 8: FAQs -->
       <h2 id=\"faqs\">Frequently Asked Questions About No Tax on Tips</h2>

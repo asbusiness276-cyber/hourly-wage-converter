@@ -18,6 +18,8 @@ export const article11 = {
     ['worked-example', 'The Math: Withholding vs. Actual Tax'],
     ['overtime-vs-bonuses', 'Overtime vs. Bonuses: Which Is Taxed More?'],
     ['overtime-deduction-2026', 'Where the 2026 Overtime Deduction Fits In'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Overtime Taxation'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -218,6 +220,28 @@ export const article11 = {
       </ul>
 
       <p>Combined picture for a 12%-bracket worker with $3,000 of qualifying premium in 2026: roughly $360 of real tax on that premium before the deduction — and the deduction can wipe most or all of it out at filing, while the 22% withholding during the year stays unchanged, so the refund gets bigger. Full detail on caps, who qualifies, and how to claim it is in our companion guide: <a href=\"/articles/no-tax-on-overtime/\">No Tax on Overtime in 2026: How the Deduction Really Works</a>.</p>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id=\"how-to-use\">How to Use the Calculator</h2>
+      <p>Start from the gross number — the same one this guide's withholding table is built on:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> (the $25 rate from the worked example above, or your own) into the overtime calculator.</li>
+        <li><strong>Step 2 — Enter your hours:</strong> 40 regular hours plus the overtime hours you worked — 10 in the example.</li>
+        <li><strong>Step 3 — Keep the multiplier at 1.5×</strong> for standard time-and-a-half (switch to 2.0× only if your employer pays double time).</li>
+        <li><strong>Step 4 — Read your gross overtime pay</strong> — $375 in the example — then hold it against the table in this guide: at a 12% marginal rate the real federal tax on that $375 is $45, even if $82.50 was withheld.</li>
+      </ol>
+      <p><a class=\"btn\" href=\"/overtime-calculator/\">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id=\"limitations\">Limitations</h2>
+      <ol>
+        <li><strong>The calculator models gross pay only:</strong> it does not calculate taxes or withholding, so it cannot show you the net figure on your stub — that gap is exactly what this guide explains by hand.</li>
+        <li><strong>Withholding method varies by employer:</strong> the flat 22% supplemental rate is common but not universal; employers using the aggregate W-4 method will produce a different stub for the same overtime.</li>
+        <li><strong>The worked example uses illustrative marginal rates:</strong> your real liability depends on your total income, filing status, deductions, and credits across the whole year, not on one paycheck.</li>
+        <li><strong>State income tax is outside the example:</strong> states withhold on overtime under their own rules, and most have not adopted the federal overtime deduction.</li>
+        <li><strong>Payroll taxes have their own edges:</strong> Social Security applies only up to the 2026 wage base of $184,500, so very high earners see a different FICA picture late in the year.</li>
+        <li><strong>The deduction is narrow and temporary:</strong> the 2025–2028 break covers only the FLSA overtime premium, is capped at $12,500 / $25,000, and leaves withholding untouched during the year.</li>
+      </ol>
 
       <!-- Section 7: FAQs -->
       <h2 id=\"faqs\">Frequently Asked Questions About Overtime Taxation</h2>

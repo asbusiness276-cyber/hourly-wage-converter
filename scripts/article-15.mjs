@@ -18,6 +18,8 @@ export const article15 = {
     ['weekly-semimonthly', 'Weekly or Semi-Monthly Pay? Your Version of the Bonus Month'],
     ['really-extra', 'Is the Third Paycheck Really Extra Money?'],
     ['best-uses', 'The Smartest Ways to Use the Extra Check'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Three-Paycheck Months'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -156,6 +158,28 @@ export const article15 = {
         <li><strong>Decide before it lands.</strong> An unassigned check tends to evaporate into small spending. Pick the target when you read this, set the transfer for payday morning, and let the normal two-check budget run untouched.</li>
       </ul>
       <p>A simple sample split for a $2,400 third check: $1,200 to the credit card, $800 to the emergency fund, $400 to a sinking fund for annual bills. Adjust the proportions to your most expensive problem — the structure matters more than the exact numbers.</p>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Put a dollar figure on your bonus month in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate and hours per period</strong> (the $20 rate and 80 hours from this guide, or your own) into the paycheck calculator, with biweekly frequency selected.</li>
+        <li><strong>Step 2 — Read your per-check gross:</strong> $1,600 at $20 an hour; on the $62,400 salary used above, each biweekly check is $2,400.</li>
+        <li><strong>Step 3 — Multiply by the month:</strong> two paydays make a normal month ($4,800 on the salary example); three paydays make $7,200 — the difference is your bonus-check money.</li>
+        <li><strong>Step 4 — Match it to your cycle:</strong> use the dates table above to find which of your months carry the third check, and plan that amount's job before it lands.</li>
+      </ol>
+      <p><a class="btn" href="/paycheck-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Your anchor payday decides everything:</strong> the dates in this guide cover the two Friday biweekly cycles in detail; a different payday weekday or a different first January payday produces different months.</li>
+        <li><strong>Bank holidays move real paydays:</strong> employers often pay a day early when payday hits a holiday — for Cycle A, that can pull the January 1, 2027 check into December 2026 and change your in-year count.</li>
+        <li><strong>A 27-paycheck year may not pay extra:</strong> some employers divide an annual salary by 27 instead of 26 in such a year, making every check slightly smaller and the annual total unchanged — ask payroll which method yours uses.</li>
+        <li><strong>Other schedules play by different rules:</strong> semi-monthly pay never has a bonus month, and weekly pay gets five-paycheck months instead — this guide's dates do not transfer to those schedules.</li>
+        <li><strong>The third check is a timing effect, not a raise:</strong> over the full year your pay is the same — it only feels extra because a two-check monthly budget leaves it unassigned.</li>
+        <li><strong>Figures are gross:</strong> the check amounts here are before taxes and deductions, so the take-home value of a third check is smaller than the headline gross figure.</li>
+      </ol>
 
       <!-- Section 8: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Three-Paycheck Months</h2>

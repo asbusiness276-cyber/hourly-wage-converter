@@ -27,6 +27,8 @@ export const article4 = {
     ['rates-table', 'Overtime Pay Reference Table ($15 to $50/Hour + Annual Boost)'],
     ['overtime-tax-myth', 'Debunking the Myth: Why Overtime Check Taxes Spike (And Why You Never Lose Money)'],
     ['common-mistakes', 'Common Employer & Employee Overtime Mistakes to Watch For'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Overtime Pay'],
     ['audit-action-plan', 'Key Takeaways & Your Overtime Paycheck Action Plan']
   ],
@@ -371,6 +373,28 @@ export const article4 = {
           <p style="font-size:0.86rem;color:var(--muted);margin:0;line-height:1.45">Offering informal "future time off" instead of cash overtime wages. In the private sector, comp time is strictly prohibited under federal law.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Check Scenario 1 against the tool in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your base hourly rate</strong> (the $24 rate from Scenario 1, or your own) into the overtime calculator.</li>
+        <li><strong>Step 2 — Enter your hours for one workweek:</strong> 40 regular hours and 8 overtime hours for the 48-hour week in the scenario.</li>
+        <li><strong>Step 3 — Choose your multiplier:</strong> 1.5× for time-and-a-half, 2.0× for double time, or a custom rate if your contract sets a different one.</li>
+        <li><strong>Step 4 — Read the breakdown and compare:</strong> $960 of regular pay plus $288 of overtime pay makes $1,248 gross for the week — the figure to check your pay stub against.</li>
+      </ol>
+      <p><a class="btn" href="/overtime-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>One workweek at a time:</strong> the calculator follows the FLSA's standalone-workweek rule — it cannot average hours across a biweekly period, because the law does not allow that either.</li>
+        <li><strong>Daily-overtime states need day-by-day math:</strong> California-style splits (1.5× after 8 hours, 2× after 12, seventh-day rules) must be modeled one day at a time; a single weekly total will not reproduce a 14-hour shift's pay.</li>
+        <li><strong>Enter your blended rate if you earn bonuses:</strong> nondiscretionary bonuses and shift differentials belong in the regular rate — running the tool on your base rate alone understates overtime when you receive them.</li>
+        <li><strong>Gross pay only:</strong> withholding, FICA, and state tax are not calculated, so your net deposit will be lower than the tool's total.</li>
+        <li><strong>It cannot classify you:</strong> exempt employees are not owed FLSA overtime at all, and no calculator can decide whether your job is exempt — that turns on duties and salary tests.</li>
+        <li><strong>The FLSA is a floor, not a ceiling:</strong> state law, a union contract, or your employer's policy may promise more than the federal minimum modeled here.</li>
+      </ol>
 
       <!-- Section 10: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Overtime Pay</h2>

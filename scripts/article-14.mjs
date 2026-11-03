@@ -18,6 +18,8 @@ export const article14 = {
     ['calculate', 'How to Calculate Holiday Pay (Worked Examples)'],
     ['who-gets-it', 'Who Gets Holiday Pay — and Who Usually Does Not'],
     ['no-holiday-pay', 'If Your Employer Does Not Offer Holiday Pay'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Holiday Pay'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -168,6 +170,28 @@ export const article14 = {
       <p>Start by confirming it. Holiday terms hide in three places: the <strong>employee handbook</strong>, your <strong>offer letter or contract</strong>, and any <strong>union agreement</strong>. If a document promises a premium or a paid day and your paycheck does not show it, that is a broken promise you can enforce — show payroll the document and ask for a correction in writing.</p>
       <p>If the policy genuinely offers nothing, you still have a few levers. Ask whether a <strong>floating holiday or shift swap</strong> is possible — managers grant these far more often than they grant cash. If you are comparing job offers, price the holiday schedule into the comparison: eleven paid holidays are worth roughly 4% of a salary, which can quietly beat a slightly higher offer with none. Finally, check your <strong>state labor department</strong>: a few states have premium-pay or reporting rules for specific industries, and state law can give you rights federal law does not.</p>
       <p>One hard truth to close with: in most states, refusing a scheduled holiday shift carries no special federal protection — it is treated like refusing any shift. If you cannot work a holiday, raise it early and in writing; a swap arranged in October is a request, while the same ask on December 23rd is a problem.</p>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Price your own holiday shift in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> (the $18 rate from Example 1, or your own) into the overtime calculator.</li>
+        <li><strong>Step 2 — Enter your hours:</strong> your regular hours for the week, with the holiday hours you work entered as overtime hours.</li>
+        <li><strong>Step 3 — Set your employer's multiplier:</strong> 1.5 for time-and-a-half or 2.0 for double time, whichever your handbook promises.</li>
+        <li><strong>Step 4 — Read the overtime line:</strong> that is what the holiday hours pay at the premium — $216 for an 8-hour shift at $18 and 1.5×, versus $144 at the regular rate.</li>
+      </ol>
+      <p><a class="btn" href="/overtime-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>The calculator cannot tell you what you are owed:</strong> holiday pay comes from your employer's policy, contract, or union agreement — no federal law requires it, so the tool prices a shift; it does not establish a right to be paid for one.</li>
+        <li><strong>Only worked hours count toward overtime:</strong> paid holiday hours you take off do not move you toward the 40-hour threshold, so a week containing a paid holiday can pay less overtime than the same paid hours suggest.</li>
+        <li><strong>Premium and overtime do not always stack:</strong> an employer can generally credit a voluntary holiday premium toward overtime it owes, so the combined figure can be lower than adding the two premiums together.</li>
+        <li><strong>Eligibility rules vary by employer:</strong> probation periods, prorating for part-time schedules, and work-the-shift-before-and-after rules can all change what a given holiday pays you.</li>
+        <li><strong>State rules are the exception, not the norm:</strong> a few states (Rhode Island is the best known) mandate premium pay for some holiday work; most follow the federal hands-off approach described here.</li>
+        <li><strong>Gross pay only:</strong> the examples and the calculator show pay before taxes and deductions — your net for the holiday shift will be smaller.</li>
+      </ol>
 
       <!-- Section 8: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Holiday Pay</h2>
