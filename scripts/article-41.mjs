@@ -9,7 +9,7 @@ export const article41 = {
   h1: '$29 an Hour Is How Much a Year? $60,320 Full-Time, Before Taxes',
   desc: '$29 an hour is $60,320 a year full-time ($1,160 a week, $5,026.67 a month) before taxes. Schedules, overtime, seasonal OT, and exact federal take-home inside.',
   image: '/assets/images/how-much-is-29-an-hour-a-year.jpg',
-  imageAlt: 'Bakery worker in a navy blue apron with orange accents holding a blank pay slip in a bakery beside shelves of bread',
+  imageAlt: 'Baker in a navy apron with orange trim pulling a tray of croissants from a bakery oven beside shelves of bread',
   toc: [
     ['short-answer', 'The Short Answer: $60,320 a Year'],
     ['pay-breakdown', '$29 an Hour in Every Pay Period'],
@@ -139,6 +139,10 @@ export const article41 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$29 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-29-an-hour-a-year-paycheck.jpg" alt="Bakery worker on a break studying a pay stub next to a calculator and a coffee cup" width="1280" height="720" loading="lazy">
+          <figcaption>Gross pay is the headline; the pay stub shows what actually reaches your account after federal tax and FICA.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -191,6 +195,10 @@ export const article41 = {
 
       <section class="article-section" id="seasonal-overtime">
         <h2>What Half a Year of Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-29-an-hour-a-year-overtime.jpg" alt="Bakery team preparing trays of dough and pastries early in the morning during a busy season" width="1280" height="720" loading="lazy">
+          <figcaption>Busy-season overtime is concentrated work: the extra hours land in a few months, not spread across the year.</figcaption>
+        </figure>
         <p>Five overtime hours every week, all year, is a big commitment — and in many jobs overtime only runs during a busy season. Here is the same 5 hours a week, but for 26 weeks instead of 52, priced end to end. The take-home step is honest about the bracket: the extra dollars are taxed at your 12% marginal rate plus 7.65% FICA, so you keep 80.35% of them, and the 22% bracket still does not touch you — even with the seasonal overtime, taxable income is $49,875, still $525 below the $50,400 threshold:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">

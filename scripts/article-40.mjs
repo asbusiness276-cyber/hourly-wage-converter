@@ -9,7 +9,7 @@ export const article40 = {
   h1: '$28 an Hour Is How Much a Year? $58,240 Full-Time, Before Taxes',
   desc: '$28 an hour is $58,240 a year full-time ($1,120 a week, $4,853.33 a month) before taxes. Schedules, overtime, a bonus, and exact federal take-home inside.',
   image: '/assets/images/how-much-is-28-an-hour-a-year.jpg',
-  imageAlt: 'Landscaper in a navy blue shirt with orange safety accents holding a blank pay slip in a garden beside a wheelbarrow',
+  imageAlt: 'Landscaper in a navy work shirt mowing stripes across a large green lawn at golden hour, work truck behind him',
   toc: [
     ['short-answer', 'The Short Answer: $58,240 a Year'],
     ['pay-breakdown', '$28 an Hour in Every Pay Period'],
@@ -139,6 +139,10 @@ export const article40 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$28 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-28-an-hour-a-year-paycheck.jpg" alt="Landscaper sitting in a pickup truck cab checking a pay stub and a phone calculator at the end of a shift" width="1280" height="720" loading="lazy">
+          <figcaption>The stub, not the headline rate, settles what a week of outdoor work actually paid after federal tax and FICA.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -207,6 +211,10 @@ export const article40 = {
 
       <section class="article-section" id="weekly-overtime">
         <h2>What One Extra Overtime Hour a Week Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-28-an-hour-a-year-overtime.jpg" alt="Landscaping crew working a long evening shift in a large garden, wheelbarrow of plants and hedge trimming" width="1280" height="720" loading="lazy">
+          <figcaption>One extra hour a week looks small on a schedule; across 52 weeks at time-and-a-half it is a real pay rise.</figcaption>
+        </figure>
         <p>Five overtime hours every week is a big commitment. One extra hour a week is the version most people can actually sustain — staying an hour late, or covering one short shift extension — and it is worth pricing on its own, because it compounds quietly:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
