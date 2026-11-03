@@ -106,6 +106,10 @@ export const article37 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-25-an-hour-a-year-overtime.jpg" alt="Electrician wiring an open electrical panel in a house under renovation at dusk, lit by a headlamp and a work light" width="1280" height="720" loading="lazy">
+          <figcaption>Late-evening call-outs and weekend rough-ins are where overtime hours build up for residential electricians.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $37.50 instead of $25. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -140,6 +144,10 @@ export const article37 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$25 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-25-an-hour-a-year-paycheck.jpg" alt="Electrician in a navy work shirt reviewing a pay stub at his kitchen table next to a laptop and a calculator" width="1280" height="720" loading="lazy">
+          <figcaption>The stub, not the headline rate, settles what a week of electrical work actually paid after federal tax and FICA.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">

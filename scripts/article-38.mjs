@@ -105,6 +105,10 @@ export const article38 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-26-an-hour-a-year-overtime.jpg" alt="Pharmacy technician counting pills at a long pharmacy counter while customers wait during an evening rush" width="1280" height="720" loading="lazy">
+          <figcaption>Evening rushes and short-staffed weekends are where pharmacy overtime hours come from.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $39 instead of $26. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -139,6 +143,10 @@ export const article38 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$26 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-26-an-hour-a-year-paycheck.jpg" alt="Pharmacy technician in navy scrubs with orange trim checking a pay stub and her phone in a pharmacy break area" width="1280" height="720" loading="lazy">
+          <figcaption>A quiet break is often the first chance to check what the pay period really paid after deductions.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
