@@ -105,6 +105,10 @@ export const article33 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-19-an-hour-a-year-overtime.jpg" alt="Workers loading delivery vans with stacks of parcels at a busy depot during peak season" width="1280" height="720" loading="lazy">
+          <figcaption>Peak season is where delivery overtime lives — extra routes and longer days, paid at time-and-a-half past 40 hours.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $28.50 instead of $19. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -139,6 +143,10 @@ export const article33 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$19 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-19-an-hour-a-year-paycheck.jpg" alt="Delivery driver sitting in a van cab full of parcels, reading a pay stub with a phone calculator on the dashboard" width="1280" height="720" loading="lazy">
+          <figcaption>The stub in the cab settles it: hours, routes and deductions decide what the week really paid after federal tax and FICA.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
