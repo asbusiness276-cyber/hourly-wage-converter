@@ -9,7 +9,7 @@ export const article39 = {
   h1: '$27 an Hour Is How Much a Year? $56,160 Full-Time, Before Taxes',
   desc: '$27 an hour is $56,160 a year full-time ($1,080 a week, $4,680 a month) before taxes. Schedules, overtime, a 4-day week, and federal take-home inside.',
   image: '/assets/images/how-much-is-27-an-hour-a-year.jpg',
-  imageAlt: 'Solar panel installer in a navy blue shirt with an orange high-visibility vest holding a blank pay slip on a rooftop beside solar panels',
+  imageAlt: 'Solar panel installer in a navy blue shirt and orange high-visibility vest fitting a solar panel on a suburban rooftop, rows of blue panels and houses behind him',
   toc: [
     ['short-answer', 'The Short Answer: $56,160 a Year'],
     ['pay-breakdown', '$27 an Hour in Every Pay Period'],
@@ -105,6 +105,10 @@ export const article39 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-27-an-hour-a-year-overtime.jpg" alt="Three solar panel installers bolting down panels on a suburban rooftop in late afternoon golden light" width="1280" height="720" loading="lazy">
+          <figcaption>Long summer days mean long rooftop hours — and every hour past 40 in a week is paid at time and a half.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $40.50 instead of $27. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -139,6 +143,10 @@ export const article39 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$27 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-27-an-hour-a-year-paycheck.jpg" alt="Solar panel installer in an orange high-visibility vest reviewing a pay stub in a work truck cab, rooftops with solar panels outside" width="1280" height="720" loading="lazy">
+          <figcaption>End of shift in the truck cab: the stub shows what the week's installs actually paid after tax.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
