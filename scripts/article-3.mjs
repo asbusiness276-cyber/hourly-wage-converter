@@ -10,7 +10,7 @@ export const article3 = {
   category: 'Taxes & Deductions',
   minutes: 15,
   datePublished: '2026-10-13',
-  dateModified: '2026-10-17',
+  dateModified: '2026-11-03',
   title: 'How to Calculate Taxes on Your Paycheck',
   seoTitle: 'How to Calculate Paycheck Taxes | Hourly Wage Converter',
   h1: 'How to Calculate Your Taxes on a Paycheck',
@@ -252,7 +252,7 @@ export const article3 = {
       <p>State and local income tax withholdings vary dramatically depending on your geographical location:</p>
       <ul>
         <li><strong>No-Income-Tax States (0%):</strong> If you work in Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, or Wyoming, you pay <strong>$0.00 in state income tax</strong> on earned wages.</li>
-        <li><strong>Flat-Rate States:</strong> Several states levy a simple flat tax across all taxable wages, such as Pennsylvania (3.07%), Indiana (3.05%), Arizona (2.5%), or Illinois (4.95%). On an $1,800 taxable wage, a 4% state tax withholds approximately <strong>$72.00 to $76.00 per paycheck</strong>.</li>
+        <li><strong>Flat-Rate States:</strong> Several states levy a simple flat tax across all taxable wages, such as Pennsylvania (3.07%), Indiana (3.05%), Arizona (2.5%), or Illinois (4.95%). On the $1,800 state-taxable wage from Step 4 — in most states both pre-tax deductions reduce state taxable wages, just as they do federal — a 4% state tax withholds <strong>$72.00 per paycheck</strong>.</li>
         <li><strong>Progressive Tax States:</strong> States like California, New York, New Jersey, and Oregon use multi-bracket systems ranging from 1% to over 9%, plus local municipal taxes (such as NYC or Philadelphia city wage taxes).</li>
       </ul>
 
@@ -311,13 +311,13 @@ export const article3 = {
               <td>State Income Tax Withholding</td>
               <td>State Tax (SIT)</td>
               <td>$0.00</td>
-              <td>-$76.00</td>
+              <td>-$72.00</td>
             </tr>
             <tr class="featured">
               <td><strong>Net Take-Home Pay (Direct Deposit)</strong></td>
               <td>Net Cash</td>
               <td><strong>$1,522.50</strong></td>
-              <td><strong>$1,446.50</strong></td>
+              <td><strong>$1,450.50</strong></td>
             </tr>
           </tbody>
         </table>
@@ -325,7 +325,7 @@ export const article3 = {
 
       <figure><img src="/assets/images/ui-widget-final-net-take-home.webp" alt="3D financial desk graphic comparing net take-home direct deposit paychecks with and without state income tax" width="800" height="450" loading="lazy"><figcaption>The final result: Your net take-home direct deposit ($1,522.50) after statutory taxes and pre-tax deductions.</figcaption></figure>
 
-      <p>In a state with no income tax, our worker keeps <strong>$1,522.50 per biweekly paycheck</strong> (76.1% of gross earnings). In a state with a 4% income tax, take-home pay is <strong>$1,446.50 per paycheck</strong> (72.3% of gross earnings). Test your own paycheck numbers with our free <a href="/paycheck-calculator/">Paycheck Calculator</a>.</p>
+      <p>In a state with no income tax, our worker keeps <strong>$1,522.50 per biweekly paycheck</strong> (76.1% of gross earnings). In a state with a 4% income tax, take-home pay is <strong>$1,450.50 per paycheck</strong> (72.5% of gross earnings). Test your own paycheck numbers with our free <a href="/paycheck-calculator/">Paycheck Calculator</a>.</p>
 
       <!-- Supplemental Bonus Myth -->
       <h2 id="supplemental-bonus-myth">Why Bonuses and Overtime Checks Seem Taxed Higher</h2>

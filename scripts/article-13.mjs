@@ -4,7 +4,7 @@ export const article13 = {
   category: 'Hourly Wage Guides',
   minutes: 11,
   datePublished: '2026-10-23',
-  dateModified: '2026-10-23',
+  dateModified: '2026-11-03',
   title: 'Minimum Wage by State 2027',
   h1: 'Minimum Wage by State 2027: Complete List of New Rates',
   desc: 'Minimum wage by state for 2027: every state new rate, tipped wages, and big-city minimums in one complete table, plus what the changes mean for your pay.',
@@ -171,6 +171,7 @@ export const article13 = {
         <li><strong>Oklahoma: voters said no.</strong> A June 2026 ballot measure to reach $15 was defeated, so the state stays at $7.25.</li>
         <li><strong>Alaska\u2019s timing quirk:</strong> its $15.00 rate takes effect <em>July 1</em>, 2027 \u2014 not January 1 \u2014 under the ballot-measure schedule. Hawaii, meanwhile, holds at $16.00 through 2027 with $18.00 coming January 1, 2028.</li>
       </ul>
+      <p>Several of those jumps land on the same number. If your state is moving to $15, <a href=\"/articles/how-much-is-15-an-hour-a-year/\">our $15-an-hour guide shows what that rate pays</a> per week, per paycheck, and per year after taxes.</p>
 
       <!-- Section 4: Tipped Wages -->
       <h2 id=\"tipped-wages\">Tipped Minimum Wages for 2027</h2>
@@ -210,7 +211,7 @@ export const article13 = {
 
       <img src=\"/assets/images/ui-minimum-wage-annual-math-2027.webp\" alt=\"Infographic showing 2027 full-time annual pay: $17.73 an hour equals $36,878 a year, $15.00 equals $31,200, and $7.25 equals $15,080\" width=\"800\" height=\"450\" loading=\"lazy\">
 
-      <p>Two things the table doesn\u2019t show: <strong>overtime</strong> is calculated on your regular rate, so a higher minimum lifts overtime pay too \u2014 see the <a href=\"/overtime-calculator/\">overtime calculator</a>; and <strong>take-home pay</strong> is what lands in your account, which is always less than these gross figures \u2014 model it with the <a href=\"/paycheck-calculator/\">paycheck calculator</a> or convert any rate with the <a href=\"/hourly-to-salary-calculator/\">hourly-to-salary calculator</a>.</p>
+      <p>Two things the table doesn\u2019t show: <strong>overtime</strong> is calculated on your regular rate, so a higher minimum lifts overtime pay too \u2014 see the <a href=\"/overtime-calculator/\">overtime calculator</a>; and <strong>take-home pay</strong> is what lands in your account, which is always less than these gross figures \u2014 model it with the <a href=\"/paycheck-calculator/\">paycheck calculator</a> or convert any rate with the <a href=\"/hourly-to-salary-calculator/\">hourly-to-salary calculator</a>. And once a new rate takes effect, <a href=\"/articles/how-to-read-your-pay-stub/\">our line-by-line pay stub guide</a> shows you exactly where on your stub to confirm your employer applied it.</p>
 
       <!-- Section: How to Use the Calculator -->
       <h2 id=\"how-to-use\">How to Use the Calculator</h2>
