@@ -103,6 +103,10 @@ export const article32 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-16-an-hour-a-year-overtime.jpg" alt="Morning rush in a coffee shop with baristas working the espresso machine and a queue of customers at the counter" width="1280" height="720" loading="lazy">
+          <figcaption>Rush hours are where overtime comes from in cafe work — every hour past 40 in a week pays time-and-a-half.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $24 instead of $16. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -137,6 +141,10 @@ export const article32 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$16 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-16-an-hour-a-year-paycheck.jpg" alt="Barista in a navy apron reading a pay stub at a cafe table beside a phone and a coffee, espresso machine behind her" width="1280" height="720" loading="lazy">
+          <figcaption>The stub shows the gap between gross pay and what actually lands in your account.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
