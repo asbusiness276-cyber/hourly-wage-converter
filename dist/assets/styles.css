@@ -932,6 +932,13 @@ details.nav-drop:not([open]) .nav-menu {
   font-size: 0.82rem;
   font-weight: 650;
   transition: all 0.15s ease;
+  /* Tap targets (layout audit 2026-11-03, L2): chips meet the ~44px
+     touch guideline; flex centring keeps the label centred at the
+     taller height, and the row-fill flex rule below is unaffected. */
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .preset:hover, .preset.is-selected {
@@ -1747,6 +1754,12 @@ details.nav-drop:not([open]) .nav-menu {
   padding: 8px 16px;
   cursor: pointer;
   transition: all 0.18s ease;
+  /* Tap targets (layout audit 2026-11-03, L2): ~44px touch height,
+     label + count chip centred; the flex-wrap row layout is unchanged. */
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .filter-btn:hover {
   border-color: #fed7aa;
@@ -4309,7 +4322,7 @@ a.btn {
   color: var(--primary);
   font-weight: 600;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1101px) {
   .faq-side {
     position: sticky;
     top: calc(var(--header) + 20px);
@@ -4919,7 +4932,7 @@ a.btn {
   }
   .preset {
     padding: 8px 14px;
-    min-height: 38px;
+    min-height: 44px;
   }
   .quick-rates {
     grid-template-columns: 1fr 1fr;
