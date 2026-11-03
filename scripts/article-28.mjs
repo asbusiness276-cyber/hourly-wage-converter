@@ -101,6 +101,10 @@ export const article28 = {
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-40-an-hour-a-year-overtime.jpg" alt="Office worker typing at a desk late at night, city lights outside the window and a desk lamp on" width="1280" height="720" loading="lazy">
+          <figcaption>Overtime at $40 an hour pays $60 an hour — and the extra hours usually land after dark.</figcaption>
+        </figure>
         <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $60 instead of $40. With 5 overtime hours every week, all year:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
@@ -135,6 +139,10 @@ export const article28 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$40 an Hour After Taxes (Federal Only)</h2>
+        <figure>
+          <img src="/assets/images/how-much-is-40-an-hour-a-year-paycheck.jpg" alt="Office worker at a desk reading a printed pay stub beside a laptop in a bright office" width="1280" height="720" loading="lazy">
+          <figcaption>After federal tax and FICA, the stub — not the headline rate — shows what a $40-an-hour paycheck really deposits.</figcaption>
+        </figure>
         <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
