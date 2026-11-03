@@ -32,6 +32,8 @@ const article2 = {
     ['salary-vs-hourly', 'Salary vs. Hourly Pay: Real-World Offer Comparison'],
     ['common-mistakes', 'Common Salary-to-Hourly Calculation Mistakes'],
     ['calculator-cta', 'Use Our Salary-to-Hourly Calculator'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways']
   ],
@@ -758,6 +760,28 @@ const article2 = {
           </a>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Run your own salary through the same math in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your annual salary</strong> (the $60,000 example from this guide, or your own offer) into the salary-to-hourly calculator.</li>
+        <li><strong>Step 2 — Set your real schedule:</strong> hours per week and paid weeks per year. The standard defaults are 40 hours and 52 weeks — 2,080 hours.</li>
+        <li><strong>Step 3 — Read the full result:</strong> the panel shows your hourly rate next to the weekly, biweekly, and monthly equivalents, so you can compare offers in any unit.</li>
+        <li><strong>Step 4 — Stress-test the workweek:</strong> rerun the same salary at 45 or 50 hours a week to see the effective rate your job actually pays per hour worked.</li>
+      </ol>
+      <p><a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Gross salary only:</strong> the conversion starts from gross pay. Taxes, 401(k) contributions, and health premiums change your take-home — not the gross hourly equivalent calculated here.</li>
+        <li><strong>Hours paid vs. hours worked:</strong> dividing by 2,080 gives your rate per paid hour. If you regularly work unpaid extra hours, your rate per hour actually worked is lower.</li>
+        <li><strong>Salaried overtime rarely pays:</strong> most salaried roles are exempt, so hours past 40 add no pay. A conversion cannot capture comp time, bonuses, or on-call expectations built into an offer.</li>
+        <li><strong>Leave moves the rate both ways:</strong> paid vacation raises your rate per hour worked, because the same salary covers fewer worked hours; unpaid leave lowers your effective annual pay below the stated salary.</li>
+        <li><strong>One salary, one point in time:</strong> mid-year raises, signing bonuses, and commission sit outside a base-salary conversion and must be weighed separately.</li>
+        <li><strong>A comparison tool, not the whole offer:</strong> use the hourly figure to compare offers on equal footing — benefits, schedule control, and job security still decide which offer is really better.</li>
+      </ol>
 
       <!-- Section: FAQs -->
       <h2 id="faqs">Frequently Asked Questions</h2>

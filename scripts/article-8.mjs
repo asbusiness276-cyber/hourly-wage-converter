@@ -25,6 +25,8 @@ export const article8 = {
     ['overtime-impact', 'The Overtime Multiplier ($30/Hour): Boosting Your Income'],
     ['monthly-budget', 'Real-Life Monthly Budget on $20 an Hour (50/30/20 Plan)'],
     ['common-mistakes', 'Common Budgeting & Paycheck Math Traps to Avoid'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About $20 an Hour'],
     ['key-takeaways', 'Key Takeaways & Next Steps']
   ],
@@ -345,6 +347,28 @@ export const article8 = {
         <li><strong>Ignoring Healthcare &amp; Benefit Premiums:</strong> If you enroll in an employer-sponsored health plan or contribute to a traditional 401(k), your biweekly paycheck will be lower than tax-only calculations, but your taxable income is reduced.</li>
         <li><strong>Skipping Sinking Funds for Car Care:</strong> An unexpected $800 auto repair can derail a tight budget. Setting aside $75 to $100 every month in an auto emergency fund prevents credit card debt.</li>
       </ul>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Run your own numbers in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> ($20, or the rate on your offer) into the hourly-to-salary calculator.</li>
+        <li><strong>Step 2 — Set the schedule you will really work:</strong> many $20-an-hour roles are scheduled under 40 hours, so enter your actual weekly hours and paid weeks, not the full-time default.</li>
+        <li><strong>Step 3 — Read the biweekly line:</strong> most hourly jobs pay every two weeks, and that per-check figure — not the annual total — is what your budget has to run on.</li>
+        <li><strong>Step 4 — Compare a second scenario:</strong> rerun with a few overtime hours or a higher-hours schedule to see what a fuller week would actually add over a year.</li>
+      </ol>
+      <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Take-home is shown as a range for a reason:</strong> this guide's net-pay figures are estimates that move with your state's income tax (or lack of one), your filing status, and your benefit elections — your own check will land at one specific point, not on the guide's midpoint.</li>
+        <li><strong>The $41,600 headline assumes full-time:</strong> it needs 40 paid hours in all 52 weeks. At 35 scheduled hours the same $20 rate pays $36,400 — schedules at this wage vary more than the headline suggests.</li>
+        <li><strong>Federal sketch only:</strong> the tax figures use 2026 federal rules for a single filer taking the standard deduction. Credits that matter a great deal at this income — earned income and child credits — are outside the sketch and can change the result by thousands.</li>
+        <li><strong>Budget rules are guidelines:</strong> the 30% housing rule and the 50/30/20 split in this guide are planning heuristics, not personal financial advice; in high-rent metros they describe a target many $20-an-hour workers cannot hit alone.</li>
+        <li><strong>Overtime and tips are unstable income:</strong> scenarios built on premium hours assume the employer offers them all year; seasonal and retail schedules rarely do.</li>
+        <li><strong>Local wages differ:</strong> state and city minimum wages, and local labor markets, decide what $20 an hour means where you live — the national comparisons here cannot capture that.</li>
+      </ol>
 
       <!-- Section 9: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About $20 an Hour</h2>

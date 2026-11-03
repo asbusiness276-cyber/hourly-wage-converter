@@ -73,6 +73,7 @@ const article1 = {
       ['hourly-vs-salary', 'Hourly vs. Annual Salary: Which Is Better?'],
       ['common-mistakes', 'Common Mistakes When Converting Hourly Pay'],
       ['calculator-cta', 'Use an Hourly-to-Annual Salary Calculator'],
+      ['limitations', 'Limitations'],
       ['faqs', 'Frequently Asked Questions'],
       ['key-takeaways', 'Key Takeaways']
     ],
@@ -580,6 +581,17 @@ const article1 = {
           <a href="#conversion-table" class="cta-secondary"><span>See Hourly-to-Salary Conversion Table</span></a>
         </div>
       </div>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Gross pay only:</strong> every conversion in this guide is before taxes and deductions. The annual figure is what you earn on paper, not what lands in your bank account.</li>
+        <li><strong>The 2,080-hour baseline is a convention:</strong> it assumes 40 hours a week for 52 fully paid weeks. Part-time schedules, seasonal work, and unpaid leave all produce a different annual total.</li>
+        <li><strong>Overtime is priced separately:</strong> hours past 40 in a week are usually paid at a premium, so a year with regular overtime converts to more than the simple rate-times-hours result.</li>
+        <li><strong>Salary comparisons are approximate:</strong> a salary normally covers paid holidays and PTO, while an hourly wage only pays for hours worked — the same annual figure can stand for very different amounts of worked time.</li>
+        <li><strong>Rates change mid-year:</strong> a raise or rate change partway through the year splits it into two rates. A single conversion only describes the months worked at that one rate.</li>
+        <li><strong>Planning estimates:</strong> your actual annual pay depends on your employer's payroll calendar and the hours you really work. Use these figures to compare options, not as a pay guarantee.</li>
+      </ol>
 
       <!-- Section: FAQs -->
       <h2 id="faqs">Frequently Asked Questions</h2>

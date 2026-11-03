@@ -27,6 +27,8 @@ export const article7 = {
     ['monthly-budget', 'A Realistic 50/30/20 Monthly Budget on $30 an Hour'],
     ['comparing-salaried-offers', 'Comparing a $30 Hourly Rate to Salaried Job Offers'],
     ['common-mistakes', 'Common Paycheck Math Mistakes to Avoid'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About $30 an Hour Annually'],
     ['key-takeaways', 'Key Takeaways & Next Steps']
   ],
@@ -479,6 +481,28 @@ export const article7 = {
           <p>Overtime can be eliminated by company management during budget cuts or economic slowdowns. Build your essential lifestyle around your base 40-hour take-home pay and channel overtime windfalls directly into emergency reserves, debt reduction, or investments.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Run your own numbers in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> ($30, or your own rate) into the hourly-to-salary calculator.</li>
+        <li><strong>Step 2 — Set your schedule honestly:</strong> your real hours per week and the weeks you are actually paid — not the schedule in the job posting, if the two differ.</li>
+        <li><strong>Step 3 — Check the monthly line:</strong> the panel breaks the annual result into weekly, biweekly, and monthly figures — use the monthly average for budgeting, not any single check.</li>
+        <li><strong>Step 4 — Price the alternative:</strong> rerun with the hours or weeks of any salaried offer you are weighing, so both options stand on the same schedule.</li>
+      </ol>
+      <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Federal-only after-tax figures:</strong> the take-home sketch uses 2026 federal rules for a single filer with the standard deduction — at $62,400 of gross pay, taxable income stays inside the 12% bracket. State and local taxes are excluded.</li>
+        <li><strong>Offer comparisons stop at cash pay:</strong> when this guide weighs $30 an hour against a salary, it compares gross and take-home pay only. Employer-paid health premiums, retirement matches, and paid leave can be worth more than a small pay gap.</li>
+        <li><strong>The monthly figure is an average:</strong> $5,200 a month is the annual total divided by 12. Biweekly pay actually arrives as two checks in most months and three in two months of the year.</li>
+        <li><strong>2,080 hours is the ceiling case:</strong> the $62,400 headline assumes every week is worked and paid. Unpaid weeks, reduced schedules, and seasonal gaps all come straight off that total.</li>
+        <li><strong>Overtime is not guaranteed income:</strong> the overtime scenarios need non-exempt status and hours actually offered by the employer; budgeting fixed expenses against hoped-for overtime is risky at any rate.</li>
+        <li><strong>Not tax advice:</strong> credits, deductions beyond the standard amount, and other income change your real return — this guide's sketch is a planning estimate for one filing profile.</li>
+      </ol>
 
       <!-- Section 11: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About $30 an Hour Annually</h2>

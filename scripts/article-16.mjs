@@ -19,6 +19,8 @@ export const article16 = {
     ['example-hourly', 'Example: $25 an Hour, Full-Time'],
     ['pay-stub', 'How to Read Your Pay Stub'],
     ['decisions', 'Gross vs Net in Real Decisions'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -196,6 +198,30 @@ export const article16 = {
         <p><strong>Budgeting:</strong> budget only on net. Rent, the 50/30/20 split, savings goals — all of them must be built from deposits, not offer letters. Our <a href="/articles/how-much-is-23-an-hour-a-year/">$23 an hour guide</a> shows the method: its whole monthly budget is built from the take-home figure, not the $47,840 gross.</p>
         <p><strong>Negotiating a raise:</strong> raises are quoted gross, received net. A $2-an-hour raise is $4,160 a year of gross — and at the keep-rates in this guide, roughly $3,300 a year of actual deposits, about $127 more per biweekly check. Knowing that conversion keeps both your expectations and your counter-offer honest.</p>
         <p><strong>Loans and taxes:</strong> lenders qualify you on gross income, because it is standardized and verifiable; your tax return starts from gross wages and works down through its own deductions. Net pay is for your household math — gross is for everyone else's paperwork.</p>
+      </section>
+
+      <section class="article-section" id="how-to-use">
+        <h2>How to Use the Calculator</h2>
+        <p>Walk your own pay down the same gross-to-net path in four steps:</p>
+        <ol>
+          <li><strong>Step 1 — Enter your gross pay</strong> for one pay period in the paycheck calculator: your salary per check, or your hourly rate times the hours on your stub.</li>
+          <li><strong>Step 2 — Set your pay frequency and filing status,</strong> so the estimate follows the same withholding route this guide diagrams.</li>
+          <li><strong>Step 3 — Add your own deductions:</strong> your 401(k) percentage, your health premium, and any other amounts your stub shows coming out.</li>
+          <li><strong>Step 4 — Reconcile against your real stub:</strong> the calculator's net should sit close to your actual deposit, and any gap points at a deduction this guide's stub table can help you identify.</li>
+        </ol>
+        <p><a class="btn" href="/paycheck-calculator/">Run my numbers</a></p>
+      </section>
+
+      <section class="article-section" id="limitations">
+        <h2>Limitations</h2>
+        <ol>
+          <li><strong>Federal-first examples:</strong> the worked examples use 2026 federal rules for single filers taking the standard deduction. Your state's income tax — or having none — moves the net figure materially.</li>
+          <li><strong>Withholding is not liability:</strong> each check's tax is an estimate that is trued up on your annual return. A refund or a balance due does not mean any single check was calculated wrong.</li>
+          <li><strong>Deductions are personal:</strong> 401(k) deferrals, HSA contributions, premium amounts, garnishments, and union dues differ by worker and by employer; no example in this guide can include them all.</li>
+          <li><strong>Pre-tax treatment is not uniform:</strong> most workplace health premiums skip both income tax and FICA, while 401(k) deferrals skip income tax only. Mixing the two up overstates or understates net pay.</li>
+          <li><strong>Pay frequency changes the split:</strong> biweekly and semi-monthly checks are annualized differently by payroll tables, so the same salary can produce slightly different per-check net amounts.</li>
+          <li><strong>Illustration, not tax advice:</strong> the flat 5% state variant used in this guide is a teaching example, not any state's real rate structure — and your own situation may involve credits or adjustments no example covers.</li>
+        </ol>
       </section>
 
       <section class="article-section" id="faqs">

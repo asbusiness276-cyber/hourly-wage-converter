@@ -18,6 +18,8 @@ export const article18 = {
     ['worked-examples', 'Worked Examples: The Same Hours, Different Pay'],
     ['common-traps', 'Common Traps and Confusions'],
     ['misclassified', 'What To Do If You Are Misclassified'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -149,6 +151,30 @@ export const article18 = {
       <section class="article-section" id="misclassified">
         <h2>What To Do If You Are Misclassified</h2>
         <p>Start with three checks you can run yourself: (1) divide your annual salary by 52 — if the result is below $684 a week, the federal salary level test fails outright; (2) compare your actual daily work with the duties described above, not your title; (3) check whether your state sets a higher salary threshold than the federal floor. If any check fails, you may be owed back overtime — generally for the past two years, or three if the violation was willful, plus an equal amount as liquidated damages in many cases. Keep pay stubs and a record of hours worked. This article is general information, not legal advice; a labor attorney or the Department of Labor's Wage and Hour Division can assess a specific situation.</p>
+      </section>
+
+      <section class="article-section" id="how-to-use">
+        <h2>How to Use the Calculator</h2>
+        <p>Price the overtime your classification controls in four steps:</p>
+        <ol>
+          <li><strong>Step 1 — Enter your hourly rate</strong> in the overtime calculator. If you are salaried but non-exempt, first divide your weekly salary by your scheduled weekly hours to get the rate.</li>
+          <li><strong>Step 2 — Enter one real week:</strong> your regular hours and the overtime hours you actually worked past 40.</li>
+          <li><strong>Step 3 — Set the multiplier:</strong> 1.5× is the federal floor for overtime; use a higher figure only if your state law or employer policy promises one.</li>
+          <li><strong>Step 4 — Read the weekly total:</strong> that is roughly what the exemption line is worth in a heavy week — the number to hold next to any salaried offer or reclassification.</li>
+        </ol>
+        <p><a class="btn" href="/overtime-calculator/">Run my numbers</a></p>
+      </section>
+
+      <section class="article-section" id="limitations">
+        <h2>Limitations</h2>
+        <ol>
+          <li><strong>Classification is fact-specific:</strong> the duties tests turn on the work you actually do day to day, not on your job title or on this guide's summaries. Borderline roles need a fact-by-fact review of real duties.</li>
+          <li><strong>Federal floor, state overlays:</strong> this guide is built on the FLSA baseline. States such as California add daily overtime, different salary tests, and stricter rules, so a federal-only answer can be incomplete where you live.</li>
+          <li><strong>Salary thresholds can move:</strong> the standard salary threshold discussed in this guide has been revised and litigated in recent years; confirm the figure currently in force before relying on it for a classification decision.</li>
+          <li><strong>Not legal advice:</strong> this guide explains the framework. Misclassification claims, back-pay exposure, and profession-specific exemptions need an employment lawyer or your state labor agency.</li>
+          <li><strong>Examples assume the stated schedule:</strong> the worked examples price overtime on the hours shown. Fluctuating schedules, and fluctuating-workweek pay plans in particular, follow different math.</li>
+          <li><strong>Employer policy can exceed the law:</strong> some employers voluntarily pay overtime premiums to exempt staff. Your legal classification alone does not decide what your paycheck includes.</li>
+        </ol>
       </section>
 
       <section class="article-section" id="faqs">

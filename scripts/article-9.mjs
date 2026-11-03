@@ -27,6 +27,8 @@ export const article9 = {
     ['pros-and-cons', 'Pros and Cons Matrix: Employee & Employer Perspectives'],
     ['which-is-better', 'Which Pay Schedule Is Better? Decision Framework'],
     ['common-mistakes', 'Common Payroll Schedule Misconceptions to Avoid'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About Pay Schedules'],
     ['key-takeaways', 'Key Takeaways & Action Plan']
   ],
@@ -397,6 +399,28 @@ export const article9 = {
           <p>Employers adjust payroll deduction formulas to match pay frequency. For example, if your annual health insurance premium is $2,400, a semi-monthly employee pays $100 per check ($2,400 ÷ 24), whereas a biweekly employee pays $92.31 per check ($2,400 ÷ 26). The annual cost is identical.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>See both schedules priced on your own pay in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your pay</strong> in the paycheck calculator: your annual salary, or your hourly rate and the hours you work in a typical week.</li>
+        <li><strong>Step 2 — Set the frequency to biweekly:</strong> note the per-check amount and the 26-paycheck year it builds.</li>
+        <li><strong>Step 3 — Switch the frequency to semi-monthly:</strong> the annual total stays the same, but each of the 24 checks is larger — compare the two per-check figures directly.</li>
+        <li><strong>Step 4 — Find your three-paycheck months:</strong> on the biweekly setting, the calendar shows which two months carry a third check — the months this guide suggests treating as savings or debt-paydown months.</li>
+      </ol>
+      <p><a class="btn" href="/paycheck-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>No schedule pays more over a full year:</strong> biweekly and semi-monthly only re-slice the same annual salary — 26 smaller checks or 24 larger ones. Any per-check advantage disappears across the year.</li>
+        <li><strong>Deductions do not split evenly:</strong> some come out per check (401(k) percentages, garnishments), some are monthly, and some stop when an annual cap is reached — so per-check net is not simply annual net divided by 26 or 24.</li>
+        <li><strong>Withholding tables differ by frequency:</strong> payroll annualizes each check using tables written for that pay period, so the same salary can withhold slightly different amounts on different schedules.</li>
+        <li><strong>Some years have a 27th biweekly payday:</strong> an extra weekday in the calendar occasionally adds a paycheck to a biweekly year, shifting deduction timing and budgeting for that year.</li>
+        <li><strong>Your employer's calendar rules:</strong> actual paydays move for weekends and bank holidays, and processing cut-offs decide which hours land in which check. This guide explains the pattern, not your company's specific calendar.</li>
+        <li><strong>Comparisons here are gross:</strong> the schedule differences in this guide are shown before taxes and deductions; the net difference between schedules is smaller and depends on your own withholding.</li>
+      </ol>
 
       <!-- Section 10: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Pay Schedules</h2>
