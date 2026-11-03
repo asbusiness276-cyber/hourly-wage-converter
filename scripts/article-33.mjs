@@ -4,7 +4,7 @@ export const article33 = {
   category: 'Hourly Wage Guides',
   minutes: 10,
   datePublished: '2026-10-31',
-  dateModified: '2026-10-31',
+  dateModified: '2026-11-03',
   title: 'How Much Is $19 an Hour a Year?',
   h1: '$19 an Hour Is How Much a Year? $39,520 Full-Time, Before Taxes',
   desc: '$19 an hour is $39,520 a year full-time ($760 a week, $3,293 a month) before taxes. Schedules, overtime, a $1 raise, and the federal take-home sketch inside.',

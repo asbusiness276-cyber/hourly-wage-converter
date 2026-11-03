@@ -4,7 +4,7 @@ export const article36 = {
   category: 'Hourly Wage Guides',
   minutes: 10,
   datePublished: '2026-11-01',
-  dateModified: '2026-11-01',
+  dateModified: '2026-11-03',
   title: 'How Much Is $24 an Hour a Year?',
   h1: '$24 an Hour Is How Much a Year? $49,920 Full-Time, Before Taxes',
   desc: '$24 an hour is $49,920 a year full-time ($960 a week, $4,160 a month) before taxes. Schedules, overtime, the $50,000 comparison, and federal take-home inside.',

@@ -4,7 +4,7 @@ export const article39 = {
   category: 'Hourly Wage Guides',
   minutes: 11,
   datePublished: '2026-11-02',
-  dateModified: '2026-11-02',
+  dateModified: '2026-11-03',
   title: 'How Much Is $27 an Hour a Year?',
   h1: '$27 an Hour Is How Much a Year? $56,160 Full-Time, Before Taxes',
   desc: '$27 an hour is $56,160 a year full-time ($1,080 a week, $4,680 a month) before taxes. Schedules, overtime, a 4-day week, and federal take-home inside.',

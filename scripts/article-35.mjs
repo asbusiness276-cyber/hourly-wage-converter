@@ -4,7 +4,7 @@ export const article35 = {
   category: 'Hourly Wage Guides',
   minutes: 10,
   datePublished: '2026-11-01',
-  dateModified: '2026-11-01',
+  dateModified: '2026-11-03',
   title: 'How Much Is $22 an Hour a Year?',
   h1: '$22 an Hour Is How Much a Year? $45,760 Full-Time, Before Taxes',
   desc: '$22 an hour is $45,760 a year full-time ($880 a week, $3,813 a month) before taxes. Schedules, overtime, a $1 raise, and the federal take-home sketch inside.',

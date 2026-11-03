@@ -4,7 +4,7 @@ export const article24 = {
   category: 'Taxes & Deductions',
   minutes: 10,
   datePublished: '2026-10-27',
-  dateModified: '2026-10-27',
+  dateModified: '2026-11-03',
   title: 'What Is FICA Tax?',
   h1: 'What Is FICA Tax? The 7.65% Deduction on Every Paycheck, Explained',
   desc: 'FICA tax is 7.65% of your pay — 6.2% Social Security up to the $184,500 wage base plus 1.45% Medicare. Learn how it works, when it stops, and what it costs.',

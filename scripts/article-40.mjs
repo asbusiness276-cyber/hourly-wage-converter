@@ -4,7 +4,7 @@ export const article40 = {
   category: 'Hourly Wage Guides',
   minutes: 11,
   datePublished: '2026-11-02',
-  dateModified: '2026-11-02',
+  dateModified: '2026-11-03',
   title: 'How Much Is $28 an Hour a Year?',
   h1: '$28 an Hour Is How Much a Year? $58,240 Full-Time, Before Taxes',
   desc: '$28 an hour is $58,240 a year full-time ($1,120 a week, $4,853.33 a month) before taxes. Schedules, overtime, a bonus, and exact federal take-home inside.',

@@ -4,7 +4,7 @@ export const article38 = {
   category: 'Hourly Wage Guides',
   minutes: 11,
   datePublished: '2026-11-02',
-  dateModified: '2026-11-02',
+  dateModified: '2026-11-03',
   title: 'How Much Is $26 an Hour a Year?',
   h1: '$26 an Hour Is How Much a Year? $54,080 Full-Time, Before Taxes',
   desc: '$26 an hour is $54,080 a year full-time ($1,040 a week, $4,507 a month) before taxes. Schedules, overtime, the $60,000 question, and federal take-home inside.',
