@@ -4,7 +4,7 @@ export const article34 = {
   category: 'Hourly Wage Guides',
   minutes: 10,
   datePublished: '2026-10-31',
-  dateModified: '2026-10-31',
+  dateModified: '2026-11-03',
   title: 'How Much Is $21 an Hour a Year?',
   h1: '$21 an Hour Is How Much a Year? $43,680 Full-Time, Before Taxes',
   desc: '$21 an hour is $43,680 a year full-time ($840 a week, $3,640 a month) before taxes. Schedules, overtime, a $2 raise, and the federal take-home sketch inside.',

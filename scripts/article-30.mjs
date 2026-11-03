@@ -4,7 +4,7 @@ export const article30 = {
   category: 'Hourly Wage Guides',
   minutes: 9,
   datePublished: '2026-10-30',
-  dateModified: '2026-10-30',
+  dateModified: '2026-11-03',
   title: 'How Much Is $17 an Hour a Year?',
   h1: '$17 an Hour Is How Much a Year? $35,360 Full-Time, Before Taxes',
   desc: '$17 an hour is $35,360 a year full-time ($680 a week, $2,946.67 a month) before taxes. Schedules, overtime, unpaid weeks, and federal take-home inside.',

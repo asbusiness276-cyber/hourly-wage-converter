@@ -4,7 +4,7 @@ export const article26 = {
   category: 'Payroll & Compensation',
   minutes: 12,
   datePublished: '2026-10-29',
-  dateModified: '2026-10-29',
+  dateModified: '2026-11-03',
   title: 'How to Read Your Pay Stub, Line by Line',
   seoTitle: 'How to Read Your Pay Stub | Hourly Wage Converter',
   h1: 'How to Read Your Pay Stub, Line by Line (With a Worked Sample)',

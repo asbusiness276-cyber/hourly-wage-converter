@@ -4,7 +4,7 @@ export const article31 = {
   category: 'Hourly Wage Guides',
   minutes: 9,
   datePublished: '2026-10-30',
-  dateModified: '2026-10-30',
+  dateModified: '2026-11-03',
   title: 'How Much Is $18 an Hour a Year?',
   h1: '$18 an Hour Is How Much a Year? $37,440 Full-Time, Before Taxes',
   desc: '$18 an hour is $37,440 a year full-time ($720 a week, $3,120 a month) before taxes. Schedules, overtime, unpaid weeks, and the federal take-home sketch inside.',

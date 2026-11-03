@@ -4,7 +4,7 @@ export const article32 = {
   category: 'Hourly Wage Guides',
   minutes: 9,
   datePublished: '2026-10-31',
-  dateModified: '2026-10-31',
+  dateModified: '2026-11-03',
   title: 'How Much Is $16 an Hour a Year?',
   h1: '$16 an Hour Is How Much a Year? $33,280 Full-Time, Before Taxes',
   desc: '$16 an hour is $33,280 a year full-time ($640 a week, $2,773 a month) before taxes. Schedules, overtime, unpaid weeks, and the federal take-home sketch inside.',

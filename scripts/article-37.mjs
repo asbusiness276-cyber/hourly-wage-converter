@@ -4,7 +4,7 @@ export const article37 = {
   category: 'Hourly Wage Guides',
   minutes: 11,
   datePublished: '2026-11-01',
-  dateModified: '2026-11-01',
+  dateModified: '2026-11-03',
   title: 'How Much Is $25 an Hour a Year?',
   h1: '$25 an Hour Is How Much a Year? $52,000 Full-Time, Before Taxes',
   desc: '$25 an hour is $52,000 a year full-time ($1,000 a week, $4,333 a month) before taxes. Schedules, overtime, the $50,000 line, and federal take-home inside.',

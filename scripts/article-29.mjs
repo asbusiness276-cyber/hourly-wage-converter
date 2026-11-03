@@ -4,7 +4,7 @@ export const article29 = {
   category: 'Overtime & Paycheck Guides',
   minutes: 9,
   datePublished: '2026-10-29',
-  dateModified: '2026-10-29',
+  dateModified: '2026-11-03',
   title: 'What Is Double Time Pay? How to Calculate It and When You Get It',
   seoTitle: 'What Is Double Time Pay? | Hourly Wage Converter',
   h1: 'Double Time Pay: Twice Your Rate — and Federal Law Never Requires It',
