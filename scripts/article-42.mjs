@@ -34,7 +34,7 @@ export const article42 = {
     ],
     [
       'Do you get taxed more on salary or hourly pay?',
-      'No. Tax depends on how much you earn, not on how your pay is labelled. A $66,560 hourly income and a $66,560 salary would face the same federal income tax and the same FICA. In this guide the hourly job takes home $1,427.46 more only because it earns $1,560 more gross — $55,654.96 against $54,227.50, federal only, single filer 2026.'
+      'No. Tax depends on how much you earn, not on how your pay is labelled. A $66,560 hourly income and a $66,560 salary would face the same federal income tax and the same FICA. In this guide the hourly job takes home $1,247.46 more only because it earns $1,560 more gross — $55,654.96 against $54,407.50, federal only, single filer 2026.'
     ],
     [
       'Is salary always better than hourly?',
@@ -61,7 +61,7 @@ export const article42 = {
 
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: Hourly Wins the Headline, Salary Can Win the Year</h2>
-        <p>Hourly vs salary is not a personality question; it is an arithmetic question with four variables. Take a concrete pair: <strong>$32 an hour against a $65,000 salary</strong>. At a standard full-time year of 2,080 hours, the hourly job pays <strong>$66,560 gross — $1,560 more than the salary</strong>. After federal tax alone, the hourly job still leads by $1,427.46 of take-home pay. That is the headline, and it is where most comparison pages stop.</p>
+        <p>Hourly vs salary is not a personality question; it is an arithmetic question with four variables. Take a concrete pair: <strong>$32 an hour against a $65,000 salary</strong>. At a standard full-time year of 2,080 hours, the hourly job pays <strong>$66,560 gross — $1,560 more than the salary</strong>. After federal tax alone, the hourly job still leads by $1,247.46 of take-home pay. That is the headline, and it is where most comparison pages stop.</p>
         <p>The rest of this guide is why the headline is not the answer. A salary week that actually runs 50 hours pays only $25.00 an hour. Two unpaid weeks on the hourly side erase the lead entirely and turn it into a $1,000 deficit. A 3% retirement match on the salary side adds $1,950 that the headline never counts. And five overtime hours a week — paid at $48 an hour — push the hourly job to $79,040, a figure no fixed salary in this comparison can touch. Work through all four variables before you choose, and use the checklist at the end to score your own two offers the same way.</p>
       </section>
 
@@ -184,15 +184,15 @@ export const article42 = {
             <tbody>
               <tr><td>Step 1 — Standard deduction</td><td>− $16,100.00</td><td>− $16,100.00</td></tr>
               <tr><td>Step 2 — Taxable income</td><td>$50,460.00</td><td>$48,900.00</td></tr>
-              <tr><td>Step 3 — Federal income tax</td><td>$5,813.20</td><td>$5,800.00</td></tr>
+              <tr><td>Step 3 — Federal income tax</td><td>$5,813.20</td><td>$5,620.00</td></tr>
               <tr><td>Step 4 — FICA (7.65%)</td><td>$5,091.84</td><td>$4,972.50</td></tr>
-              <tr><td><strong>Take-home (federal only)</strong></td><td><strong>$55,654.96</strong></td><td><strong>$54,227.50</strong></td></tr>
-              <tr><td>Monthly / biweekly take-home</td><td>$4,637.91 / $2,140.58</td><td>$4,518.96 / $2,085.67</td></tr>
-              <tr><td>Keep rate / marginal bracket</td><td>83.6% / 22%</td><td>83.4% / 12%</td></tr>
+              <tr><td><strong>Take-home (federal only)</strong></td><td><strong>$55,654.96</strong></td><td><strong>$54,407.50</strong></td></tr>
+              <tr><td>Monthly / biweekly take-home</td><td>$4,637.91 / $2,140.58</td><td>$4,533.96 / $2,092.60</td></tr>
+              <tr><td>Keep rate / marginal bracket</td><td>83.6% / 22%</td><td>83.7% / 12%</td></tr>
             </tbody>
           </table>
         </div>
-        <p>The hourly job keeps $1,427.46 more — less than the $1,560 gross gap, because its last $60 of taxable income crosses into the 22% bracket ($50,460 against the $50,400 threshold) while the salary’s $48,900 stays entirely in the 12% bracket. Federal tax on the hourly side is 10% × $12,400 + 12% × $38,000 + 22% × $60 = $5,813.20; on the salary side it is 10% × $12,400 + 12% × $36,500 = $5,800.00. A page that taxes either offer at a single flat rate will get both wrong. The method matches our <a href="/articles/how-to-calculate-taxes-on-paycheck/">paycheck tax guide</a> and the after-tax series (see the <a href="/articles/how-much-is-29-an-hour-a-year/">$29-an-hour guide</a> for the same bracket steps at a lower income).</p>
+        <p>The hourly job keeps $1,247.46 more — less than the $1,560 gross gap, because its last $60 of taxable income crosses into the 22% bracket ($50,460 against the $50,400 threshold) while the salary’s $48,900 stays entirely in the 12% bracket. Federal tax on the hourly side is 10% × $12,400 + 12% × $38,000 + 22% × $60 = $5,813.20; on the salary side it is 10% × $12,400 + 12% × $36,500 = $5,620.00. A page that taxes either offer at a single flat rate will get both wrong. The method matches our <a href="/articles/how-to-calculate-taxes-on-paycheck/">paycheck tax guide</a> and the after-tax series (see the <a href="/articles/how-much-is-29-an-hour-a-year/">$29-an-hour guide</a> for the same bracket steps at a lower income).</p>
         <p><em>Honesty note:</em> this sketch assumes all pay counts as wages for both income tax and FICA, with no pre-tax deductions. A 401(k) contribution would lower the income-tax lines but not the FICA lines; cafeteria-plan health premiums would lower both.</p>
       </section>
 
@@ -223,7 +223,7 @@ export const article42 = {
           <li><strong>How many hours will you really work?</strong> Divide the salary by real annual hours. A 50-hour salary week is $25.00 an hour, not $31.25.</li>
           <li><strong>Are you overtime-eligible, and how many overtime hours are real?</strong> Five real overtime hours a week are worth $12,480 a year at this rate; promised hours that never arrive are worth $0.</li>
           <li><strong>What is each benefit worth in dollars?</strong> Add the match, the paid time, and the employer health contribution from the offer letters — not from memory.</li>
-          <li><strong>What is the after-tax gap?</strong> Same income, same tax. Only the gross gap survives tax, slightly shrunk — $1,560 gross became $1,427.46 here.</li>
+          <li><strong>What is the after-tax gap?</strong> Same income, same tax. Only the gross gap survives tax, slightly shrunk — $1,560 gross became $1,247.46 here.</li>
           <li><strong>What breaks first?</strong> Hours cut, overtime dried up, or a 50-hour salary week — which downside can your budget absorb? The offer that survives its worst realistic case is often the right one even when it loses the headline.</li>
         </ol>
       </section>
@@ -261,7 +261,7 @@ export const article42 = {
         <h2>Key Takeaways &amp; Action Plan</h2>
         <div class="takeaways-box">
           <ul>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$32 an hour is $66,560 a year</strong> full-time — $1,560 ahead of a $65,000 salary on the headline, $1,427.46 ahead after federal tax alone.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$32 an hour is $66,560 a year</strong> full-time — $1,560 ahead of a $65,000 salary on the headline, $1,247.46 ahead after federal tax alone.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>A 50-hour salary week pays $25.00 an hour,</strong> not $31.25 — divide every salary by the hours you will actually work.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Five overtime hours a week add $12,480</strong> a year ($79,040 total) — the hourly offer’s biggest lever, if the hours are real.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Two unpaid weeks flip the result:</strong> hourly falls to $64,000, $1,000 behind the salary — recoverable with 25 overtime hours across the year.</li>
@@ -285,7 +285,7 @@ export const article42 = {
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
-        <li>The headline favours hourly here: $66,560 against $65,000, or $1,427.46 of take-home after federal tax alone.</li>
+        <li>The headline favours hourly here: $66,560 against $65,000, or $1,247.46 of take-home after federal tax alone.</li>
         <li>Real hours, paid weeks, overtime, and priced benefits each move the result by more than the headline gap — check all four.</li>
         <li>Salary is a pay method, not an exemption — and tax follows income, not the label on your paycheck.</li>
       </ol>
