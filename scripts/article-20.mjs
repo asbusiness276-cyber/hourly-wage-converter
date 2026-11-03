@@ -27,27 +27,27 @@ export const article20 = {
   faqs: [
     [
       'How much is $50,000 a year after taxes?',
-      'For a single filer taking the standard deduction, $50,000 a year is $42,355 after 2026 federal income tax ($3,820) and FICA ($3,825) — $3,529.58 a month, or $1,629.04 per biweekly paycheck. These figures are federal only; state income tax, retirement contributions, and health premiums would reduce the paycheck further.'
+      'A $50,000 salary leaves $42,355 in take-home pay for a single filer in 2026. The two federal deductions are almost perfectly balanced at this salary — $3,820 of income tax against $3,825 of FICA — and together they reduce each biweekly paycheck to $1,629.04, or $3,529.58 a month. State income tax, 401(k) contributions, and health premiums are not in these figures and would lower the check further.'
     ],
     [
       'How much is $50,000 a year biweekly after taxes?',
-      '$1,629.04 per paycheck on a biweekly schedule (26 paychecks a year), before state tax and any 401(k) or health premium deductions. On a semi-monthly schedule (24 paychecks), the same annual take-home works out to $1,764.79 per paycheck — the annual total does not change, only the number of checks it is split into.'
+      '$1,629.04 is the biweekly amount — the $42,355 annual take-home divided by 26 paydays, before state tax and workplace deductions. On a semi-monthly schedule the same salary produces 24 checks of $1,764.79 instead. Either way the year adds up to $42,355; only the rhythm of the payments changes.'
     ],
     [
       'How much is $50,000 a month after taxes?',
-      '$3,529.58 a month, as an average. Monthly pay is annual take-home divided by 12. In a month with three biweekly paychecks, that month\'s cash in hand will be higher, and in a two-paycheck month it will be lower — the average is what matters for a budget.'
+      'Plan on $3,529.58 a month. It is the $42,355 annual take-home averaged over 12 months, and the averaging matters: with biweekly pay, most months contain exactly two of the $1,629.04 checks ($3,258.08), while two months a year contain three — so a budget built on the $3,529.58 average smooths out the difference.'
     ],
     [
       'What is the take-home hourly rate for a $50,000 salary?',
-      '$20.36 an hour. That is $42,355 of annual take-home divided by 2,080 working hours — $3.68 less per hour than the $24.04 gross hourly equivalent. The gap is entirely federal income tax and FICA; state tax would widen it further.'
+      '$20.36 an hour is what a $50,000 salary really pays after federal taxes. The gross rate works out to $24.04 an hour over 2,080 hours, and federal income tax plus FICA shave off $3.68 of that, leaving $42,355 a year. Add a state income tax on top and the effective rate falls below $20.36.'
     ],
     [
       'Does this include state taxes?',
-      'No. This article covers federal income tax and FICA only. State income tax varies widely — some states have none, others take several percent — so your actual paycheck will be lower than the figures here if your state has an income tax. The federal figures are the same wherever you live, which is why they are the right starting point.'
+      'No, state tax is not in the $42,355. This article stops at the two federal deductions — $3,820 of income tax and $3,825 of FICA — because state rules cannot be generalized: some states tax no wages at all, while others apply their own brackets and standard deductions to a $50,000 salary. If your state is one of the taxing ones, treat $42,355 as the ceiling and expect your actual take-home to come in below it.'
     ],
     [
       'Why is my paycheck less than $1,629.04 biweekly?',
-      'The usual reasons, in order: state income tax withholding, 401(k) or other retirement contributions, health insurance premiums, and other pre-tax deductions. Pay frequency also matters — a semi-monthly check looks different from a biweekly one. If none of those explain the gap, check your pay stub\'s withholding against the federal figures in this article, and confirm your W-4 settings with payroll.'
+      'The $1,629.04 figure strips out federal income tax and FICA and nothing else, so almost any real-world deduction explains the difference: state withholding is the most common, followed by health premiums and retirement contributions. Garnishments, union dues, and HSA or parking deductions can also appear. Work down your pay stub and match each line — if the federal withholding itself is running hotter than the $3,820 annual figure used here, a W-4 adjustment through payroll is the fix.'
     ]
   ],
   body: `

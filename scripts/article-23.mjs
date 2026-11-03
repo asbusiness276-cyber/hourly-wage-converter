@@ -27,27 +27,27 @@ export const article23 = {
   faqs: [
     [
       'How much is $100,000 a year after taxes?',
-      'For a single filer taking the standard deduction, $100,000 a year works out to $79,180 take-home after 2026 federal income tax ($13,170) and FICA ($7,650) — $6,598.33 a month, or $3,045.38 per biweekly paycheck. These figures are federal only; state income tax, retirement contributions, and health premiums would reduce the paycheck further.'
+      'A $100,000 salary nets $79,180 for a single filer after 2026 federal taxes. At this income the balance flips: federal income tax of $13,170 is now by far the largest deduction, well ahead of the $7,650 FICA, and take-home lands at $6,598.33 a month or $3,045.38 per biweekly paycheck. State income tax, 401(k) contributions, and health premiums sit outside this estimate and would reduce it further.'
     ],
     [
       'How much is $100,000 a year monthly after taxes?',
-      '$6,598.33 a month, as an average. Monthly pay is annual take-home divided by 12. In a month with three biweekly paychecks, that month\'s cash in hand will be higher, and in a two-paycheck month it will be lower — the average is what matters for a budget.'
+      'The monthly average is $6,598.33 — $79,180 a year divided by 12. With biweekly pay the cash actually arrives unevenly: $3,045.38 a check means most months deposit $6,090.76, while two three-paycheck months a year deposit $9,136.14. Budgeting to the $6,598.33 average absorbs that swing.'
     ],
     [
       'How much is $100,000 a year biweekly after taxes?',
-      '$3,045.38 per paycheck on a biweekly schedule (26 paychecks a year), before state tax and any 401(k) or health premium deductions. On a semi-monthly schedule (24 paychecks), the same annual take-home works out to $3,299.17 per paycheck — the annual total does not change, only the number of checks it is split into.'
+      'Each biweekly paycheck comes to $3,045.38 — the $79,180 annual take-home divided across 26 paydays, before state tax and benefit deductions. A semi-monthly schedule repackages the same $79,180 as 24 checks of $3,299.17. The annual figure never changes; only the cadence does.'
     ],
     [
       'What is the take-home hourly rate for a $100,000 salary?',
-      '$38.07 an hour. That is $79,180 of annual take-home divided by 2,080 working hours — $10.01 less per hour than the $48.08 gross hourly rate. The gap is entirely federal income tax and FICA; state tax would widen it further.'
+      '$38.07 an hour is the after-tax reality of a $100,000 salary. The gross equivalent is $48.08 an hour, but $20,820 of combined federal income tax and FICA removes $10.01 an hour over a 2,080-hour year. State income tax would reduce the $38.07 still further in states that levy one.'
     ],
     [
       'Does this include state taxes?',
-      'No. This article covers federal income tax and FICA only. State income tax varies widely — some states have none, others take several percent — so your actual paycheck will be lower than the figures here if your state has an income tax. The federal figures are the same wherever you live, which is why they are the right starting point.'
+      'No. The $79,180 in this article is net of federal income tax ($13,170) and FICA ($7,650) and nothing else. State tax is excluded because its weight at a $100,000 income varies more than at any lower salary in this series: it is zero in states with no income tax, but in high-tax states it grows quickly, since six figures reach deeper into graduated state brackets. Until your state\'s rules are applied, read $79,180 as the best case.'
     ],
     [
       'How much more do I keep if my salary rises to $105,000?',
-      'Take-home rises to $82,697.50 a year — $3,517.50 more than at $100,000. In this salary band, each additional $5,000 of salary is worth about $3,517.50 in take-home pay, because the next dollars are taxed at the 22% marginal rate plus 7.65% FICA.'
+      'Only about 70 cents of each extra dollar survives. Take-home climbs from $79,180 to $82,697.50, so the $5,000 raise adds $3,517.50 a year. The haircut is bigger than at $60,000 because the new dollars sit in the 22% federal bracket — 22% income tax plus 7.65% FICA takes 29.65% before any state tax.'
     ]
   ],
   body: `
