@@ -11,7 +11,7 @@ const article2 = {
   category: 'Calculation Guides',
   minutes: 15,
   datePublished: '2026-10-09',
-  dateModified: '2026-10-17',
+  dateModified: '2026-11-03',
   title: 'Calculate Hourly Rate From Salary',
   h1: 'How to Calculate Your Hourly Rate From Annual Salary',
   desc: 'Learn how to convert annual salary to hourly pay with a simple formula, examples, work-hour adjustments, unpaid time off, overtime and a free calculator.',
@@ -583,6 +583,8 @@ const article2 = {
         <li><strong>Non-Exempt Salaried Employees:</strong> Employees who do not meet the FLSA exemption criteria must receive 1.5 times their regular hourly rate for all hours worked beyond 40 in a single workweek.</li>
       </ul>
 
+      <p>Classification decides which of these rules applies to you in the first place. If you are unsure where your job falls, work through <a href="/articles/exempt-vs-non-exempt/">our guide to exempt vs. non-exempt status and the overtime rights that come with it</a> before doing the math below.</p>
+
       <p>If you are a non-exempt employee with a base salary of $60,000 ($28.85/hr regular rate) and work 5 overtime hours per week:</p>
       <div class="study-note-card">
         <div class="study-note-header">
@@ -625,7 +627,7 @@ const article2 = {
 
       <!-- Section: Job Offer Comparison -->
       <h2 id="salary-vs-hourly">Salary vs. Hourly Pay: Real-World Offer Comparison</h2>
-      <p>Evaluating competing compensation packages is where understanding your hourly rate gives you a decisive advantage. A higher headline annual salary does not always equal higher compensation for your time.</p>
+      <p>Evaluating competing compensation packages is where understanding your hourly rate gives you a decisive advantage. A higher headline annual salary does not always equal higher compensation for your time. We price the two models against each other in <a href="/articles/hourly-vs-salary-which-pays-more/">our worked comparison of a $32 hourly rate versus a $65,000 salary</a>, after taxes as well as before.</p>
 
       <div class="job-comparison-card">
         <div class="job-card-col">

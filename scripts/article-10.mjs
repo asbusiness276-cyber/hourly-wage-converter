@@ -4,7 +4,7 @@ export const article10 = {
   category: 'Taxes & Deductions',
   minutes: 13,
   datePublished: '2026-10-19',
-  dateModified: '2026-10-19',
+  dateModified: '2026-11-03',
   title: 'No Tax on Overtime in 2026: How It Works',
   seoTitle: 'No Tax on Overtime in 2026 | Hourly Wage Converter',
   h1: 'No Tax on Overtime in 2026: How the Deduction Really Works',
@@ -100,7 +100,7 @@ export const article10 = {
         <li><strong>It reduces income tax only</strong> — not Social Security or Medicare tax, which are withheld on the full overtime amount all year.</li>
       </ul>
 
-      <p>Think of it this way: the government did not stop taxing your overtime. It gave you a coupon, redeemable once a year, for part of the tax — and only on the premium half.</p>
+      <p>Think of it this way: the government did not stop taxing your overtime. It gave you a coupon, redeemable once a year, for part of the tax — and only on the premium half. Congress used the same design for tips in the same law — <a href="/articles/no-tax-on-tips/">our no-tax-on-tips guide</a> explains how that parallel deduction works.</p>
 
       <!-- Section 3: What Qualifies -->
       <h2 id="what-qualifies">What Counts: Only the Overtime Premium Qualifies</h2>
@@ -142,7 +142,7 @@ export const article10 = {
         <figcaption>Only the premium — the extra half of time-and-a-half — qualifies for the deduction.</figcaption>
       </figure>
 
-      <p>The premium must also be <strong>required by the Fair Labor Standards Act</strong> — the federal half-time premium for hours over 40 in a workweek. Voluntary extra pay your employer offers above the legal requirement (for example, double-time on holidays where not legally required) generally does not count as qualified overtime compensation.</p>
+      <p>The premium must also be <strong>required by the Fair Labor Standards Act</strong> — the federal half-time premium for hours over 40 in a workweek. Voluntary extra pay your employer offers above the legal requirement (for example, double-time on holidays where not legally required) generally does not count as qualified overtime compensation. For when the 2x rate is actually required by law — and when it is purely voluntary — see <a href="/articles/what-is-double-time-pay/">our guide to double-time pay rules</a>.</p>
 
       <!-- Section 4: Caps -->
       <h2 id="caps-limits">The $12,500 / $25,000 Annual Caps Explained</h2>

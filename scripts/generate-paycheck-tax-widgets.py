@@ -680,7 +680,7 @@ def generate_paycheck_widgets():
       </div>
       <div class="deposit-right">
         <div class="dep-badge">76.13% of Gross Retained</div>
-        <div class="dep-alt">With 4% State Tax: <strong>+$1,446.50</strong></div>
+        <div class="dep-alt">With 4% State Tax: <strong>+$1,450.50</strong></div>
       </div>
     </div>
 
@@ -711,7 +711,7 @@ def generate_paycheck_widgets():
   </div>
 
   <div class="footer-bar">
-    <span>State Withholding: <strong>$0.00 (TX/FL)</strong> or <strong>-$76.00 (4% Flat State Tax)</strong></span>
+    <span>State Withholding: <strong>$0.00 (TX/FL)</strong> or <strong>-$72.00 (4% Flat State Tax)</strong></span>
     <span>Step 5 Audit Finalized &bull; Final Funds Available in Checking Account</span>
   </div>
 </body>
