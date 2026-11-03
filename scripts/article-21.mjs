@@ -26,27 +26,27 @@ export const article21 = {
   faqs: [
     [
       'How much is $20 an hour after taxes?',
-      'At a standard full-time schedule of 40 hours a week for 52 weeks, $20 an hour is $41,600 a year gross. After 2026 federal income tax ($2,812) and FICA ($3,182.40), take-home pay is $35,605.60 a year — $2,967.13 a month, or $1,369.45 per biweekly paycheck. These figures are federal only for a single filer taking the standard deduction; state income tax, retirement contributions, and health premiums would reduce the paycheck further.'
+      '$20 an hour at 40 hours a week comes to $41,600 a year before tax. A single filer taking the 2026 standard deduction keeps $35,605.60 of that: federal income tax takes $2,812 and FICA takes $3,182.40 — at this wage, unusually, the payroll tax is the bigger of the two. That works out to $2,967.13 a month or $1,369.45 every two weeks, before any state tax, 401(k) contribution, or health premium comes out.'
     ],
     [
       'How much is $20 an hour biweekly after taxes?',
-      '$1,369.45 per paycheck on a biweekly schedule (26 paychecks a year), before state tax and any 401(k) or health premium deductions. On a semi-monthly schedule (24 paychecks), the same annual take-home works out to $1,483.57 per paycheck — the annual total does not change, only the number of checks it is split into.'
+      'Every two weeks you would bring home $1,369.45 — that is the $35,605.60 of annual take-home split across 26 biweekly paychecks, with no state tax or benefit deductions taken out yet. If your employer pays semi-monthly instead, the same money arrives as 24 checks of $1,483.57; the checks are bigger, but the year-end total is identical.'
     ],
     [
       'How much is $20 an hour monthly after taxes?',
-      '$2,967.13 a month, as an average. Monthly pay is annual take-home divided by 12. In a month with three biweekly paychecks, that month\'s cash in hand will be higher, and in a two-paycheck month it will be lower — the average is what matters for a budget.'
+      'Budget on $2,967.13 a month. That figure is simply the $35,605.60 annual take-home divided by 12, so treat it as an average: two months a year contain a third biweekly paycheck and feel noticeably richer, while the other ten run on two checks. Planning rent and bills around the $2,967.13 average keeps the leaner months from catching you out.'
     ],
     [
       'What is the take-home hourly rate for $20 an hour?',
-      '$17.12 an hour. That is $35,605.60 of annual take-home divided by 2,080 working hours — $2.88 less per hour than the $20.00 gross rate. The gap is entirely federal income tax and FICA; state tax would widen it further.'
+      'About $17.12 of each $20.00 hour is actually yours. FICA takes $1.53 an hour and federal income tax $1.35 an hour — $2.88 an hour in total — leaving $35,605.60 of take-home over a 2,080-hour year. Any state income tax would shave the $17.12 down a little more.'
     ],
     [
       'Does this include state taxes?',
-      'No. This article covers federal income tax and FICA only. State income tax varies widely — some states have none, others take several percent — so your actual paycheck will be lower than the figures here if your state has an income tax. The federal figures are the same wherever you live, which is why they are the right starting point.'
+      'No — the $35,605.60 figure here is after federal income tax ($2,812) and FICA ($3,182.40) only. State income tax is excluded, and at a $41,600 income it is often the smallest of the three taxes: some states have no income tax at all, and many others shelter much of a lower income behind their own standard deductions and bottom brackets. If your state does tax wages, your take-home will land below $35,605.60, but the gap is usually modest at this level.'
     ],
     [
       'Why is my paycheck less than $1,369.45 biweekly?',
-      'The usual reasons, in order: state income tax withholding, 401(k) or other retirement contributions, health insurance premiums, and other pre-tax deductions. Pay frequency also matters — a semi-monthly check looks different from a biweekly one. If none of those explain the gap, check your pay stub\'s withholding against the federal figures in this article, and confirm your W-4 settings with payroll.'
+      'Start with the deductions this article did not model. The $1,369.45 assumes only federal income tax and FICA come out; most real paychecks also lose money to state withholding, health premiums, and any 401(k) contribution. Also check the calendar: $1,369.45 is a biweekly figure, so a semi-monthly or monthly pay schedule will look different even at the same salary. If the shortfall is bigger than those items explain, compare the federal withholding line on your stub with the $2,812 annual figure in this article and ask payroll to check your W-4.'
     ]
   ],
   body: `

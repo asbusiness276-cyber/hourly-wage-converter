@@ -27,27 +27,27 @@ export const article22 = {
   faqs: [
     [
       'How much is $60,000 a year after taxes?',
-      'For a single filer taking the standard deduction, $60,000 a year works out to $50,390 take-home after 2026 federal income tax ($5,020) and FICA ($4,590) — $4,199.17 a month, or $1,938.08 per biweekly paycheck. These figures are federal only; state income tax, retirement contributions, and health premiums would reduce the paycheck further.'
+      'At $60,000 a year, a single filer keeps $50,390 after 2026 federal taxes — $5,020 of income tax and $4,590 of FICA. That is $4,199.17 a month, or $1,938.08 per biweekly paycheck, and it means about 84 cents of every dollar survives federal tax. The estimate stops there: state income tax, retirement contributions, and health premiums would each reduce the amount further.'
     ],
     [
       'How much is $60,000 a year monthly after taxes?',
-      '$4,199.17 a month, as an average. Monthly pay is annual take-home divided by 12. In a month with three biweekly paychecks, that month\'s cash in hand will be higher, and in a two-paycheck month it will be lower — the average is what matters for a budget.'
+      'Expect $4,199.17 a month on average. The $50,390 of annual take-home divided by 12 gives that figure, but a biweekly pay schedule does not deliver it evenly: two-check months bring $3,876.16, and the two three-check months each year bring $5,814.24. The $4,199.17 average is the safe number for recurring bills.'
     ],
     [
       'How much is $60,000 a year biweekly after taxes?',
-      '$1,938.08 per paycheck on a biweekly schedule (26 paychecks a year), before state tax and any 401(k) or health premium deductions. On a semi-monthly schedule (24 paychecks), the same annual take-home works out to $2,099.58 per paycheck — the annual total does not change, only the number of checks it is split into.'
+      'Biweekly pay at $60,000 nets $1,938.08 a check — the $50,390 take-home split 26 ways, before state tax and any 401(k) or health deductions. Semi-monthly pay would instead arrive as 24 checks of $2,099.58. Annual take-home is $50,390 under both schedules; only the size and timing of the checks differ.'
     ],
     [
       'What is the take-home hourly rate for a $60,000 salary?',
-      '$24.23 an hour. That is $50,390 of annual take-home divided by 2,080 working hours — $4.62 less per hour than the $28.85 gross hourly rate. The gap is entirely federal income tax and FICA; state tax would widen it further.'
+      '$24.23 an hour is the after-tax value of a $60,000 salary. Gross pay equals $28.85 an hour across 2,080 hours, and the combined $9,610 federal bite — income tax plus FICA — costs $4.62 an hour. A state income tax, where one applies, would push the true rate under $24.23.'
     ],
     [
       'Does this include state taxes?',
-      'No. This article covers federal income tax and FICA only. State income tax varies widely — some states have none, others take several percent — so your actual paycheck will be lower than the figures here if your state has an income tax. The federal figures are the same wherever you live, which is why they are the right starting point.'
+      'No — $50,390 is what remains after federal income tax ($5,020) and FICA ($4,590) only. State tax is deliberately excluded because at $60,000 the answer swings with your state: no-tax states take nothing, flat-tax states apply one rate to most of the salary, and graduated states land somewhere in between, each with its own standard deduction. Your real take-home is therefore $50,390 or less, never more.'
     ],
     [
       'How much more do I keep if my salary rises to $65,000?',
-      'Take-home rises to $54,407.50 a year — $4,017.50 more than at $60,000. In this salary band, each additional $5,000 of salary is worth about $4,017.50 in take-home pay, because the next dollars are taxed at the 12% marginal rate plus 7.65% FICA.'
+      'You keep most of it. Moving from $60,000 to $65,000 lifts take-home from $50,390 to $54,407.50 — a gain of $4,017.50 on a $5,000 raise. Retention is high in this band because every extra dollar is still taxed at only 12% federally, plus 7.65% FICA, so roughly 80 cents of each new dollar survives.'
     ]
   ],
   body: `
