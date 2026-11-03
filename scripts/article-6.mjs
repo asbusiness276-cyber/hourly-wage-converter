@@ -28,6 +28,8 @@ export const article6 = {
     ['w2-vs-1099', 'W-2 Employee vs. 1099 Contractor at $45/Hour: The Self-Employment Tax Hit'],
     ['monthly-budget', 'A Realistic 50/30/20 Monthly Budget on $45 an Hour'],
     ['common-mistakes', 'Common Paycheck Math & Tax Mistakes on $45/Hour'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About $45 an Hour Annually'],
     ['key-takeaways', 'Key Takeaways & Next Steps']
   ],
@@ -526,6 +528,28 @@ export const article6 = {
           <p>Leaving your 401(k) unfunded at $45 an hour leaves significant tax savings on the table. Every pre-tax dollar contributed shaves 22 cents off your federal tax bill.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Run your own numbers in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> ($45, or the rate you are negotiating) into the hourly-to-salary calculator.</li>
+        <li><strong>Step 2 — Match the schedule to the offer:</strong> hours per week and paid weeks per year — a salaried-style offer with paid holidays is not the same year as hourly work with unpaid weeks.</li>
+        <li><strong>Step 3 — Check the receipt:</strong> the results panel shows the annual total with its weekly, biweekly, and monthly splits, so you can line it up against a salary offer.</li>
+        <li><strong>Step 4 — Run the comparison:</strong> enter the salary from any competing offer (divided back to an hourly figure if needed) and compare annual gross before you weigh benefits.</li>
+      </ol>
+      <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Federal-only take-home:</strong> the tax breakdown uses 2026 federal rules for a single filer with the standard deduction, where $93,600 of gross pay reaches into the 22% bracket. State and local taxes are excluded and would reduce take-home further.</li>
+        <li><strong>FICA applies to the full wage:</strong> at $93,600, earnings sit well below the 2026 Social Security wage base of $184,500, so the full 7.65% payroll tax applies to every dollar — there is no late-year FICA relief at this income.</li>
+        <li><strong>W-2 vs. 1099 is not apples-to-apples:</strong> the contractor comparison in this guide cannot price everything an employee rate quietly includes — the employer share of payroll taxes, unemployment insurance, and benefits a contractor must fund alone.</li>
+        <li><strong>Full-year, full-time assumption:</strong> the $93,600 headline assumes 40 paid hours for all 52 weeks. A mid-year start, unpaid leave, or a four-day schedule produces a different year.</li>
+        <li><strong>Overtime eligibility narrows at this level:</strong> many roles paying $45 an hour are exempt, so the overtime scenarios only apply if your role is genuinely non-exempt and the hours are worked.</li>
+        <li><strong>Estimates, not tax advice:</strong> retirement contributions, credits, and a second income can move your real liability well away from this single-filer sketch.</li>
+      </ol>
 
       <!-- Section 12: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About $45 an Hour Annually</h2>

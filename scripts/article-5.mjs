@@ -26,6 +26,8 @@ export const article5 = {
     ['taxes-and-take-home', 'How Much Is $23 an Hour After 2026 Taxes? (Take-Home Breakdown)'],
     ['monthly-budget', 'A Realistic 50/30/20 Monthly Budget on $23 an Hour'],
     ['common-mistakes', 'Common Budgeting & Paycheck Math Mistakes on $23/Hour'],
+    ['how-to-use', 'How to Use the Calculator'],
+    ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions About $23 an Hour'],
     ['key-takeaways', 'Key Takeaways & Next Steps']
   ],
@@ -471,6 +473,28 @@ export const article5 = {
           <p>Overtime can be scaled back or frozen by employers during operational slowdowns. Keep your base living costs (rent, car, utilities) within your standard 40-hour take-home pay, and direct overtime earnings straight into debt payoff or savings.</p>
         </div>
       </div>
+
+      <!-- Section: How to Use the Calculator -->
+      <h2 id="how-to-use">How to Use the Calculator</h2>
+      <p>Run your own numbers in four steps:</p>
+      <ol>
+        <li><strong>Step 1 — Enter your hourly rate</strong> ($23, or your own rate) into the hourly-to-salary calculator.</li>
+        <li><strong>Step 2 — Set your schedule:</strong> hours per week and paid weeks per year. Full-time is 40 hours and 52 weeks; set fewer weeks if you take unpaid time off.</li>
+        <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and your annual, monthly, and biweekly results side by side.</li>
+        <li><strong>Step 4 — Test this guide's cases:</strong> add weekly overtime hours, or drop to a part-time schedule, and watch how far the $47,840 full-time figure moves.</li>
+      </ol>
+      <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
+
+      <!-- Section: Limitations -->
+      <h2 id="limitations">Limitations</h2>
+      <ol>
+        <li><strong>Federal-only take-home:</strong> the after-tax figures in this guide use 2026 federal rules for a single filer taking the standard deduction. State and local income taxes are excluded and would lower the check further.</li>
+        <li><strong>The 2,080-hour assumption:</strong> the $47,840 headline needs 40 paid hours in every week of the year. Fewer scheduled hours, or weeks of unpaid leave, scale it down proportionally.</li>
+        <li><strong>Overtime is conditional:</strong> the overtime scenarios require non-exempt status, an employer who schedules the hours, and hours actually worked past 40 in a single week.</li>
+        <li><strong>Benefits sit outside the math:</strong> health premiums, 401(k) contributions, and other payroll deductions are not subtracted unless a section says so — your deposit will be smaller than the tax-only estimate.</li>
+        <li><strong>Withholding vs. liability:</strong> each paycheck's withholding follows payroll tables and can differ from the annual figures sketched here; any difference settles when you file your return.</li>
+        <li><strong>Not tax advice:</strong> these are planning estimates for one filing profile. Credits, a second job, or a different filing status change your real numbers.</li>
+      </ol>
 
       <!-- Section 10: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About $23 an Hour</h2>
