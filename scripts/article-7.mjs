@@ -200,7 +200,7 @@ export const article7 = {
         <figcaption>Gross annual salary ($62,400) versus estimated net take-home pay (~$52,318) for $30/hr full-time employment.</figcaption>
       </figure>
 
-      <p>For a detailed breakdown of how this wage compares to nearby wage tiers, check our guide on <a href="/hourly/30-an-hour/">$30 an hour is how much a year</a>. One tier down, <a href="/articles/how-much-is-23-an-hour-a-year/">$23 an hour comes to $47,840 a year</a> — right at the national median.</p>
+      <p>For a detailed breakdown of how this wage compares to nearby wage tiers, check our guide on <a href="/hourly/30-an-hour/">$30 an hour is how much a year</a>. One tier down, <a href="/articles/how-much-is-23-an-hour-a-year/">$23 an hour comes to $47,840 a year</a> — right at the national median. Its immediate neighbours sit one dollar either side: <a href="/articles/how-much-is-29-an-hour-a-year/">$29 an hour comes to $60,320 a year</a>, and <a href="/articles/how-much-is-31-an-hour-a-year/">$31 an hour comes to $64,480 a year</a>.</p>
 
       <!-- Section 4: Unpaid Time Off -->
       <h2 id="unpaid-time-off">How Unpaid Time Off Changes Your Annual Earnings</h2>

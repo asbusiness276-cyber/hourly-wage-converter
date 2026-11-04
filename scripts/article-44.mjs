@@ -186,6 +186,7 @@ export const article44 = {
           </table>
         </div>
         <p>Read the gaps, not just the ranks: $33 beats a $60,000 salary by $8,640 gross and $6,728.24 take-home, and beats a $65,000 salary by $3,640 gross and $2,710.74 take-home — but trails a $70,000 salary by $1,360 gross and $956.76 take-home. The $70,000 salary’s take-home uses the same bracket steps as above (taxable $53,900; federal $6,570.00; FICA $5,355.00). Benefits can still flip the $70,000 row: a 3% retirement match adds $2,100 of cash value to the salary side, which is why our <a href="/articles/hourly-vs-salary-which-pays-more/">hourly-vs-salary guide</a> prices benefits in dollars before declaring a winner.</p>
+        <p>Two rungs up, our <a href="/articles/how-much-is-35-an-hour-a-year/">$35 an hour guide</a> runs the same comparison for $72,800 a year gross.</p>
       </section>
 
       <section class="article-section" id="bracket-crossing">
