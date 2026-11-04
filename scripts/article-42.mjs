@@ -6,6 +6,7 @@ export const article42 = {
   datePublished: '2026-11-03',
   dateModified: '2026-11-03',
   title: 'Hourly vs Salary: Which Pays More? $32 an Hour vs a $65,000 Salary',
+  seoTitle: 'Hourly vs Salary: $32 an Hour vs a $65,000 Salary',
   h1: 'Hourly vs Salary: Which Pays More? $32 an Hour Against a $65,000 Salary, Worked Out',
   desc: 'Hourly vs salary: $32 an hour is $66,560 a year, beating a $65,000 salary by $1,560 — until unpaid weeks flip it. Effective rates, overtime, taxes worked out.',
   image: '/assets/images/hourly-vs-salary-which-pays-more.jpg',

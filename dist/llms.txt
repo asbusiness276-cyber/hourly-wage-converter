@@ -1,0 +1,37 @@
+# Hourly Wage Converter
+
+> Free calculators and guides that convert hourly wages to salary, estimate paychecks and overtime, and explain take-home pay for US workers.
+
+## Calculators
+
+- [Hourly Wage Converter](https://hourlywageconverter.com/): Convert any hourly rate into annual, monthly, weekly, and daily gross pay — adjust hours, unpaid leave, and overtime.
+- [Salary to Hourly Calculator](https://hourlywageconverter.com/salary-to-hourly-calculator/): Find the hourly equivalent of your annual salary.
+- [Hourly to Salary Calculator](https://hourlywageconverter.com/hourly-to-salary-calculator/): See what your hourly rate adds up to over a year.
+- [Paycheck Calculator](https://hourlywageconverter.com/paycheck-calculator/): Estimate gross pay for your pay schedule.
+- [Overtime Calculator](https://hourlywageconverter.com/overtime-calculator/): Add extra hours at time and a half or your own rate.
+- [Time and a Half Calculator](https://hourlywageconverter.com/calculators/time-and-a-half/): Your 1.5× rate and what your overtime hours pay.
+- [Salary Increase Calculator](https://hourlywageconverter.com/calculators/salary-increase/): Calculate your raise in dollars and percent.
+- [Salary Comparison Calculator](https://hourlywageconverter.com/calculators/salary-comparison/): Compare pay against work hours, PTO, and commute.
+- [Freelance Hourly Rate Calculator](https://hourlywageconverter.com/calculators/freelance-rate/): Build a rate around income and billable time.
+- [Reverse Paycheck Calculator](https://hourlywageconverter.com/calculators/reverse-paycheck/): Find the gross pay you need to take home a target amount.
+- [Time Card Calculator](https://hourlywageconverter.com/calculators/time-card/): Turn day-by-day hours into weekly gross pay with overtime.
+- [401(k) Paycheck Impact Calculator](https://hourlywageconverter.com/calculators/401k-impact/): See what a 401(k) contribution does to your paycheck.
+- [Work Tenure Calculator](https://hourlywageconverter.com/calculators/tenure/): Measure work tenure from a start date to today or any end date.
+- [Payday & Three-Paycheck-Month Finder](https://hourlywageconverter.com/calculators/payday-finder/): Find your next payday and the months with an extra check.
+
+## Top Guides
+
+- [Convert Hourly Pay to Annual Salary](https://hourlywageconverter.com/articles/how-to-convert-hourly-pay-to-annual-salary/): Learn how to convert hourly pay to annual salary with a simple formula, examples, tables, overtime considerations, unpaid time off, and a free calculator.
+- [How to Read Your Pay Stub, Line by Line](https://hourlywageconverter.com/articles/how-to-read-your-pay-stub/): Learn to read your pay stub line by line: gross pay, FICA, federal and state withholding, pre-tax vs post-tax deductions, and YTD — with a worked sample stub.
+- [Gross Pay vs Net Pay Explained](https://hourlywageconverter.com/articles/gross-pay-vs-net-pay/): Gross pay vs net pay explained: the definitions, every deduction between them — federal tax, FICA, state tax, 401(k), premiums — plus worked examples.
+- [Hourly vs Salary: Which Pays More? $32 an Hour vs a $65,000 Salary](https://hourlywageconverter.com/articles/hourly-vs-salary-which-pays-more/): Hourly vs salary: $32 an hour is $66,560 a year, beating a $65,000 salary by $1,560 — until unpaid weeks flip it. Effective rates, overtime, taxes worked out.
+- [Calculate Hourly Rate From Salary](https://hourlywageconverter.com/articles/how-to-calculate-hourly-rate-from-salary/): Learn how to convert annual salary to hourly pay with a simple formula, examples, work-hour adjustments, unpaid time off, overtime and a free calculator.
+- [How to Calculate Taxes on Your Paycheck](https://hourlywageconverter.com/articles/how-to-calculate-taxes-on-paycheck/): Calculate taxes on your paycheck step by step for 2026: gross pay, pre-tax deductions, FICA, federal withholding, and state taxes, with real numbers.
+- [What Is FICA Tax?](https://hourlywageconverter.com/articles/what-is-fica-tax/): FICA tax is 7.65% of your pay — 6.2% Social Security up to the $184,500 wage base plus 1.45% Medicare. Learn how it works, when it stops, and what it costs.
+- [No Tax on Overtime in 2026: How It Works](https://hourlywageconverter.com/articles/no-tax-on-overtime/): No tax on overtime is a federal deduction for 2025–2028, not an exemption. See what qualifies, the $12,500/$25,000 caps, and how to claim it on your return.
+- [Minimum Wage by State 2027](https://hourlywageconverter.com/articles/minimum-wage-by-state/): Minimum wage by state for 2027: every state new rate, tipped wages, and big-city minimums in one complete table, plus what the changes mean for your pay.
+- [How Many Hours a Week Is Full-Time Work?](https://hourlywageconverter.com/articles/how-many-hours-is-full-time/): How many hours a week is full-time? The FLSA sets no definition, the ACA counts 30 hours, the BLS counts 35, and most employers use 40. All four, compared.
+
+## Notes
+
+All figures on this site use 2026 federal rules — the 2026 federal income tax brackets, the $16,100 single-filer standard deduction, and FICA (Social Security wage base $184,500 for 2026). Calculator results are gross pay estimates before taxes and deductions unless a page states otherwise.
