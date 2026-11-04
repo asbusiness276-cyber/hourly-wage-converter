@@ -152,7 +152,7 @@ export const article16 = {
             </tbody>
           </table>
         </div>
-        <p>In paycheck terms (biweekly): gross of <strong>$2,307.69</strong> becomes <strong>$1,938.08</strong> deposited — or $1,822.69 in the 5%-state version. Monthly take-home is $4,199.17 with no state tax. That monthly figure, not $5,000, is the honest starting point for a budget.</p>
+        <p>In paycheck terms (biweekly): gross of <strong>$2,307.69</strong> becomes <strong>$1,938.08</strong> deposited — or $1,822.69 in the 5%-state version. Monthly take-home is $4,199.17 with no state tax. That monthly figure, not $5,000, is the honest starting point for a budget. Run the same gross-to-net math on your own pay with our <a href="/paycheck-calculator/">take-home pay calculator</a>.</p>
       </section>
 
       <section class="article-section" id="example-hourly">

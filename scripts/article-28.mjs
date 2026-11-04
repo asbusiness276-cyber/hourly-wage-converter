@@ -59,7 +59,7 @@ export const article28 = {
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: $83,200 a Year</h2>
         <p>At $40 an hour on a standard full-time schedule — 40 hours a week, 52 weeks a year — you earn <strong>$83,200 a year before taxes</strong>. The formula is one multiplication: hourly rate × hours per week × weeks per year. Here that is $40 × 40 × 52 = $83,200, or 2,080 paid hours in the year. Everything else in this guide is a variation on that one number: fewer hours, overtime hours, unpaid weeks, and what taxes leave behind.</p>
-        <p>If you are comparing an hourly offer with a salaried one, that $83,200 is the number to put side by side with the salary — before either side's taxes, benefits, or time off enter the picture.</p>
+        <p>If you are comparing an hourly offer with a salaried one, that $83,200 is the number to put side by side with the salary — before either side's taxes, benefits, or time off enter the picture. Our <a href="/calculators/salary-comparison/">job offer comparison tool</a> runs that side-by-side with benefits and time off priced in.</p>
       </section>
 
       <section class="article-section" id="pay-breakdown">
