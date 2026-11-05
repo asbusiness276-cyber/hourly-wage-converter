@@ -1706,7 +1706,7 @@ details.nav-drop:not([open]) .nav-menu {
   margin-bottom: 12px;
 }
 
-.resource-card h3 {
+.resource-card h2, .resource-card h3 {
   font-size: 1.15rem;
   font-weight: 750;
   color: var(--ink);
@@ -1983,7 +1983,7 @@ details.nav-drop:not([open]) .nav-menu {
   box-shadow: var(--shadow-xs);
 }
 
-.formula-card h3 {
+.formula-card h2, .formula-card h3 {
   font-size: 1.05rem;
   margin-bottom: 12px;
   color: var(--ink);
@@ -2332,7 +2332,7 @@ details.nav-drop:not([open]) .nav-menu {
   margin: 28px 0 4px;
 }
 
-.tool-card h3 {
+.tool-card h2, .tool-card h3 {
   font-size: 1.08rem;
   margin-bottom: 8px;
   color: var(--ink);
