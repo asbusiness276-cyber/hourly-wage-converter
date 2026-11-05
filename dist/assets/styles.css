@@ -5604,3 +5604,11 @@ a.btn {
 @media (max-width: 640px) {
   .conversion-links.quick-rates > * { flex-basis: 100%; }
 }
+
+/* Print (v3.43, 2026-11-05 audit): paper-friendly pages — hide navigation, tool forms and sticky panels when printing; force dark text on white. Screen rendering unaffected. */
+@media print {
+  .topbar, .footer, .toc, .faq-side, form, .back-to-top { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  a { color: #000 !important; text-decoration: none !important; }
+  .tool-layout, .comparison-layout, .article-layout { display: block !important; }
+}

@@ -6,6 +6,7 @@ export const article47 = {
   datePublished: '2026-11-05',
   dateModified: '2026-11-05',
   title: 'How to Convert Part-Time Hourly Pay to an Annual Salary',
+  seoTitle: 'Convert Part-Time Hourly Pay to an Annual Salary',
   h1: 'Part-Time Hourly Pay to Annual Salary: The Formula, Paid Weeks, and Pro-Rata Math',
   desc: 'Part-time hourly pay to annual salary uses rate × hours × paid weeks. $22 an hour at 24 hours a week is $27,456 a year gross, $24,220.02 after federal tax.',
   image: '/assets/images/how-to-convert-part-time-hourly-pay-to-annual-salary.jpg',
