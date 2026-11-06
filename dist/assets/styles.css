@@ -3283,7 +3283,7 @@ a.btn {
   color: #0369a1;
 }
 
-.job-offer-box h4 {
+.job-offer-box h4, .job-offer-box h3 {
   font-size: 1.25rem;
   font-weight: 750;
   color: var(--ink);
@@ -3333,7 +3333,7 @@ a.btn {
   border-color: #fef08a;
 }
 
-.calendar-compare-card h4 {
+.calendar-compare-card h4, .calendar-compare-card h3 {
   margin: 0 0 8px;
   font-size: 1.05rem;
   font-weight: 700;
@@ -3366,7 +3366,7 @@ a.btn {
   padding: 16px 20px;
 }
 
-.mistake-item h4 {
+.mistake-item h4, .mistake-item h3 {
   margin: 0 0 6px;
   font-size: 1.02rem;
   font-weight: 700;
@@ -3374,6 +3374,16 @@ a.btn {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+/* Heading-hierarchy fix (2026-11-06): these article card titles were H4 directly under
+   H2 sections, so they are now H3. Render them at the old H4 size (1rem/650, no margin)
+   so nothing looks different; this rule sits after .prose h3 and wins at equal specificity.
+   Mistake titles inside .mistake-item are covered by the rule above, not this one. */
+.timeline-content h3, .calendar-card h3, .job-card-col h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 650;
 }
 
 .mistake-item p {

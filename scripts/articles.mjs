@@ -453,13 +453,13 @@ const article1 = {
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
-          <h4>52 Weeks Paid (Full Year)</h4>
+          <h3>52 Weeks Paid (Full Year)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 0 unpaid weeks</p>
           <div class="stat">$52,000.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #16a34a;">Standard baseline compensation</p>
         </div>
         <div class="calendar-compare-card diff">
-          <h4>50 Weeks Paid (2 Weeks Unpaid)</h4>
+          <h3>50 Weeks Paid (2 Weeks Unpaid)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 2 unpaid weeks off</p>
           <div class="stat">$50,000.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #b45309;">-$2,000.00 reduction in annual earnings</p>
@@ -516,7 +516,7 @@ const article1 = {
       <div class="job-comparison-card">
         <div class="job-offer-box">
           <span class="job-offer-tag">Hourly Pay Model</span>
-          <h4>Job Offer A: Hourly</h4>
+          <h3>Job Offer A: Hourly</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Guaranteed pay for every minute worked</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Overtime premium (1.5×) over 40 hours</li>
@@ -528,7 +528,7 @@ const article1 = {
 
         <div class="job-offer-box featured-offer">
           <span class="job-offer-tag">Salaried Model</span>
-          <h4>Job Offer B: Salaried</h4>
+          <h3>Job Offer B: Salaried</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Consistent, predictable monthly paycheck</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Paid vacation, holidays, and sick days included</li>
@@ -547,31 +547,31 @@ const article1 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Mistake 1: Assuming everyone works exactly 2,080 hours.</h4>
+          <h3>Mistake 1: Assuming everyone works exactly 2,080 hours.</h3>
           <p>Many jobs are structured around 35, 37.5, or 45 hours per week. Assuming 2,080 hours without checking your actual offer letter can distort your annual projections by thousands of dollars.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 2: Ignoring unpaid vacation and holiday shutdowns.</h4>
+          <h3>Mistake 2: Ignoring unpaid vacation and holiday shutdowns.</h3>
           <p>If your employer closes during Christmas week or you plan two weeks of unpaid summer travel, you will only be paid for 50 or 51 weeks. Always deduct unpaid weeks from your 52-week multiplier.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 3: Counting overtime as guaranteed base salary.</h4>
+          <h3>Mistake 3: Counting overtime as guaranteed base salary.</h3>
           <p>Overtime hours can be cut at any time by company management. Never budget your primary mortgage or living expenses around overtime pay that is not guaranteed in writing.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 4: Confusing gross earnings with take-home pay.</h4>
+          <h3>Mistake 4: Confusing gross earnings with take-home pay.</h3>
           <p>Budgeting your rent or car payment based on your gross $52,000 salary rather than your after-tax take-home pay leads directly to cash flow shortfalls.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 5: Multiplying a biweekly paycheck by 2 to estimate monthly pay.</h4>
+          <h3>Mistake 5: Multiplying a biweekly paycheck by 2 to estimate monthly pay.</h3>
           <p>There are 52 weeks in a year, which means there are 26 biweekly paychecks—not 24! Two months every year will have three paychecks instead of two. Multiplying a biweekly check by 2 undercounts your annual salary by an entire month's worth of income.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 6: Overlooking seasonal hour fluctuations.</h4>
+          <h3>Mistake 6: Overlooking seasonal hour fluctuations.</h3>
           <p>In retail, hospitality, landscaping, or construction, hours swell during peak seasons and plummet during off-peak months. Use an annualized weighted average rather than multiplying your best week by 52.</p>
         </div>
         <div class="mistake-item">
-          <h4>Mistake 7: Comparing hourly and salary jobs without evaluating benefits.</h4>
+          <h3>Mistake 7: Comparing hourly and salary jobs without evaluating benefits.</h3>
           <p>A $28/hour contract job with zero healthcare, no 401(k) match, and no paid time off often yields less net value than a $25/hour position offering comprehensive benefits and 3 weeks of paid leave.</p>
         </div>
       </div>
