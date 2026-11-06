@@ -198,7 +198,7 @@ export const article3 = {
       </ol>
 
       <div class="card" style="padding:18px 22px;background:var(--slate-50);border-left:4px solid var(--primary);margin:20px 0">
-        <h4 style="margin:0 0 6px;color:var(--ink)">Marginal Rate (12%) vs. Effective Federal Tax Rate (6.61%)</h4>
+        <h3 style="margin:0 0 6px;font-size:1rem;font-weight:650;color:var(--ink)">Marginal Rate (12%) vs. Effective Federal Tax Rate (6.61%)</h3>
         <p style="margin:0;font-size:0.92rem;color:var(--muted);line-height:1.55">While our worker's top dollar falls into the 12% marginal tax bracket, their <strong>effective federal tax rate is only 6.61%</strong> of their gross income ($3,436 ÷ $52,000). The standard deduction shields the first $16,100 from tax entirely, and the next $12,400 is taxed at only 10%.</p>
       </div>
 
@@ -344,17 +344,17 @@ export const article3 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Mistake 1: Leaving Step 2 blank when you or your spouse work multiple jobs.</h4>
+          <h3>Mistake 1: Leaving Step 2 blank when you or your spouse work multiple jobs.</h3>
           <p>If you work two jobs or are married filing jointly with a working spouse, both employers assume you are their only source of income and apply full standard deductions. Check the box in Step 2(c) or use the multiple jobs worksheet to prevent an unexpected tax bill in April.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 2: Claiming child tax credits twice on two separate W-4 forms.</h4>
+          <h3>Mistake 2: Claiming child tax credits twice on two separate W-4 forms.</h3>
           <p>The Child Tax Credit ($2,000 per qualifying child) should only be claimed on <em>one</em> W-4 form in Step 3—usually the highest-earning job. Splitting or duplicating credits across two jobs results in under-withholding.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 3: Never updating your W-4 after life transitions.</h4>
+          <h3>Mistake 3: Never updating your W-4 after life transitions.</h3>
           <p>Marriage, divorce, purchasing a home, having a child, or picking up freelance income all change your tax liability. Review your W-4 annually to ensure your paycheck withholding matches your financial goals.</p>
         </div>
       </div>

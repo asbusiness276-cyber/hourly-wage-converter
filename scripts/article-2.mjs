@@ -236,35 +236,35 @@ const article2 = {
         <div class="timeline-step">
           <div class="timeline-marker">1</div>
           <div class="timeline-content">
-            <h4>Step 1: Identify Your Annual Gross Salary</h4>
+            <h3>Step 1: Identify Your Annual Gross Salary</h3>
             <p>Determine your total base salary for the year before deductions. Exclude discretionary bonuses unless you want to calculate your total compensation rate. <em>Example: $60,000.</em></p>
           </div>
         </div>
         <div class="timeline-step">
           <div class="timeline-marker">2</div>
           <div class="timeline-content">
-            <h4>Step 2: Determine Your Average Weekly Working Hours</h4>
+            <h3>Step 2: Determine Your Average Weekly Working Hours</h3>
             <p>Count the actual hours you work in a typical week. Standard full-time is 40 hours, but enter your real schedule if you work 35, 45, or 50 hours. <em>Example: 40 hours per week.</em></p>
           </div>
         </div>
         <div class="timeline-step">
           <div class="timeline-marker">3</div>
           <div class="timeline-content">
-            <h4>Step 3: Determine Your Paid Weeks Per Year</h4>
+            <h3>Step 3: Determine Your Paid Weeks Per Year</h3>
             <p>Count the number of paid weeks in the year. If you receive paid time off (PTO), count all 52 weeks. If you take unpaid time off, subtract those weeks from 52. <em>Example: 52 paid weeks.</em></p>
           </div>
         </div>
         <div class="timeline-step">
           <div class="timeline-marker">4</div>
           <div class="timeline-content">
-            <h4>Step 4: Calculate Your Annual Scheduled Hours</h4>
+            <h3>Step 4: Calculate Your Annual Scheduled Hours</h3>
             <p>Multiply your weekly hours by your paid weeks: <code>Weekly Hours × Paid Weeks = Annual Hours</code>. <em>Example: 40 × 52 = 2,080 annual hours.</em></p>
           </div>
         </div>
         <div class="timeline-step">
           <div class="timeline-marker">5</div>
           <div class="timeline-content">
-            <h4>Step 5: Divide Annual Salary by Annual Scheduled Hours</h4>
+            <h3>Step 5: Divide Annual Salary by Annual Scheduled Hours</h3>
             <p>Divide your annual gross salary by your total annual hours: <code>$60,000 ÷ 2,080 = $28.846</code>. Round to two decimal places: <strong>$28.85 per hour</strong>.</p>
           </div>
         </div>
@@ -511,7 +511,7 @@ const article2 = {
       <div class="calendar-compare-grid">
         <div class="calendar-card">
           <div class="calendar-badge">Scenario A: 52 Paid Weeks</div>
-          <h4>Standard Full-Time Year</h4>
+          <h3>Standard Full-Time Year</h3>
           <div class="cal-stat">
             <span>Weeks Worked:</span>
             <strong>52 weeks</strong>
@@ -532,7 +532,7 @@ const article2 = {
 
         <div class="calendar-card" style="border-color:#38bdf8;background:#f0f9ff">
           <div class="calendar-badge" style="background:#e0f2fe;color:#0284c7;border-color:#bae6fd">Scenario B: 50 Paid Weeks</div>
-          <h4>Two Weeks Unpaid Leave</h4>
+          <h3>Two Weeks Unpaid Leave</h3>
           <div class="cal-stat">
             <span>Weeks Worked:</span>
             <strong>50 weeks</strong>
@@ -632,7 +632,7 @@ const article2 = {
       <div class="job-comparison-card">
         <div class="job-card-col">
           <span class="job-badge">Offer A: Higher Headline Salary</span>
-          <h4>Corporate Salaried Position</h4>
+          <h3>Corporate Salaried Position</h3>
           <div class="job-stat">
             <span>Stated Annual Salary:</span>
             <strong>$60,000.00 / year</strong>
@@ -657,7 +657,7 @@ const article2 = {
 
         <div class="job-card-col highlight">
           <span class="job-badge" style="background:#dcfce7;color:#15803d;border-color:#bbf7d0">Offer B: Higher Hourly Value</span>
-          <h4>Flexible Professional Position</h4>
+          <h3>Flexible Professional Position</h3>
           <div class="job-stat">
             <span>Stated Annual Salary:</span>
             <strong>$55,000.00 / year</strong>
@@ -703,42 +703,42 @@ const article2 = {
         <div class="mistake-item">
           <div class="mistake-num">1</div>
           <div class="mistake-content">
-            <h4>Automatically Assuming Everyone Works 2,080 Hours</h4>
+            <h3>Automatically Assuming Everyone Works 2,080 Hours</h3>
             <p>While 2,080 is the standard baseline, never blindly use it if your job requires 35, 45, or 50 hours each week. Always divide your salary by your real contracted hours to avoid misrepresenting your hourly earnings.</p>
           </div>
         </div>
         <div class="mistake-item">
           <div class="mistake-num">2</div>
           <div class="mistake-content">
-            <h4>Confusing Paid Time Off With Unpaid Time Off</h4>
+            <h3>Confusing Paid Time Off With Unpaid Time Off</h3>
             <p>Do not deduct paid vacation, holidays, or sick leave from your annual hours. Paid time off is included in your annual salary compensation. Only deduct unpaid weeks away from work.</p>
           </div>
         </div>
         <div class="mistake-item">
           <div class="mistake-num">3</div>
           <div class="mistake-content">
-            <h4>Treating Gross Hourly Pay as Take-Home Pay</h4>
+            <h3>Treating Gross Hourly Pay as Take-Home Pay</h3>
             <p>Gross hourly equivalents do not account for taxes, Social Security, Medicare, or insurance deductions. Expect your actual take-home rate to be 20% to 30% lower than your gross calculation.</p>
           </div>
         </div>
         <div class="mistake-item">
           <div class="mistake-num">4</div>
           <div class="mistake-content">
-            <h4>Ignoring Uncompensated Salaried Overtime</h4>
+            <h3>Ignoring Uncompensated Salaried Overtime</h3>
             <p>If you are an exempt salaried worker routinely working 50-hour weeks without overtime pay, your real hourly value is 20% lower than the 40-hour standard. Always calculate your effective rate based on reality.</p>
           </div>
         </div>
         <div class="mistake-item">
           <div class="mistake-num">5</div>
           <div class="mistake-content">
-            <h4>Overlooking Overtime Eligibility Rules</h4>
+            <h3>Overlooking Overtime Eligibility Rules</h3>
             <p>Many salaried workers mistakenly believe that having a salary automatically makes them ineligible for overtime. If your job duties do not meet executive or professional exemption criteria under the FLSA, you are entitled to 1.5× overtime pay.</p>
           </div>
         </div>
         <div class="mistake-item">
           <div class="mistake-num">6</div>
           <div class="mistake-content">
-            <h4>Evaluating Base Salary in Complete Isolation</h4>
+            <h3>Evaluating Base Salary in Complete Isolation</h3>
             <p>Failing to account for health insurance, retirement matches, bonuses, and commute expenses gives you an incomplete financial picture. Total compensation matters more than base salary alone.</p>
           </div>
         </div>

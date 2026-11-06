@@ -210,13 +210,13 @@ export const article7 = {
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
-          <h4>52 Paid Weeks (Full PTO)</h4>
+          <h3>52 Paid Weeks (Full PTO)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 0 unpaid weeks</p>
           <div class="stat">$62,400.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #16a34a;">Standard baseline compensation</p>
         </div>
         <div class="calendar-compare-card diff">
-          <h4>50 Paid Weeks (2 Unpaid Weeks Off)</h4>
+          <h3>50 Paid Weeks (2 Unpaid Weeks Off)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 2 weeks unpaid leave</p>
           <div class="stat">$60,000.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #b45309;">-$2,400.00 drop in gross annual pay</p>
@@ -426,7 +426,7 @@ export const article7 = {
       <div class="job-comparison-card">
         <div class="job-offer-box">
           <span class="job-offer-tag">Hourly Position</span>
-          <h4>Offer A: $30.00 / Hour</h4>
+          <h3>Offer A: $30.00 / Hour</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Guaranteed straight-time pay for every hour clocked</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> 1.5× Overtime ($45.00/hr) beyond 40 hours</li>
@@ -438,7 +438,7 @@ export const article7 = {
 
         <div class="job-offer-box featured-offer">
           <span class="job-offer-tag">Salaried Position</span>
-          <h4>Offer B: $65,000 Salaried</h4>
+          <h3>Offer B: $65,000 Salaried</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Predictable, consistent paycheck every month</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Paid federal holidays and PTO included</li>
@@ -457,27 +457,27 @@ export const article7 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Mistake 1: Multiplying weekly pay by 4 to get monthly pay ($4,800 vs. $5,200).</h4>
+          <h3>Mistake 1: Multiplying weekly pay by 4 to get monthly pay ($4,800 vs. $5,200).</h3>
           <p>Multiplying your $1,200 weekly pay by 4 yields $4,800.00, which undercounts your true monthly earnings by $400 every single month! There are 52 weeks in a year, meaning the average month contains 4.333 weeks (52 ÷ 12). Your true average monthly gross is $5,200.00 ($62,400 ÷ 12).</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 2: Confusing biweekly (26 checks) with semi-monthly (24 checks).</h4>
+          <h3>Mistake 2: Confusing biweekly (26 checks) with semi-monthly (24 checks).</h3>
           <p>Biweekly employees are paid every two weeks (26 pay periods per year), resulting in gross checks of $2,400.00. Semi-monthly employees are paid twice a month (e.g., on the 15th and last day, 24 checks per year), resulting in gross checks of $2,600.00. While annual pay is identical ($62,400), each individual check differs by $200.00.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 3: Forgetting mandatory FICA taxes (7.65%).</h4>
+          <h3>Mistake 3: Forgetting mandatory FICA taxes (7.65%).</h3>
           <p>Many online salary discussions focus entirely on federal income tax brackets and completely forget FICA contributions. Social Security (6.2%) and Medicare (1.45%) deduct $4,773.60 from your gross salary before you pay a single dollar of income tax.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 4: Budgeting rent or fixed loan payments on gross pay.</h4>
+          <h3>Mistake 4: Budgeting rent or fixed loan payments on gross pay.</h3>
           <p>Never budget living expenses using your $5,200 gross income. Base your lease agreements, car notes, and recurring obligations on your actual take-home cash flow ($4,043 to $4,360/month depending on state taxes and benefit deductions).</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 5: Treating occasional overtime as guaranteed base salary.</h4>
+          <h3>Mistake 5: Treating occasional overtime as guaranteed base salary.</h3>
           <p>Overtime can be eliminated by company management during budget cuts or economic slowdowns. Build your essential lifestyle around your base 40-hour take-home pay and channel overtime windfalls directly into emergency reserves, debt reduction, or investments.</p>
         </div>
       </div>

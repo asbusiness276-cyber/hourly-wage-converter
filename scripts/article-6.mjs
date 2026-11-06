@@ -201,13 +201,13 @@ export const article6 = {
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
-          <h4>52 Paid Weeks (Includes PTO)</h4>
+          <h3>52 Paid Weeks (Includes PTO)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 0 unpaid weeks</p>
           <div class="stat">$93,600.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #16a34a;">Standard baseline compensation</p>
         </div>
         <div class="calendar-compare-card diff">
-          <h4>50 Paid Weeks (2 Unpaid Weeks Off)</h4>
+          <h3>50 Paid Weeks (2 Unpaid Weeks Off)</h3>
           <p style="margin: 0 0 6px; font-size: 0.9rem; color: #64748b;">40 hours/week · 2 weeks unpaid leave</p>
           <div class="stat">$90,000.00 <span style="font-size: 0.85rem; font-weight: 500; color: #64748b;">gross / year</span></div>
           <p style="margin: 8px 0 0; font-size: 0.86rem; color: #b45309;">-$3,600.00 drop in gross annual pay</p>
@@ -431,7 +431,7 @@ export const article6 = {
       <div class="job-comparison-card">
         <div class="job-offer-box">
           <span class="job-offer-tag">W-2 Employment</span>
-          <h4>W-2 Employee ($45.00 / Hour)</h4>
+          <h3>W-2 Employee ($45.00 / Hour)</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Employer pays 50% of FICA taxes ($7,160.40)</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Paid time off, paid holidays, and sick leave</li>
@@ -443,7 +443,7 @@ export const article6 = {
 
         <div class="job-offer-box featured-offer">
           <span class="job-offer-tag">1099 Contractor</span>
-          <h4>1099 Contractor ($45.00 / Hour)</h4>
+          <h3>1099 Contractor ($45.00 / Hour)</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> Must pay full 15.3% Self-Employment Tax ($13,226+)</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg> Zero paid time off or holiday compensation</li>
@@ -504,27 +504,27 @@ export const article6 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Mistake 1: Multiplying weekly pay by 4 to project monthly income ($7,200 vs. $7,800).</h4>
+          <h3>Mistake 1: Multiplying weekly pay by 4 to project monthly income ($7,200 vs. $7,800).</h3>
           <p>Multiplying your $1,800 weekly pay by 4 gives $7,200.00. Because a calendar year has 52 weeks (4.333 weeks per month), your true average monthly gross is <strong>$7,800.00</strong>. Budgeting around 4 weeks leaves an entire $600/month uncounted!</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 2: Bracket panic—assuming moving into the 22% bracket lowers your net pay.</h4>
+          <h3>Mistake 2: Bracket panic—assuming moving into the 22% bracket lowers your net pay.</h3>
           <p>Federal tax brackets are progressive. Only taxable earnings above $50,400 are taxed at 22%. Earning an additional dollar always increases your net take-home pay.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 3: Overlooking self-employment tax on 1099 consulting contracts.</h4>
+          <h3>Mistake 3: Overlooking self-employment tax on 1099 consulting contracts.</h3>
           <p>Accepting a $45/hour 1099 role without accounting for the 15.3% self-employment tax hit and lack of PTO results in a painful surprise during quarterly estimated tax filings.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 4: Confusing biweekly (26 checks) with semi-monthly (24 checks).</h4>
+          <h3>Mistake 4: Confusing biweekly (26 checks) with semi-monthly (24 checks).</h3>
           <p>Biweekly checks are $3,600.00 gross (paid every 2 weeks). Semi-monthly checks are $3,900.00 gross (paid twice per month). Both equal $93,600 annually, but each biweekly check reflects 80 hours rather than half a month.</p>
         </div>
 
         <div class="mistake-item">
-          <h4>Mistake 5: Failing to optimize pre-tax retirement accounts.</h4>
+          <h3>Mistake 5: Failing to optimize pre-tax retirement accounts.</h3>
           <p>Leaving your 401(k) unfunded at $45 an hour leaves significant tax savings on the table. Every pre-tax dollar contributed shaves 22 cents off your federal tax bill.</p>
         </div>
       </div>

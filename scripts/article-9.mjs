@@ -330,7 +330,7 @@ export const article9 = {
       <div class="job-comparison-card">
         <div class="job-offer-box">
           <span class="job-offer-tag">Biweekly Schedule</span>
-          <h4>Biweekly (26 Checks / Year)</h4>
+          <h3>Biweekly (26 Checks / Year)</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Consistent, predictable payday (e.g., every other Friday)</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Two "magic months" each year with three paychecks</li>
@@ -343,7 +343,7 @@ export const article9 = {
 
         <div class="job-offer-box featured-offer">
           <span class="job-offer-tag">Semi-Monthly Schedule</span>
-          <h4>Semi-Monthly (24 Checks / Year)</h4>
+          <h3>Semi-Monthly (24 Checks / Year)</h3>
           <ul>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Larger individual paychecks (+$192.31 on $60k salary)</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg> Perfectly matches monthly mortgage, rent, and bill due dates</li>
@@ -379,23 +379,23 @@ export const article9 = {
 
       <div class="mistake-list">
         <div class="mistake-item">
-          <h4>Misconception 1: "Biweekly and semi-monthly pay are the exact same thing."</h4>
+          <h3>Misconception 1: "Biweekly and semi-monthly pay are the exact same thing."</h3>
           <p>They are not. Biweekly pays 26 times per year; semi-monthly pays 24 times per year. Assuming they are identical leads to budgeting shortfalls when you miscalculate your monthly cash flow.</p>
         </div>
         <div class="mistake-item">
-          <h4>Misconception 2: "Multiplying a biweekly check by 2 equals your monthly income."</h4>
+          <h3>Misconception 2: "Multiplying a biweekly check by 2 equals your monthly income."</h3>
           <p>Multiplying a biweekly paycheck by 2 only accounts for 24 paychecks per year, undercounting your annual salary by an entire month's earnings (the two extra third checks). To find true average monthly pay, multiply your biweekly check by 26 and divide by 12.</p>
         </div>
         <div class="mistake-item">
-          <h4>Misconception 3: "Semi-monthly pay means you make more money."</h4>
+          <h3>Misconception 3: "Semi-monthly pay means you make more money."</h3>
           <p>While each semi-monthly check is roughly 8.33% larger, your total annual salary is identical. An employee earning $60,000 receives $60,000 under both schedules.</p>
         </div>
         <div class="mistake-item">
-          <h4>Misconception 4: "The third biweekly paycheck is 'free bonus' money."</h4>
+          <h3>Misconception 4: "The third biweekly paycheck is 'free bonus' money."</h3>
           <p>The third paycheck is simply earned wages that were held back across the preceding 10 months because biweekly checks are smaller. While it feels like a bonus, it is part of your base agreed compensation.</p>
         </div>
         <div class="mistake-item">
-          <h4>Misconception 5: "Benefit deductions cost more on a biweekly schedule."</h4>
+          <h3>Misconception 5: "Benefit deductions cost more on a biweekly schedule."</h3>
           <p>Employers adjust payroll deduction formulas to match pay frequency. For example, if your annual health insurance premium is $2,400, a semi-monthly employee pays $100 per check ($2,400 ÷ 24), whereas a biweekly employee pays $92.31 per check ($2,400 ÷ 26). The annual cost is identical.</p>
         </div>
       </div>
