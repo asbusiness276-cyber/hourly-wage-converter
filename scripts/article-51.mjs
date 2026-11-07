@@ -8,7 +8,7 @@ export const article51 = {
   title: 'How to Price a Freelance Retainer',
   seoTitle: 'How to Price a Freelance Retainer: $1,600-a-Month Formula',
   h1: 'How to Price a Freelance Retainer: The $1,600-a-Month Formula, Worked Out Step by Step',
-  desc: 'Price a freelance retainer from your floor rate, not a discount: 20 hours at $80 an hour is $1,600 a month. Rollover, overage, capacity and renewal math, worked out.',
+  desc: 'Price a freelance retainer from your floor rate, not a discount: 20 hours at $80 an hour is $1,600 a month. Rollover, overage, capacity and renewal math.',
   image: '/assets/images/how-to-price-a-freelance-retainer.jpg',
   imageAlt: 'Freelance writer in a navy blue shirt typing on a laptop at a bright home-office desk with an open notebook and an orange coffee mug in warm window light',
   toc: [
