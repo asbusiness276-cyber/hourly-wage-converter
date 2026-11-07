@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import {convert,overtime,raise,compare,freelance,paycheck,federalTax,ficaTax,takeHome,stateTax} from '../dist/assets/math.js';
+import {convert,overtime,raise,compare,freelance,paycheck,federalTax,ficaTax,takeHome,stateTax,bonusTax} from '../dist/assets/math.js';
 const base={amount:25,period:'hourly',hours:8,days:5,weeks:52,unpaid:0};
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-7,`${a} != ${b}`);
 const result=convert(base);
@@ -61,6 +61,17 @@ const rpT=raise({current:60000,raiseMode:'percent',raisePercent:10,hours:8,days:
 const coT=compare({a:{salary:60000,bonus:2000,match:5,health:200,hours:40,pto:2,commute:5},b:{salary:65000,bonus:0,hours:45,pto:3,commute:5}});close(coT.a.effective,62600/2250);assert.equal(coT.a.totalComp,65000);
 close(freelance({income:60000,expenses:6000,hours:25,weeks:48,tax:25,margin:10}).dayRate,79.62962962962963*8);
 close(freelance({income:60000,expenses:6000,hours:25,weeks:48,tax:25,margin:10}).retainer,7962.962962962963);
+// Bonus Tax Calculator — IRS Pub 15 (2026) Section 7 vectors (build spec 2026-11-07).
+const bt1=bonusTax({bonus:5000});close(bt1.federal,1100);close(bt1.fica,382.50);close(bt1.takeHome,3517.50);
+const bt2=bonusTax({bonus:1000});close(bt2.federal,220);close(bt2.fica,76.50);close(bt2.takeHome,703.50);
+const bt3=bonusTax({bonus:10000});close(bt3.federal,2200);close(bt3.fica,765);close(bt3.takeHome,7035);
+const bt4=bonusTax({bonus:1500000});close(bt4.federal,405000);close(bt4.socialSecurity,11439);close(bt4.medicare,21750);close(bt4.additionalMedicare,11700);close(bt4.federalUnder,220000);close(bt4.federal37,185000);
+const bt5=bonusTax({bonus:10000,ytdWages:180000});close(bt5.socialSecurity,279);close(bt5.medicare,145);close(bt5.federal,2200);close(bt5.takeHome,7376);
+const bt6=bonusTax({bonus:10000,deferral:1000});close(bt6.federal,1980);close(bt6.fica,765);close(bt6.takeHome,6255);
+const bt7=bonusTax({bonus:200000,priorSupplemental:900000});close(bt7.federal,59000);close(bt7.federalUnder,22000);close(bt7.federal37,37000);
+const bt8=bonusTax({bonus:10000,method:'aggregate',regularPay:2000,payFrequency:'biweekly',filingStatus:'single'});close(bt8.federal,2625.93);close(bt8.takeHome,6609.07);
+assert.throws(()=>bonusTax({bonus:0}));assert.throws(()=>bonusTax({bonus:10000001}));assert.throws(()=>bonusTax({bonus:5000,ytdWages:-1}));assert.throws(()=>bonusTax({bonus:5000,priorSupplemental:-1}));assert.throws(()=>bonusTax({bonus:5000,deferral:5001}));assert.throws(()=>bonusTax({bonus:5000,stateRate:16}));assert.throws(()=>bonusTax({bonus:5000,method:'aggregate',payFrequency:'daily',regularPay:2000}));
+assert.ok(fs.readFileSync('dist/calculators/bonus-tax/index.html','utf8').includes('$3,517.50'));
 const root=path.resolve(import.meta.dirname,'../dist');
 const routes=JSON.parse(fs.readFileSync(path.join(root,'routes.json'),'utf8'));
 let links=0;

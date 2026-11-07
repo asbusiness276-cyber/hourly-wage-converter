@@ -327,6 +327,59 @@ export function tenure(input){
   return {years:y,months:m,days:d,totalDays,weeks,weeksRemainder,nextAnniversary:ann.toISOString().slice(0,10),nextAnniversaryDisplay:fmt(ann),daysToAnniversary,breakdown:`${pl(y,'year')}, ${pl(m,'month')}, ${pl(d,'day')}`};
 }
 
+// Bonus withholding (IRS Publication 15 (2026), Section 7 — supplemental wages).
+// Flat (percentage) method: 22% up to $1,000,000 of supplemental wages from one
+// employer in the calendar year, 37% (mandatory) on the part above $1,000,000.
+// Aggregate method: bonus added to one regular paycheck, withheld through the
+// Pub 15-T percentage method (annualized 2026 brackets + standard deduction,
+// standard Form W-4, no Steps 2–4 adjustments); the part of the bonus above
+// the $1M tier is still withheld at the mandatory 37%.
+export const SUPPLEMENTAL_FLAT_RATE_2026=0.22;
+export const SUPPLEMENTAL_TOP_RATE_2026=0.37;
+export const SUPPLEMENTAL_THRESHOLD_2026=1000000;
+const round2=(n)=>Math.round((n+Number.EPSILON)*100)/100;
+export function bonusTax(input){
+  const bonus=positive(input.bonus,'Bonus amount');
+  if(bonus>10000000)throw new Error('Enter a bonus of $10,000,000 or less.');
+  const method=input.method==='aggregate'?'aggregate':'flat';
+  const ytdWages=nonnegative(input.ytdWages||0,'Year-to-date wages');
+  const priorSupplemental=nonnegative(input.priorSupplemental||0,'Prior supplemental wages');
+  const deferral=nonnegative(input.deferral||0,'401(k) deferral');
+  if(deferral>bonus)throw new Error('The 401(k) deferral cannot exceed the bonus.');
+  const stateRate=nonnegative(input.stateRate||0,'State withholding rate');
+  if(stateRate>15)throw new Error('Use a state withholding rate of 15% or less.');
+  const filingStatus=input.filingStatus==='married'?'married':'single';
+  // A pre-tax 401(k) deferral reduces the federal withholding base, never the FICA base.
+  const federalBase=bonus-deferral;
+  const room=Math.max(0,SUPPLEMENTAL_THRESHOLD_2026-priorSupplemental);
+  const overBase=Math.max(0,federalBase-room);
+  const underBase=federalBase-overBase;
+  const federal37=round2(SUPPLEMENTAL_TOP_RATE_2026*overBase);
+  let federalUnder;
+  if(method==='aggregate'){
+    if(!(input.payFrequency in payFrequencies))throw new Error('Choose a valid pay frequency.');
+    const periods=payFrequencies[input.payFrequency];
+    const regular=positive(input.regularPay,'Regular paycheck');
+    const std=STANDARD_DEDUCTION_2026[filingStatus];
+    const withhold=(perCheck)=>federalTax(Math.max(0,perCheck*periods-std),filingStatus)/periods;
+    federalUnder=round2(Math.max(0,withhold(regular+underBase)-withhold(regular)));
+  }else{
+    federalUnder=round2(SUPPLEMENTAL_FLAT_RATE_2026*underBase);
+  }
+  const federal=round2(federalUnder+federal37);
+  // FICA on the bonus = FICA on (wages + bonus) minus FICA on wages alone, so the
+  // Social Security wage base and the Additional Medicare threshold apply exactly.
+  const ficaNow=ficaTax(ytdWages+bonus),ficaPrior=ficaTax(ytdWages);
+  const socialSecurity=round2(ficaNow.socialSecurity-ficaPrior.socialSecurity);
+  const medicare=round2(ficaNow.medicare-ficaPrior.medicare);
+  const additionalMedicare=round2(ficaNow.additional-ficaPrior.additional);
+  const fica=round2(socialSecurity+medicare+additionalMedicare);
+  const state=round2(stateRate/100*bonus);
+  const totalWithheld=round2(federal+fica+state);
+  const takeHome=round2(bonus-deferral-totalWithheld);
+  return {bonus,deferral,federalBase,method,federalUnder,federal37,federal,socialSecurity,medicare,additionalMedicare,fica,state,stateRate,totalWithheld,takeHome,effectiveRate:round2(totalWithheld/bonus*100),filingStatus};
+}
+
 export function paydayFinder(input){
   const period=input.frequency==='weekly'?7:input.frequency==='biweekly'?14:null;
   if(!period)throw new Error('Choose a pay frequency.');
