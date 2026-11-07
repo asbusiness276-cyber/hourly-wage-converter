@@ -18,6 +18,7 @@
 - [401(k) Paycheck Impact Calculator](https://hourlywageconverter.com/calculators/401k-impact/): See what a 401(k) contribution does to your paycheck.
 - [Work Tenure Calculator](https://hourlywageconverter.com/calculators/tenure/): Measure work tenure from a start date to today or any end date.
 - [Payday & Three-Paycheck-Month Finder](https://hourlywageconverter.com/calculators/payday-finder/): Find your next payday and the months with an extra check.
+- [Bonus Tax Calculator](https://hourlywageconverter.com/calculators/bonus-tax/): See what a bonus pays after 22% federal withholding and FICA.
 
 ## Top Guides
 

@@ -4,7 +4,7 @@ export const article48 = {
   category: 'Payroll & Compensation',
   minutes: 13,
   datePublished: '2026-11-05',
-  dateModified: '2026-11-05',
+  dateModified: '2026-11-07',
   title: 'How Are Bonuses Taxed? The 22% Rule, Take-Home Math, and Getting Money Back',
   seoTitle: 'How Are Bonuses Taxed in 2026? (22% Rule Explained)',
   h1: 'How Are Bonuses Taxed? The 22% Withholding Rule, Take-Home Math, and the Refund Test',
@@ -263,12 +263,12 @@ export const article48 = {
         <h2>How to Use the Calculator</h2>
         <p>Price your own bonus in four steps:</p>
         <ol>
-          <li><strong>Step 1 — Enter your salary and the bonus</strong> in the paycheck calculator, with your pay frequency, so the tool shows the combined check the way the aggregate method sees it.</li>
+          <li><strong>Step 1 — Enter the bonus</strong> in the <a href="/calculators/bonus-tax/">bonus tax calculator</a>, with your year-to-date wages, so the Social Security cap and the $1M tier are priced correctly — and switch the method to aggregate to see the combined-check result.</li>
           <li><strong>Step 2 — Compare the two methods</strong> — the percentage method's flat 22% against the aggregate result — and use the higher figure when budgeting, so the deposit never surprises you.</li>
           <li><strong>Step 3 — Add your state rate</strong> if your state withholds on bonuses, and check your year-to-date Social Security wages to see whether the $184,500 base changes your FICA.</li>
           <li><strong>Step 4 — Reconcile before you spend it</strong> — compare the 22% withheld with your marginal rate, and if you will owe, set the W-4 extra withholding now rather than at filing.</li>
         </ol>
-        <p><a class="btn" href="/paycheck-calculator/">Price my bonus</a> <a class="btn" href="/calculators/401k-impact/">Check the 401(k) trade</a></p>
+        <p><a class="btn" href="/calculators/bonus-tax/">Price my bonus</a> <a class="btn" href="/paycheck-calculator/">See the full paycheck</a> <a class="btn" href="/calculators/401k-impact/">Check the 401(k) trade</a></p>
       </section>
 
       <section class="article-section" id="limitations">
