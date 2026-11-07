@@ -8,7 +8,7 @@ export const article20 = {
   title: 'How Much Is $50,000 a Year After Taxes?',
   seoTitle: '$50,000 a Year After Taxes | Hourly Wage Converter',
   h1: '$50,000 a Year After Taxes: Your Real Take-Home Pay in 2026',
-  desc: '$50,000 a year is $42,355 after 2026 federal tax and FICA — $3,529.58 a month, $1,629.04 biweekly. Federal only, single filer, standard deduction.',
+  desc: '$50,000 a year is $42,355 after 2026 federal tax and FICA — $3,529.58 a month, $1,629.04 biweekly. Federal taxes only, single filer, standard deduction.',
   image: '/assets/images/50000-a-year-after-taxes.jpg',
   imageAlt: 'Take-home pay photo for a $50,000 salary: a person planning a budget, with papers showing gross $50,000 a year and $42,355 take-home',
   toc: [

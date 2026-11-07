@@ -14,7 +14,7 @@ export const article3 = {
   title: 'How to Calculate Taxes on Your Paycheck',
   seoTitle: 'How to Calculate Paycheck Taxes | Hourly Wage Converter',
   h1: 'How to Calculate Your Taxes on a Paycheck',
-  desc: 'Calculate taxes on your paycheck step by step for 2026: gross pay, pre-tax deductions, FICA, federal withholding, and state taxes, with real numbers.',
+  desc: 'Calculate taxes on your paycheck step by step for 2026: gross pay, pre-tax deductions, FICA, federal withholding, and state taxes, with real worked numbers.',
   image: '/assets/images/how-to-calculate-taxes-on-paycheck.jpg',
   imageAlt: 'Step-by-step diagram showing how to calculate taxes on a paycheck from gross pay to net take-home pay in 2026',
   toc: [
