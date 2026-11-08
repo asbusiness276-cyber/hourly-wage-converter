@@ -6,7 +6,7 @@ export const article56 = {
   datePublished: '2026-11-08',
   dateModified: '2026-11-08',
   title: 'How Much Is $36 an Hour a Year?',
-  seoTitle: 'How Much Is $36 an Hour a Year? Salary & Take-Home (2026)',
+  seoTitle: 'How Much Is $36 an Hour a Year? | Hourly Wage Converter',
   h1: '$36 an Hour Is How Much a Year? $74,880 Full-Time, Before Taxes',
   desc: '$36 an hour is $74,880 a year full-time ($1,440 a week, $6,240 a month) before taxes. Schedules, overtime, the 22% bracket slice, and take-home inside.',
   image: '/assets/images/how-much-is-36-an-hour-a-year.jpg',

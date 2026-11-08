@@ -6,7 +6,7 @@ export const article55 = {
   datePublished: '2026-11-07',
   dateModified: '2026-11-07',
   title: 'How Much Is $32 an Hour a Year?',
-  seoTitle: 'How Much Is $32 an Hour a Year? Salary & Take-Home (2026)',
+  seoTitle: 'How Much Is $32 an Hour a Year? | Hourly Wage Converter',
   h1: '$32 an Hour Is How Much a Year? $66,560 Full-Time, Before Taxes',
   desc: '$32 an hour is $66,560 a year full-time ($1,280 a week, $5,546.67 a month) before taxes. Schedules, overtime, the 22% bracket slice, and take-home inside.',
   image: '/assets/images/how-much-is-32-an-hour-a-year.jpg',
