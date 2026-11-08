@@ -1,4 +1,4 @@
-import {convert,overtime,raise,compare,freelance,paycheck,reversePaycheck,timeCard,retirementImpact,tenure,paydayFinder,bonusTax,dailyOvertimeRules} from './math.js?v=4.0';
+import {convert,overtime,raise,compare,freelance,paycheck,reversePaycheck,timeCard,retirementImpact,tenure,paydayFinder,bonusTax,dailyOvertimeRules} from './math.js?v=4.1';
 
 const currency=(n,d=2)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:d,maximumFractionDigits:d}).format(n);
 const num=n=>new Intl.NumberFormat('en-US',{maximumFractionDigits:2}).format(n);
@@ -251,10 +251,11 @@ if(form&&results){
       const input=form.querySelector('[name="amount"]');input.closest('.field').querySelector('span').textContent=values.period==='annual'?'Annual salary':'Hourly wage';input.closest('.input-wrap').querySelector('.suffix').textContent=values.period==='annual'?'/ year':'/ hour';
       const stateName=values.state?form.querySelector('[name="state"]').selectedOptions[0]?.text||values.state:'';
       const takeHomeNote=values.state?`Take-home estimate: ${currency(result.takeHome)} per check (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)} + ${stateName} state tax ${currency(result.statePerCheck)}).`:`Federal-only take-home estimate: ${currency(result.takeHome)} per check (federal ${currency(result.federalPerCheck)} + FICA ${currency(result.ficaPerCheck)}). State tax excluded.`;
-      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Estimated ${labels[values.payFrequency].toLowerCase()} gross paycheck: ${currency(result.gross)}. Regular pay ${currency(result.regularPay)}, overtime ${currency(result.overtimePay)}, bonus ${currency(result.bonus)}. After entered deductions: ${currency(result.adjusted)}. ${takeHomeNote}`;
+      const extraNote=result.extraWithholding>0?` Includes ${currency(result.extraWithholding)} extra withholding per check (W-4 Step 4(c)).`:'';
+      const quick=document.querySelector('[data-quick-answer]');if(quick)quick.textContent=`Estimated ${labels[values.payFrequency].toLowerCase()} gross paycheck: ${currency(result.gross)}. Regular pay ${currency(result.regularPay)}, overtime ${currency(result.overtimePay)}, bonus ${currency(result.bonus)}. After entered deductions: ${currency(result.adjusted)}. ${takeHomeNote}${extraNote}`;
       announce(`Gross paycheck ${currency(result.gross)}. After entered deductions ${currency(result.adjusted)}. ${values.state?`${stateName} state tax included. Take-home`:'Federal-only take-home'} ${currency(result.takeHome)} per check.`);
       const thLabel=results.querySelector('[data-takehome-label]');if(thLabel)thLabel.textContent=values.state?`Estimated take-home · federal + FICA + ${values.state} state tax`:'Estimated take-home · federal + FICA only';
-      const bdP=results.querySelector('[data-breakdown]');if(bdP)bdP.innerHTML=payBarInner('Where this check goes',[['seg-takehome','Take-home',result.takeHome],['seg-federal','Federal tax',result.federalPerCheck],['seg-fica','FICA',result.ficaPerCheck],['seg-state','State tax',result.statePerCheck],['seg-deductions','Entered deductions',result.deductions]],result.gross);
+      const bdP=results.querySelector('[data-breakdown]');if(bdP)bdP.innerHTML=payBarInner('Where this check goes',[['seg-takehome','Take-home',result.takeHome],['seg-federal','Federal tax',result.federalBasePerCheck],['seg-extra','Extra withholding',result.extraWithholding],['seg-fica','FICA',result.ficaPerCheck],['seg-state','State tax',result.statePerCheck],['seg-deductions','Entered deductions',result.deductions]],result.gross);
     }
     if(kind==='reversePaycheck'){
       const labels={weekly:'Weekly',biweekly:'Biweekly',semimonthly:'Semi-monthly',monthly:'Monthly',quarterly:'Quarterly',annual:'Annual'};

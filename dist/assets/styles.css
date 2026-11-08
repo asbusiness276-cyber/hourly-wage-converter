@@ -1460,6 +1460,10 @@ details.nav-drop:not([open]) .nav-menu {
   background: #94a3b8;
 }
 
+.seg-extra {
+  background: #f43f5e;
+}
+
 .pay-legend {
   display: grid;
   gap: 6px;
