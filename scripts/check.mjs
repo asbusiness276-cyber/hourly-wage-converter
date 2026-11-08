@@ -44,6 +44,15 @@ assert.equal(paycheck({...pc,state:'TX'}).takeHome.toFixed(2),'1690.85');
 assert.ok(fs.readFileSync('dist/paycheck-calculator/index.html','utf8').includes('name="state"'));
 assert.equal(paycheck({...pc,bonus:150,otherDeductions:200}).adjusted,1950);
 assert.equal(paycheck({...pc,weeks:50}).gross,50000/26);
+// W-4 Step 4(c) extra withholding — flat amount added to federal tax per check,
+// FICA/state unchanged; take-home falls by exactly the extra amount.
+assert.equal(paycheck({...pc,extraWithholding:100}).takeHome.toFixed(2),'1590.85');
+assert.equal(paycheck({...pc,extraWithholding:100}).federalAnnual,6660);
+assert.equal(paycheck({...pc,extraWithholding:100}).federalBasePerCheck.toFixed(2),'156.15');
+assert.equal(paycheck({...pc,payFrequency:'weekly',extraWithholding:250}).takeHome.toFixed(2),'595.42');
+assert.throws(()=>paycheck({...pc,extraWithholding:2000}));
+assert.throws(()=>paycheck({...pc,extraWithholding:-5}));
+assert.ok(fs.readFileSync('dist/paycheck-calculator/index.html','utf8').includes('name="extraWithholding"'));
 assert.throws(()=>paycheck({...pc,preTax:2001}));assert.throws(()=>paycheck({...pc,payFrequency:'daily'}));assert.throws(()=>paycheck({...pc,hoursWeek:0}));assert.throws(()=>paycheck({...pc,overtimeHours:129}));
 assert.equal(overtime({rate:25,regular:40,extra:10,multiplier:2.25,weeks:52}).total,1562.5);
 // 2026 federal take-home engine (IRS Rev. Proc. 2025-32) — cross-checked against published after-tax articles.

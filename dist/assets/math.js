@@ -104,6 +104,7 @@ export function paycheck(input) {
   const overtimeAnnual=hourlyRate*multiplier*extra*weeks;
   const regularPay=baseAnnual/periods,overtimePay=overtimeAnnual/periods;
   const bonus=nonnegative(input.bonus||0,'Bonus per paycheck');
+  const extraWithholding=nonnegative(input.extraWithholding||0,'Extra withholding per paycheck');
   const deductions=nonnegative(input.preTax||0,'Pre-tax deductions')+nonnegative(input.postTax||0,'Post-tax deductions')+nonnegative(input.otherDeductions||0,'Other deductions');
   const gross=regularPay+overtimePay+bonus;
   if(deductions>gross)throw new Error('Entered deductions cannot exceed gross pay for this paycheck.');
@@ -112,10 +113,12 @@ export function paycheck(input) {
   const preTaxAnnual=nonnegative(input.preTax||0,'Pre-tax deductions')*periods;
   const ficaWages=Math.max(0,taxAnnualBase-preTaxAnnual);
   const th=takeHome(ficaWages,filingStatus);
-  const federalPerCheck=th.federal/periods,ficaPerCheck=th.fica/periods;
+  const federalBasePerCheck=th.federal/periods;
+  const federalPerCheck=federalBasePerCheck+extraWithholding,ficaPerCheck=th.fica/periods;
   const stateAnnual=stateTax(input.state||'',filingStatus,ficaWages),statePerCheck=stateAnnual/periods;
   const takeHomePerCheck=gross-deductions-federalPerCheck-ficaPerCheck-statePerCheck;
-  return {gross,regularPay,overtimePay,bonus,deductions,adjusted:gross-deductions,annual:baseAnnual+overtimeAnnual,periods,hourlyRate,overtimeRate:hourlyRate*multiplier,totalHours:hours+extra,filingStatus,taxAnnualBase,ficaWages,federalAnnual:th.federal,ficaAnnual:th.fica,federalPerCheck,ficaPerCheck,taxPerCheck:federalPerCheck+ficaPerCheck+statePerCheck,takeHome:takeHomePerCheck,state:input.state||'',stateAnnual,statePerCheck};
+  if(extraWithholding>0&&takeHomePerCheck<0)throw new Error('Extra withholding plus taxes and deductions cannot exceed gross pay for this paycheck.');
+  return {gross,regularPay,overtimePay,bonus,deductions,adjusted:gross-deductions,annual:baseAnnual+overtimeAnnual,periods,hourlyRate,overtimeRate:hourlyRate*multiplier,totalHours:hours+extra,filingStatus,taxAnnualBase,ficaWages,federalAnnual:th.federal+extraWithholding*periods,federalBasePerCheck,extraWithholding,ficaAnnual:th.fica,federalPerCheck,ficaPerCheck,taxPerCheck:federalPerCheck+ficaPerCheck+statePerCheck,takeHome:takeHomePerCheck,state:input.state||'',stateAnnual,statePerCheck};
 }
 
 export function reversePaycheck(input) {
