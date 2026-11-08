@@ -891,6 +891,14 @@ details.nav-drop:not([open]) .nav-menu {
   gap: 16px;
 }
 
+[data-daily-fields] {
+  grid-column: 1 / -1;
+}
+
+[data-daily-fields] .fields {
+  margin-bottom: 16px;
+}
+
 .fields + .fields {
   margin-top: 16px;
 }
@@ -1341,6 +1349,63 @@ details.nav-drop:not([open]) .nav-menu {
   background: rgba(0, 0, 0, 0.25);
   font-size: 0.78rem;
   line-height: 1.55;
+}
+
+.daily-breakdown {
+  padding: 16px 28px 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.daily-breakdown-title {
+  color: #e2e8f0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.daily-breakdown-scroll {
+  overflow-x: auto;
+}
+
+.daily-breakdown-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.daily-breakdown-table th,
+.daily-breakdown-table td {
+  padding: 7px 8px;
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  white-space: nowrap;
+}
+
+.daily-breakdown-table th:first-child,
+.daily-breakdown-table td:first-child {
+  text-align: left;
+  padding-left: 0;
+}
+
+.daily-breakdown-table th {
+  color: #94a3b8;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.daily-breakdown-total td {
+  font-weight: 700;
+  color: #f1f5f9;
+  border-bottom: 0;
+}
+
+.daily-breakdown-note {
+  color: #94a3b8;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  margin: 10px 0 12px;
 }
 
 .result-note strong {

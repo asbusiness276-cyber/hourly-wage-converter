@@ -196,27 +196,49 @@ export function retirementImpact(input) {
   const takeHomeWith = grossPerCheck - contributionPerCheck - federalWith - ficaWith - stateWith;
   return {annual, periods, grossPerCheck, percent: pct, annualContribution, contributionPerCheck, matchPercent: matchPct, matchUpTo, matchPerCheck, annualMatch: matchPerCheck * periods, federalPerCheck: federalWith, ficaPerCheck: ficaWith, statePerCheck: stateWith, takeHomeWith, takeHomeWithout: base.takeHome, reductionPerCheck: base.takeHome - takeHomeWith, taxSavedPerCheck: (base.federalPerCheck + base.statePerCheck) - (federalWith + stateWith), atLimit: rawAnnualContribution > 24500, filingStatus, state};
 }
+export const dailyOvertimeRules={
+  federal:{label:'Federal',daily:null,double:null,seventh:false,note:'Weekly 40-hour rule only.'},
+  ca:{label:'California',daily:8,double:12,seventh:true,note:'1.5× after 8 hours in a day, 2× after 12; 7th consecutive day pays 1.5× for its first 8 hours, 2× after.'},
+  ak:{label:'Alaska',daily:8,double:null,seventh:false,note:'1.5× after 8 hours in a day. No double time.'},
+  co:{label:'Colorado',daily:12,double:null,seventh:false,note:'1.5× after 12 hours in a day. No double time. The separate 12-consecutive-hours trigger needs clock times and is not modelled.'},
+  nv:{label:'Nevada',daily:8,double:null,seventh:false,wageCap:18,note:'1.5× after 8 hours in a day only when the rate is under $18 an hour (1.5× the $12.00 Nevada minimum wage). At $18 or more, weekly rule only.'},
+  or:{label:'Oregon (manufacturing)',daily:10,double:null,seventh:false,note:'1.5× after 10 hours in a day for manufacturing establishments, canneries, driers and packing plants. Other Oregon work uses the weekly rule only.'},
+};
+export const dayLabels=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
 export function overtime(input) {
   const weeks=positive(input.weeks,'Paid weeks');
   if (weeks>52) throw new Error('Use at most 168 total hours per week and 52 paid weeks per year.');
   if (input.dailyMode) {
-    const rate=nonnegative(input.rate,'Hourly rate'), hpd=positive(input.hoursPerDay,'Hours per day'), days=positive(input.daysPerWeek,'Days per week');
-    if (hpd>24 || days>7 || hpd*days>168) throw new Error('Use up to 24 hours a day, 7 days a week, and 168 hours a week.');
-    const normalDays=days===7?days-1:days;
-    const regPerDay=Math.min(hpd,8), ot15PerDay=Math.min(Math.max(hpd-8,0),4), dtPerDay=Math.max(hpd-12,0);
-    const regularHours=regPerDay*normalDays;
-    const ot15Hours=ot15PerDay*normalDays+(days===7?Math.min(hpd,8):0);
-    const dtHours=dtPerDay*normalDays+(days===7?Math.max(hpd-8,0):0);
-    const weeklyOtHours=Math.max(0,regularHours-40);
-    const regularPay=Math.min(regularHours,40)*rate;
-    const overtimePay=ot15Hours*rate*1.5+dtHours*rate*2+weeklyOtHours*rate*1.5;
-    const total=regularPay+overtimePay;
-    return {regularPay,overtimeRate:rate*1.5,overtimePay,total,annual:total*weeks,weeks,totalHours:hpd*days,monthly:total*weeks/12,annualOvertime:overtimePay*weeks,dailyMode:true,regularHours,ot15Hours,dtHours,weeklyOtHours,doubleHours:dtHours};
+    const rate=nonnegative(input.rate,'Hourly rate');
+    const rule=dailyOvertimeRules[input.rule];
+    if (!rule) throw new Error('Choose a state overtime rule.');
+    if (!Array.isArray(input.days)||input.days.length!==7) throw new Error('Enter hours for each day of the week.');
+    const hours=input.days.map((d,i)=>nonnegative(d,`Hours on ${dayLabels[i]}`));
+    if (hours.some(h=>h>24)||hours.reduce((a,b)=>a+b,0)>168) throw new Error('Use up to 24 hours a day and 168 hours a week.');
+    const dailyApplies=rule.daily!==null&&(rule.wageCap===undefined||rate<rule.wageCap);
+    const seventhDay=rule.seventh&&hours.every(h=>h>0);
+    const days=hours.map((h,i)=>{
+      let reg,ot15,dt;
+      if (seventhDay&&i===6) { reg=0;ot15=Math.min(h,8);dt=Math.max(h-8,0); }
+      else if (dailyApplies) { reg=Math.min(h,rule.daily);ot15=rule.double===null?Math.max(h-rule.daily,0):Math.min(Math.max(h-rule.daily,0),rule.double-rule.daily);dt=rule.double===null?0:Math.max(h-rule.double,0); }
+      else { reg=h;ot15=0;dt=0; }
+      return {label:dayLabels[i],hours:h,reg,ot15,dt,pay:reg*rate+ot15*rate*1.5+dt*rate*2};
+    });
+    const straightHours=days.reduce((a,d)=>a+d.reg,0);
+    const weeklyOtHours=Math.max(0,straightHours-40);
+    const regularHours=straightHours-weeklyOtHours;
+    const ot15Hours=days.reduce((a,d)=>a+d.ot15,0)+weeklyOtHours;
+    const dtHours=days.reduce((a,d)=>a+d.dt,0);
+    const regularPay=regularHours*rate;
+    const overtimePay=ot15Hours*rate*1.5;
+    const doublePay=dtHours*rate*2;
+    const total=regularPay+overtimePay+doublePay;
+    return {regularPay,overtimeRate:rate*1.5,doubleRate:rate*2,overtimePay,doublePay,total,annual:total*weeks,weeks,totalHours:hours.reduce((a,b)=>a+b,0),monthly:total*weeks/12,annualOvertime:(overtimePay+doublePay)*weeks,dailyMode:true,rule:input.rule,regularHours,ot15Hours,dtHours,weeklyOtHours,doubleHours:dtHours,days};
   }
   const rate=nonnegative(input.rate,'Hourly rate'), regular=nonnegative(input.regular,'Regular hours'), extra=nonnegative(input.extra,'Overtime hours'), multiplier=positive(input.multiplier,'Multiplier');
   if (regular+extra>168) throw new Error('Use at most 168 total hours per week and 52 paid weeks per year.');
   const regularPay=rate*regular, overtimeRate=rate*multiplier, overtimePay=overtimeRate*extra;
-  return {regularPay,overtimeRate,overtimePay,total:regularPay+overtimePay,annual:(regularPay+overtimePay)*weeks,weeks,totalHours:regular+extra,monthly:(regularPay+overtimePay)*weeks/12,annualOvertime:overtimePay*weeks};
+  return {regularPay,overtimeRate,doubleRate:rate*2,overtimePay,doublePay:0,total:regularPay+overtimePay,annual:(regularPay+overtimePay)*weeks,weeks,totalHours:regular+extra,monthly:(regularPay+overtimePay)*weeks/12,annualOvertime:overtimePay*weeks,regularHours:regular,ot15Hours:extra,dtHours:0,doubleHours:0,weeklyOtHours:0};
 }
 export function raise(input) {
   const current=positive(input.current,'Current pay');

@@ -8,7 +8,7 @@
 - [Salary to Hourly Calculator](https://hourlywageconverter.com/salary-to-hourly-calculator/): Find the hourly equivalent of your annual salary.
 - [Hourly to Salary Calculator](https://hourlywageconverter.com/hourly-to-salary-calculator/): See what your hourly rate adds up to over a year.
 - [Paycheck Calculator](https://hourlywageconverter.com/paycheck-calculator/): Estimate gross pay for your pay schedule.
-- [Overtime Calculator](https://hourlywageconverter.com/overtime-calculator/): Add extra hours at time and a half or your own rate.
+- [Overtime Calculator](https://hourlywageconverter.com/overtime-calculator/): Price weekly overtime, or daily overtime under California, Alaska, Colorado, Nevada, or Oregon rules.
 - [Time and a Half Calculator](https://hourlywageconverter.com/calculators/time-and-a-half/): Your 1.5× rate and what your overtime hours pay.
 - [Salary Increase Calculator](https://hourlywageconverter.com/calculators/salary-increase/): Calculate your raise in dollars and percent.
 - [Salary Comparison Calculator](https://hourlywageconverter.com/calculators/salary-comparison/): Compare pay against work hours, PTO, and commute.
