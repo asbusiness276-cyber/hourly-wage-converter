@@ -105,59 +105,59 @@ const article1 = {
     faqs: [
       [
         'How do I convert hourly pay to annual salary?',
-        'To convert hourly pay to annual salary, multiply your hourly wage by the number of hours you work each week, and then multiply that number by the number of paid weeks you work each year. For a standard full-time schedule of 40 hours per week across 52 weeks (2,080 total hours), simply multiply your hourly rate by 2,080. For example, $25 per hour multiplied by 2,080 hours equals an estimated gross annual salary of $52,000 before taxes and payroll deductions.'
+        'Multiply your hourly wage by the hours you work each week, then multiply that by the number of paid weeks you work each year. For a standard full-time schedule of 40 hours a week across 52 weeks (2,080 hours in all), just multiply your hourly rate by 2,080. So $25 an hour times 2,080 hours comes out to an estimated $52,000 a year in gross pay, before taxes and payroll deductions.'
       ],
       [
         'How much is $20 an hour per year?',
-        'At a standard full-time schedule of 40 hours per week and 52 paid weeks per year (2,080 annual working hours), earning $20 an hour equals $41,600 per year before taxes. This breaks down to approximately $800 gross per week, $1,600 biweekly across 26 paychecks, or an average of $3,466.67 per month before deductions. If you take 2 weeks of unpaid vacation, working 50 paid weeks, annual gross pay becomes $40,000.'
+        'On a standard full-time schedule of 40 hours a week and 52 paid weeks a year (2,080 working hours), $20 an hour works out to $41,600 a year before taxes. That breaks down to roughly $800 gross a week, $1,600 every two weeks across 26 paychecks, or about $3,466.67 a month on average, before deductions. Take 2 weeks of unpaid vacation, so 50 paid weeks, and your annual gross pay drops to $40,000.'
       ],
       [
         'How much is $25 an hour per year?',
-        'Earning $25 an hour equals an annual gross salary of $52,000 based on the conventional full-time baseline of 40 hours per week over 52 paid weeks (2,080 hours). On a weekly basis, that is $1,000 gross; biweekly, it equals $2,000 per check across 26 pay periods; and monthly, it averages approximately $4,333.33. If you have 2 unpaid weeks off each year, annual earnings adjust to $50,000.'
+        '$25 an hour comes to $52,000 a year gross on the usual full-time schedule of 40 hours a week over 52 paid weeks (2,080 hours). That means $1,000 gross a week; $2,000 per check every two weeks across 26 pay periods; and about $4,333.33 a month on average. If you take 2 unpaid weeks off each year, your annual earnings drop to $50,000.'
       ],
       [
         'How much is $30 an hour per year?',
-        'At 40 hours per week and 52 paid weeks per year, $30 an hour equals a gross annual salary of $62,400. That corresponds to $1,200 per week, $2,400 every two weeks (biweekly), and an annualized monthly average of $5,200 before taxes, healthcare premiums, and retirement contributions. If you work part-time at 30 hours per week, $30 an hour equals $46,800 annually.'
+        'At 40 hours a week and 52 paid weeks a year, $30 an hour adds up to $62,400 a year gross. That works out to $1,200 a week, $2,400 every two weeks, and an average of $5,200 a month before taxes, health insurance, and retirement contributions. Working part-time at 30 hours a week, $30 an hour comes to $46,800 a year.'
       ],
       [
         'How many hours are in a full-time work year?',
-        'A standard full-time work year contains 2,080 scheduled hours. This industry baseline is calculated by multiplying 40 scheduled hours per week by 52 calendar weeks in a year (40 × 52 = 2,080). Human Resources and payroll departments use 2,080 hours as the benchmark for calculating annual compensation, paid leave accruals, and equivalent hourly wages across North America.'
+        'A standard full-time work year has 2,080 scheduled hours. That number comes from 40 scheduled hours a week times 52 weeks in a year (40 × 52 = 2,080). HR and payroll teams use 2,080 hours as the go-to figure for working out annual pay, paid leave, and what a salary is worth per hour across North America.'
       ],
       [
         'Does 2,080 hours always equal a full year\'s pay?',
-        'No. While 2,080 hours is the standard full-time payroll benchmark, actual working hours depend on your real schedule. If you take unpaid time off, work seasonal shifts, work 35 or 45 hours per week, or log overtime hours, your actual paid hours will differ. Leap years or specific calendar pay cycles may also feature 2,088 or 2,096 working hours.'
+        'No. 2,080 hours is the standard full-time payroll benchmark, but your real hours depend on your actual schedule. Unpaid time off, seasonal shifts, a 35- or 45-hour week, or overtime hours all change your paid hours. Leap years or certain pay calendars can also have 2,088 or 2,096 working hours.'
       ],
       [
         'Does overtime change annual salary?',
-        'Yes, substantially. Under the Fair Labor Standards Act (FLSA), non-exempt employees who work over 40 hours in a workweek generally receive 1.5 times their regular hourly rate for each overtime hour. For example, if you earn $25 an hour and work 5 overtime hours every week, you earn an extra $9,750 per year, raising your total gross annual pay from $52,000 to $61,750.'
+        'Yes, and by a lot. Under the Fair Labor Standards Act (FLSA), non-exempt employees who work more than 40 hours in a workweek usually get 1.5 times their regular hourly rate for each overtime hour. Say you earn $25 an hour and work 5 overtime hours every week: that adds an extra $9,750 a year, taking your total gross annual pay from $52,000 to $61,750.'
       ],
       [
         'Does unpaid vacation reduce annual income?',
-        'Yes. If your job does not offer paid time off (PTO) and you take unpaid vacation or time away from work, each unpaid week directly reduces your gross annual earnings. For example, taking two unpaid weeks reduces your paid weeks from 52 to 50. At $25 an hour and 40 hours per week, those two unpaid weeks reduce your annual salary by $2,000, lowering your earnings from $52,000 to $50,000.'
+        'Yes. If your job doesn\'t offer paid time off (PTO) and you take unpaid vacation or time away from work, every unpaid week comes straight off your gross annual earnings. Two unpaid weeks, for example, cut your paid weeks from 52 to 50. At $25 an hour and 40 hours a week, those two unpaid weeks cost you $2,000 a year, dropping your earnings from $52,000 to $50,000.'
       ],
       [
         'Is annual salary before or after taxes?',
-        'Standard annual salary figures and wage conversions represent gross pay—meaning your total earnings before any federal income tax, state tax, local tax, Social Security (6.2%), Medicare (1.45%), health insurance, or 401(k) contributions are subtracted. Your net take-home pay on your paycheck will always be lower than your gross annual salary depending on your personal tax filing status and deductions.'
+        'Before taxes. The annual salary figures you see in wage conversions are gross pay, meaning everything you earn before federal income tax, state tax, local tax, Social Security (6.2%), Medicare (1.45%), health insurance, or 401(k) contributions come out. Your take-home pay on your paycheck will always be less than your gross annual salary, depending on your tax filing status and deductions.'
       ],
       [
         'How can I calculate my hourly rate from salary?',
-        'To calculate your hourly rate from an annual salary, divide your annual gross salary by the number of hours you work each year. For a standard 40-hour full-time schedule (2,080 hours), divide your salary by 2,080. For example, a $60,000 salary divided by 2,080 hours equals approximately $28.85 per hour. If your schedule requires 45 hours per week (2,340 hours), that same $60,000 salary equals $25.64 per hour.'
+        'Divide your annual gross salary by the number of hours you work each year. On a standard 40-hour full-time schedule (2,080 hours), divide your salary by 2,080. A $60,000 salary divided by 2,080 hours works out to about $28.85 an hour. If your schedule is 45 hours a week (2,340 hours), that same $60,000 salary is worth $25.64 an hour.'
       ]
     ],
     body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>Multiply your hourly rate by your weekly hours and your paid weeks — $25 an hour at 40 hours a week for 52 weeks is $52,000 a year gross.</p>
+        <p>Multiply your hourly rate by your weekly hours and your paid weeks. At $25 an hour, 40 hours a week, 52 weeks a year, that comes to $52,000 a year gross.</p>
       </div>
 
-      <p class="lead">Converting an hourly wage to an annual salary is one of the most important financial calculations you will make. Whether you are reviewing a new job offer, comparing competing compensation packages, asking for a raise, or budgeting your household expenses for the year ahead, understanding how an hourly rate translates into annual earnings gives you total clarity over your financial life.</p>
+      <p class="lead">Learning how to convert hourly pay to annual salary is one of those small skills that pays off again and again. Maybe you're sizing up a new job offer, weighing two paychecks against each other, asking for a raise, or just planning next year's budget. Either way, once you know what your hourly rate is actually worth over a full year, the rest of the money decisions get a lot easier.</p>
 
       <!-- Above the Fold Hero CTA -->
       <div class="article-hero-cta">
         <div class="hero-cta-content">
           <span class="hero-cta-badge">Interactive Tool</span>
           <h2 class="hero-cta-title">Calculate Your Annual Salary</h2>
-          <p class="hero-cta-desc">Enter your hourly wage, hours per week, and weeks worked per year to estimate your annual salary instantly with custom overtime and leave settings.</p>
+          <p class="hero-cta-desc">Type in your hourly wage, your hours per week, and how many weeks you work each year, and it works out your annual salary for you, with overtime and unpaid leave built in.</p>
         </div>
         <a href="/" class="calculate-button hero-cta-btn">Calculate Hourly → Annual Pay</a>
       </div>
@@ -166,21 +166,21 @@ const article1 = {
       <div class="quick-answer-card" id="quick-answer">
         <span class="quick-answer-tag">Quick Answer</span>
         <h2>How Do You Convert Hourly Pay to Annual Salary?</h2>
-        <p class="quick-answer-lead">To convert hourly pay to annual salary, multiply your hourly wage by the number of hours you work each week and the number of weeks you work each year.</p>
+        <p class="quick-answer-lead">To convert hourly pay to annual salary, multiply your hourly wage by the hours you work each week and the weeks you work each year.</p>
         
         <div class="quick-answer-formula">
           <span class="qa-formula-badge">The Standard Calculation Formula</span>
           <code>Annual Salary = Hourly Rate × Hours Worked Per Week × Weeks Worked Per Year</code>
           <div class="qa-calc-row">
-            <span>For the standard full-time benchmark (40 hours/week × 52 weeks):</span>
+            <span>For a standard full-time schedule (40 hours/week × 52 weeks):</span>
             <strong>Annual Salary = Hourly Rate × 40 × 52 (or Hourly Rate × 2,080)</strong>
           </div>
           <div class="qa-calc-row">
-            <span>Therefore, at a rate of $25.00 per hour:</span>
+            <span>So at $25.00 an hour:</span>
             <strong>$25/hour × 40 hours/week × 52 weeks = $52,000/year</strong>
           </div>
         </div>
-        <p class="quick-answer-note"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Note: This is an estimated gross-income calculation before federal, state, and local taxes, insurance, or retirement deductions are subtracted.</p>
+        <p class="quick-answer-note"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg> Note: that's gross pay, before federal, state, and local taxes, insurance, or retirement contributions come out.</p>
       </div>
 
       <!-- Compact Interactive-Looking Calculator Card -->
@@ -191,7 +191,7 @@ const article1 = {
           </div>
           <div>
             <h3>Calculate Your Annual Salary</h3>
-            <p>See how your exact hourly wage scales across a full working year:</p>
+            <p>Here's what your hourly wage adds up to over a full working year:</p>
           </div>
         </div>
         <div class="calc-preview-grid">
@@ -223,14 +223,14 @@ const article1 = {
 
       <!-- Section: What Is Hourly Pay? -->
       <h2 id="what-is-hourly-pay">What Is Hourly Pay?</h2>
-      <p>Before jumping into multi-tier calculations, it is essential to understand the core payroll terms used by employers, recruiters, and tax authorities:</p>
+      <p>Before we get into the math, let's pin down a few payroll terms you'll hear from employers, recruiters, and tax folks:</p>
       <ul>
-        <li><strong>Hourly Wage (Hourly Rate):</strong> The fixed amount of money an employer pays you for each single hour of labor performed. For example, if you earn $25.00 for every hour on the clock, your hourly rate is $25.00.</li>
-        <li><strong>Hours Worked:</strong> The total number of hours logged during a pay cycle. In a standard full-time job, this is commonly 40 hours per week, but part-time schedules often range from 15 to 35 hours.</li>
-        <li><strong>Gross Earnings:</strong> The total amount of compensation earned before any taxes, payroll withholdings, healthcare deductions, or retirement contributions are taken out.</li>
-        <li><strong>Annual Salary:</strong> The total gross compensation you earn over an entire 12-month calendar year. Salaried employees typically receive a fixed annual figure regardless of minor fluctuations in weekly hours, whereas hourly workers earn directly according to recorded time.</li>
+        <li><strong>Hourly Wage (Hourly Rate):</strong> The set amount your employer pays you for each hour you work. If you earn $25.00 for every hour on the clock, your hourly rate is $25.00.</li>
+        <li><strong>Hours Worked:</strong> All the hours you put in during a pay period. Full-time jobs usually mean 40 hours a week, but part-time schedules often run from 15 to 35 hours.</li>
+        <li><strong>Gross Earnings:</strong> Everything you earn before taxes, payroll withholdings, health care deductions, or retirement contributions come out.</li>
+        <li><strong>Annual Salary:</strong> Your total gross pay over a full 12-month calendar year. Salaried folks usually get a fixed annual figure even if their weekly hours wobble a bit, while hourly workers get paid for the exact hours they log.</li>
       </ul>
-      <p>Your annual income depends not only on your base rate of pay, but on how consistently you work throughout all 52 calendar weeks of the year. Here is the direct progression from an hourly wage to an annual salary:</p>
+      <p>Your annual income doesn't just come down to your hourly rate. It also depends on how steadily you work through all 52 weeks of the year. Here's how an hourly wage grows into an annual salary:</p>
 
       <!-- Step Progression Diagram -->
       <div class="study-note-card">
@@ -254,7 +254,7 @@ const article1 = {
 
       <!-- Section: The Formula -->
       <h2 id="the-formula">The Hourly-to-Annual Salary Formula</h2>
-      <p>To convert an hourly wage into an annual salary, the core mathematical equation is straightforward:</p>
+      <p>Turning an hourly wage into an annual salary comes down to one simple bit of math:</p>
 
       <div class="formula-card">
         <div class="formula">Annual Salary = Hourly Rate × Hours Per Week × Paid Weeks Per Year</div>
@@ -288,37 +288,37 @@ const article1 = {
       </div>
 
       <h3>The Standard 2,080 Hours Baseline Explained</h3>
-      <p>In payroll accounting, Human Resources, and government labor statistics across North America, <strong>2,080 hours</strong> is recognized as the standard full-time working baseline:</p>
+      <p>In payroll, HR, and government labor stats across North America, <strong>2,080 hours</strong> is the standard full-time baseline:</p>
       <div class="formula-card">
         <div class="formula">40 hours per week × 52 weeks per year = 2,080 scheduled hours per year</div>
       </div>
-      <p>Therefore, a quick shortcut used by recruiters and hiring managers is simply multiplying your hourly wage by 2,080:</p>
+      <p>That's why recruiters and hiring managers use a handy shortcut: just multiply your hourly wage by 2,080:</p>
       <p><code>Hourly Rate × 2,080 = Estimated Annual Salary</code></p>
-      <p>For example, if you earn $30 an hour: <code>$30 × 2,080 = $62,400 per year</code>. Conversely, if you want to find the hourly rate behind a salary, divide by 2,080: <code>$60,000 ÷ 2,080 = $28.85 per hour</code>. You can test your own figures in our free <a href="/salary-to-hourly-calculator/">Salary to Hourly Calculator</a>.</p>
+      <p>Earn $30 an hour? <code>$30 × 2,080 = $62,400 per year</code>. Going the other way, divide a salary by 2,080 to find the hourly rate behind it: <code>$60,000 ÷ 2,080 = $28.85 per hour</code>. You can try your own numbers in our free <a href="/salary-to-hourly-calculator/">Salary to Hourly Calculator</a>.</p>
 
       <div class="article-methodology-note" style="margin: 20px 0;">
         <span class="article-methodology-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span>
         <div class="article-methodology-text">
-          <strong>Important E-E-A-T Real-World Note:</strong> While 2,080 hours is the standard full-time baseline, your actual yearly earnings may differ. If your employer provides 35 or 37.5 hours per week, if you take unpaid leave, work overtime, or have non-standard shifts, your actual earnings will not match 2,080 hours. Always base your calculations on your actual work agreement.
+          <strong>Important E-E-A-T Real-World Note:</strong> 2,080 hours is the standard full-time baseline, but your real yearly earnings might look different. If your employer schedules 35 or 37.5 hours a week, or you take unpaid leave, work overtime, or work odd shifts, your actual earnings won't line up with 2,080 hours. Always run your numbers on your real work agreement.
         </div>
       </div>
 
       <!-- Section: Step-by-Step Calculation -->
       <h2 id="step-by-step">How to Calculate Annual Salary Step by Step</h2>
-      <p>Follow these five clear steps to compute your exact annual income with complete accuracy:</p>
+      <p>Here are five simple steps to work out your exact annual income:</p>
 
       <ol>
         <li>
           <strong>Step 1: Identify your base hourly pay rate.</strong><br>
-          Locate your regular hourly wage on your pay stub, employment contract, or job offer letter. For our working example, we will use <strong>$25.00 per hour</strong>.
+          Locate your regular hourly wage on your pay stub, employment contract, or job offer letter. For this walk-through, we'll use <strong>$25.00 per hour</strong>.
         </li>
         <li>
           <strong>Step 2: Determine your regular weekly hours.</strong><br>
-          Determine how many hours you work during an average workweek. For standard full-time employees, this is typically <strong>40 hours per week</strong>. Part-time employees might work 20, 25, or 30 hours.
+          Work out how many hours you put in during a typical week. For most full-time jobs that's <strong>40 hours per week</strong>. Part-time work might be 20, 25, or 30 hours.
         </li>
         <li>
           <strong>Step 3: Determine the number of paid weeks in the year.</strong><br>
-          A full calendar year has 52 weeks. If your job includes paid vacation, paid sick time, and paid federal holidays, you receive pay for all <strong>52 weeks</strong>.
+          A full calendar year has 52 weeks. If your job includes paid vacation, paid sick time, and paid federal holidays, you get paid for all <strong>52 weeks</strong>.
         </li>
         <li>
           <strong>Step 4: Multiply your hourly wage by weekly hours and annual weeks.</strong><br>
@@ -328,9 +328,9 @@ const article1 = {
         </li>
         <li>
           <strong>Step 5: Adjust for unpaid time off or leave.</strong><br>
-          If your job does not offer paid time off and you take 2 weeks off during the summer or holidays, you only work 50 paid weeks:<br>
+          If your job doesn't offer paid time off and you take 2 weeks off over the summer or the holidays, you only work 50 paid weeks:<br>
           <code>$25.00/hour × 40 hours/week × 50 paid weeks = $50,000.00 annual gross salary</code><br>
-          Adjusting for unpaid weeks prevents budgeting shortfalls and gives you an honest, reliable projection of your real take-home capacity.
+          Counting those unpaid weeks keeps your budget honest and shows you what you'll really bring in.
         </li>
       </ol>
 
@@ -340,7 +340,7 @@ const article1 = {
   <figcaption>Hourly pay becomes annual salary through your weekly hours and paid weeks.</figcaption>
 </figure>
 <h2 id="examples">Hourly Pay to Annual Salary Examples</h2>
-      <p>To see how work schedules and hourly rates interact in real-world scenarios, let us examine three common worker profiles:</p>
+      <p>Here's how different schedules and hourly rates play out for three everyday workers:</p>
 
       <div class="formula-grid">
         <div class="formula-card">
@@ -365,12 +365,12 @@ const article1 = {
           Overtime Pay: 8 hrs × $52.50 = $420.00 / week<br>
           Total Weekly Gross: $1,680.00 × 52 weeks = $87,360 / year
         </div>
-        <p class="example">Overtime hours add $21,840 annually above baseline regular earnings!</p>
+        <p class="example">Those overtime hours add $21,840 a year on top of regular earnings!</p>
       </div>
 
       <!-- Section: Major Conversion Table -->
       <h2 id="conversion-table">Hourly-to-Annual Salary Conversion Table</h2>
-      <p>Use this comprehensive conversion table to quickly look up common hourly pay rates and their estimated annual gross equivalents based on a standard 40-hour workweek over 52 paid weeks (2,080 annual hours):</p>
+      <p>Use this table to look up common hourly rates and what they work out to a year, based on a standard 40-hour workweek over 52 paid weeks (2,080 hours a year):</p>
 
       <div class="table-wrap">
         <table class="pay-table">
@@ -405,7 +405,7 @@ const article1 = {
           </tbody>
         </table>
       </div>
-      <p class="caption">These figures assume 40 hours per week and 52 weeks per year before taxes and deductions. Want to customize your own hours? Use our interactive <a href="/">Hourly Wage Converter</a>.</p>
+      <p class="caption">These figures assume 40 hours a week and 52 weeks a year, before taxes and deductions. Want to plug in your own hours? Try our <a href="/">Hourly Wage Converter</a>.</p>
 
       <!-- Pay Progression Visual Timeline -->
       <div class="pay-progression-timeline">
@@ -433,8 +433,8 @@ const article1 = {
 
       <!-- Section: Work Schedules -->
       <h2 id="work-hours">How Work Hours Affect Annual Salary</h2>
-      <p>A common error is assuming that every employee works exactly 40 hours every week. In reality, work schedules vary substantially across industries, from part-time retail to extended manufacturing shifts. Because annual salary is directly tied to the total hours worked, even small changes in weekly hours produce massive shifts in yearly earnings.</p>
-      <p>The table below shows how the exact same <strong>$25.00 per hour</strong> rate produces vastly different annual earnings depending on scheduled weekly hours:</p>
+      <p>A lot of people assume everyone works exactly 40 hours a week. In real life, schedules vary a ton across industries, from part-time retail to long manufacturing shifts. And since your annual salary comes straight from your total hours, even a few extra hours a week can shift your yearly pay by thousands.</p>
+      <p>The table below shows what the same <strong>$25.00 per hour</strong> rate pays over a year at different weekly hours:</p>
 
       <div class="table-wrap">
         <table class="pay-table">
@@ -456,17 +456,17 @@ const article1 = {
           </tbody>
         </table>
       </div>
-      <p class="caption">*Schedules exceeding 40 hours per week typically qualify for overtime pay premiums. Under the FLSA, eligible employees working 45 or 50 hours must be paid 1.5× time and a half for those extra hours, resulting in substantially higher earnings than the straight-time calculations above.</p>
+      <p class="caption">*Schedules over 40 hours a week usually qualify for overtime pay. Under the FLSA, eligible employees working 45 or 50 hours must be paid 1.5× time and a half for those extra hours, so their real earnings are higher than the straight-time numbers above.</p>
 
       <!-- Section: Unpaid Time Off -->
       <h2 id="unpaid-time-off">How Unpaid Time Off Changes Annual Pay</h2>
-      <p>Many hourly workers do not receive paid vacation or paid sick days. If you take time off for family events, travel, illness, or company holiday shutdowns without pay, your annual compensation will be reduced accordingly.</p>
-      <p>To accurately reflect unpaid time off, subtract your unpaid weeks from 52 before calculating:</p>
+      <p>A lot of hourly jobs come with no paid vacation or paid sick days. If you take time off for family stuff, travel, illness, or a company holiday shutdown without pay, your annual earnings drop by that amount.</p>
+      <p>To account for unpaid time off, subtract your unpaid weeks from 52 before you do the math:</p>
       <div class="formula-card">
         <div class="formula">Annual Salary = Hourly Rate × Weekly Hours × (52 − Unpaid Weeks)</div>
       </div>
 
-      <p>Here is how unpaid time off alters annual gross pay at a rate of <strong>$25.00 per hour (40 hours/week)</strong>:</p>
+      <p>Here's what unpaid time off does to annual gross pay at <strong>$25.00 per hour (40 hours/week)</strong>:</p>
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
@@ -483,44 +483,44 @@ const article1 = {
         </div>
       </div>
 
-      <p><strong>Paid Time Off (PTO) vs. Unpaid Leave:</strong> It is crucial to remember that <em>paid</em> vacation, paid sick leave, and paid company holidays do not reduce your gross annual salary. If you receive two weeks of paid vacation, you are still paid for 52 weeks, so your annual gross salary remains $52,000. You only subtract time off that is completely unpaid.</p>
+      <p><strong>Paid Time Off (PTO) vs. Unpaid Leave:</strong> Remember, <em>paid</em> vacation, paid sick leave, and paid company holidays don't cut into your gross annual salary. If you get two weeks of paid vacation, you're still paid for 52 weeks, so your annual gross salary stays at $52,000. Only unpaid time off comes off the total.</p>
 
       <!-- Section: Overtime -->
       <h2 id="overtime-impact">How Overtime Affects Annual Income</h2>
-      <p>Under United States federal law (the Fair Labor Standards Act) and state labor regulations, non-exempt hourly employees who work more than 40 hours in a given workweek must be paid at an overtime rate of at least <strong>1.5 times (time and a half)</strong> their regular hourly wage.</p>
+      <p>Under US federal law (the Fair Labor Standards Act) and state labor rules, non-exempt hourly workers who go over 40 hours in a workweek must be paid overtime of at least <strong>1.5 times (time and a half)</strong> their regular hourly wage.</p>
 
       <div class="formula-card">
         <div class="formula">Overtime Hourly Rate = Base Hourly Wage × 1.5</div>
         <p class="example">Base: $25.00/hour &rarr; Overtime Rate: $37.50/hour ($25.00 × 1.5)</p>
       </div>
 
-      <p>When calculating annual earnings with overtime, calculate regular hours and overtime hours separately, then sum them together:</p>
+      <p>When overtime is in the mix, work out your regular hours and overtime hours separately, then add them up:</p>
       <div class="formula-card">
         <div class="formula">Total Annual Earnings = (Regular Hours × Base Rate × 52) + (Overtime Hours × Overtime Rate × 52)</div>
       </div>
 
-      <p>Consider an employee earning $25.00 per hour who works 45 hours each week (40 regular hours + 5 overtime hours) across 52 weeks:</p>
+      <p>Take someone earning $25.00 an hour who works 45 hours a week (40 regular hours + 5 overtime hours) across 52 weeks:</p>
       <ul>
         <li><strong>Regular Earnings:</strong> 40 hours × $25.00 = $1,000.00 per week ($52,000.00 per year)</li>
         <li><strong>Overtime Earnings:</strong> 5 hours × $37.50 = $187.50 per week ($9,750.00 per year)</li>
         <li><strong>Total Gross Annual Compensation:</strong> $1,000.00 + $187.50 = <strong>$1,187.50 per week</strong>, or <strong>$61,750.00 per year</strong></li>
       </ul>
-      <p>Just 5 extra hours of weekly overtime boosts annual income by nearly $10,000! You can simulate different overtime hours and multipliers (such as 2.0× double time) using our dedicated <a href="/overtime-calculator/">Overtime Calculator</a>.</p>
+      <p>Just 5 extra hours of overtime a week adds nearly $10,000 to your yearly income. You can play around with different overtime hours and multipliers (like 2.0× double time) in our <a href="/overtime-calculator/">Overtime Calculator</a>.</p>
 
       <!-- Section: Gross vs Net -->
       <h2 id="gross-vs-net">Gross Salary vs. Take-Home Pay</h2>
-      <p>One of the most frequent points of confusion for employees is confusing an annual <strong>gross salary</strong> with their actual <strong>net take-home pay</strong>. An annual gross salary of $52,000 does not mean you will deposit $52,000 into your bank account over the year.</p>
+      <p>One thing trips a lot of people up: mixing up your annual <strong>gross salary</strong> with your actual <strong>net take-home pay</strong>. A gross salary of $52,000 doesn't mean $52,000 lands in your bank account over the year.</p>
 
-      <p>Gross pay represents your total compensation before mandatory taxes and voluntary payroll deductions are withheld by your employer. The deductions subtracted from your paycheck typically include:</p>
+      <p>Gross pay is everything you earn before your employer takes out mandatory taxes and any payroll deductions you signed up for. What usually comes off your paycheck:</p>
       <ul>
-        <li><strong>Federal Income Tax:</strong> Progressive tax brackets ranging from 10% to 37% depending on your taxable income, filing status (single, married, head of household), and W-4 withholding allowances.</li>
-        <li><strong>FICA Taxes (Social Security & Medicare):</strong> A mandatory federal payroll withholding totaling 7.65% (6.2% for Social Security up to the annual wage cap, plus 1.45% for Medicare).</li>
-        <li><strong>State and Local Income Taxes:</strong> State taxes range from 0% (in states like Texas, Florida, Washington, and Nevada) to over 10% in states like California and New York, plus local municipal taxes where applicable.</li>
-        <li><strong>Pre-Tax Employee Benefits:</strong> Employee contributions toward health, dental, and vision insurance premiums, Health Savings Accounts (HSA), Flexible Spending Accounts (FSA), and traditional 401(k) retirement plans.</li>
+        <li><strong>Federal Income Tax:</strong> Tax brackets that run from 10% to 37%, depending on your taxable income, filing status (single, married, head of household), and W-4 withholding.</li>
+        <li><strong>FICA Taxes (Social Security & Medicare):</strong> The mandatory federal payroll tax, 7.65% in total: 6.2% for Social Security up to the annual wage cap, plus 1.45% for Medicare.</li>
+        <li><strong>State and Local Income Taxes:</strong> State income tax runs from 0% (in states like Texas, Florida, Washington, and Nevada) to over 10% in states like California and New York, plus local taxes where they apply.</li>
+        <li><strong>Pre-Tax Employee Benefits:</strong> What you put toward health, dental, and vision insurance premiums, Health Savings Accounts (HSA), Flexible Spending Accounts (FSA), and a traditional 401(k).</li>
         <li><strong>Post-Tax Deductions:</strong> Roth 401(k) contributions, union dues, wage garnishments, or life insurance.</li>
       </ul>
 
-      <p>Because tax brackets, state rates, and insurance premiums vary wildly from person to person, no wage converter can provide a single, universal "after-tax take-home pay" figure without knowing your personal filing details. To see how deductions impact an individual paycheck, test your numbers with our free <a href="/paycheck-calculator/">Paycheck Calculator</a>. To see where the gap between gross and net actually goes, read <a href="/articles/gross-pay-vs-net-pay/">our breakdown of gross pay versus net pay — and what actually lands in your account</a>.</p>
+      <p>Tax brackets, state rates, and insurance premiums vary so much from person to person that no wage converter can give one universal after-tax take-home number without knowing your filing details. To see what deductions do to a single paycheck, try your numbers in our free <a href="/paycheck-calculator/">Paycheck Calculator</a>. And to see where the gap between gross and net actually goes, read <a href="/articles/gross-pay-vs-net-pay/">our breakdown of gross pay versus net pay, and what actually lands in your account</a>.</p>
 
       <!-- Section: Hourly vs Annual Salary -->
       <h2 id="hourly-vs-salary">Hourly vs. Annual Salary: Which Is Better?</h2>
@@ -528,7 +528,7 @@ const article1 = {
           <img src="/assets/images/how-to-convert-hourly-pay-to-annual-salary-offer.jpg" alt="A woman at a desk reviewing a job offer letter with a calculator, notebook and laptop beside her" width="1280" height="720" loading="lazy">
           <figcaption>Comparing an offer means converting it first: run the hourly rate out to a full year before judging the number.</figcaption>
         </figure>
-      <p>When considering job offers, candidates often wonder whether it is better to be an hourly worker or an exempt salaried employee. Neither pay structure is universally superior; each carries distinct legal rights, protections, and financial advantages.</p>
+      <p>When you're weighing up job offers, you might wonder whether hourly or salaried work is the better deal. Honestly, neither one wins every time. Each comes with its own legal rights, protections, and money perks.</p>
 
       <div class="job-comparison-card">
         <div class="job-offer-box">
@@ -556,51 +556,51 @@ const article1 = {
         </div>
       </div>
 
-      <p>Notice that while Job Offer B appears higher on the surface ($55,000 vs. $52,000), if the salaried job requires 45 hours per week of work without overtime, your <em>effective hourly rate</em> actually drops to $23.50 per hour! You can run direct side-by-side job offer comparisons with commute times and PTO using our <a href="/calculators/salary-comparison/">Salary Comparison Calculator</a>. For the two models priced head-to-head in full, see <a href="/articles/hourly-vs-salary-which-pays-more/">our head-to-head test of $32 an hour against a $65,000 salary</a>, including the after-tax result.</p>
+      <p>Look closer and Job Offer B isn't the winner it seems ($55,000 vs. $52,000). If that salaried job means 45 hours a week with no overtime, your <em>effective hourly rate</em> actually drops to $23.50 an hour. You can compare job offers side by side, commute times and PTO included, with our <a href="/calculators/salary-comparison/">Salary Comparison Calculator</a>. For the two models priced head-to-head in full, see <a href="/articles/hourly-vs-salary-which-pays-more/">our head-to-head test of $32 an hour against a $65,000 salary</a>, including the after-tax result.</p>
 
       <!-- Section: Common Mistakes -->
       <h2 id="common-mistakes">Common Mistakes When Converting Hourly Pay</h2>
-      <p>Avoid these seven critical traps when calculating your annual earnings:</p>
+      <p>Steer clear of these seven traps when you're working out your annual earnings:</p>
 
       <div class="mistake-list">
         <div class="mistake-item">
           <h3>Mistake 1: Assuming everyone works exactly 2,080 hours.</h3>
-          <p>Many jobs are structured around 35, 37.5, or 45 hours per week. Assuming 2,080 hours without checking your actual offer letter can distort your annual projections by thousands of dollars.</p>
+          <p>Plenty of jobs run on 35, 37.5, or 45 hours a week. If you assume 2,080 hours without checking your offer letter, your yearly figure can be off by thousands of dollars.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 2: Ignoring unpaid vacation and holiday shutdowns.</h3>
-          <p>If your employer closes during Christmas week or you plan two weeks of unpaid summer travel, you will only be paid for 50 or 51 weeks. Always deduct unpaid weeks from your 52-week multiplier.</p>
+          <p>If your employer shuts down over Christmas week, or you take two weeks of unpaid summer travel, you'll only be paid for 50 or 51 weeks. Always take unpaid weeks off your 52-week multiplier.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 3: Counting overtime as guaranteed base salary.</h3>
-          <p>Overtime hours can be cut at any time by company management. Never budget your primary mortgage or living expenses around overtime pay that is not guaranteed in writing.</p>
+          <p>Overtime can be cut whenever management decides. Never plan your rent, mortgage, or everyday bills around overtime pay that isn't guaranteed in writing.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 4: Confusing gross earnings with take-home pay.</h3>
-          <p>Budgeting your rent or car payment based on your gross $52,000 salary rather than your after-tax take-home pay leads directly to cash flow shortfalls.</p>
+          <p>If you budget your rent or car payment off a gross $52,000 salary instead of your after-tax take-home pay, you'll run short.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 5: Multiplying a biweekly paycheck by 2 to estimate monthly pay.</h3>
-          <p>There are 52 weeks in a year, which means there are 26 biweekly paychecks—not 24! Two months every year will have three paychecks instead of two. Multiplying a biweekly check by 2 undercounts your annual salary by an entire month's worth of income.</p>
+          <p>There are 52 weeks in a year, so you get 26 biweekly paychecks, not 24. Two months a year come with three paychecks instead of two. Multiply a biweekly check by 2 and you'll undercount your annual salary by a whole month's pay.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 6: Overlooking seasonal hour fluctuations.</h3>
-          <p>In retail, hospitality, landscaping, or construction, hours swell during peak seasons and plummet during off-peak months. Use an annualized weighted average rather than multiplying your best week by 52.</p>
+          <p>In retail, hospitality, landscaping, or construction, hours shoot up in peak season and drop off in slow months. Use a yearly average instead of multiplying your best week by 52.</p>
         </div>
         <div class="mistake-item">
           <h3>Mistake 7: Comparing hourly and salary jobs without evaluating benefits.</h3>
-          <p>A $28/hour contract job with zero healthcare, no 401(k) match, and no paid time off often yields less net value than a $25/hour position offering comprehensive benefits and 3 weeks of paid leave.</p>
+          <p>A $28/hour contract job with no health coverage, no 401(k) match, and no paid time off is often worth less overall than a $25/hour job with solid benefits and 3 weeks of paid leave.</p>
         </div>
       </div>
 
       <!-- Section: Interactive CTA -->
       <h2 id="calculator-cta">Use an Hourly-to-Annual Salary Calculator</h2>
-      <p>Manual calculations are helpful for understanding the fundamentals, but interactive calculators make testing multiple pay scenarios effortless. Whether you want to test unpaid weeks, adjust overtime multipliers, or convert between weekly, biweekly, and monthly checks, our calculator handles the math in real time.</p>
+      <p>Doing the math by hand is a great way to learn how it all works, but a calculator makes it easy to test different scenarios. Want to see what unpaid weeks do, tweak your overtime, or switch between weekly, biweekly, and monthly checks? Our calculator runs the numbers for you.</p>
 
       <div class="article-cta-card" style="margin-top: 20px;">
         <div class="article-cta-badge"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2m4 0h2M8 15h2m4 0h2M8 18h2m4 0h2"/></svg><span>Interactive Wage Tool</span></div>
         <h3 class="article-cta-title">Calculate Your Hourly-to-Annual Salary in Seconds</h3>
-        <p class="article-cta-desc">Do not waste time doing manual math on paper. Enter your exact hourly wage, adjust your hours and unpaid leave, and get instant, accurate gross pay projections across every pay cycle.</p>
+        <p class="article-cta-desc">Skip the paper math. Enter your exact hourly wage, adjust your hours and unpaid leave, and get your gross pay across every pay cycle right away.</p>
         <div class="article-cta-actions">
           <a href="/" class="cta-primary"><span>Calculate My Annual Salary</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg></a>
           <a href="#conversion-table" class="cta-secondary"><span>See Hourly-to-Salary Conversion Table</span></a>
@@ -613,55 +613,55 @@ const article1 = {
         <li><strong>Gross pay only:</strong> every conversion in this guide is before taxes and deductions. The annual figure is what you earn on paper, not what lands in your bank account.</li>
         <li><strong>The 2,080-hour baseline is a convention:</strong> it assumes 40 hours a week for 52 fully paid weeks. Part-time schedules, seasonal work, and unpaid leave all produce a different annual total.</li>
         <li><strong>Overtime is priced separately:</strong> hours past 40 in a week are usually paid at a premium, so a year with regular overtime converts to more than the simple rate-times-hours result.</li>
-        <li><strong>Salary comparisons are approximate:</strong> a salary normally covers paid holidays and PTO, while an hourly wage only pays for hours worked — the same annual figure can stand for very different amounts of worked time.</li>
+        <li><strong>Salary comparisons are approximate:</strong> a salary normally covers paid holidays and PTO, while an hourly wage only pays for hours worked, so the same annual figure can stand for very different amounts of worked time.</li>
         <li><strong>Rates change mid-year:</strong> a raise or rate change partway through the year splits it into two rates. A single conversion only describes the months worked at that one rate.</li>
         <li><strong>Planning estimates:</strong> your actual annual pay depends on your employer's payroll calendar and the hours you really work. Use these figures to compare options, not as a pay guarantee.</li>
       </ol>
 
       <!-- Section: FAQs -->
       <h2 id="faqs">Frequently Asked Questions</h2>
-      <p>Here are detailed, expert answers to the most common questions regarding converting hourly pay to annual salary:</p>
+      <p>Here are straight answers to the questions people ask most about converting hourly pay to annual salary:</p>
 
       <div class="faq-list">
         <details>
           <summary>How do I convert hourly pay to annual salary?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>To convert hourly pay to annual salary, multiply your hourly wage by the number of hours you work each week, and then multiply that number by the number of paid weeks you work each year. For a standard full-time schedule of 40 hours per week across 52 weeks (2,080 total hours), simply multiply your hourly rate by 2,080. For example, $25 per hour multiplied by 2,080 hours equals an estimated gross annual salary of $52,000 before taxes and payroll deductions.</p>
+          <p>Multiply your hourly wage by the hours you work each week, then multiply that by the number of paid weeks you work each year. For a standard full-time schedule of 40 hours a week across 52 weeks (2,080 hours in all), just multiply your hourly rate by 2,080. So $25 an hour times 2,080 hours comes out to an estimated $52,000 a year in gross pay, before taxes and payroll deductions.</p>
         </details>
         <details>
           <summary>How much is $20 an hour per year?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>At a standard full-time schedule of 40 hours per week and 52 paid weeks per year (2,080 annual working hours), earning $20 an hour equals $41,600 per year before taxes. This breaks down to approximately $800 gross per week, $1,600 biweekly across 26 paychecks, or an average of $3,466.67 per month before deductions. If you take 2 weeks of unpaid vacation, working 50 paid weeks, annual gross pay becomes $40,000.</p>
+          <p>On a standard full-time schedule of 40 hours a week and 52 paid weeks a year (2,080 working hours), $20 an hour works out to $41,600 a year before taxes. That breaks down to roughly $800 gross a week, $1,600 every two weeks across 26 paychecks, or about $3,466.67 a month on average, before deductions. Take 2 weeks of unpaid vacation, so 50 paid weeks, and your annual gross pay drops to $40,000.</p>
         </details>
         <details>
           <summary>How much is $25 an hour per year?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Earning $25 an hour equals an annual gross salary of $52,000 based on the conventional full-time baseline of 40 hours per week over 52 paid weeks (2,080 hours). On a weekly basis, that is $1,000 gross; biweekly, it equals $2,000 per check across 26 pay periods; and monthly, it averages approximately $4,333.33. If you have 2 unpaid weeks off each year, annual earnings adjust to $50,000.</p>
+          <p>$25 an hour comes to $52,000 a year gross on the usual full-time schedule of 40 hours a week over 52 paid weeks (2,080 hours). That means $1,000 gross a week; $2,000 per check every two weeks across 26 pay periods; and about $4,333.33 a month on average. If you take 2 unpaid weeks off each year, your annual earnings drop to $50,000.</p>
         </details>
         <details>
           <summary>How much is $30 an hour per year?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>At 40 hours per week and 52 paid weeks per year, $30 an hour equals a gross annual salary of $62,400. That corresponds to $1,200 per week, $2,400 every two weeks (biweekly), and an annualized monthly average of $5,200 before taxes, healthcare premiums, and retirement contributions. If you work part-time at 30 hours per week, $30 an hour equals $46,800 annually.</p>
+          <p>At 40 hours a week and 52 paid weeks a year, $30 an hour adds up to $62,400 a year gross. That works out to $1,200 a week, $2,400 every two weeks, and an average of $5,200 a month before taxes, health insurance, and retirement contributions. Working part-time at 30 hours a week, $30 an hour comes to $46,800 a year.</p>
         </details>
         <details>
           <summary>How many hours are in a full-time work year?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>A standard full-time work year contains 2,080 scheduled hours. This industry baseline is calculated by multiplying 40 scheduled hours per week by 52 calendar weeks in a year (40 × 52 = 2,080). Human Resources and payroll departments use 2,080 hours as the benchmark for calculating annual compensation, paid leave accruals, and equivalent hourly wages across North America.</p>
+          <p>A standard full-time work year has 2,080 scheduled hours. That number comes from 40 scheduled hours a week times 52 weeks in a year (40 × 52 = 2,080). HR and payroll teams use 2,080 hours as the go-to figure for working out annual pay, paid leave, and what a salary is worth per hour across North America.</p>
         </details>
         <details>
           <summary>Does 2,080 hours always equal a full year's pay?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>No. While 2,080 hours is the standard full-time payroll benchmark, actual working hours depend on your real schedule. If you take unpaid time off, work seasonal shifts, work 35 or 45 hours per week, or log overtime hours, your actual paid hours will differ. Leap years or specific calendar pay cycles may also feature 2,088 or 2,096 working hours.</p>
+          <p>No. 2,080 hours is the standard full-time payroll benchmark, but your real hours depend on your actual schedule. Unpaid time off, seasonal shifts, a 35- or 45-hour week, or overtime hours all change your paid hours. Leap years or certain pay calendars can also have 2,088 or 2,096 working hours.</p>
         </details>
         <details>
           <summary>Does overtime change annual salary?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Yes, substantially. Under the Fair Labor Standards Act (FLSA), non-exempt employees who work over 40 hours in a workweek generally receive 1.5 times their regular hourly rate for each overtime hour. For example, if you earn $25 an hour and work 5 overtime hours every week, you earn an extra $9,750 per year, raising your total gross annual pay from $52,000 to $61,750.</p>
+          <p>Yes, and by a lot. Under the Fair Labor Standards Act (FLSA), non-exempt employees who work more than 40 hours in a workweek usually get 1.5 times their regular hourly rate for each overtime hour. Say you earn $25 an hour and work 5 overtime hours every week: that adds an extra $9,750 a year, taking your total gross annual pay from $52,000 to $61,750.</p>
         </details>
         <details>
           <summary>Does unpaid vacation reduce annual income?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Yes. If your job does not offer paid time off (PTO) and you take unpaid vacation or time away from work, each unpaid week directly reduces your gross annual earnings. For example, taking two unpaid weeks reduces your paid weeks from 52 to 50. At $25 an hour and 40 hours per week, those two unpaid weeks reduce your annual salary by $2,000, lowering your earnings from $52,000 to $50,000.</p>
+          <p>Yes. If your job doesn't offer paid time off (PTO) and you take unpaid vacation or time away from work, every unpaid week comes straight off your gross annual earnings. Two unpaid weeks, for example, cut your paid weeks from 52 to 50. At $25 an hour and 40 hours a week, those two unpaid weeks cost you $2,000 a year, dropping your earnings from $52,000 to $50,000.</p>
         </details>
         <details>
           <summary>Is annual salary before or after taxes?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Standard annual salary figures and wage conversions represent gross pay—meaning your total earnings before any federal income tax, state tax, local tax, Social Security (6.2%), Medicare (1.45%), health insurance, or 401(k) contributions are subtracted. Your net take-home pay on your paycheck will always be lower than your gross annual salary depending on your personal tax filing status and deductions.</p>
+          <p>Before taxes. The annual salary figures you see in wage conversions are gross pay, meaning everything you earn before federal income tax, state tax, local tax, Social Security (6.2%), Medicare (1.45%), health insurance, or 401(k) contributions come out. Your take-home pay on your paycheck will always be less than your gross annual salary, depending on your tax filing status and deductions.</p>
         </details>
         <details>
           <summary>How can I calculate my hourly rate from salary?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>To calculate your hourly rate from an annual salary, divide your annual gross salary by the number of hours you work each year. For a standard 40-hour full-time schedule (2,080 hours), divide your salary by 2,080. For example, a $60,000 salary divided by 2,080 hours equals approximately $28.85 per hour. If your schedule requires 45 hours per week (2,340 hours), that same $60,000 salary equals $25.64 per hour. For our complete step-by-step calculation guide and 16-rate conversion table, see <a href="/articles/how-to-calculate-hourly-rate-from-salary/">how to calculate hourly rate from salary</a>.</p>
+          <p>Divide your annual gross salary by the number of hours you work each year. On a standard 40-hour full-time schedule (2,080 hours), divide your salary by 2,080. A $60,000 salary divided by 2,080 hours works out to about $28.85 an hour. If your schedule is 45 hours a week (2,340 hours), that same $60,000 salary is worth $25.64 an hour. For our complete step-by-step calculation guide and 16-rate conversion table, see <a href="/articles/how-to-calculate-hourly-rate-from-salary/">how to calculate hourly rate from salary</a>.</p>
         </details>
       </div>
 
@@ -672,23 +672,23 @@ const article1 = {
         <ul class="takeaways-list">
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>The Master Formula:</strong> Multiply your hourly rate by your weekly hours, then multiply by the number of paid weeks in the year (Rate × Hours/Week × Weeks/Year).</span>
+            <span><strong>The Master Formula:</strong> Your hourly rate times your weekly hours times your paid weeks in the year (Rate × Hours/Week × Weeks/Year).</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>The Standard Full-Time Benchmark:</strong> Standard full-time employment uses 40 hours per week and 52 weeks per year, totaling 2,080 scheduled annual hours.</span>
+            <span><strong>The Standard Full-Time Benchmark:</strong> Full-time usually means 40 hours a week and 52 weeks a year, which adds up to 2,080 scheduled hours.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Impact of Unpaid Leave:</strong> Unpaid vacation or leave directly reduces your paid weeks and lowers annual gross pay. Paid time off (PTO) does not reduce gross salary.</span>
+            <span><strong>Impact of Unpaid Leave:</strong> Unpaid vacation or leave cuts your paid weeks and lowers your annual gross pay. Paid time off (PTO) doesn't.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Overtime Earnings:</strong> Eligible non-exempt hours worked beyond 40 hours/week earn at least 1.5× time and a half, dramatically elevating total yearly compensation.</span>
+            <span><strong>Overtime Earnings:</strong> Eligible non-exempt hours past 40 a week pay at least 1.5× time and a half, which can lift your yearly total a lot.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Gross vs. Net Income:</strong> All wage conversions calculate gross earnings before taxes and benefits. Actual net take-home pay is determined by individual tax withholdings and deductions.</span>
+            <span><strong>Gross vs. Net Income:</strong> Every conversion here is gross pay, before taxes and benefits. What you actually take home depends on your own tax withholdings and deductions.</span>
           </li>
         </ul>
       </div>
@@ -696,13 +696,13 @@ const article1 = {
       <!-- Calculation Methodology Box (E-E-A-T Transparency) -->
       <div class="methodology-box">
         <h3>How We Calculate Annual Salary</h3>
-        <p>Our standard hourly-to-annual calculation multiplies the hourly wage by hours worked per week and weeks worked per year. For a conventional full-time schedule, the calculation uses 40 hours per week and 52 weeks per year, or 2,080 hours annually. Users can adjust these assumptions when their schedule differs. All estimates represent gross compensation before payroll deductions, taxes, and contributions. For comprehensive mathematical documentation, see our full <a href="/methodology/">Calculation Methodology</a>.</p>
+        <p>Our standard hourly-to-annual calculation multiplies your hourly wage by the hours you work each week and the weeks you work each year. For a typical full-time schedule, that's 40 hours a week and 52 weeks a year, or 2,080 hours annually. If your schedule looks different, you can change those assumptions. Every estimate is gross pay, before payroll deductions, taxes, and contributions. For the full math behind it, see our <a href="/methodology/">Calculation Methodology</a>.</p>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
         <li>The core formula is hourly rate × hours per week × paid weeks (2,080 hours for a standard full-time year).</li>
         <li>At $25 an hour, full-time gross pay is $1,000 a week, $2,000 biweekly, and about $4,333.33 a month.</li>
-        <li>Unpaid weeks lower the total — two unpaid weeks bring $25 an hour down to $50,000 a year — while overtime is extra on top.</li>
+        <li>Unpaid weeks lower the total: two unpaid weeks bring $25 an hour down to $50,000 a year, while overtime is extra on top.</li>
       </ol>
     `
 };
