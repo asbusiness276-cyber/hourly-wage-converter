@@ -25,45 +25,45 @@ export const article13 = {
   faqs: [
     [
       'What is the federal minimum wage in 2027?',
-      'The federal minimum wage stays at $7.25 an hour in 2027 \u2014 unchanged since 2009. It applies in the 20 states with no higher state rate, and the federal tipped cash wage stays at $2.13. Where a state or city sets a higher rate, the higher rate is the one your employer must pay.'
+      'The federal minimum wage stays at $7.25 an hour in 2027, unchanged since 2009. It applies in the 20 states with no higher state rate, and the federal tipped cash wage stays at $2.13. Where a state or city sets a higher rate, the higher rate is the one your employer has to pay.'
     ],
     [
       'Which state has the highest minimum wage in 2027?',
-      'Washington, at $17.73 an hour effective January 1, 2027. Connecticut ($17.48) and California ($17.40) follow. Washington, D.C. is higher than any state at $18.40 (January through June 2027), and several Washington cities \u2014 Burien ($22.49), Tukwila ($22.45), Renton ($22.28), Seattle ($22.14) \u2014 top every statewide rate.'
+      'Washington, at $17.73 an hour effective January 1, 2027. Connecticut ($17.48) and California ($17.40) come next. Washington, D.C. beats every state at $18.40 (January through June 2027), and several Washington cities top every statewide rate: Burien ($22.49), Tukwila ($22.45), Renton ($22.28), and Seattle ($22.14).'
     ],
     [
       'Did New York raise its minimum wage for 2027?',
-      'No. New York\u2019s inflation \u201coff-ramp\u201d triggered, so the 2027 rates hold at the 2026 levels: $17.00 in New York City, Long Island, and Westchester, and $16.00 in the rest of the state. A proposal to raise it further was not approved.'
+      'No. New York\u2019s inflation \u201coff-ramp\u201d kicked in, so the 2027 rates stay at the 2026 levels: $17.00 in New York City, Long Island, and Westchester, and $16.00 in the rest of the state. A proposal to raise it further wasn\u2019t approved.'
     ],
     [
       'What is Michigan\u2019s minimum wage in 2027?',
-      'Michigan jumps to $15.00 an hour on January 1, 2027 under PA 9 of 2025 \u2014 one of the year\u2019s biggest increases. The tipped minimum moves to $6.30 (42% of the full rate). Missouri, by contrast, stays flat at $15.00 after its legislature repealed inflation indexing.'
+      'Michigan jumps to $15.00 an hour on January 1, 2027 under PA 9 of 2025, one of the year\u2019s biggest increases. The tipped minimum moves to $6.30 (42% of the full rate). Missouri, by contrast, stays flat at $15.00 after its legislature repealed inflation indexing.'
     ],
     [
       'Do cities have their own minimum wage in 2027?',
-      'Yes \u2014 dozens of cities and counties set rates above their state\u2019s. The highest confirmed for 2027 include Burien, Washington ($22.49), Tukwila ($22.45), Renton ($22.28), Seattle ($22.14), and West Hollywood, California ($20.94). Always check the city rate where you actually work; it overrides the state rate.'
+      'Yes. Dozens of cities and counties set rates above their state\u2019s. The highest confirmed for 2027 include Burien, Washington ($22.49), Tukwila ($22.45), Renton ($22.28), Seattle ($22.14), and West Hollywood, California ($20.94). Always check the city rate where you actually work. It overrides the state rate.'
     ],
     [
       'How much does full-time minimum wage pay per year in 2027?',
-      'At 40 hours a week for 52 weeks: Washington\u2019s $17.73 pays $36,878 a year; a $15.00 rate pays $31,200; the $7.25 federal floor pays $15,080 \u2014 all before taxes and deductions. Use our <a href=\"/paycheck-calculator/\">paycheck calculator</a> to see what a 2027 rate means per pay period.'
+      'At 40 hours a week for 52 weeks, Washington\u2019s $17.73 pays $36,878 a year, a $15.00 rate pays $31,200, and the $7.25 federal floor pays $15,080, all before taxes and deductions. Use our <a href=\"/paycheck-calculator/\">paycheck calculator</a> to see what a 2027 rate means per pay period.'
     ],
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>In 2027, Washington leads the states at $17.73 an hour, while the federal minimum stays $7.25 — find your state’s rate in the full table.</p>
+        <p>In 2027, Washington leads the states at $17.73 an hour, while the federal minimum stays $7.25. Find your state’s rate in the full table below.</p>
       </div>
 
-      <p class=\"lead\">On January 1, 2027, the minimum wage rises in more than a dozen states \u2014 while 20 states stay parked at the $7.25 federal floor, unchanged since 2009. Washington leads the states at $17.73 an hour, Washington, D.C. tops everything at $18.40, and Michigan makes one of the year\u2019s biggest jumps to $15.00.</p>
+      <p class=\"lead\">On January 1, 2027, the minimum wage goes up in more than a dozen states, while 20 states stay parked at the $7.25 federal floor, unchanged since 2009. Washington leads the states at $17.73 an hour, Washington, D.C. tops everything at $18.40, and Michigan makes one of the year\u2019s biggest jumps, to $15.00.</p>
 
-      <p>As the technical tools architect at Hourly Wage Converter, I track these rates because they feed the calculators workers use every day. This guide puts every verified 2027 rate in one place: all 50 states plus D.C., tipped wages, the big-city rates that beat their states, and what the new numbers mean for an actual paycheck.</p>
+      <p>I track these rates because they feed the calculators workers use here at Hourly Wage Converter every day. This guide puts every verified 2027 rate in one place: all 50 states plus D.C., tipped wages, the big-city rates that beat their states, and what the new numbers mean for a real paycheck.</p>
 
       <!-- Above the Fold Interactive Tool CTA -->
       <div class=\"article-hero-cta\">
         <div class=\"hero-cta-content\">
           <span class=\"hero-cta-badge\">Interactive Paycheck Tool</span>
           <h2 class=\"hero-cta-title\">See What a 2027 Rate Pays You</h2>
-          <p class=\"hero-cta-desc\">Enter the 2027 minimum wage for your state plus your hours and pay frequency to estimate your gross pay per check.</p>
+          <p class=\"hero-cta-desc\">Plug in the 2027 minimum wage for your state, plus your hours and pay frequency, to estimate your gross pay per check.</p>
         </div>
         <a href=\"/paycheck-calculator/\" class=\"calculate-button hero-cta-btn\">Open Free Paycheck Calculator</a>
       </div>
@@ -73,10 +73,10 @@ export const article13 = {
       <ul>
         <li><strong>Highest state:</strong> Washington, $17.73/hour (Jan 1, 2027). Connecticut ($17.48) and California ($17.40) are next.</li>
         <li><strong>Highest anywhere:</strong> Washington, D.C., $18.40 (Jan\u2013Jun 2027; the July adjustment is not announced yet).</li>
-        <li><strong>Federal floor:</strong> $7.25, unchanged since 2009 \u2014 still the legal minimum in 20 states.</li>
-        <li><strong>Biggest jump:</strong> Michigan, to $15.00 under a 2025 state law \u2014 with more scheduled increases behind it.</li>
+        <li><strong>Federal floor:</strong> $7.25, unchanged since 2009, still the legal minimum in 20 states.</li>
+        <li><strong>Biggest jump:</strong> Michigan, to $15.00 under a 2025 state law, with more scheduled increases behind it.</li>
         <li><strong>Biggest surprise:</strong> New York gets <em>no</em> 2027 increase; its inflation off-ramp froze rates at $17.00 downstate / $16.00 upstate.</li>
-        <li><strong>Tipped workers:</strong> the federal tipped cash wage stays $2.13, but eight states allow no tip credit at all \u2014 tipped workers there earn the full minimum.</li>
+        <li><strong>Tipped workers:</strong> the federal tipped cash wage stays $2.13, but eight states allow no tip credit at all, so tipped workers there earn the full minimum.</li>
       </ul>
 
       <img src=\"/assets/images/ui-2027-minimum-wage-top-states.webp\" alt=\"Bar chart of the highest 2027 state minimum wages: Washington $17.73, Connecticut $17.48, California $17.40, Rhode Island $17.00, and New York downstate $17.00, with Washington D.C. at $18.40\" width=\"800\" height=\"450\" loading=\"lazy\">
@@ -87,7 +87,7 @@ export const article13 = {
   <figcaption>There is no single national rate for 2027 — every state sets its own minimum wage.</figcaption>
 </figure>
 <h2 id=\"full-table\">The Complete 2027 Table: All 50 States + D.C.</h2>
-      <p>Every rate below was verified against state labor department announcements and official 2027 schedules in October 2026. \"No tip credit\" means tipped workers must be paid the full minimum wage. Rates marked <strong>(unchanged)</strong> carry over because the state has no inflation indexing.</p>
+      <p>Every rate below was checked against state labor department announcements and official 2027 schedules in October 2026. \"No tip credit\" means tipped workers must be paid the full minimum wage. Rates marked <strong>(unchanged)</strong> carry over because the state has no inflation indexing.</p>
 
       <div class=\"table-wrap\" style=\"margin:20px 0\">
         <table class=\"pay-table\">
@@ -155,32 +155,32 @@ export const article13 = {
           </tbody>
         </table>
       </div>
-      <p class=\"caption\">Bold = new or increased for 2027. Tipped figures are the cash wage before tip credit; Connecticut shows restaurant/hotel vs. bartender rates. Oregon announces by April 30, 2027; Vermont\u2019s 2027 figure is expected any day.</p>
+      <p class=\"caption\">Bold means new or increased for 2027. Tipped figures are the cash wage before tip credit, and Connecticut shows restaurant/hotel vs. bartender rates. Oregon announces by April 30, 2027, and Vermont\u2019s 2027 figure is expected any day.</p>
 
       <img src=\"/assets/images/ui-minimum-wage-vs-federal-2027.webp\" alt=\"Infographic: 20 states remain at the $7.25 federal minimum wage in 2027 while 30 states plus Washington D.C. set higher rates\" width=\"800\" height=\"450\" loading=\"lazy\">
 
       <!-- Section 3: Biggest Changes -->
       <h2 id=\"biggest-changes\">The Biggest 2027 Changes (and Surprises)</h2>
-      <p>Most 2027 increases are inflation adjustments of 3\u20134%. The interesting moves are the exceptions:</p>
+      <p>Most 2027 increases are just inflation adjustments of 3\u20134%. The interesting moves are the exceptions:</p>
       <ul>
-        <li><strong>Michigan \u2192 $15.00.</strong> A 2025 state law (PA 9) reset the schedule: $15.00 on Jan 1, 2027, with the tipped wage at $6.30 (42% of the full rate). One of the year\u2019s largest dollar jumps.</li>
-        <li><strong>Nebraska \u2192 $15.26.</strong> Lawmakers replaced the voter-approved CPI formula with a fixed 1.75% annual increase starting 2027 \u2014 a slower climb than voters chose. Local ordinances trying to restore CPI-based increases are in litigation.</li>
+        <li><strong>Michigan \u2192 $15.00.</strong> A 2025 state law (PA 9) reset the schedule: $15.00 on Jan 1, 2027, with the tipped wage at $6.30 (42% of the full rate). One of the year\u2019s biggest dollar jumps.</li>
+        <li><strong>Nebraska \u2192 $15.26.</strong> Lawmakers replaced the voter-approved CPI formula with a fixed 1.75% annual increase starting 2027, a slower climb than voters chose. Local ordinances trying to restore CPI-based increases are in litigation.</li>
         <li><strong>Virginia \u2192 $13.75.</strong> A 2026 law fixed $13.75 for 2027 and $15.00 for 2028, with inflation indexing resuming in 2029.</li>
-        <li><strong>New York: no increase.</strong> The state\u2019s inflation off-ramp triggered, freezing rates at $17.00 downstate and $16.00 elsewhere \u2014 a proposed further hike was not approved.</li>
+        <li><strong>New York: no increase.</strong> The state\u2019s inflation off-ramp triggered, freezing rates at $17.00 downstate and $16.00 elsewhere. A proposed further hike wasn't approved.</li>
         <li><strong>Missouri: frozen at $15.00.</strong> A 2025 law repealed the inflation indexing voters approved, so the rate holds flat.</li>
         <li><strong>Oklahoma: voters said no.</strong> A June 2026 ballot measure to reach $15 was defeated, so the state stays at $7.25.</li>
-        <li><strong>Alaska\u2019s timing quirk:</strong> its $15.00 rate takes effect <em>July 1</em>, 2027 \u2014 not January 1 \u2014 under the ballot-measure schedule. Hawaii, meanwhile, holds at $16.00 through 2027 with $18.00 coming January 1, 2028.</li>
+        <li><strong>Alaska\u2019s timing quirk:</strong> its $15.00 rate takes effect <em>July 1</em>, 2027, not January 1, under the ballot-measure schedule. Hawaii, meanwhile, holds at $16.00 through 2027, with $18.00 coming January 1, 2028.</li>
       </ul>
-      <p>Several of those jumps land on the same number. If your state is moving to $15, <a href=\"/articles/how-much-is-15-an-hour-a-year/\">our $15-an-hour guide shows what that rate pays</a> per week, per paycheck, and per year after taxes.</p>
+      <p>A few of those jumps land on the same number. If your state is moving to $15, <a href=\"/articles/how-much-is-15-an-hour-a-year/\">our $15-an-hour guide shows what that rate pays</a> per week, per paycheck, and per year after taxes.</p>
 
       <!-- Section 4: Tipped Wages -->
       <h2 id=\"tipped-wages\">Tipped Minimum Wages for 2027</h2>
-      <p>The federal tipped cash wage stays at <strong>$2.13</strong> \u2014 but that number matters less than most people think. Eight states (Alaska, California, Minnesota, Montana, Nevada, Oregon, Washington, plus Hawaii\u2019s limited credit) allow <strong>no tip credit at all</strong>, so tipped workers there earn the full minimum wage before tips. D.C. continues phasing its tip credit out: the 2027 tipped wage is $10.30, not yet the full $18.40.</p>
-      <p>Notable 2027 tipped cash wages: Arizona $12.65, Colorado $12.69, Florida $11.98, Illinois $9.00, Maine $7.85, Michigan $6.30, New Jersey $6.61, Ohio $5.70, South Dakota $6.15. If you earn tips, also read our <a href=\"/articles/no-tax-on-tips/\">no-tax-on-tips guide</a> \u2014 the 2025\u20132028 federal deduction is a separate benefit from the wage floor itself.</p>
+      <p>The federal tipped cash wage stays at <strong>$2.13</strong>, but that number matters less than most people think. Eight states (Alaska, California, Minnesota, Montana, Nevada, Oregon, Washington, plus Hawaii\u2019s limited credit) allow <strong>no tip credit at all</strong>, so tipped workers there earn the full minimum wage before tips. D.C. keeps phasing its tip credit out: the 2027 tipped wage is $10.30, not yet the full $18.40.</p>
+      <p>Some notable 2027 tipped cash wages: Arizona $12.65, Colorado $12.69, Florida $11.98, Illinois $9.00, Maine $7.85, Michigan $6.30, New Jersey $6.61, Ohio $5.70, South Dakota $6.15. If you earn tips, also read our <a href=\"/articles/no-tax-on-tips/\">no-tax-on-tips guide</a>. The 2025\u20132028 federal deduction is a separate benefit from the wage floor itself.</p>
 
       <!-- Section 5: City Rates -->
       <h2 id=\"city-rates\">Big-City Rates Higher Than the State</h2>
-      <p>Dozens of cities and counties set their own minimums above the state rate \u2014 and where they do, the city rate is the legal minimum where you work. The highest confirmed for 2027:</p>
+      <p>Dozens of cities and counties set their own minimums above the state rate, and where they do, the city rate is the legal minimum where you work. The highest confirmed for 2027:</p>
       <div class=\"table-wrap\" style=\"margin:20px 0\">
         <table class=\"pay-table\">
           <thead>
@@ -203,41 +203,41 @@ export const article13 = {
           </tbody>
         </table>
       </div>
-      <p class=\"caption\">Selected highest confirmed city rates for 2027. Several California cities (San Francisco, San Jose, Oakland, Los Angeles), Chicago, and Minneapolis had not announced 2027 rates as of October 2026 \u2014 check locally before assuming the state rate applies.</p>
+      <p class=\"caption\">Selected highest confirmed city rates for 2027. Several California cities (San Francisco, San Jose, Oakland, Los Angeles), Chicago, and Minneapolis had not announced 2027 rates as of October 2026, so check locally before assuming the state rate applies.</p>
 
       <!-- Section 6: What It Means -->
       <h2 id=\"what-it-means\">What the New Rates Mean for Your Paycheck</h2>
-      <p>A higher hourly floor changes the math on every pay stub. At full-time (40 hours \u00d7 52 weeks), before taxes:</p>
+      <p>A higher hourly floor changes the math on every pay stub. Here is what full-time work (40 hours \u00d7 52 weeks) pays at the key rates, before taxes:</p>
 
       <img src=\"/assets/images/ui-minimum-wage-annual-math-2027.webp\" alt=\"Infographic showing 2027 full-time annual pay: $17.73 an hour equals $36,878 a year, $15.00 equals $31,200, and $7.25 equals $15,080\" width=\"800\" height=\"450\" loading=\"lazy\">
 
-      <p>Two things the table doesn\u2019t show: <strong>overtime</strong> is calculated on your regular rate, so a higher minimum lifts overtime pay too \u2014 see the <a href=\"/overtime-calculator/\">overtime calculator</a>; and <strong>take-home pay</strong> is what lands in your account, which is always less than these gross figures \u2014 model it with the <a href=\"/paycheck-calculator/\">paycheck calculator</a> or convert any rate with the <a href=\"/hourly-to-salary-calculator/\">hourly-to-salary calculator</a>. And once a new rate takes effect, <a href=\"/articles/how-to-read-your-pay-stub/\">our line-by-line pay stub guide</a> shows you exactly where on your stub to confirm your employer applied it.</p>
+      <p>Two things the table doesn\u2019t show. First, <strong>overtime</strong> is calculated on your regular rate, so a higher minimum lifts overtime pay too. Try the <a href=\"/overtime-calculator/\">overtime calculator</a> to see it. Second, <strong>take-home pay</strong> is what actually lands in your account, and it\u2019s always less than these gross figures. Model it with the <a href=\"/paycheck-calculator/\">paycheck calculator</a>, or convert any rate with the <a href=\"/hourly-to-salary-calculator/\">hourly-to-salary calculator</a>. And once a new rate takes effect, <a href=\"/articles/how-to-read-your-pay-stub/\">our line-by-line pay stub guide</a> shows you exactly where on your stub to confirm your employer applied it.</p>
 
       <!-- Section: How to Use the Calculator -->
       <h2 id=\"how-to-use\">How to Use the Calculator</h2>
-      <p>Turn your state's 2027 rate into a paycheck in four steps:</p>
+      <p>Here\u2019s how to turn your state\u2019s 2027 rate into a paycheck, in four steps:</p>
       <ol>
-        <li><strong>Step 1 — Find your rate in the table above:</strong> start with your state's 2027 minimum, then check the city table — if your city sets a higher rate, that is your number (Washington state: $17.73; Burien: $22.49).</li>
-        <li><strong>Step 2 — Enter the rate and your hours</strong> into the paycheck calculator — 40 hours a week for the full-time figures used in this guide.</li>
+        <li><strong>Step 1 — Find your rate in the table above:</strong> start with your state\u2019s 2027 minimum, then check the city table. If your city sets a higher rate, that\u2019s your number (Washington state: $17.73; Burien: $22.49).</li>
+        <li><strong>Step 2 — Enter the rate and your hours</strong> into the paycheck calculator. Use 40 hours a week for the full-time figures used in this guide.</li>
         <li><strong>Step 3 — Set your pay frequency:</strong> weekly, biweekly, or semi-monthly, matching how your employer actually pays you.</li>
-        <li><strong>Step 4 — Read your gross pay per check and per year:</strong> at $17.73 full-time that is $36,878 a year before taxes — then compare it with your current rate to see what the 2027 change is worth to you.</li>
+        <li><strong>Step 4 — Read your gross pay per check and per year:</strong> at $17.73 full-time, that\u2019s $36,878 a year before taxes. Then compare it with your current rate to see what the 2027 change is worth to you.</li>
       </ol>
       <p><a class=\"btn\" href=\"/paycheck-calculator/\">Run my numbers</a></p>
 
       <!-- Section: Limitations -->
       <h2 id=\"limitations\">Limitations</h2>
       <ol>
-        <li><strong>Rates are a snapshot:</strong> every figure here was verified in October 2026 — Oregon and Vermont had not announced 2027 rates yet, and Washington, D.C. adjusts again mid-2027, so confirm your rate before relying on it.</li>
-        <li><strong>Local rates can override the table:</strong> dozens of cities and counties set higher minimums than their states, and only the highest confirmed ones are listed — your local ordinance is the one that legally applies where you work.</li>
-        <li><strong>Tipped work follows different numbers:</strong> tip credits and cash wages vary by state, and eight states require the full minimum before tips — the headline rate is not the whole story for tipped workers.</li>
+        <li><strong>Rates are a snapshot:</strong> every figure here was verified in October 2026. Oregon and Vermont had not announced 2027 rates yet, and Washington, D.C. adjusts again mid-2027, so confirm your rate before relying on it.</li>
+        <li><strong>Local rates can override the table:</strong> dozens of cities and counties set higher minimums than their states, and only the highest confirmed ones are listed here. Your local ordinance is the one that legally applies where you work.</li>
+        <li><strong>Tipped work follows different numbers:</strong> tip credits and cash wages vary by state, and eight states require the full minimum before tips, so the headline rate isn\u2019t the whole story for tipped workers.</li>
         <li><strong>Not every job is covered the same way:</strong> small-employer thresholds, youth and training wages, certain industries, and federal-contractor rates can follow different schedules than the statewide figure.</li>
-        <li><strong>Effective dates differ:</strong> most 2027 rates start January 1, but Alaska's begins July 1 and Florida's September 30, 2026 — a raise can arrive mid-year rather than on New Year's Day.</li>
-        <li><strong>Annual figures assume full-time, fully paid work:</strong> 40 hours a week for 52 weeks, before taxes and deductions — part-time schedules, unpaid time off, and seasonal work all land lower.</li>
+        <li><strong>Effective dates differ:</strong> most 2027 rates start January 1, but Alaska\u2019s begins July 1 and Florida\u2019s September 30, 2026, so a raise can arrive mid-year rather than on New Year\u2019s Day.</li>
+        <li><strong>Annual figures assume full-time, fully paid work:</strong> 40 hours a week for 52 weeks, before taxes and deductions. Part-time schedules, unpaid time off, and seasonal work all land lower.</li>
       </ol>
 
       <!-- Section 7: FAQs -->
       <h2 id=\"faqs\">Frequently Asked Questions About 2027 Minimum Wage</h2>
-      <p>Answers to the six questions readers ask most are collected here; each also appears in the page\u2019s structured data.</p>
+      <p>Here are the six questions readers ask most, with straight answers. Each one also appears in the page\u2019s structured data.</p>
 
       <!-- Section 8: Key Takeaways -->
       <h2 id=\"key-takeaways\">Key Takeaways &amp; Action Plan</h2>
@@ -245,15 +245,15 @@ export const article13 = {
         <ul>
           <li>
             <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"m5 12 4 4L19 6\"/></svg>
-            <span><strong>Know your real floor:</strong> check the city rate where you work, not just the state \u2014 Burien\u2019s $22.49 beats Washington\u2019s $17.73 by nearly $5.</span>
+            <span><strong>Know your real floor:</strong> check the city rate where you work, not just the state. Burien\u2019s $22.49 beats Washington\u2019s $17.73 by nearly $5.</span>
           </li>
           <li>
             <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m5 12 4 4L19 6\"/></svg>
-            <span><strong>Watch the calendar:</strong> most 2027 rates start January 1, but Alaska\u2019s $15.00 starts July 1 \u2014 and D.C. adjusts again mid-year.</span>
+            <span><strong>Watch the calendar:</strong> most 2027 rates start January 1, but Alaska\u2019s $15.00 starts July 1, and D.C. adjusts again mid-year.</span>
           </li>
           <li>
             <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m5 12 4 4L19 6\"/></svg>
-            <span><strong>Tipped workers:</strong> eight states pay you the full minimum before tips; everywhere else, confirm the cash wage \u2014 $2.13 federal is the floor, not the norm.</span>
+            <span><strong>Tipped workers:</strong> eight states pay you the full minimum before tips. Everywhere else, confirm the cash wage. The $2.13 federal rate is the floor, not the norm.</span>
           </li>
           <li>
             <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m5 12 4 4L19 6\"/></svg>
@@ -261,7 +261,7 @@ export const article13 = {
           </li>
           <li>
             <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m5 12 4 4L19 6\"/></svg>
-            <span><strong>Bookmark this page:</strong> Oregon, Vermont, and several big cities had not announced 2027 rates as of October 2026 \u2014 this table will be updated as they land.</span>
+            <span><strong>Bookmark this page:</strong> Oregon, Vermont, and several big cities had not announced 2027 rates as of October 2026. This table will be updated as they land.</span>
           </li>
         </ul>
       </div>
@@ -270,7 +270,7 @@ export const article13 = {
         <div class=\"hero-cta-content\">
           <span class=\"hero-cta-badge\">Interactive Paycheck Tool</span>
           <h2 class=\"hero-cta-title\">Model Your 2027 Paycheck</h2>
-          <p class=\"hero-cta-desc\">Enter your state\u2019s new minimum wage and see gross pay per check \u2014 before taxes and deductions.</p>
+          <p class=\"hero-cta-desc\">Enter your state\u2019s new minimum wage and see gross pay per check, before taxes and deductions.</p>
         </div>
         <a href=\"/paycheck-calculator/\" class=\"calculate-button hero-cta-btn\">Open Free Paycheck Calculator</a>
       </div>
@@ -278,13 +278,13 @@ export const article13 = {
       <!-- Calculation Methodology Box (E-E-A-T Transparency) -->
       <div class=\"methodology-box\">
         <h3>Calculation Methodology &amp; Sources</h3>
-        <p>State rates were verified in October 2026 against state labor department announcements, official 2027 wage schedules, and the Federal Register (federal contractor rates). Annual-pay figures use 40 hours \u00d7 52 weeks ($17.73 \u00d7 2,080 = $36,878; $15.00 \u00d7 2,080 = $31,200; $7.25 \u00d7 2,080 = $15,080), gross pay before taxes and deductions. Oregon and Vermont 2027 rates were unannounced at verification time; several city 2027 rates likewise. This article is general education, not legal or tax advice. To model the paycheck a 2027 rate produces, use our <a href=\"/paycheck-calculator/\">Paycheck Calculator</a> or browse the <a href=\"/calculators/\">Calculator Directory</a>.</p>
+        <p>State rates were checked in October 2026 against state labor department announcements, official 2027 wage schedules, and the Federal Register (federal contractor rates). Annual-pay figures use 40 hours \u00d7 52 weeks ($17.73 \u00d7 2,080 = $36,878; $15.00 \u00d7 2,080 = $31,200; $7.25 \u00d7 2,080 = $15,080), gross pay before taxes and deductions. Oregon and Vermont 2027 rates were still unannounced at verification time, and several city 2027 rates were too. This article is general education, not legal or tax advice. To model the paycheck a 2027 rate produces, use our <a href=\"/paycheck-calculator/\">Paycheck Calculator</a> or browse the <a href=\"/calculators/\">Calculator Directory</a>.</p>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
         <li>Highest state: Washington, $17.73 an hour (January 1, 2027); Connecticut ($17.48) and California ($17.40) follow.</li>
         <li>Highest anywhere: Washington, D.C., at $18.40 (January through June 2027).</li>
-        <li>Federal floor: $7.25, unchanged since 2009 — still the legal minimum in 20 states; the federal tipped cash wage stays $2.13.</li>
+        <li>Federal floor: $7.25, unchanged since 2009, still the legal minimum in 20 states. The federal tipped cash wage stays $2.13.</li>
       </ol>
   `
 };
