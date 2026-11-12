@@ -26,45 +26,45 @@ export const article15 = {
   faqs: [
     [
       'What are the three-paycheck months in 2027?',
-      'It depends on your first payday of the year. If your biweekly cycle pays you on Friday, January 1, 2027, your three-paycheck months are January, July, and December — and you get a rare 27 paychecks in 2027. If your cycle starts a week later, on Friday, January 8, your three-paycheck months are April and October, with the usual 26 paychecks. Find your first January payday, and you know your cycle.'
+      'It depends on your first payday of the year. If your biweekly cycle pays you on Friday, January 1, 2027, your three-paycheck months are January, July, and December — and you get a rare 27 paychecks in 2027. If your cycle starts a week later, on Friday, January 8, your three-paycheck months are April and October, with the usual 26 paychecks. Find your first January payday and you’ll know your cycle.'
     ],
     [
       'How many paychecks do you get in 2027 if you are paid biweekly — 26 or 27?',
-      'Most biweekly workers get 26, but 2027 is a 27-paycheck year for one of the two cycles. The reason: 2027 contains 53 Fridays, and the cycle that starts on Friday, January 1 also lands on Friday, December 31 — the first and last day of the year — which squeezes in a 27th payday. The other Friday cycle (starting January 8) gets the standard 26. Note that some employers divide an annual salary by 27 instead of 26 in a year like this, making each check slightly smaller; others keep dividing by 26. Ask payroll which method yours uses.'
+      'Most biweekly workers get 26, but 2027 is a 27-paycheck year for one of the two cycles. The reason: 2027 has 53 Fridays, and the cycle that starts on Friday, January 1 also lands on Friday, December 31 — the first and last day of the year — which squeezes in a 27th payday. The other Friday cycle (starting January 8) gets the standard 26. One thing to know: some employers divide an annual salary by 27 instead of 26 in a year like this, making each check slightly smaller; others keep dividing by 26. Ask payroll which method yours uses.'
     ],
     [
       'Is the third paycheck in a month really extra money?',
-      'It is not extra income over the year — it is a timing effect. If you budget monthly expenses around two paychecks, the third check in a three-paycheck month is not needed for regular bills, so it behaves like a bonus: on a $62,400 salary paid biweekly ($2,400 a check), a three-paycheck month delivers $7,200 instead of the usual $4,800. One real exception: in a 27-payday year, salaried workers whose employer keeps dividing by 26 genuinely receive one more check than the salary math assumes.'
+      'It’s not extra income over the year — it’s a timing effect. If you budget your monthly expenses around two paychecks, the third check in a three-paycheck month isn’t needed for regular bills, so it behaves like a bonus: on a $62,400 salary paid biweekly ($2,400 a check), a three-paycheck month delivers $7,200 instead of the usual $4,800. One real exception: in a 27-payday year, salaried workers whose employer keeps dividing by 26 genuinely get one more check than the salary math assumes.'
     ],
     [
       'Do semi-monthly workers get three-paycheck months?',
-      'Never. Semi-monthly pay runs on fixed calendar dates — for example the 1st and the 15th — so every month has exactly two paydays and the year always has exactly 24 paychecks. Three-paycheck months are unique to biweekly (and, in a different form, weekly) schedules, because those cycles are tied to weekdays rather than dates. Our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly vs. semi-monthly comparison</a> shows how the two schedules differ across a full year.'
+      'Never. Semi-monthly pay runs on fixed calendar dates — the 1st and the 15th, for example — so every month has exactly two paydays and the year always has exactly 24 paychecks. Three-paycheck months only happen on biweekly schedules (and, in a different form, weekly ones), because those cycles are tied to weekdays rather than dates. Our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly vs. semi-monthly comparison</a> shows how the two schedules differ across a full year.'
     ],
     [
       'What if my payday is not on Friday?',
-      'The same 14-day logic applies on any weekday — only the months change. For Thursday paydays in 2027: a cycle starting Thursday, January 7 has three-paycheck months in April (1, 15, 29) and September (2, 16, 30); a cycle starting Thursday, January 14 has them in July (1, 15, 29) and December (2, 16, 30). Whatever your payday, take your first January payday and count forward 14 days at a time; any month where three dates land is one of your months.'
+      'The same 14-day logic works on any weekday — only the months change. For Thursday paydays in 2027: a cycle starting Thursday, January 7 has three-paycheck months in April (1, 15, 29) and September (2, 16, 30); a cycle starting Thursday, January 14 has them in July (1, 15, 29) and December (2, 16, 30). Whatever your payday, take your first January payday and count forward 14 days at a time; any month where three dates land is one of your months.'
     ],
     [
       'What should I do with the extra paycheck?',
-      'Treat it as a bonus, because your regular bills are already covered by the usual two checks. A strong order of priorities: first, pay down your highest-interest debt; second, start or top up an emergency fund (one full check is a common first goal); third, pre-fund yearly expenses like car insurance or holiday spending. If your third check lands in December, it can carry the whole holiday season without touching your normal budget — see our <a href="/articles/holiday-pay/">holiday pay guide</a> for the other side of December pay.'
+      'Treat it as a bonus, because your regular bills are already covered by the usual two checks. A good order of priorities: first, pay down your highest-interest debt; second, start or top up an emergency fund (one full check is a common first goal); third, pre-fund yearly expenses like car insurance or holiday spending. If your third check lands in December, it can carry the whole holiday season without touching your normal budget — see our <a href="/articles/holiday-pay/">holiday pay guide</a> for the other side of December pay.'
     ],
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>If your first 2027 payday is Friday, January 1, your three-paycheck months are January, July, and December — with a rare 27th paycheck in the year.</p>
+        <p>If your first 2027 payday falls on Friday, January 1, your three-paycheck months are January, July, and December — and you’ll get a rare 27th paycheck in the year.</p>
       </div>
 
-      <p class="lead">If you are paid biweekly, a few months every year quietly hand you a third paycheck — and 2027 is a special case. Because 2027 has 53 Fridays, one of the two biweekly pay cycles receives a rare <strong>27th paycheck</strong>. Which months are yours depends on a single fact: the date of your first payday in January. If it is Friday, January 1, your three-paycheck months are <strong>January, July, and December</strong>. If it is Friday, January 8, they are <strong>April and October</strong>.</p>
+      <p class="lead">If you’re paid biweekly, a few months every year quietly hand you a third paycheck — and 2027 is a special case. The year has 53 Fridays, so one of the two biweekly pay cycles gets a rare <strong>27th paycheck</strong>. Which months are yours comes down to one thing: the date of your first payday in January. If it’s Friday, January 1, your three-paycheck months are <strong>January, July, and December</strong>. If it’s Friday, January 8, they’re <strong>April and October</strong>.</p>
 
-      <p>As the technical tools architect at Hourly Wage Converter, I verify pay-cycle math like this against the calendar every year, because it drives the calculators and budgeting guides our readers rely on. Below you will find both 2027 cycles written out payday by payday, a three-step method to find your own months on any payday weekday, the honest truth about whether the third check is "extra," and a plan for using it well when it lands.</p>
+      <p>I check pay-cycle math like this against the calendar every year, because it feeds the calculators and budgeting guides we build at Hourly Wage Converter. Below you’ll find both 2027 cycles written out payday by payday, a three-step way to find your own months on any payday weekday, the honest truth about whether the third check is really "extra," and a plan for putting it to good use when it lands.</p>
 
       <!-- Above the Fold Interactive Tool CTA -->
       <div class="article-hero-cta">
         <div class="hero-cta-content">
           <span class="hero-cta-badge">Interactive Paycheck Tool</span>
           <h2 class="hero-cta-title">See What a Third Check Does to Your Month</h2>
-          <p class="hero-cta-desc">Enter your rate and pay schedule to model a normal month against a three-paycheck month.</p>
+          <p class="hero-cta-desc">Enter your rate and pay schedule to compare a normal month against a three-paycheck month.</p>
         </div>
         <a href="/paycheck-calculator/" class="calculate-button hero-cta-btn">Open Free Paycheck Calculator</a>
       </div>
@@ -72,21 +72,21 @@ export const article15 = {
       <!-- Section 1: Short Answer -->
       <h2 id="short-answer">The Short Answer: Your 2027 Three-Paycheck Months</h2>
       <ul>
-        <li><strong>Cycle A — first payday Friday, January 1, 2027:</strong> three paychecks in <strong>January</strong> (1, 15, 29), <strong>July</strong> (2, 16, 30), and <strong>December</strong> (3, 17, 31). Total for the year: <strong>27 paychecks</strong>.</li>
-        <li><strong>Cycle B — first payday Friday, January 8, 2027:</strong> three paychecks in <strong>April</strong> (2, 16, 30) and <strong>October</strong> (1, 15, 29). Total for the year: <strong>26 paychecks</strong>.</li>
-        <li><strong>Why 2027 is unusual:</strong> the year starts and ends on a Friday, giving it 53 Fridays — the alignment one cycle needs for a 27th payday.</li>
-        <li><strong>Not on Fridays?</strong> The same pattern holds on your weekday, with different months (Thursday examples are in the find-yours section below).</li>
-        <li><strong>Semi-monthly pay:</strong> never has a three-paycheck month — always exactly 24 checks a year.</li>
-        <li><strong>The budgeting trick:</strong> build your monthly budget on two checks, and the third check becomes a planned bonus for debt, savings, or yearly bills.</li>
+        <li><strong>Cycle A — first payday Friday, January 1, 2027:</strong> three paychecks in <strong>January</strong> (1, 15, 29), <strong>July</strong> (2, 16, 30), and <strong>December</strong> (3, 17, 31). That’s <strong>27 paychecks</strong> for the year.</li>
+        <li><strong>Cycle B — first payday Friday, January 8, 2027:</strong> three paychecks in <strong>April</strong> (2, 16, 30) and <strong>October</strong> (1, 15, 29). That’s <strong>26 paychecks</strong> for the year.</li>
+        <li><strong>Why 2027 is unusual:</strong> the year starts and ends on a Friday, so it has 53 Fridays — the exact alignment one cycle needs for a 27th payday.</li>
+        <li><strong>Not paid on Fridays?</strong> The same pattern holds on your weekday, just in different months (Thursday examples are in the find-yours section below).</li>
+        <li><strong>Semi-monthly pay:</strong> never has a three-paycheck month — it’s always exactly 24 checks a year.</li>
+        <li><strong>The budgeting trick:</strong> build your monthly budget around two checks, and the third check turns into a planned bonus for debt, savings, or yearly bills.</li>
       </ul>
 
       <img src="/assets/images/ui-three-paycheck-cycles.webp" alt="Infographic: three-paycheck months in 2027 — the pay cycle starting January 1 has January, July, and December highlighted; the cycle starting January 8 has April and October highlighted" width="800" height="450" loading="lazy">
 
       <!-- Section 2: Why It Happens -->
       <h2 id="why-it-happens">Why Three-Paycheck Months Happen</h2>
-      <p>A biweekly schedule pays every 14 days, which produces 26 pay periods in a standard year. A calendar month, though, averages about 30.4 days — long enough to hold two paydays comfortably, and just long enough that when the first payday falls in the month's first couple of days, a third payday squeezes in at the end: the 1st, the 15th, and the 29th, for example. Since 26 paychecks cannot divide evenly into 12 months of two (that accounts for only 24), every biweekly worker gets at least two of these months in a normal year.</p>
-      <p>The 27th paycheck is rarer. A year has 365 days, and 26 biweekly periods cover only 364 of them — leaving one spare day (two in a leap year). When those spare days align so that a payday falls on both the first and the last day of the year, the cycle fits 27 paydays into the year. That is exactly 2027 for Cycle A: payday on Friday, January 1 and again on Friday, December 31, with 53 Fridays in between. Employers handle this differently — many keep dividing an annual salary by 26 (so each check is unchanged and the 27th is a genuine extra), while others divide by 27 in such a year (slightly smaller checks, same annual total). It is worth one question to your payroll department in January.</p>
-      <p>One more wrinkle: January 1 is a bank holiday. Many Cycle A employers pay that first check a day early, on December 31, 2026. If yours does, your paydays inside 2027 effectively start on January 15 — giving you 26 checks in 2027 with three-paycheck months in <strong>July and December</strong> only, and your "27th" check simply arrived a day early, in the old year.</p>
+      <p>A biweekly schedule pays every 14 days, which adds up to 26 pay periods in a normal year. A calendar month, though, averages about 30.4 days — long enough to hold two paydays easily, and just long enough that when the first payday lands in the first day or two of the month, a third one squeezes in at the end: the 1st, the 15th, and the 29th, for example. Since 26 paychecks can’t split evenly into 12 months of two (that only accounts for 24), every biweekly worker gets at least two of these months in a normal year.</p>
+      <p>The 27th paycheck is rarer. A year has 365 days, and 26 biweekly periods cover only 364 of them — leaving one spare day (two in a leap year). When those spare days line up so a payday falls on both the first and the last day of the year, the cycle fits 27 paydays in. That’s exactly what happens in 2027 for Cycle A: payday on Friday, January 1 and again on Friday, December 31, with 53 Fridays in between. Employers handle this differently — plenty keep dividing an annual salary by 26 (so each check stays the same and the 27th is a genuine extra), while others divide by 27 in a year like this (slightly smaller checks, same annual total). Worth one question to your payroll department in January.</p>
+      <p>One more wrinkle: January 1 is a bank holiday. Plenty of Cycle A employers pay that first check a day early, on December 31, 2026. If yours does, your paydays inside 2027 effectively start on January 15 — which leaves you with 26 checks in 2027 and three-paycheck months in <strong>July and December</strong> only. Your "27th" check didn’t vanish; it just arrived a day early, in the old year.</p>
 
       <!-- Section 3: The Dates -->
       <figure>
@@ -94,7 +94,7 @@ export const article15 = {
   <figcaption>Most months bring two biweekly paychecks — some months bring three.</figcaption>
 </figure>
 <h2 id="the-dates">The 2027 Dates: Both Biweekly Cycles in Full</h2>
-      <p>Every 2027 payday for both Friday cycles, verified against the calendar. Three-paycheck months are marked in bold.</p>
+      <p>Here are every 2027 payday for both Friday cycles, checked against the calendar. Three-paycheck months are marked in bold.</p>
 
       <div class="table-wrap" style="margin:20px 0">
         <table class="pay-table">
@@ -123,28 +123,28 @@ export const article15 = {
         </table>
       </div>
 
-      <p>If your employer's paydays shift a day early whenever a payday meets a bank holiday, individual dates in your own calendar may move by one day — the months themselves almost never change.</p>
+      <p>If your employer’s paydays shift a day early whenever a payday meets a bank holiday, individual dates on your own calendar might move by a day — the months themselves almost never change.</p>
 
       <!-- Section 4: Find Yours -->
       <h2 id="find-yours">How to Find Your Own Three-Paycheck Months</h2>
-      <p>You do not need the Friday tables if your payday is a different weekday. The method works for any biweekly schedule:</p>
+      <p>You don’t need the Friday tables if your payday falls on a different weekday. This method works for any biweekly schedule:</p>
       <ul>
-        <li><strong>Step 1:</strong> Find your <strong>first payday in January 2027</strong> on a pay stub or your payroll app. That date anchors your cycle.</li>
-        <li><strong>Step 2:</strong> Add 14 days at a time through the year, listing every payday. (A calendar app with a two-week repeat does this in seconds.)</li>
-        <li><strong>Step 3:</strong> Mark any month where three dates land — those are your three-paycheck months, and your total count tells you whether you have a 26- or 27-paycheck year.</li>
+        <li><strong>Step 1:</strong> Find your <strong>first payday in January 2027</strong> on a pay stub or your payroll app. That date anchors your whole cycle.</li>
+        <li><strong>Step 2:</strong> Count forward 14 days at a time through the year and list every payday. (A calendar app with a two-week repeat does this in seconds.)</li>
+        <li><strong>Step 3:</strong> Mark any month where three dates land — those are your three-paycheck months, and your total count tells you whether you’re on a 26- or 27-paycheck year.</li>
       </ul>
-      <p>Worked example for Thursday paydays: a cycle starting Thursday, January 7 lands three paychecks in <strong>April</strong> (1, 15, 29) and <strong>September</strong> (2, 16, 30). A cycle starting Thursday, January 14 lands them in <strong>July</strong> (1, 15, 29) and <strong>December</strong> (2, 16, 30). Same arithmetic, different anchor — which is why generic "three-paycheck month" lists are useless until you match them to your own first payday.</p>
+      <p>Here’s a worked example for Thursday paydays: a cycle starting Thursday, January 7 lands three paychecks in <strong>April</strong> (1, 15, 29) and <strong>September</strong> (2, 16, 30). A cycle starting Thursday, January 14 lands them in <strong>July</strong> (1, 15, 29) and <strong>December</strong> (2, 16, 30). Same math, different starting point — which is why generic "three-paycheck month" lists are useless until you match them to your own first payday.</p>
 
       <!-- Section 5: Weekly & Semi-Monthly -->
       <h2 id="weekly-semimonthly">Weekly or Semi-Monthly Pay? Your Version of the Bonus Month</h2>
-      <p><strong>Weekly pay</strong> (52 checks a year) has its own version: the five-paycheck month. A month holds five of your paydays whenever it contains five of your weekday — for Friday-paid weekly workers in 2027, those months are <strong>January, April, July, October, and December</strong>, because 2027 has 53 Fridays. Budget on four checks a month and the fifth plays the same bonus role as a biweekly worker's third check.</p>
-      <p><strong>Semi-monthly pay</strong> — twice a month on fixed dates such as the 1st and 15th — never produces a bonus month: 24 checks, two in every month, perfectly even. The trade-off is that each semi-monthly check is larger. If you are weighing an offer on one schedule against a job on the other, our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly vs. semi-monthly guide</a> models both on the same $60,000 salary so you can compare cash flow month by month.</p>
+      <p><strong>Weekly pay</strong> (52 checks a year) has its own version: the five-paycheck month. A month holds five of your paydays whenever it has five of your weekday — for Friday-paid weekly workers in 2027, those months are <strong>January, April, July, October, and December</strong>, because 2027 has 53 Fridays. Budget on four checks a month and the fifth plays the same bonus role as a biweekly worker’s third check.</p>
+      <p><strong>Semi-monthly pay</strong> — twice a month on fixed dates such as the 1st and 15th — never produces a bonus month: 24 checks, two in every month, perfectly even. The trade-off is that each semi-monthly check is bigger. If you’re weighing an offer on one schedule against a job on the other, our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly vs. semi-monthly guide</a> models both on the same $60,000 salary so you can compare cash flow month by month.</p>
 
       <!-- Section 6: Really Extra -->
       <h2 id="really-extra">Is the Third Paycheck Really Extra Money?</h2>
-      <p>Honest answer: it is extra <em>cash flow</em>, not extra income — with one exception. Your annual pay does not change because three paydays shared a month. What changes is the match between income and your budget. Most monthly budgets are built, explicitly or not, around two biweekly checks: rent or mortgage, utilities, groceries, and minimum payments all fit inside two checks. When a third check arrives in the same month, none of those bills grow to meet it — so the money is genuinely unassigned.</p>
-      <p>The numbers on a real salary: at $62,400 a year paid biweekly, each gross check is $62,400 ÷ 26 = <strong>$2,400</strong>. A normal month delivers two checks, $4,800. A three-paycheck month delivers <strong>$7,200</strong> — an extra $2,400 against the same monthly bills. Hourly workers see the same effect at their scale: at $20 an hour for 80-hour periods, the check is $1,600 whether it is the second or the third of the month; the month simply contains one more of them. (To see any rate as an annual figure, run it through the <a href="/hourly-to-salary-calculator/">hourly to salary calculator</a>.)</p>
-      <p>The exception is Cycle A in 2027: if your employer divides your salary by 26 as usual, the 27th check is not offset anywhere else — it really is one more check than the standard math assumes, which is why some employers switch to dividing by 27 in a 27-payday year. Either way, the budgeting strategy below works: money your monthly plan does not need is money you can aim.</p>
+      <p>Honest answer: it’s extra <em>cash flow</em>, not extra income — with one exception. Your annual pay doesn’t change just because three paydays shared a month. What changes is how your income lines up with your budget. Most monthly budgets are built, whether you planned it or not, around two biweekly checks: rent or mortgage, utilities, groceries, and minimum payments all fit inside two checks. When a third check shows up in the same month, none of those bills grow to meet it — so the money is genuinely unassigned.</p>
+      <p>Here’s what it looks like on a real salary: at $62,400 a year paid biweekly, each gross check is $62,400 ÷ 26 = <strong>$2,400</strong>. A normal month brings two checks, $4,800. A three-paycheck month brings <strong>$7,200</strong> — an extra $2,400 against the same monthly bills. Hourly workers see the same thing at their scale: at $20 an hour for 80-hour periods, the check is $1,600 whether it’s the second or the third of the month; the month just holds one more of them. (To see any rate as an annual figure, run it through the <a href="/hourly-to-salary-calculator/">hourly to salary calculator</a>.)</p>
+      <p>The exception is Cycle A in 2027: if your employer divides your salary by 26 as usual, the 27th check isn’t offset anywhere else — it really is one more check than the standard math assumes. That’s why some employers switch to dividing by 27 in a 27-payday year. Either way, the plan below still works: money your monthly budget doesn’t need is money you can point somewhere useful.</p>
 
       <!-- Section 7: Best Uses -->
       <h2 id="best-uses">The Smartest Ways to Use the Extra Check</h2>
@@ -152,38 +152,38 @@ export const article15 = {
       <img src="/assets/images/ui-three-paycheck-uses.webp" alt="Infographic: three smart uses for the third paycheck — pay down debt, build an emergency fund, and cover yearly bills like insurance" width="800" height="450" loading="lazy">
 
       <ul>
-        <li><strong>Attack the most expensive debt first.</strong> A single extra check aimed at a high-interest credit card balance saves interest every month afterward — the one use whose return is guaranteed and compounds in your favor.</li>
-        <li><strong>Start (or finish) a starter emergency fund.</strong> One full paycheck is the classic first milestone. Two three-paycheck months a year can build it without touching your normal budget.</li>
-        <li><strong>Pre-fund the bills that ambush you yearly.</strong> Car insurance premiums, annual subscriptions, property tax, back-to-school, and holiday spending all arrive on a yearly rhythm — exactly the rhythm of your bonus checks. December's third check, in particular, can carry the entire holiday season (and knowing how <a href="/articles/holiday-pay/">holiday pay</a> works may add a premium on top).</li>
-        <li><strong>Decide before it lands.</strong> An unassigned check tends to evaporate into small spending. Pick the target when you read this, set the transfer for payday morning, and let the normal two-check budget run untouched.</li>
+        <li><strong>Attack the most expensive debt first.</strong> One extra check aimed at a high-interest credit card balance saves interest every month after — the one use whose payoff is guaranteed and keeps working in your favor.</li>
+        <li><strong>Start (or finish) a starter emergency fund.</strong> One full paycheck is the classic first milestone, and two three-paycheck months a year can build it without touching your normal budget.</li>
+        <li><strong>Pre-fund the bills that ambush you every year.</strong> Car insurance premiums, annual subscriptions, property tax, back-to-school, and holiday spending all show up on a yearly rhythm — the same rhythm as your bonus checks. December’s third check, in particular, can carry the whole holiday season (and knowing how <a href="/articles/holiday-pay/">holiday pay</a> works may add a premium on top).</li>
+        <li><strong>Decide before it lands.</strong> A check with no plan tends to melt away into small spending. Pick the target now, set the transfer for payday morning, and let your normal two-check budget run untouched.</li>
       </ul>
-      <p>A simple sample split for a $2,400 third check: $1,200 to the credit card, $800 to the emergency fund, $400 to a sinking fund for annual bills. Adjust the proportions to your most expensive problem — the structure matters more than the exact numbers.</p>
+      <p>A simple sample split for a $2,400 third check: $1,200 to the credit card, $800 to the emergency fund, $400 to a sinking fund for annual bills. Shift the proportions toward your most expensive problem — the structure matters more than the exact numbers.</p>
 
       <!-- Section: How to Use the Calculator -->
       <h2 id="how-to-use">How to Use the Calculator</h2>
-      <p>Put a dollar figure on your bonus month in four steps:</p>
+      <p>Here’s how to put a dollar figure on your bonus month in four steps:</p>
       <ol>
-        <li><strong>Step 1 — Enter your hourly rate and hours per period</strong> (the $20 rate and 80 hours from this guide, or your own) into the paycheck calculator, with biweekly frequency selected.</li>
-        <li><strong>Step 2 — Read your per-check gross:</strong> $1,600 at $20 an hour; on the $62,400 salary used above, each biweekly check is $2,400.</li>
+        <li><strong>Step 1 — Put your hourly rate and hours per period</strong> (the $20 rate and 80 hours from this guide, or your own) into the paycheck calculator, with biweekly frequency selected.</li>
+        <li><strong>Step 2 — Check your per-check gross:</strong> $1,600 at $20 an hour; on the $62,400 salary used above, each biweekly check is $2,400.</li>
         <li><strong>Step 3 — Multiply by the month:</strong> two paydays make a normal month ($4,800 on the salary example); three paydays make $7,200 — the difference is your bonus-check money.</li>
-        <li><strong>Step 4 — Match it to your cycle:</strong> use the dates table above to find which of your months carry the third check, and plan that amount's job before it lands.</li>
+        <li><strong>Step 4 — Match it to your cycle:</strong> use the dates table above to find which of your months carry the third check, and decide what that money’s job is before it lands.</li>
       </ol>
       <p><a class="btn" href="/paycheck-calculator/">Run my numbers</a></p>
 
       <!-- Section: Limitations -->
       <h2 id="limitations">Limitations</h2>
       <ol>
-        <li><strong>Your anchor payday decides everything:</strong> the dates in this guide cover the two Friday biweekly cycles in detail; a different payday weekday or a different first January payday produces different months.</li>
-        <li><strong>Bank holidays move real paydays:</strong> employers often pay a day early when payday hits a holiday — for Cycle A, that can pull the January 1, 2027 check into December 2026 and change your in-year count.</li>
-        <li><strong>A 27-paycheck year may not pay extra:</strong> some employers divide an annual salary by 27 instead of 26 in such a year, making every check slightly smaller and the annual total unchanged — ask payroll which method yours uses.</li>
-        <li><strong>Other schedules play by different rules:</strong> semi-monthly pay never has a bonus month, and weekly pay gets five-paycheck months instead — this guide's dates do not transfer to those schedules.</li>
-        <li><strong>The third check is a timing effect, not a raise:</strong> over the full year your pay is the same — it only feels extra because a two-check monthly budget leaves it unassigned.</li>
-        <li><strong>Figures are gross:</strong> the check amounts here are before taxes and deductions, so the take-home value of a third check is smaller than the headline gross figure.</li>
+        <li><strong>Your anchor payday decides everything:</strong> the dates in this guide cover the two Friday biweekly cycles in detail; a different payday weekday, or a different first January payday, gives you different months.</li>
+        <li><strong>Bank holidays move real paydays:</strong> employers often pay a day early when payday hits a holiday — for Cycle A, that can pull the January 1, 2027 check back into December 2026 and change your in-year count.</li>
+        <li><strong>A 27-paycheck year may not pay extra:</strong> some employers divide an annual salary by 27 instead of 26 in a year like this, making every check slightly smaller and leaving the annual total unchanged — ask payroll which method yours uses.</li>
+        <li><strong>Other schedules play by different rules:</strong> semi-monthly pay never has a bonus month, and weekly pay gets five-paycheck months instead — this guide’s dates don’t transfer to those schedules.</li>
+        <li><strong>The third check is a timing effect, not a raise:</strong> over the full year your pay is the same — it only feels like a bonus because a two-check monthly budget leaves it unassigned.</li>
+        <li><strong>Figures are gross:</strong> the check amounts here are before taxes and deductions, so the take-home value of a third check is smaller than the headline number.</li>
       </ol>
 
       <!-- Section 8: FAQs -->
       <h2 id="faqs">Frequently Asked Questions About Three-Paycheck Months</h2>
-      <p>Answers to the six questions readers ask most are collected here; each also appears in the page’s structured data.</p>
+      <p>Here are the six questions readers ask us most — each one also appears in the page’s structured data.</p>
 
       <!-- Section 9: Key Takeaways -->
       <h2 id="key-takeaways">Key Takeaways &amp; Action Plan</h2>
@@ -191,15 +191,15 @@ export const article15 = {
         <ul>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Find your anchor:</strong> your first January payday decides everything — January 1 cycle: Jan, Jul, Dec (27 checks); January 8 cycle: Apr, Oct (26 checks).</span>
+            <span><strong>Find your anchor:</strong> your first payday in January decides everything — January 1 cycle: Jan, Jul, Dec (27 checks); January 8 cycle: Apr, Oct (26 checks).</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"/><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>2027 is rare:</strong> 53 Fridays give one cycle a 27th paycheck — ask payroll whether your salary is divided by 26 or 27 this year.</span>
+            <span><strong>2027 is rare:</strong> 53 Fridays give one cycle a 27th paycheck — ask payroll whether your salary gets divided by 26 or 27 this year.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"/><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>It is a bonus by design:</strong> your budget runs on two checks, so aim the third — on a $62,400 salary that is $2,400 of unassigned money, twice (or three times) in 2027.</span>
+            <span><strong>It’s a bonus by design:</strong> your budget runs on two checks, so aim the third — on a $62,400 salary that’s $2,400 of unassigned money, twice (or three times) in 2027.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"/><path d="m5 12 4 4L19 6"/></svg>
@@ -207,7 +207,7 @@ export const article15 = {
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"/><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Plan it now:</strong> pick each bonus check's job — debt, emergency fund, yearly bills — before payday, and automate the transfer for that morning.</span>
+            <span><strong>Plan it now:</strong> pick each bonus check’s job — debt, emergency fund, yearly bills — before payday, and set the transfer to go out that morning.</span>
           </li>
         </ul>
       </div>
@@ -216,7 +216,7 @@ export const article15 = {
         <div class="hero-cta-content">
           <span class="hero-cta-badge">Interactive Salary Tool</span>
           <h2 class="hero-cta-title">Turn Your Paydays Into a Yearly Number</h2>
-          <p class="hero-cta-desc">Convert your hourly rate to its full annual salary and see what 26 — or 27 — paychecks really add up to.</p>
+          <p class="hero-cta-desc">Turn your hourly rate into its full annual salary and see what 26 — or 27 — paychecks really add up to.</p>
         </div>
         <a href="/hourly-to-salary-calculator/" class="calculate-button hero-cta-btn">Open Free Salary Calculator</a>
       </div>
@@ -224,13 +224,13 @@ export const article15 = {
       <!-- Calculation Methodology Box (E-E-A-T Transparency) -->
       <div class="methodology-box">
         <h3>Calculation Methodology &amp; Sources</h3>
-        <p>All 2027 payday dates were computed by stepping 14 days at a time from the two anchor paydays (Friday, January 1 and Friday, January 8, 2027) and cross-checked against the 2027 calendar, which contains 53 Fridays; Thursday examples were computed the same way from January 7 and January 14 anchors. Money examples use gross pay before taxes and deductions: $62,400 ÷ 26 = $2,400 per biweekly check; $20 × 80 hours = $1,600. Employer practices for 27-payday years (dividing salary by 26 vs. 27, and paying a day early when a payday falls on a bank holiday) vary — confirm yours with payroll. This article is general education, not financial advice. To model your own schedule, use our <a href="/paycheck-calculator/">Paycheck Calculator</a> or browse the <a href="/calculators/">Calculator Directory</a>.</p>
+        <p>We worked out all the 2027 payday dates by stepping 14 days at a time from the two anchor paydays (Friday, January 1 and Friday, January 8, 2027) and checked them against the 2027 calendar, which has 53 Fridays; the Thursday examples were worked out the same way from January 7 and January 14 anchors. Money examples use gross pay before taxes and deductions: $62,400 ÷ 26 = $2,400 per biweekly check; $20 × 80 hours = $1,600. Employer practices in 27-payday years (dividing salary by 26 vs. 27, and paying a day early when a payday falls on a bank holiday) vary — check yours with payroll. This article is general education, not financial advice. To model your own schedule, use our <a href="/paycheck-calculator/">Paycheck Calculator</a> or browse the <a href="/calculators/">Calculator Directory</a>.</p>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
         <li>Cycle A (first payday Friday, January 1, 2027): three paychecks in January (1, 15, 29), July (2, 16, 30), and December (3, 17, 31).</li>
         <li>Cycle B (first payday Friday, January 8, 2027): three paychecks in April (2, 16, 30) and October (1, 15, 29), with the usual 26 paychecks.</li>
-        <li>2027 is unusual because it starts and ends on a Friday, giving it 53 Fridays — the alignment one cycle needs for a 27th payday.</li>
+        <li>2027 is unusual because it starts and ends on a Friday, so it has 53 Fridays — the alignment one cycle needs for a 27th payday.</li>
       </ol>
   `
 };
