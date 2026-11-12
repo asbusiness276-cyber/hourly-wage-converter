@@ -34,56 +34,56 @@ export const article5 = {
   faqs: [
     [
       'How much is $23 an hour a year?',
-      'At a standard full-time schedule of 40 hours per week for 52 paid weeks (2,080 working hours), $23 an hour equals an estimated gross annual salary of $47,840 before taxes and deductions. If you take 2 weeks of unpaid vacation (50 paid weeks), your gross annual pay drops to $46,000.'
+      'Work full-time, 40 hours a week for 52 paid weeks (2,080 hours), and $23 an hour comes to $47,840 a year gross, before taxes and deductions. Take 2 weeks of unpaid vacation (50 paid weeks) and it drops to $46,000.'
     ],
     [
       'How much is $23 an hour per month?',
-      'At 40 hours per week, $23 an hour averages $3,986.67 per month before taxes ($47,840 divided by 12 months). A common calculation mistake is multiplying weekly pay ($920) by 4 to get $3,680, which undercounts your annual pay by $3,680 across the year because calendar months average 4.33 weeks.'
+      'At 40 hours a week, $23 an hour averages $3,986.67 a month before taxes ($47,840 divided by 12). A common slip is multiplying your $920 weekly pay by 4 to get $3,680. That undercounts your year by $3,680, because calendar months average 4.33 weeks, not 4.'
     ],
     [
       'How much is $23 an hour on a biweekly paycheck?',
-      'On a standard biweekly pay schedule (every two weeks, 26 pay periods per year), earning $23 an hour yields a gross paycheck of $1,840.00 for 80 regular hours worked ($23 × 80). After 2026 federal income tax and mandatory FICA withholdings (7.65%), a single filer taking the standard deduction in a state with no income tax takes home approximately $1,562 per paycheck.'
+      'On a biweekly schedule (every two weeks, 26 paychecks a year), $23 an hour pays $1,840.00 gross for 80 hours ($23 × 80). After 2026 federal income tax and FICA (7.65%), a single filer taking the standard deduction in a state with no income tax takes home about $1,562 per paycheck.'
     ],
     [
       'How much is $23 an hour after taxes?',
-      'For a single filer claiming the 2026 standard deduction ($16,100), federal income tax is $3,560.80 and FICA taxes (Social Security and Medicare) total $3,659.76. In states with no income tax (such as Texas or Florida), annual take-home pay is approximately $40,619.44 (~$3,385/month). In states with moderate income taxes (~4.5%), take-home pay is approximately $38,466 (~$3,205/month). In higher-tax states (~6%), net pay is roughly $37,749 (~$3,146/month).'
+      'For a single filer taking the 2026 standard deduction ($16,100), federal income tax is $3,560.80 and FICA (Social Security and Medicare) is $3,659.76. In states with no income tax, like Texas or Florida, take-home pay is about $40,619.44 a year (~$3,385/month). In states with moderate income tax (~4.5%), it\'s about $38,466 (~$3,205/month). In higher-tax states (~6%), it\'s roughly $37,749 (~$3,146/month).'
     ],
     [
       'What is the overtime rate for $23 an hour?',
-      'Under the Fair Labor Standards Act (FLSA), time-and-a-half overtime is 1.5 times your regular base wage. For $23 an hour, your overtime rate is $34.50 per hour ($23 × 1.5). Working 5 hours of overtime per week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross annual pay to $56,810.00.'
+      'Under the Fair Labor Standards Act (FLSA), time-and-a-half is 1.5 times your regular rate. At $23 an hour, your overtime rate is $34.50 ($23 × 1.5). Five hours of overtime a week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross pay to $56,810.00 a year.'
     ],
     [
       'How much is $23 an hour working part-time?',
-      'It depends on your weekly hours, using the same $23 rate: at 20 hours a week you earn $460 per week, or $23,920 a year (52 weeks); at 25 hours, $575 per week or $29,900 a year; at 30 hours, $690 per week or $35,880 a year; and at 35 hours, $805 per week or $41,860 a year. These are gross figures before taxes — part-time schedules can also mean fewer paid hours toward benefits that full-time roles often include, so compare the full offer, not just the hourly rate.'
+      'It depends on your hours, at the same $23 rate. At 20 hours a week you earn $460 a week, or $23,920 a year (52 weeks). At 25 hours, it\'s $575 a week or $29,900 a year. At 30 hours, $690 a week or $35,880 a year. At 35 hours, $805 a week or $41,860 a year. Those are gross figures before taxes. Part-time roles can also come with fewer benefits than full-time ones, so compare the whole offer, not just the hourly rate.'
     ]
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>$23 an hour is $47,840 a year gross on a standard full-time schedule — $920 a week and $3,986.67 a month before taxes.</p>
+        <p>$23 an hour is $47,840 a year gross on a standard full-time schedule. That's $920 a week and $3,986.67 a month before taxes.</p>
       </div>
 
-      <p class="lead">Evaluating a job offer at <strong>$23.00 an hour</strong> often triggers an immediate financial calculation: <em>What does this rate actually translate to over an entire year, what lands in your bank account on payday, and can you comfortably afford your living expenses on this income?</em> Earning $23 an hour is more than three times the <a href="/articles/minimum-wage-by-state/">federal minimum wage</a>, placing your gross earnings at $47,840 a year — within arm’s reach of $50,000. But translating that hourly figure into a sustainable household budget requires looking past the top-line number.</p>
+      <p class="lead">Got a job offer at <strong>$23.00 an hour</strong>? The first questions are obvious: <em>what does that add up to over a year, what actually lands in your bank account, and can you live on it?</em> At $23 an hour you're earning more than three times the <a href="/articles/minimum-wage-by-state/">federal minimum wage</a>, and your gross pay hits $47,840 a year, close to $50,000. But the headline number isn't the whole story. What you take home, and what it covers, is what matters.</p>
 
-      <p>When engineering compensation tools at Hourly Wage Converter, one of the most frequent patterns we see among hourly earners is confusion between gross potential and actual take-home cash flow. Schedule variations, unpaid holiday shutdowns, mandatory payroll taxes, and local housing prices create very different realities for workers earning the exact same $23 rate. A full-time employee with comprehensive paid time off lives a noticeably different financial life than a contract worker taking unpaid time between assignments.</p>
+      <p>Building pay tools here, the mix-up we see most is gross pay versus take-home pay. Schedules, unpaid holidays, payroll taxes, and local rent can make the same $23 rate feel very different from one person to the next. A full-time worker with paid time off lives a different financial life than a contractor taking unpaid weeks between jobs.</p>
 
-      <p>In this guide, we walk through the exact mathematical conversions for $23 an hour across every standard pay period, examine the financial impact of unpaid leave and overtime, break down 2026 federal and state tax withholdings, and build a realistic, field-tested monthly budget designed specifically for a $47,840 annual income.</p>
+      <p>This guide runs the numbers for $23 an hour across every pay period, shows what unpaid leave and overtime do to your year, breaks down 2026 federal and state taxes, and builds a realistic monthly budget for a $47,840 income.</p>
 
       <!-- Above the Fold Interactive Tool CTA -->
       <div class="article-hero-cta">
         <div class="hero-cta-content">
           <span class="hero-cta-badge">Interactive Wage Utility</span>
           <h2 class="hero-cta-title">Calculate Your Exact $23/Hour Pay</h2>
-          <p class="hero-cta-desc">Test custom schedules, model unpaid leave, and see your exact gross pay across all seven pay cycles with our free converter.</p>
+          <p class="hero-cta-desc">Try your own schedule, factor in unpaid leave, and see your gross pay across all seven pay cycles with our free converter.</p>
         </div>
         <a href="/?amount=23" class="calculate-button hero-cta-btn">Calculate $23 an Hour Pay</a>
       </div>
 
       <!-- Section 1: Quick Answer -->
       <h2 id="quick-answer">$23 an Hour at a Glance: The Quick Answer</h2>
-      <p>Assuming a standard full-time schedule of <strong>40 hours per week</strong> across all <strong>52 weeks of the year</strong> (2,080 annual working hours), <strong>$23 an hour equals $47,840.00 per year</strong> in gross compensation before taxes and voluntary benefit deductions.</p>
+      <p>On a standard full-time schedule, <strong>40 hours per week</strong> for all <strong>52 weeks of the year</strong> (2,080 working hours), <strong>$23 an hour equals $47,840.00 per year</strong> gross, before taxes and benefit deductions.</p>
 
-      <p>Here is how that $47,840 annual baseline translates into common payroll frequencies before withholdings are applied:</p>
+      <p>Here's what that $47,840 looks like at the usual pay frequencies, before anything is withheld:</p>
 
       <div class="cards-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0">
         <div class="card" style="padding:20px;border:1px solid var(--border-color);border-radius:12px;background:#fff;text-align:center">
@@ -113,17 +113,17 @@ export const article5 = {
 
       <!-- Section 2: National Context -->
       <h2 id="national-context">Where Does $23 an Hour Put You in the US Workforce?</h2>
-      <p>Data from the U.S. Bureau of Labor Statistics (BLS) and the U.S. Census Bureau indicates that the national median individual wage for full-time workers ranges between $48,000 and $50,000 annually. At <strong>$47,840 per year</strong>, earning $23 an hour places you directly at the center of the American workforce.</p>
+      <p>The U.S. Bureau of Labor Statistics (BLS) and the U.S. Census Bureau put the national median wage for full-time workers somewhere between $48,000 and $50,000 a year. At <strong>$47,840 per year</strong>, $23 an hour puts you right in the middle of the American workforce.</p>
 
-      <p>Because compensation is relative to regional living costs, the purchasing power of $23 an hour varies across the country:</p>
+      <p>What $23 an hour buys depends a lot on where you live:</p>
       <ul>
-        <li><strong>Low-to-Mid Cost of Living Areas (e.g., Indiana, Ohio, Missouri, Oklahoma):</strong> An annual gross of $47,840 provides a reliable, self-sufficient standard of living. A single individual can comfortably rent an apartment, maintain transportation, cover groceries, and steadily contribute to emergency savings.</li>
-        <li><strong>High Cost of Living Metros (e.g., Los Angeles, Seattle, Boston, New York City):</strong> Housing costs place significant upward pressure on a $47,840 salary. In these regions, sharing living costs with a roommate or partner is often necessary to avoid allocating more than 40% of income to rent.</li>
+        <li><strong>Low-to-Mid Cost of Living Areas (e.g., Indiana, Ohio, Missouri, Oklahoma):</strong> $47,840 a year goes a long way here. One person can rent an apartment, keep a car on the road, cover groceries, and still put money into emergency savings.</li>
+        <li><strong>High Cost of Living Metros (e.g., Los Angeles, Seattle, Boston, New York City):</strong> Housing eats into a $47,840 salary fast. In these cities, splitting rent with a roommate or partner is often the only way to keep housing under 40% of your income.</li>
       </ul>
 
       <!-- Section 3: Exact Math Breakdown -->
       <h2 id="pay-period-breakdown">The Exact Math: How $23 an Hour Converts Across Every Pay Period</h2>
-      <p>Payroll administrators use standardized working divisors to translate hourly wages into consistent paychecks. The 40-hour workweek across 52 calendar weeks yields the standard North American baseline of <strong>2,080 annual scheduled hours</strong>.</p>
+      <p>Payroll works off a standard baseline: a 40-hour week across 52 weeks gives you <strong>2,080 scheduled hours a year</strong>.</p>
 
       <div class="formula-card">
         <div class="formula">Annual Gross = Hourly Wage × Weekly Hours × Paid Weeks</div>
@@ -195,13 +195,13 @@ export const article5 = {
 
       <figure><img src="/assets/images/ui-card-23hr-annual-breakdown.webp" alt="3D financial desk graphic showing gross annual salary of $47,840 compared to net take-home pay for $23 an hour" width="800" height="450" loading="lazy"><figcaption>Gross annual salary ($47,840) versus estimated net take-home pay (~$40,619) for $23/hr full-time employment.</figcaption></figure>
 
-      <p>To see how this wage compares to neighboring pay grades, explore our comprehensive breakdown on <a href="/hourly/25-an-hour/">$25 an hour</a> and <a href="/hourly/20-an-hour/">$20 an hour</a> — or read the full <a href="/articles/how-much-is-20-an-hour-a-year/">guide to what $20 an hour pays in a year</a> for the budget math three dollars down.</p>
+      <p>To see how nearby rates compare, check our breakdowns of <a href="/hourly/25-an-hour/">$25 an hour</a> and <a href="/hourly/20-an-hour/">$20 an hour</a>, or read the full <a href="/articles/how-much-is-20-an-hour-a-year/">guide to what $20 an hour pays in a year</a> for the budget math three dollars down.</p>
 
       <!-- Section 4: Unpaid Time Off -->
       <h2 id="unpaid-time-off">How Unpaid Time Off Changes Your Annual Earnings</h2>
-      <p>The standard $47,840 calculation assumes 52 fully paid weeks. If your position includes employer-sponsored Paid Time Off (PTO), paid vacation, and paid federal holidays, you receive compensation for all 52 weeks regardless of days off. Your gross salary remains unchanged at $47,840.</p>
+      <p>The $47,840 figure assumes 52 fully paid weeks. If your job includes paid time off (PTO), paid vacation, and paid federal holidays, you get paid for all 52 weeks no matter which days you take off. Your gross pay stays at $47,840.</p>
 
-      <p>However, if your employer does not provide paid leave, or if you take unpaid time away from work for travel, personal obligations, or temporary shutdowns, each unpaid week directly reduces your annual income by 40 hours of wages ($920.00 gross):</p>
+      <p>But if your employer doesn't offer paid leave, or you take unpaid time off for travel, personal reasons, or a shutdown, every unpaid week cuts your annual pay by 40 hours of wages ($920.00 gross):</p>
 
       <div class="calendar-compare-grid">
         <div class="calendar-compare-card">
@@ -218,18 +218,18 @@ export const article5 = {
         </div>
       </div>
 
-      <p>Taking just two unpaid weeks drops your paid annual hours to 2,000, bringing gross earnings down to <strong>$46,000.00</strong>. If your schedule involves 4 weeks of unpaid leave, your gross annual pay drops to <strong>$44,160.00</strong>. When evaluating job offers that lack PTO, always adjust your annual expectations accordingly.</p>
+      <p>Just two unpaid weeks drops your paid hours to 2,000 a year and your gross pay to <strong>$46,000.00</strong>. Four weeks of unpaid leave takes it down to <strong>$44,160.00</strong>. So when a job offer has no PTO, factor that into the yearly number before you compare it to anything else.</p>
 
       <!-- Section 5: Overtime Impact -->
       <h2 id="overtime-impact">Overtime Math: Pushing $23/Hour Past $56,000 to $65,000</h2>
-      <p>Under the Fair Labor Standards Act (FLSA), non-exempt employees who work more than 40 hours in a given workweek must receive overtime pay at a minimum rate of <strong>1.5 times their regular hourly rate (time-and-a-half)</strong>.</p>
+      <p>Under the Fair Labor Standards Act (FLSA), non-exempt employees who work more than 40 hours in a week must get overtime pay of at least <strong>1.5 times their regular rate (time-and-a-half)</strong>.</p>
 
       <div class="formula-card">
         <div class="formula">Overtime Hourly Rate = Base Wage × 1.5 = $23.00 × 1.5 = $34.50 / hour</div>
         <p class="example">Every hour worked past 40 adds $34.50 straight to your gross paycheck.</p>
       </div>
 
-      <p>Because overtime is compensated at $34.50 per hour, logging regular extra hours substantially expands your annual earning power:</p>
+      <p>At $34.50 an hour, regular overtime adds up fast:</p>
 
       <div class="table-wrap">
         <table class="pay-table">
@@ -275,11 +275,11 @@ export const article5 = {
         </table>
       </div>
 
-      <p>Working 5 hours of overtime each week adds $172.50 per week—generating an extra <strong>$8,970.00 per year</strong> and lifting your gross income to <strong>$56,810.00</strong>. Putting in 10 hours of weekly overtime generates an extra <strong>$17,940.00 annually</strong>, pushing your gross salary to <strong>$65,780.00</strong>. To model different shift patterns and weekend rates, check our dedicated <a href="/overtime-calculator/">Overtime Calculator</a> and read our complete guide on <a href="/articles/how-to-calculate-pay-with-overtime-calculator/">how to calculate pay with an overtime calculator</a>.</p>
+      <p>Five hours of overtime a week adds $172.50 a week. That's an extra <strong>$8,970.00 a year</strong>, lifting your gross pay to <strong>$56,810.00</strong>. Ten hours a week adds <strong>$17,940.00 a year</strong>, pushing your gross pay to <strong>$65,780.00</strong>. To try out different shift patterns and weekend rates, use our <a href="/overtime-calculator/">Overtime Calculator</a> and read our guide on <a href="/articles/how-to-calculate-pay-with-overtime-calculator/">how to calculate pay with an overtime calculator</a>.</p>
 
       <!-- Section 6: Part-Time Schedules -->
       <h2 id="part-time-scenarios">Part-Time Schedules at $23 an Hour (20, 25, 30 & 35 Hours)</h2>
-      <p>Not every worker logging $23 an hour maintains a 40-hour schedule. For students, parents, and secondary earners working part-time hours, here is how $23 per hour scales over 52 paid weeks:</p>
+      <p>Not everyone on $23 an hour works 40 hours a week. For students, parents, and second earners working part-time, here's how $23 an hour adds up over 52 paid weeks:</p>
 
       <div class="table-wrap">
         <table class="pay-table text-col-2">
@@ -334,7 +334,7 @@ export const article5 = {
 
       <!-- Section 7: Taxes & Take-Home Pay -->
       <h2 id="taxes-and-take-home">How Much Is $23 an Hour After 2026 Taxes? (Take-Home Breakdown)</h2>
-      <p>Gross income reflects what you earn on paper; net take-home pay is what deposits into your bank account. To project realistic net pay on a $47,840 annual salary, we apply 2026 federal income tax brackets, mandatory FICA payroll taxes, and representative state tax rates for a <strong>single filer claiming the standard deduction</strong>.</p>
+      <p>Gross pay is what you earn on paper. Take-home pay is what hits your bank account. To work out realistic take-home pay on $47,840, we use the 2026 federal tax brackets, FICA payroll taxes, and typical state tax rates for a <strong>single filer taking the standard deduction</strong>.</p>
 
       <h3>1. Mandatory 2026 Federal Tax & FICA Breakdown</h3>
       <ul>
@@ -361,7 +361,7 @@ export const article5 = {
       <figure><img src="/assets/images/ui-table-23hr-paycheck-taxes.webp" alt="Photorealistic clipboard breakdown showing 2026 biweekly paycheck tax withholdings for a $23 hourly wage" width="800" height="450" loading="lazy"><figcaption>Biweekly paycheck tax deductions and net take-home pay based on 2026 IRS tax brackets.</figcaption></figure>
 
       <h3>2. State Tax Variations & Net Take-Home Pay</h3>
-      <p>State income taxes cause net paychecks to differ substantially across state lines. Here is how annual and monthly take-home pay projects across three primary state tax categories:</p>
+      <p>State income tax is what makes the same paycheck look different from one state to another. Here's how annual and monthly take-home pay shakes out in three typical state tax situations:</p>
 
       <div class="table-wrap">
         <table class="pay-table text-col-2">
@@ -399,11 +399,11 @@ export const article5 = {
           </tbody>
         </table>
       </div>
-      <p class="caption">Figures reflect 2026 federal brackets, standard deduction, and FICA for a single taxpayer with no dependents. Voluntary payroll deductions (such as employer health insurance or traditional 401k contributions) will lower taxable income and take-home pay. For a line-by-line audit of your deductions, read our guide on <a href="/articles/how-to-calculate-taxes-on-paycheck/">how to calculate taxes on a paycheck</a>.</p>
+      <p class="caption">These figures use the 2026 federal brackets, standard deduction, and FICA for a single taxpayer with no dependents. Voluntary deductions like health insurance or 401(k) contributions will lower both your taxable income and your take-home pay. For a line-by-line look at your deductions, read our guide on <a href="/articles/how-to-calculate-taxes-on-paycheck/">how to calculate taxes on a paycheck</a>.</p>
 
       <!-- Section 8: Realistic Monthly Budget -->
       <h2 id="monthly-budget">A Realistic 50/30/20 Monthly Budget on $23 an Hour</h2>
-      <p>With an average take-home pay between <strong>$3,205.00 and $3,385.00 per month</strong>, maintaining a clear budget structure prevents month-end cash crunches. The <strong>50/30/20 budget framework</strong> offers a sustainable blueprint to manage living costs while saving for the future.</p>
+      <p>With take-home pay between <strong>$3,205.00 and $3,385.00 a month</strong>, a clear budget keeps you from running short at the end of the month. The <strong>50/30/20 budget framework</strong> is a simple way to cover living costs and still save something.</p>
 
       <figure><img src="/assets/images/ui-widget-50-30-20-budget-23hr.webp" alt="3D financial desk graphic showing 50/30/20 monthly budget breakdown on $23 an hour take-home pay" width="800" height="450" loading="lazy"><figcaption>Practical 50/30/20 monthly budget breakdown visualization for $23/hr earners on $3,385 net monthly income.</figcaption></figure>
 
@@ -441,36 +441,36 @@ export const article5 = {
         </div>
       </div>
 
-      <p><strong>The Housing Rule at $23/Hour: Living Solo vs. Having a Roommate:</strong> A standard rule of thumb in personal finance is keeping housing costs below <strong>30% of your gross monthly pay</strong>. On a $3,986.67 gross monthly salary, your maximum target rent is approximately <strong>$1,000.00 to $1,100.00 per month</strong> ($47,840 × 0.30 ÷ 12 ≈ $1,196 max ceiling). In markets where median one-bedroom apartments rent for $1,400 to $1,800, sharing a multi-bedroom apartment with a roommate cuts individual housing costs to $750–$900, instantly preserving hundreds of dollars each month for savings and emergency stability.</p>
+      <p><strong>The Housing Rule at $23/Hour: Living Solo vs. Having a Roommate:</strong> A common rule of thumb is keeping housing under <strong>30% of your gross monthly pay</strong>. On $3,986.67 a month gross, that puts your target rent around <strong>$1,000.00 to $1,100.00 per month</strong> ($47,840 × 0.30 ÷ 12 ≈ $1,196 max ceiling). Where one-bedroom apartments run $1,400 to $1,800, sharing a place with a roommate drops your share to $750–$900, which frees up hundreds of dollars a month for savings and emergencies.</p>
 
       <!-- Section 9: Common Mistakes -->
       <h2 id="common-mistakes">Common Budgeting & Paycheck Math Mistakes on $23/Hour</h2>
-      <p>Avoid these common calculation and budgeting pitfalls when planning around a $23 hourly wage:</p>
+      <p>These are the mistakes that trip people up most when they're planning around $23 an hour:</p>
 
       <div class="mistake-list">
         <div class="mistake-item">
           <h3>Mistake 1: Multiplying weekly pay by 4 to project monthly income ($3,680 vs. $3,986.67).</h3>
-          <p>Multiplying a $920 weekly check by 4 gives $3,680.00. But because a calendar year has 52 weeks rather than 48, an average month contains 4.333 weeks (52 ÷ 12). Your true average monthly gross is <strong>$3,986.67</strong>. Budgeting around 4 weeks undercounts your true annual income by four full weeks of wages ($3,680 per year).</p>
+          <p>A $920 weekly check times 4 gives $3,680.00. But a year has 52 weeks, not 48, so an average month has 4.333 weeks (52 ÷ 12). Your real average monthly gross is <strong>$3,986.67</strong>. Budgeting on 4 weeks undercounts your year by four full weeks of pay ($3,680 a year).</p>
         </div>
 
         <div class="mistake-item">
           <h3>Mistake 2: Confusing biweekly (26 checks) with semi-monthly (24 checks) schedules.</h3>
-          <p>Biweekly employees receive 26 paychecks annually (grossing $1,840.00 per check). Semi-monthly employees receive 24 checks annually (grossing $1,993.33 per check). While the annual gross is identical ($47,840), each biweekly check is smaller because two months every year contain three paychecks instead of two.</p>
+          <p>Biweekly pay means 26 paychecks a year at $1,840.00 gross each. Semi-monthly means 24 checks at $1,993.33 each. The annual gross is the same ($47,840), but each biweekly check is smaller, because two months a year have three paychecks instead of two.</p>
         </div>
 
         <div class="mistake-item">
           <h3>Mistake 3: Forgetting mandatory FICA taxes (7.65%).</h3>
-          <p>Social Security (6.2%) and Medicare (1.45%) apply to every single dollar earned from hour one. On a $47,840 gross salary, FICA withholdings total $3,659.76 per year ($140.76 biweekly). Overlooking FICA leads directly to unrealistic take-home expectations.</p>
+          <p>Social Security (6.2%) and Medicare (1.45%) come out of every dollar you earn, starting with the first one. On a $47,840 salary, FICA totals $3,659.76 a year ($140.76 biweekly). Forget FICA and your take-home estimate will be way off.</p>
         </div>
 
         <div class="mistake-item">
           <h3>Mistake 4: Budgeting rent and fixed debt against gross earnings.</h3>
-          <p>Never sign an apartment lease based on your $3,986 gross monthly figure. Always budget against your actual net cash deposit ($3,146 to $3,385/month depending on state taxes and benefit deductions).</p>
+          <p>Never sign a lease based on the $3,986 gross monthly figure. Budget against what actually lands in your account ($3,146 to $3,385/month, depending on state taxes and benefit deductions).</p>
         </div>
 
         <div class="mistake-item">
           <h3>Mistake 5: Assuming overtime is permanent base income.</h3>
-          <p>Overtime can be scaled back or frozen by employers during operational slowdowns. Keep your base living costs (rent, car, utilities) within your standard 40-hour take-home pay, and direct overtime earnings straight into debt payoff or savings.</p>
+          <p>Employers can cut back or freeze overtime when work slows down. Keep your fixed costs (rent, car, utilities) inside your regular 40-hour take-home pay, and put overtime money toward debt or savings.</p>
         </div>
       </div>
 
@@ -501,31 +501,31 @@ export const article5 = {
       <div class="faq-list">
         <details>
           <summary>How much is $23 an hour a year?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>At a standard full-time schedule of 40 hours per week for 52 paid weeks (2,080 working hours), $23 an hour equals an estimated gross annual salary of $47,840 before taxes and deductions. If you take 2 weeks of unpaid vacation (50 paid weeks), your gross annual pay drops to $46,000.</p>
+          <p>Work full-time, 40 hours a week for 52 paid weeks (2,080 hours), and $23 an hour comes to $47,840 a year gross, before taxes and deductions. Take 2 weeks of unpaid vacation (50 paid weeks) and it drops to $46,000.</p>
         </details>
 
         <details>
           <summary>How much is $23 an hour per month?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>At 40 hours per week, $23 an hour averages $3,986.67 per month before taxes ($47,840 divided by 12 months). A common calculation mistake is multiplying weekly pay ($920) by 4 to get $3,680, which undercounts your annual pay by $3,680 across the year because calendar months average 4.33 weeks.</p>
+          <p>At 40 hours a week, $23 an hour averages $3,986.67 a month before taxes ($47,840 divided by 12). A common slip is multiplying your $920 weekly pay by 4 to get $3,680. That undercounts your year by $3,680, because calendar months average 4.33 weeks, not 4.</p>
         </details>
 
         <details>
           <summary>How much is $23 an hour on a biweekly paycheck?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>On a standard biweekly pay schedule (every two weeks, 26 pay periods per year), earning $23 an hour yields a gross paycheck of $1,840.00 for 80 regular hours worked ($23 × 80). After 2026 federal income tax and mandatory FICA withholdings (7.65%), a single filer taking the standard deduction in a state with no income tax takes home approximately $1,562 per paycheck.</p>
+          <p>On a biweekly schedule (every two weeks, 26 paychecks a year), $23 an hour pays $1,840.00 gross for 80 hours ($23 × 80). After 2026 federal income tax and FICA (7.65%), a single filer taking the standard deduction in a state with no income tax takes home about $1,562 per paycheck.</p>
         </details>
 
         <details>
           <summary>How much is $23 an hour after taxes?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>For a single filer claiming the 2026 standard deduction ($16,100), federal income tax is $3,560.80 and FICA taxes (Social Security and Medicare) total $3,659.76. In states with no income tax (such as Texas or Florida), annual take-home pay is approximately $40,619.44 (~$3,385/month). In states with moderate income taxes (~4.5%), take-home pay is approximately $38,466 (~$3,205/month). In higher-tax states (~6%), net pay is roughly $37,749 (~$3,146/month).</p>
+          <p>For a single filer taking the 2026 standard deduction ($16,100), federal income tax is $3,560.80 and FICA (Social Security and Medicare) is $3,659.76. In states with no income tax, like Texas or Florida, take-home pay is about $40,619.44 a year (~$3,385/month). In states with moderate income tax (~4.5%), it's about $38,466 (~$3,205/month). In higher-tax states (~6%), it's roughly $37,749 (~$3,146/month).</p>
         </details>
 
         <details>
           <summary>What is the overtime rate for $23 an hour?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Under the Fair Labor Standards Act (FLSA), time-and-a-half overtime is 1.5 times your regular base wage. For $23 an hour, your overtime rate is $34.50 per hour ($23 × 1.5). Working 5 hours of overtime per week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross annual pay to $56,810.00.</p>
+          <p>Under the Fair Labor Standards Act (FLSA), time-and-a-half is 1.5 times your regular rate. At $23 an hour, your overtime rate is $34.50 ($23 × 1.5). Five hours of overtime a week adds $172.50 in weekly gross pay ($8,970 over 52 weeks), lifting your total gross pay to $56,810.00 a year.</p>
         </details>
         <details>
           <summary>How much is $23 an hour working part-time?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>It depends on your weekly hours, using the same $23 rate: at 20 hours a week you earn $460 per week, or $23,920 a year (52 weeks); at 25 hours, $575 per week or $29,900 a year; at 30 hours, $690 per week or $35,880 a year; and at 35 hours, $805 per week or $41,860 a year. These are gross figures before taxes — part-time schedules can also mean fewer paid hours toward benefits that full-time roles often include, so compare the full offer, not just the hourly rate.</p>
+          <p>It depends on your hours, at the same $23 rate. At 20 hours a week you earn $460 a week, or $23,920 a year (52 weeks). At 25 hours, it's $575 a week or $29,900 a year. At 30 hours, $690 a week or $35,880 a year. At 35 hours, $805 a week or $41,860 a year. Those are gross figures before taxes. Part-time roles can also come with fewer benefits than full-time ones, so compare the whole offer, not just the hourly rate.</p>
         </details>
       </div>
 
@@ -536,33 +536,33 @@ export const article5 = {
         <ul class="takeaways-list">
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Standard Annual Baseline:</strong> Full-time at 40 hours per week and 52 weeks equals <strong>$47,840.00 gross per year</strong> (2,080 working hours).</span>
+            <span><strong>Standard Annual Baseline:</strong> Full-time at 40 hours a week, 52 weeks a year, comes to <strong>$47,840.00 gross per year</strong> (2,080 working hours).</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Monthly Average:</strong> Monthly gross compensation is <strong>$3,986.67</strong>. Remember that a calendar month has 4.33 weeks, not 4.</span>
+            <span><strong>Monthly Average:</strong> Monthly gross is <strong>$3,986.67</strong>. Remember, a calendar month averages 4.33 weeks, not 4.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>2026 Net Take-Home Pay:</strong> After federal income tax ($3,560.80) and FICA ($3,659.76), net take-home pay ranges from <strong>~$37,749 to ~$40,619 annually</strong> (~$3,146 to ~$3,385/month), depending on state taxes.</span>
+            <span><strong>2026 Net Take-Home Pay:</strong> After federal income tax ($3,560.80) and FICA ($3,659.76), take-home pay runs from <strong>~$37,749 to ~$40,619 annually</strong> (~$3,146 to ~$3,385/month), depending on state taxes.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Overtime Potential:</strong> Overtime pays <strong>$34.50/hour</strong>. 5 hours of weekly overtime generates an extra $8,970/year, lifting gross income to $56,810.</span>
+            <span><strong>Overtime Potential:</strong> Overtime pays <strong>$34.50/hour</strong>. Five hours a week adds an extra $8,970/year, lifting gross pay to $56,810.</span>
           </li>
           <li>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 4 4L19 6"/></svg>
-            <span><strong>Housing Target:</strong> Keep housing expenses around <strong>$1,000 to $1,100/month</strong> to maintain a healthy savings buffer.</span>
+            <span><strong>Housing Target:</strong> Keep housing around <strong>$1,000 to $1,100/month</strong> so there's still room to save.</span>
           </li>
         </ul>
       </div>
 
-      <p>To customize your schedule, model unpaid leave, or audit your paycheck deductions, explore our free interactive tools: use the <a href="/">Hourly Wage Converter</a>, calculate shift earnings with our <a href="/overtime-calculator/">Overtime Calculator</a>, or verify your pay stubs with our <a href="/paycheck-calculator/">Paycheck Calculator</a>.</p>
+      <p>To try your own schedule, factor in unpaid leave, or check your paycheck deductions, use our free tools: the <a href="/">Hourly Wage Converter</a>, the <a href="/overtime-calculator/">Overtime Calculator</a> for shift earnings, or the <a href="/paycheck-calculator/">Paycheck Calculator</a> to check your pay stubs.</p>
       <h2>3 Things to Remember</h2>
       <ol>
         <li>Full-time gross pay is $47,840 a year, or $3,986.67 a month before taxes.</li>
         <li>Overtime can lift the same rate to $56,810 a year.</li>
-        <li>Do not multiply weekly pay by 4 for a monthly figure — that undercounts the year, because calendar months average more than 4 weeks.</li>
+        <li>Don't multiply weekly pay by 4 for a monthly figure. That undercounts the year, because calendar months average more than 4 weeks.</li>
       </ol>
   `
 };
