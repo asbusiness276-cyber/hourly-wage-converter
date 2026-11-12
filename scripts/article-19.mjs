@@ -26,41 +26,41 @@ export const article19 = {
   faqs: [
     [
       'How much is $25 an hour after taxes?',
-      'Working full time at $25 an hour pays $52,000 a year before deductions. For a single filer using the 2026 standard deduction, federal income tax comes to $4,060 and FICA to $3,978, leaving take-home pay of $43,962 — $3,663.50 a month, or $1,690.85 on a biweekly schedule. That is the federal picture only; state tax, retirement saving, and health premiums would each pull the real paycheck lower.'
+      'Full time at $25 an hour comes to $52,000 a year before anything is taken out. For a single filer claiming the 2026 standard deduction, federal income tax takes $4,060 and FICA takes $3,978, so you keep $43,962 — $3,663.50 a month, or $1,690.85 every two weeks. That is the federal side only. State tax, retirement saving, and health premiums would each bring your real paycheck down further.'
     ],
     [
       'How much is $25 an hour biweekly after taxes?',
-      'On a biweekly schedule, $25 an hour nets $1,690.85 a check, 26 times a year, before state tax and any 401(k) or health premium deductions. Paid semi-monthly instead, you would see $1,831.75 twenty-four times a year. The split changes the size of each check, never the $43,962 annual total underneath it.'
+      'Biweekly, you take home $1,690.85 a check, 26 times a year, before state tax and any 401(k) or health premium deductions. If you are paid semi-monthly instead, it is $1,831.75 per check, 24 times a year. Bigger checks, fewer of them — the $43,962 annual total stays exactly the same.'
     ],
     [
       'How much is $25 an hour monthly after taxes?',
-      '$3,663.50 is the monthly average to plan around — $43,962 of annual take-home divided by 12. Because most $25-an-hour jobs pay biweekly, your actual cash flow will swing: ten months bring two checks and two months bring three, so the average, not any single month, is the number a budget should use.'
+      'Plan around $3,663.50 a month — that is $43,962 of take-home divided by 12. Most $25-an-hour jobs pay biweekly, so cash flow is uneven: ten months give you two checks and two months give you three. Budget from the average, not from any single month.'
     ],
     [
       'What is the take-home hourly rate for $25 an hour?',
-      'Your effective take-home rate is $21.14 an hour. Federal income tax and FICA together take $8,038 of the $52,000 gross — $3.86 an hour over a 2,080-hour year — so nearly four dollars of each hour of pay never reaches your account. A state income tax would trim the $21.14 a bit further.'
+      'You keep $21.14 of each $25 hour. Federal income tax and FICA together take $8,038 of the $52,000 gross, which works out to $3.86 an hour over a 2,080-hour year. So nearly four dollars out of every hour never makes it to your bank account. A state income tax would take a little more.'
     ],
     [
       'Does this include state taxes?',
-      'No. Every figure in this article is federal only: the $43,962 take-home reflects $4,060 of federal income tax and $3,978 of FICA on a $52,000 gross, and nothing for any state. Whether that omission matters depends on your address — states with no income tax leave the $43,962 untouched, while in a state that taxes wages your paycheck would come in lower, with the exact amount set by that state\'s brackets and deductions rather than the federal ones used here.'
+      'No. Every number here is federal only: the $43,962 take-home is $52,000 gross minus $4,060 of federal income tax and $3,978 of FICA, with nothing set aside for any state. In a state with no income tax, $43,962 is exactly what you keep. In a state that taxes wages, your check lands lower — by how much depends on that state\'s own brackets and deductions, not the federal ones used here.'
     ],
     [
       'Why is my paycheck less than $1,690.85 biweekly?',
-      'Compare your stub line by line with the two deductions this article models: federal income tax and FICA should total about $8,038 a year at $52,000. Anything beyond that is something the federal estimate never claimed to include — most often state withholding, health insurance premiums, or a 401(k) deferral. One more possibility is timing: $1,690.85 is the biweekly amount, so checks paid on a semi-monthly schedule will not match it even when the annual pay is identical. If the federal lines themselves look off, payroll can check your W-4.'
+      'Check your pay stub line by line against the two deductions this article models: federal income tax and FICA should add up to about $8,038 a year at $52,000. Anything beyond that is something the federal estimate was never meant to include — usually state withholding, health premiums, or a 401(k) deferral. One more thing to check is timing: $1,690.85 is the biweekly amount, so a semi-monthly schedule will not match it even when the annual pay is the same. If the federal lines themselves look wrong, payroll can check your W-4.'
     ]
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>$25 an hour is $52,000 a year gross; after 2026 federal income tax and FICA you keep $43,962 — $3,663.50 a month, or $1,690.85 every two weeks.</p>
+        <p>$25 an hour is $52,000 a year gross. After 2026 federal income tax and FICA, you keep $43,962 — $3,663.50 a month, or $1,690.85 every two weeks. That is what actually lands in your account.</p>
       </div>
 
-      <p class="lead">At $25 an hour on a standard full-time schedule, you earn <strong>$52,000 a year before taxes</strong>. After 2026 federal income tax and FICA, you keep <strong>$43,962 — $3,663.50 a month, or $1,690.85 every two weeks</strong>. That is 84.5% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions, health premiums, or overtime. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
-      <p>If you want the concept behind these numbers — what gross pay is, what net pay is, and why the two diverge — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> covers it. This article does one specific job: the complete take-home math for one rate, $25 an hour.</p>
+      <p class="lead">At $25 an hour on a standard full-time schedule, you earn <strong>$52,000 a year before taxes</strong>. After 2026 federal income tax and FICA, you keep <strong>$43,962 — $3,663.50 a month, or $1,690.85 every two weeks</strong>. That is 84.5% of your gross pay. Before you plan around those numbers, know what they cover: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not in here, and neither are 401(k) contributions, health premiums, or overtime. Where any of those apply to you, your real paycheck will be lower — the section on why paychecks differ walks through each one.</p>
+      <p>If you want the ideas behind the numbers — what gross pay and net pay actually mean, and why they drift apart — our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> explains it in plain terms. This article does one job: the full take-home math for $25 an hour.</p>
       <div class="article-hero-cta">
         <div>
           <h2>Run your own rate</h2>
-          <p>Not on $25 an hour? Enter any rate and schedule to see its annual gross pay first, then apply the tax steps in this article.</p>
+          <p>On a different rate? Enter it here to see the annual gross, then work through the same tax steps below.</p>
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Open the hourly to salary calculator</a>
       </div>
@@ -83,24 +83,24 @@ export const article19 = {
             </tbody>
           </table>
         </div>
-        <p>The biweekly figure deserves one note: $1,690.85 assumes 26 paychecks. On a semi-monthly schedule (24 paychecks), the same $43,962 arrives as $1,831.75 per check. The annual total is identical — only the split changes.</p>
+        <p>One thing worth knowing about that biweekly number: $1,690.85 assumes 26 paychecks. If you are paid semi-monthly instead, the same $43,962 comes as $1,831.75 per check, 24 times a year. Same money, different split.</p>
       </section>
 
       <section class="article-section" id="tax-brackets">
         <h2>2026 Federal Tax Brackets at a Glance</h2>
-        <p>Your take-home depends on which bracket your last dollar falls in — not your whole income. These are the 2026 single-filer brackets used in this guide:</p>
+        <p>Here is the part most people get wrong: only your last dollar gets taxed at your top bracket, not your whole income. These are the 2026 single-filer brackets we use in this guide:</p>
         <div class="tier-cards">
-          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Taxable income in this range is taxed at 10%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Taxable income in this range is taxed at 12%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Taxable income in this range is taxed at 22%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Taxable income in this range is taxed at 24%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Your first $12,400 of taxable income is taxed at 10%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Taxable income in this band is taxed at 12%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Taxable income in this band is taxed at 22%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Taxable income in this band is taxed at 24%.</p></div>
         </div>
-        <p><strong>In this article:</strong> $52,000 gross → $35,900 taxable → <strong>12% marginal bracket</strong>, but only a <strong>7.8% effective federal rate</strong> ($4,060 ÷ $52,000), because the lower brackets tax the first dollars at lower rates.</p>
+        <p><strong>For $25 an hour:</strong> $52,000 gross → $35,900 taxable → <strong>12% marginal bracket</strong>, but only a <strong>7.8% effective federal rate</strong> ($4,060 ÷ $52,000). The first dollars get taxed at 10%, so the average rate stays well below the top bracket.</p>
       </section>
 
       <section class="article-section" id="how-math-works">
         <h2>How the Math Works, Step by Step</h2>
-        <p>Five steps, each one verifiable. All figures use 2026 federal rules for a single filer.</p>
+        <p>Five steps, and you can check every one of them. All figures use 2026 federal rules for a single filer.</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -113,17 +113,17 @@ export const article19 = {
             </tbody>
           </table>
         </div>
-        <p>The step most people misunderstand is step 3. Your <strong>marginal rate is 12%</strong> — the rate on your last dollar — but your <strong>effective federal rate is only 7.8%</strong> ($4,060 ÷ $52,000), because the first $12,400 of taxable income is taxed at 10%, and only the remaining $23,500 at 12%. Moving into a higher bracket never taxes your whole income at the higher rate; it taxes only the dollars inside that bracket. FICA, by contrast, applies to the full $52,000, because the entire amount sits below the $184,500 Social Security wage base.</p>
+        <p>Step 3 is where most people get tripped up. Your <strong>marginal rate is 12%</strong>, which is just the rate on your last dollar. Your <strong>effective federal rate is only 7.8%</strong> ($4,060 ÷ $52,000), because the first $12,400 of taxable income is taxed at 10% and only the remaining $23,500 at 12%. A higher bracket never taxes your whole income at the higher rate. It only touches the dollars inside that bracket. FICA works differently: it applies to the full $52,000, since the whole amount sits below the $184,500 Social Security wage base.</p>
       </section>
 
       <section class="article-section" id="why-different">
         <h2>Why Your Paycheck May Look Different</h2>
         <ul>
-          <li><strong>State income tax.</strong> The largest missing piece. Some states have no income tax; others take several percent. A worker in a high-tax state can lose several hundred dollars a month beyond the federal figures here.</li>
-          <li><strong>Retirement contributions.</strong> A 401(k) contribution comes out before you ever see it — and it also reduces taxable income, which slightly lowers the federal tax in step 3. The paycheck drops, but the money is still yours.</li>
-          <li><strong>Health premiums and other deductions.</strong> Insurance premiums, dental and vision plans, and similar deductions are subtracted per paycheck and vary by employer.</li>
-          <li><strong>Pay frequency.</strong> Biweekly (26 checks) and semi-monthly (24 checks) produce different per-check amounts for the same annual total, as the short-answer table shows.</li>
-          <li><strong>Withholding vs actual tax.</strong> Your paycheck withholding is an estimate. The final bill is settled when you file; a refund or a balance due at filing time means withholding differed from the true annual figures, not that this article's math is wrong.</li>
+          <li><strong>State income tax.</strong> The biggest thing missing here. Some states have no income tax at all; others take several percent. In a high-tax state, you can lose several hundred dollars a month on top of the federal numbers above.</li>
+          <li><strong>Retirement contributions.</strong> A 401(k) contribution comes out before you ever see the money. It also lowers your taxable income, which trims the federal tax in step 3 a little. Your paycheck shrinks, but that money is still yours.</li>
+          <li><strong>Health premiums and other deductions.</strong> Health, dental, and vision premiums come out of each check and vary a lot from one employer to the next.</li>
+          <li><strong>Pay frequency.</strong> Biweekly pay (26 checks) and semi-monthly pay (24 checks) give you different check sizes for the same annual total, as the short-answer table shows.</li>
+          <li><strong>Withholding vs actual tax.</strong> What comes out of your check is an estimate. The real bill gets settled when you file. A refund or a balance due just means withholding was off from the true annual numbers. It does not mean the math here is wrong.</li>
         </ul>
       </section>
 
@@ -144,45 +144,45 @@ export const article19 = {
             </tbody>
           </table>
         </div>
-        <p>The pattern to notice: take-home rises by roughly $3,340 a year for each $2-an-hour raise in this range, and the effective federal-plus-FICA burden stays near 15–16% of gross throughout — the tax system here is close to proportional for hourly workers in this band, because all of it sits inside the 10% and 12% brackets.</p>
+        <p>Notice the pattern: in this range, every $2-an-hour raise adds roughly $3,340 a year to take-home pay, and the combined federal-plus-FICA bite stays near 15–16% of gross. Taxes stay almost flat here because all of it sits inside the 10% and 12% brackets.</p>
       </section>
 
       <section class="article-section" id="overtime-corner">
         <h2>The Overtime Corner</h2>
-        <p>This article assumes a straight 40-hour week with no overtime. Overtime changes the picture in two ways: it adds gross pay at time-and-a-half, and that extra pay is taxed as ordinary income at your marginal rate plus FICA. At $25 an hour, 5 overtime hours a week add $187.50 a week in gross pay — $9,750 over a full year — before tax on that extra amount. Whether overtime is owed at all depends on your status: our guide to <a href="/articles/exempt-vs-non-exempt/">exempt vs non-exempt employees</a> explains who gets it, and the <a href="/overtime-calculator/">overtime calculator</a> prices the extra hours. The 40-hour baseline itself is a convention, not a legal definition — see <a href="/articles/how-many-hours-is-full-time/">how many hours a week count as full-time</a>.</p>
+        <p>Everything above assumes a straight 40-hour week, no overtime. Overtime changes things two ways: you earn time-and-a-half on the extra hours, and that extra pay gets taxed as ordinary income at your marginal rate plus FICA. At $25 an hour, 5 overtime hours a week add $187.50 a week in gross pay — $9,750 over a full year — before tax on that extra amount. Not everyone qualifies for overtime, though: our guide to <a href="/articles/exempt-vs-non-exempt/">exempt vs non-exempt employees</a> explains who gets it, and the <a href="/overtime-calculator/">overtime calculator</a> works out what the extra hours are worth. And the 40-hour week itself is a convention, not a legal rule — see <a href="/articles/how-many-hours-is-full-time/">how many hours a week count as full-time</a>.</p>
       </section>
 
       <section class="article-section" id="good-wage">
         <h2>Is $25 an Hour a Good Wage?</h2>
-        <p>There is no national answer to that question — only a local one. Federal-only take-home of $3,663.50 a month stretches very differently depending on rent, transport, and household size where you live. What this article gives you is the honest starting number: $43,962 a year after federal tax, before state tax and deductions. Compare that figure — not the $52,000 gross — against your actual monthly costs, and you have a realistic budget baseline. Anyone quoting you the gross figure as spending money is overstating your income by $8,038 a year.</p>
+        <p>It depends entirely on where you live. A federal-only take-home of $3,663.50 a month goes a long way in some places and barely covers rent in others, depending on housing, transport, and how many people the paycheck supports. What this article gives you is an honest starting point: $43,962 a year after federal tax, before state tax and deductions. Line that number up against your real monthly costs — not the $52,000 gross — and you have a budget you can actually use. Anyone who quotes the gross as spending money is overstating your income by $8,038 a year.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
         <h2>How to Use the Calculator</h2>
-        <p>Run your own numbers in four steps:</p>
+        <p>Want your own numbers? Four quick steps:</p>
         <ol>
-          <li><strong>Step 1 — Enter your hourly rate</strong> into the hourly-to-salary calculator.</li>
-          <li><strong>Step 2 — Set your schedule:</strong> adjust hours per week and paid weeks to match your job.</li>
+          <li><strong>Step 1 — Enter your hourly rate</strong> in the hourly-to-salary calculator.</li>
+          <li><strong>Step 2 — Set your schedule:</strong> change the hours per week and paid weeks to match your job.</li>
           <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and the result.</li>
-          <li><strong>Step 4 — Compare:</strong> try the nearby rates in this guide to see how a different pay level changes the result.</li>
+          <li><strong>Step 4 — Compare:</strong> try the nearby rates in this guide and see how a different pay level changes the result.</li>
         </ol>
         <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
       </section>
 
       <section class="article-section" id="limitations">
         <h2>Limitations</h2>
-        <p>Keep these limits in mind before using any figure above as a budget:</p>
+        <p>Before you build a budget on any number above, keep these limits in mind:</p>
         <ol>
-          <li><strong>State income tax excluded:</strong> most states tax income too, so actual take-home is lower.</li>
-          <li><strong>Retirement and health deductions excluded:</strong> 401(k) contributions and health premiums come out of your check and are not counted here.</li>
-          <li><strong>Schedule assumption:</strong> figures use the schedule stated in this guide; fewer hours or unpaid weeks change every number.</li>
-          <li><strong>Not tax advice:</strong> figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
+          <li><strong>State income tax is not included:</strong> most states tax income too, so your real take-home is lower.</li>
+          <li><strong>Retirement and health deductions are not included:</strong> 401(k) contributions and health premiums come out of your check and are not counted here.</li>
+          <li><strong>The schedule is fixed:</strong> these figures assume the schedule in this guide. Fewer hours or unpaid weeks change every number.</li>
+          <li><strong>This is not tax advice:</strong> figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
         </ol>
       </section>
 
       <section class="article-section" id="faqs">
         <h2>Frequently Asked Questions</h2>
-        <p>Quick answers to the questions readers ask most about $25 an hour after taxes.</p>
+        <p>The questions readers ask most about $25 an hour after taxes, answered in plain terms.</p>
       </section>
 
       <section class="article-section" id="key-takeaways">
@@ -190,30 +190,30 @@ export const article19 = {
         <div class="takeaways-box">
           <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>What to Remember</h3>
           <ul>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$25 an hour is $43,962 a year after federal tax</strong> — $3,663.50 a month, $1,690.85 biweekly, $21.14 an hour take-home.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Marginal is not effective:</strong> your top bracket is 12%, but your effective federal rate is 7.8% — only dollars inside a bracket pay that bracket's rate.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>These are federal-only figures.</strong> State tax, 401(k), and premiums come out on top — budget from the take-home number, not the gross.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each $2-an-hour raise is worth about $3,340 a year</strong> in take-home pay in this range.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Overtime is separate:</strong> 5 extra hours a week at $25 add $9,750 a year gross, taxed as ordinary income — if your role qualifies for it.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$25 an hour is $43,962 a year after federal tax</strong> — $3,663.50 a month, $1,690.85 biweekly, $21.14 an hour in your pocket.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Marginal is not effective:</strong> your top bracket is 12%, but your effective federal rate is 7.8%. Only the dollars inside a bracket pay that bracket's rate.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Federal only.</strong> State tax, 401(k), and premiums come out on top of this. Budget from take-home, not gross.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each $2-an-hour raise is worth about $3,340 a year</strong> in take-home pay at this level.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Overtime is extra:</strong> 5 more hours a week at $25 add $9,750 a year gross, taxed as ordinary income, if your role qualifies.</li>
           </ul>
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Figures use 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, 10% bracket to $12,400 of taxable income, 12% bracket to $50,400, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $52,000 below the wage base. Annual figures use 52 weeks and 2,080 hours; monthly figures divide the annual total by 12. State income tax, retirement contributions, health premiums, and overtime are excluded. This article is general information, not tax advice.</p>
+          <p>We ran these numbers on 2026 federal rules for a single filer taking the standard deduction: a $16,100 standard deduction, the 10% bracket up to $12,400 of taxable income, and the 12% bracket up to $50,400, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% up to the $184,500 wage base, Medicare 1.45%), and the full $52,000 sits below that wage base. Annual figures use 52 weeks and 2,080 hours; monthly figures are the annual total divided by 12. State income tax, retirement contributions, health premiums, and overtime are left out. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">
         <div>
           <h2>Check your own rate</h2>
-          <p>Enter your hourly rate and schedule to see its annual gross pay, then work through the same five tax steps.</p>
+          <p>Enter your hourly rate and schedule to see the annual gross, then follow the same five tax steps we used above.</p>
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
-        <li>Take-home is $43,962 a year — 84.5% of gross pay.</li>
-        <li>These figures are federal tax only, for a single filer taking the standard deduction — state tax is not included.</li>
-        <li>401(k) contributions, health premiums, and other deductions are also not included, so your actual check may be lower.</li>
+        <li>You keep $43,962 a year — 84.5% of gross pay.</li>
+        <li>Federal tax only, for a single filer taking the standard deduction. State tax is not included.</li>
+        <li>401(k) contributions, health premiums, and other deductions are not included either, so your real check may be lower.</li>
       </ol>
   `
 };

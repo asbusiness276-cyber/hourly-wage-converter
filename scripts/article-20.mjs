@@ -27,41 +27,41 @@ export const article20 = {
   faqs: [
     [
       'How much is $50,000 a year after taxes?',
-      'A $50,000 salary leaves $42,355 in take-home pay for a single filer in 2026. The two federal deductions are almost perfectly balanced at this salary — $3,820 of income tax against $3,825 of FICA — and together they reduce each biweekly paycheck to $1,629.04, or $3,529.58 a month. State income tax, 401(k) contributions, and health premiums are not in these figures and would lower the check further.'
+      'You keep $42,355 of a $50,000 salary as a single filer in 2026. It\'s a neat split at this pay level: $3,820 goes to federal income tax and $3,825 to FICA, which leaves you $1,629.04 every two weeks or $3,529.58 a month. State tax, 401(k) contributions, and health premiums aren\'t in those numbers, so your real check will be lower if any of those apply to you.'
     ],
     [
       'How much is $50,000 a year biweekly after taxes?',
-      '$1,629.04 is the biweekly amount — the $42,355 annual take-home divided by 26 paydays, before state tax and workplace deductions. On a semi-monthly schedule the same salary produces 24 checks of $1,764.79 instead. Either way the year adds up to $42,355; only the rhythm of the payments changes.'
+      'It\'s $1,629.04 per check. That\'s the $42,355 yearly take-home split across 26 paydays, before state tax and anything your employer takes out. If you\'re paid twice a month instead, you get 24 checks of $1,764.79. Same $42,355 for the year either way, just a different payday rhythm.'
     ],
     [
       'How much is $50,000 a month after taxes?',
-      'Plan on $3,529.58 a month. It is the $42,355 annual take-home averaged over 12 months, and the averaging matters: with biweekly pay, most months contain exactly two of the $1,629.04 checks ($3,258.08), while two months a year contain three — so a budget built on the $3,529.58 average smooths out the difference.'
+      'Budget around $3,529.58 a month. We get that by spreading the $42,355 yearly take-home over 12 months. With biweekly pay, most months hold two $1,629.04 checks ($3,258.08), and two months a year hold three. That\'s why the $3,529.58 average works better for a budget than the two-check months do.'
     ],
     [
       'What is the take-home hourly rate for a $50,000 salary?',
-      '$20.36 an hour is what a $50,000 salary really pays after federal taxes. The gross rate works out to $24.04 an hour over 2,080 hours, and federal income tax plus FICA shave off $3.68 of that, leaving $42,355 a year. Add a state income tax on top and the effective rate falls below $20.36.'
+      'It works out to $20.36 an hour. Before tax, $50,000 over 2,080 hours is $24.04 an hour, and federal income tax plus FICA take $3.68 of that. Add state income tax and your true hourly rate drops below $20.36.'
     ],
     [
       'Does this include state taxes?',
-      'No, state tax is not in the $42,355. This article stops at the two federal deductions — $3,820 of income tax and $3,825 of FICA — because state rules cannot be generalized: some states tax no wages at all, while others apply their own brackets and standard deductions to a $50,000 salary. If your state is one of the taxing ones, treat $42,355 as the ceiling and expect your actual take-home to come in below it.'
+      'No. The $42,355 covers only the two federal pieces, $3,820 of income tax and $3,825 of FICA. We leave state tax out because it varies too much to give one number: some states don\'t tax wages at all, and others have their own brackets and standard deductions. If your state taxes income, think of $42,355 as your ceiling. Your real take-home will land below it.'
     ],
     [
       'Why is my paycheck less than $1,629.04 biweekly?',
-      'The $1,629.04 figure strips out federal income tax and FICA and nothing else, so almost any real-world deduction explains the difference: state withholding is the most common, followed by health premiums and retirement contributions. Garnishments, union dues, and HSA or parking deductions can also appear. Work down your pay stub and match each line — if the federal withholding itself is running hotter than the $3,820 annual figure used here, a W-4 adjustment through payroll is the fix.'
+      'The $1,629.04 number only strips out federal income tax and FICA, so any other deduction explains the gap. State withholding is the usual suspect, then health premiums and retirement contributions. Garnishments, union dues, and HSA or parking deductions show up on some stubs too. Go line by line through your pay stub and match each one. If the federal withholding itself is running hotter than the $3,820 a year we use here, a W-4 update through payroll is the fix.'
     ]
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>$50,000 a year is $42,355 after 2026 federal income tax and FICA — $3,529.58 a month, or $1,629.04 every two weeks.</p>
+        <p>After 2026 federal income tax and FICA, a $50,000 salary leaves you $42,355 a year. That's $3,529.58 a month, or $1,629.04 every two weeks.</p>
       </div>
 
-      <p class="lead">A $50,000 salary sounds like $50,000 — but after 2026 federal income tax and FICA, you keep <strong>$42,355 a year: $3,529.58 a month, or $1,629.04 every two weeks</strong>. That is 84.7% of your gross pay. Read the scope first, because it changes what these numbers mean: this is <strong>federal tax only, for a single filer taking the standard deduction</strong>. State income tax is not included, and neither are 401(k) contributions or health premiums. Your actual paycheck will differ where those apply — the section below on why paychecks differ explains each one.</p>
-      <p>This is the second article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home — slightly more than this $50,000 salary, because $25 an hour over a full year is $52,000 gross). If you want the concept behind these numbers, our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> explains what gross and net mean and why they diverge.</p>
+      <p class="lead">A $50,000 salary sounds like $50,000, but $50,000 a year after taxes is really <strong>$42,355: $3,529.58 a month, or $1,629.04 every two weeks</strong>. That's 84.7% of your gross pay. Before you use those numbers, know what's in them: <strong>federal tax only, for a single filer taking the standard deduction</strong>. No state income tax, no 401(k) contributions, no health premiums. If any of those apply to you, your real paycheck will be smaller. We walk through each one in the section on why paychecks differ.</p>
+      <p>This is the second article in our after-tax series. The first covered <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> ($43,962 take-home, a bit more than this $50,000 salary, since $25 an hour over a full year is $52,000 gross). Want the idea behind the numbers? Our guide to <a href="/articles/gross-pay-vs-net-pay/">gross pay vs net pay</a> explains what gross and net mean and why they don't match.</p>
       <div class="article-hero-cta">
         <div>
           <h2>Check your own salary</h2>
-          <p>Not on $50,000? Convert any salary to its hourly equivalent first, then apply the tax steps in this article.</p>
+          <p>On a different salary? Turn it into an hourly rate first, then run the same tax steps from this article.</p>
         </div>
         <a class="btn" href="/salary-to-hourly-calculator/">Open the salary to hourly calculator</a>
       </div>
@@ -84,24 +84,24 @@ export const article20 = {
             </tbody>
           </table>
         </div>
-        <p>The biweekly figure deserves one note: $1,629.04 assumes 26 paychecks. On a semi-monthly schedule (24 paychecks), the same $42,355 arrives as $1,764.79 per check. The annual total is identical — only the split changes.</p>
+        <p>One thing about the biweekly number: $1,629.04 assumes 26 paychecks a year. If you're paid semi-monthly, you get 24 checks instead, and each one is $1,764.79. You still end the year with the same $42,355. Only the split changes.</p>
       </section>
 
       <section class="article-section" id="tax-brackets">
         <h2>2026 Federal Tax Brackets at a Glance</h2>
-        <p>Your take-home depends on which bracket your last dollar falls in — not your whole income. These are the 2026 single-filer brackets used in this guide:</p>
+        <p>Here's the key idea: your last dollar decides your bracket, not your whole income. These are the 2026 single-filer brackets we use in this guide:</p>
         <div class="tier-cards">
-          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Taxable income in this range is taxed at 10%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Taxable income in this range is taxed at 12%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Taxable income in this range is taxed at 22%.</p></div>
-          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Taxable income in this range is taxed at 24%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">10%</div><h3>Up to $12,400</h3><p>Every dollar in this range is taxed at 10%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">12%</div><h3>$12,400 – $50,400</h3><p>Every dollar in this range is taxed at 12%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">22%</div><h3>$50,400 – $105,700</h3><p>Every dollar in this range is taxed at 22%.</p></div>
+          <div class="tier-card"><div class="tier-card-range">24%</div><h3>$105,700 – $201,775</h3><p>Every dollar in this range is taxed at 24%.</p></div>
         </div>
-        <p><strong>In this article:</strong> $50,000 gross → $33,900 taxable → <strong>12% marginal bracket</strong>, but only a <strong>7.6% effective federal rate</strong> ($3,820 ÷ $50,000), because the lower brackets tax the first dollars at lower rates.</p>
+        <p><strong>For this salary:</strong> $50,000 gross becomes $33,900 taxable, which puts you in the <strong>12% marginal bracket</strong>. But your <strong>effective federal rate is only 7.6%</strong> ($3,820 ÷ $50,000), because your first dollars are taxed at the lower 10% rate.</p>
       </section>
 
       <section class="article-section" id="how-math-works">
         <h2>How the Math Works, Step by Step</h2>
-        <p>Five steps, each one verifiable. All figures use 2026 federal rules for a single filer.</p>
+        <p>Five steps, and you can check every one of them. All of these use 2026 federal rules for a single filer.</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -114,17 +114,17 @@ export const article20 = {
             </tbody>
           </table>
         </div>
-        <p>The step most people misunderstand is step 3. Your <strong>marginal rate is 12%</strong> — the rate on your last dollar — but your <strong>effective federal rate is only 7.6%</strong> ($3,820 ÷ $50,000), because the first $12,400 of taxable income is taxed at 10%, and only the remaining $21,500 at 12%. Moving into a higher bracket never taxes your whole income at the higher rate; it taxes only the dollars inside that bracket. FICA, by contrast, applies to the full $50,000, because the entire amount sits below the $184,500 Social Security wage base.</p>
+        <p>Step 3 is the one that trips people up. Your <strong>marginal rate is 12%</strong>, the rate on your last dollar. But your <strong>effective federal rate is only 7.6%</strong> ($3,820 ÷ $50,000). Why the gap? Your first $12,400 of taxable income is taxed at 10%, and only the remaining $21,500 is taxed at 12%. A higher bracket never taxes your whole income at the higher rate. It only touches the dollars inside that bracket. FICA works differently: it applies to the full $50,000, since the whole amount sits below the $184,500 Social Security wage base.</p>
       </section>
 
       <section class="article-section" id="why-different">
         <h2>Why Your Paycheck May Look Different</h2>
         <ul>
-          <li><strong>State income tax.</strong> The largest missing piece. Some states have no income tax; others take several percent. A worker in a high-tax state can lose several hundred dollars a month beyond the federal figures here.</li>
-          <li><strong>Retirement contributions.</strong> A 401(k) contribution comes out before you ever see it — and it also reduces taxable income, which slightly lowers the federal tax in step 3. The paycheck drops, but the money is still yours.</li>
-          <li><strong>Health premiums and other deductions.</strong> Insurance premiums, dental and vision plans, and similar deductions are subtracted per paycheck and vary by employer.</li>
-          <li><strong>Pay frequency.</strong> Biweekly (26 checks) and semi-monthly (24 checks) produce different per-check amounts for the same annual total, as the short-answer table shows.</li>
-          <li><strong>Withholding vs actual tax.</strong> Your paycheck withholding is an estimate. The final bill is settled when you file; a refund or a balance due at filing time means withholding differed from the true annual figures, not that this article's math is wrong.</li>
+          <li><strong>State income tax.</strong> This is the biggest gap in our numbers. Some states don't tax income at all. Others take several percent, and in a high-tax state that can mean several hundred dollars less a month than the federal-only figures here.</li>
+          <li><strong>Retirement contributions.</strong> A 401(k) contribution leaves your check before you ever see it. It also lowers your taxable income, which trims the federal tax in step 3 a little. Your paycheck shrinks, but the money is still yours.</li>
+          <li><strong>Health premiums and other deductions.</strong> Insurance, dental, and vision premiums come out of each paycheck, and the amounts vary a lot from one employer to the next.</li>
+          <li><strong>Pay frequency.</strong> Biweekly pay means 26 checks; semi-monthly means 24. The per-check amount changes, but the yearly total stays the same, as the table above shows.</li>
+          <li><strong>Withholding vs actual tax.</strong> What your employer withholds is an estimate. The real bill gets settled when you file. If you get a refund or owe a balance, it means the withholding didn't match the true yearly figures. It doesn't mean the math in this article is wrong.</li>
         </ul>
       </section>
 
@@ -144,45 +144,45 @@ export const article20 = {
             </tbody>
           </table>
         </div>
-        <p>The pattern to notice: each $10,000 raise in this range is worth about $8,035 a year in take-home pay, and the effective federal-plus-FICA burden stays near 15–16% of gross throughout — the tax system here is close to proportional for salaries in this band, because all of it sits inside the 10% and 12% brackets. For comparison, <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> works out to $43,962 take-home — more than this $50,000 salary, because the hourly role's gross is $52,000. To compare the two offers side by side, including hours, commute, and paid time off, use the <a href="/calculators/salary-comparison/">salary comparison calculator</a>.</p>
+        <p>Look at the pattern: each $10,000 raise in this range adds about $8,035 a year to your take-home pay, and the total federal-plus-FICA bite stays near 15 to 16% of gross the whole way. Taxes stay almost flat in this band because everything sits inside the 10% and 12% brackets. For comparison, <a href="/articles/25-an-hour-after-taxes/">$25 an hour after taxes</a> comes to $43,962 take-home, more than this $50,000 salary, because that hourly role grosses $52,000. To weigh two offers side by side, hours, commute, and paid time off included, use the <a href="/calculators/salary-comparison/">salary comparison calculator</a>.</p>
       </section>
 
       <section class="article-section" id="overtime-corner">
         <h2>The Overtime Corner</h2>
-        <p>This article assumes a straight salary with no overtime. For salaried workers, overtime is a status question first and a math question second: an exempt employee receives the same flat salary for a 50-hour week, while a non-exempt salaried employee is owed overtime on top of it. Our guide to <a href="/articles/exempt-vs-non-exempt/">exempt vs non-exempt employees</a> explains which side of that line a job falls on, and the <a href="/overtime-calculator/">overtime calculator</a> prices the extra hours. If your role is non-exempt, overtime can lift take-home well above the $42,355 baseline here.</p>
+        <p>Everything so far assumes a straight salary, no overtime. For salaried workers, overtime is a status question before it's a math question. An exempt employee gets the same flat salary for a 50-hour week. A non-exempt salaried employee gets overtime on top. Our guide to <a href="/articles/exempt-vs-non-exempt/">exempt vs non-exempt employees</a> explains which side of the line a job falls on, and the <a href="/overtime-calculator/">overtime calculator</a> prices the extra hours. If your role is non-exempt, overtime can push take-home well past the $42,355 baseline here.</p>
       </section>
 
       <section class="article-section" id="good-salary">
         <h2>Is $50,000 a Good Salary?</h2>
-        <p>There is no national answer to that question — only a local one. Federal-only take-home of $3,529.58 a month stretches very differently depending on rent, transport, and household size where you live. What this article gives you is the honest starting number: $42,355 a year after federal tax, before state tax and deductions. Compare that figure — not the $50,000 gross — against your actual monthly costs, and you have a realistic budget baseline. Anyone quoting you the gross figure as spending money is overstating your income by $7,645 a year.</p>
+        <p>There's no national answer, only a local one. Take-home of $3,529.58 a month stretches a long way in some places and barely covers rent in others. It all comes down to rent, transport, and household size where you live. What we can give you is an honest starting number: $42,355 a year after federal tax, before state tax and deductions. Stack that number, not the $50,000 gross, against your real monthly costs, and you've got a realistic budget baseline. Anyone who quotes the gross figure as spending money is overstating your income by $7,645 a year.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
         <h2>How to Use the Calculator</h2>
-        <p>Run your own numbers in four steps:</p>
+        <p>Here's how to run your own numbers:</p>
         <ol>
-          <li><strong>Step 1 — Enter your annual salary</strong> into the salary-to-hourly calculator.</li>
-          <li><strong>Step 2 — Set your schedule:</strong> adjust hours per week and paid weeks to match your job.</li>
-          <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and the result.</li>
-          <li><strong>Step 4 — Compare:</strong> try the nearby salaries in this guide to see how a different pay level changes the result.</li>
+          <li><strong>Step 1 — Enter your annual salary</strong> in the salary-to-hourly calculator.</li>
+          <li><strong>Step 2 — Set your schedule:</strong> tweak the hours per week and paid weeks to match your job.</li>
+          <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows what you entered, the formula, and the result.</li>
+          <li><strong>Step 4 — Compare:</strong> try the nearby salaries in this guide and watch how a different pay level changes the result.</li>
         </ol>
         <p><a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a></p>
       </section>
 
       <section class="article-section" id="limitations">
         <h2>Limitations</h2>
-        <p>Keep these limits in mind before using any figure above as a budget:</p>
+        <p>Before you build a budget on any number above, keep these limits in mind:</p>
         <ol>
-          <li><strong>State income tax excluded:</strong> most states tax income too, so actual take-home is lower.</li>
-          <li><strong>Retirement and health deductions excluded:</strong> 401(k) contributions and health premiums come out of your check and are not counted here.</li>
-          <li><strong>Schedule assumption:</strong> figures use the schedule stated in this guide; fewer hours or unpaid weeks change every number.</li>
-          <li><strong>Not tax advice:</strong> figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
+          <li><strong>State income tax excluded:</strong> most states tax income as well, so your real take-home will be lower.</li>
+          <li><strong>Retirement and health deductions excluded:</strong> 401(k) contributions and health premiums come straight out of your check, and we don't count them here.</li>
+          <li><strong>Schedule assumption:</strong> our figures use the schedule in this guide. Fewer hours or unpaid weeks change every number.</li>
+          <li><strong>Not tax advice:</strong> these figures use 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status will change your real return.</li>
         </ol>
       </section>
 
       <section class="article-section" id="faqs">
         <h2>Frequently Asked Questions</h2>
-        <p>Quick answers to the questions readers ask most about a $50,000 salary after taxes.</p>
+        <p>The questions we hear most about a $50,000 salary after taxes, answered short and straight.</p>
       </section>
 
       <section class="article-section" id="key-takeaways">
@@ -190,30 +190,30 @@ export const article20 = {
         <div class="takeaways-box">
           <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>What to Remember</h3>
           <ul>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$50,000 a year is $42,355 after federal tax</strong> — $3,529.58 a month, $1,629.04 biweekly, $20.36 an hour take-home.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Marginal is not effective:</strong> your top bracket is 12%, but your effective federal rate is 7.6% — only dollars inside a bracket pay that bracket's rate.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>These are federal-only figures.</strong> State tax, 401(k), and premiums come out on top — budget from the take-home number, not the gross.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each $10,000 raise is worth about $8,035 a year</strong> in take-home pay in this range.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$25 an hour beats this salary on take-home</strong> ($43,962 vs $42,355), because its gross is $52,000 — always compare take-home, not headline numbers.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$50,000 a year is $42,355 after federal tax:</strong> $3,529.58 a month, $1,629.04 every two weeks, $20.36 an hour take-home.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Marginal is not the same as effective:</strong> your top bracket is 12%, but your effective federal rate is 7.6%. Only the dollars inside a bracket pay that bracket's rate.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>These are federal-only figures.</strong> State tax, 401(k), and premiums still come out, so budget from the take-home number, not the gross.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each $10,000 raise is worth about $8,035 a year</strong> in take-home pay at this level.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$25 an hour beats this salary on take-home</strong> ($43,962 vs $42,355), because its gross is $52,000. Always compare take-home, not the headline number.</li>
           </ul>
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Figures use 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, 10% bracket to $12,400 of taxable income, 12% bracket to $50,400, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $50,000 below the wage base. Annual figures use 52 weeks and 2,080 hours; monthly figures divide the annual total by 12. State income tax, retirement contributions, health premiums, and overtime are excluded. This article is general information, not tax advice.</p>
+          <p>Here's how we got the numbers. We used 2026 federal rules for a single filer taking the standard deduction: a $16,100 standard deduction, a 10% bracket up to $12,400 of taxable income, and a 12% bracket up to $50,400, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% up to the $184,500 wage base, plus Medicare 1.45%), and the full $50,000 falls below that wage base. Yearly figures use 52 weeks and 2,080 hours; monthly figures are the yearly total divided by 12. State income tax, retirement contributions, health premiums, and overtime are all left out. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">
         <div>
           <h2>Check your own salary</h2>
-          <p>Enter your salary to see its hourly equivalent, then work through the same five tax steps.</p>
+          <p>Enter your salary to get its hourly equivalent, then walk through the same five tax steps.</p>
         </div>
         <a class="btn" href="/salary-to-hourly-calculator/">Run my numbers</a>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
-        <li>Take-home is $42,355 a year — 84.7% of gross pay.</li>
-        <li>Federal tax only, single filer, standard deduction — state income tax is not included.</li>
-        <li>401(k), health premiums, and other benefit deductions are not included either.</li>
+        <li>Take-home is $42,355 a year, which is 84.7% of gross pay.</li>
+        <li>Federal tax only, single filer, standard deduction. State income tax is not included.</li>
+        <li>401(k), health premiums, and other benefit deductions aren't included either.</li>
       </ol>
   `
 };
