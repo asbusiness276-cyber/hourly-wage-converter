@@ -23,7 +23,11 @@
     { "source": "/blog/", "destination": "/articles/", "permanent": true },
     { "source": "/author", "destination": "/author/saahil/", "permanent": true },
     { "source": "/author/", "destination": "/author/saahil/", "permanent": true },
-    { "source": "/articles/how-to-calculate-hourly-wage-to-salary/", "destination": "/articles/how-to-convert-hourly-pay-to-annual-salary/", "permanent": true }
+    { "source": "/articles/how-to-calculate-hourly-wage-to-salary/", "destination": "/articles/how-to-convert-hourly-pay-to-annual-salary/", "permanent": true },
+    { "source": "/salary-comparison-calculator/", "destination": "/calculators/salary-comparison/", "permanent": true },
+    { "source": "/salary-increase-calculator/", "destination": "/calculators/salary-increase/", "permanent": true },
+    { "source": "/how-to-calculate-your-hourly-rate/", "destination": "/articles/how-to-calculate-hourly-rate-from-salary/", "permanent": true },
+    { "source": "/how-much-is-your-paycheck-after-taxes/", "destination": "/articles/how-to-calculate-taxes-on-paycheck/", "permanent": true }
   ],
   "headers": [
     {
