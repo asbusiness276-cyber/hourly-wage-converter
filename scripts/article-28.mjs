@@ -27,44 +27,44 @@ export const article28 = {
   faqs: [
     [
       'How much is $40 an hour a year?',
-      'Full-time, $83,200 a year before taxes: $40 × 40 hours a week × 52 weeks. That is $6,933.33 a month on average, $3,200 per biweekly paycheck, and $1,600 a week. Part-time hours, overtime, or unpaid weeks change the total — the schedules section above works through each case.'
+      'Full-time, $83,200 a year before taxes. The math is $40 × 40 hours a week × 52 weeks. That works out to $6,933.33 a month on average, $3,200 in each biweekly paycheck, and $1,600 a week. Fewer hours, overtime, or unpaid weeks will move that number — we walk through each case in the schedules section above.'
     ],
     [
       'How much is $40 an hour a month?',
-      'On average, $6,933.33 a month — the annual $83,200 divided by 12. But a month is not always average: in a four-week month you earn $6,400, and in a three-paycheck biweekly month you take home $9,600 gross. Budget from the $6,933.33 average, not from any single month.'
+      'On average, $6,933.33 a month — that is the $83,200 annual figure divided by 12. But no single month is exactly average: a four-week month pays $6,400, and a three-paycheck biweekly month pays $9,600 gross. Plan your budget off the $6,933.33 average, not any one month.'
     ],
     [
       'How much is $40 an hour biweekly?',
-      'A biweekly paycheck is $3,200 gross (80 hours × $40), paid 26 times a year. On a semi-monthly schedule (24 paychecks), the same annual pay arrives as $3,466.67 per check. The annual total is identical — only the split changes.'
+      'Each biweekly paycheck is $3,200 gross (80 hours × $40), and you get 26 of them a year. On a semi-monthly schedule with 24 paychecks, the same annual pay lands as $3,466.67 per check. Same yearly total either way — just split differently.'
     ],
     [
       'How much is $40 an hour after taxes?',
-      'For a single filer in 2026, the federal-only sketch is $67,361.20 a year: $83,200 gross minus $9,474 federal income tax and $6,364.80 FICA. State income tax, 401(k) contributions, and health premiums would reduce the paycheck further — they are not in this sketch.'
+      'For a single filer in 2026, our federal-only estimate is $67,361.20 a year: $83,200 gross minus $9,474 in federal income tax and $6,364.80 in FICA. State income tax, 401(k) contributions, and health premiums would take it lower still — none of those are in this sketch.'
     ],
     [
       'Is $40 an hour a good salary?',
-      'By the national yardstick, yes: $40 an hour sits well above the median hourly wage of roughly $22–23 an hour, and it clears $80,000 a year full-time. Whether it feels good depends on your city, your hours, and your benefits — a $40 rate with no paid leave and no health coverage is worth less than the same rate with both.'
+      'By the national yardstick, yes. $40 an hour is well above the median hourly wage of roughly $22–23 an hour, and it clears $80,000 a year full-time. But how it feels depends on your city, your hours, and your benefits — a $40 rate with no paid leave and no health coverage is worth less than the same rate with both.'
     ],
     [
       'What is $40 an hour with overtime?',
-      'With 5 overtime hours every week at time-and-a-half ($60 an hour), the year comes to $98,800: $83,200 of regular pay plus $15,600 of overtime pay. That assumes you are non-exempt, you actually work those hours, and your employer pays overtime past 40 hours a week.'
+      'Work 5 overtime hours every week at time-and-a-half ($60 an hour) and the year comes to $98,800: $83,200 of regular pay plus $15,600 of overtime pay. That assumes you are non-exempt, you actually work those hours, and your employer pays overtime past 40 hours a week.'
     ],
   ],
   body: `
       <div class="methodology-box">
         <h3>Quick Answer</h3>
-        <p>$40 an hour is $83,200 a year full-time before taxes — $1,600 a week and $6,933.33 a month.</p>
+        <p>Full-time, $40 an hour is $83,200 a year before taxes. That is $1,600 a week and $6,933.33 a month.</p>
       </div>
 
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: $83,200 a Year</h2>
-        <p>At $40 an hour on a standard full-time schedule — 40 hours a week, 52 weeks a year — you earn <strong>$83,200 a year before taxes</strong>. The formula is one multiplication: hourly rate × hours per week × weeks per year. Here that is $40 × 40 × 52 = $83,200, or 2,080 paid hours in the year. Everything else in this guide is a variation on that one number: fewer hours, overtime hours, unpaid weeks, and what taxes leave behind.</p>
-        <p>If you are comparing an hourly offer with a salaried one, that $83,200 is the number to put side by side with the salary — before either side's taxes, benefits, or time off enter the picture. Our <a href="/calculators/salary-comparison/">job offer comparison tool</a> runs that side-by-side with benefits and time off priced in.</p>
+        <p>At $40 an hour on a standard full-time schedule — 40 hours a week, 52 weeks a year — you earn <strong>$83,200 a year before taxes</strong>. It is one multiplication: hourly rate × hours per week × weeks per year. Here that is $40 × 40 × 52 = $83,200, or 2,080 paid hours in the year. The rest of this guide is just variations on that one number: fewer hours, overtime hours, unpaid weeks, and what taxes leave behind.</p>
+        <p>If you are weighing an hourly offer against a salaried one, that $83,200 is the number to compare with the salary — before taxes, benefits, or time off come into it on either side. Our <a href="/calculators/salary-comparison/">job offer comparison tool</a> runs that side-by-side comparison with benefits and time off priced in.</p>
       </section>
 
       <section class="article-section" id="pay-breakdown">
         <h2>$40 an Hour in Every Pay Period</h2>
-        <p>One hourly rate, six ways to see it. All figures below are gross pay, before any tax or deduction:</p>
+        <p>Same rate, six different views. Every figure below is gross pay, before any tax or deduction:</p>
         <div class="table-wrap">
           <table class="pay-table">
             <thead><tr><th>Period</th><th>Hours</th><th>Gross Pay</th></tr></thead>
@@ -79,12 +79,12 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>The monthly line deserves one warning: $6,933.33 is an <em>average</em>. In a four-week month you earn $6,400, and in a three-paycheck biweekly month you earn $9,600 gross. Months feel uneven because pay periods do not line up with calendar months — the average is what your budget should use.</p>
+        <p>One thing to watch on the monthly line: $6,933.33 is an <em>average</em>. A four-week month pays $6,400, and a three-paycheck biweekly month pays $9,600 gross. Months feel uneven because pay periods do not line up with calendar months — so use the average when you budget.</p>
       </section>
 
       <section class="article-section" id="schedules">
         <h2>$40 an Hour at Different Schedules</h2>
-        <p>Not everyone works 40 hours. The same rate at different weekly hours gives very different years:</p>
+        <p>Not everyone works 40 hours. The same rate at different weekly hours adds up to very different years:</p>
         <div class="table-wrap">
           <table class="pay-table">
             <thead><tr><th>Hours per week</th><th>Weekly</th><th>Monthly (average)</th><th>Annual</th></tr></thead>
@@ -96,7 +96,7 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>Part-time work at this rate is still meaningful money — 30 hours a week clears $62,000 — but part-time roles often come without the benefits a full-time role carries, so compare total compensation, not just the hourly number. Our <a href="/articles/how-many-hours-is-full-time/">full-time hours guide</a> explains where the 40-hour line comes from.</p>
+        <p>Part-time work at this rate is still real money — 30 hours a week clears $62,000 — but part-time roles often skip the benefits a full-time role carries, so compare total compensation, not just the hourly number. Our <a href="/articles/how-many-hours-is-full-time/">full-time hours guide</a> explains where the 40-hour line comes from.</p>
       </section>
 
       <section class="article-section" id="overtime">
@@ -105,7 +105,7 @@ export const article28 = {
           <img src="/assets/images/how-much-is-40-an-hour-a-year-overtime.jpg" alt="Office worker typing at a desk late at night, city lights outside the window and a desk lamp on" width="1280" height="720" loading="lazy">
           <figcaption>Overtime at $40 an hour pays $60 an hour — and the extra hours usually land after dark.</figcaption>
         </figure>
-        <p>Overtime is where an hourly rate pulls away from a salary. At time-and-a-half, each overtime hour pays $60 instead of $40. With 5 overtime hours every week, all year:</p>
+        <p>Overtime is where an hourly rate pulls ahead of a salary. At time-and-a-half, each overtime hour pays $60 instead of $40. Here is what 5 overtime hours every week, all year, looks like:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -118,7 +118,7 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>That is $15,600 of overtime pay on top of the $83,200 base — nearly a 19% raise for five extra hours a week. Three conditions apply: you must be non-exempt (overtime-eligible), you must actually work those hours, and your employer must pay overtime past 40 hours in a week. Salaried exempt workers get none of this, which is one reason an hourly $40 rate can beat a similar-looking salary. Our <a href="/articles/is-overtime-taxed-at-a-higher-rate/">overtime tax guide</a> clears up the myth that overtime is taxed at a higher rate.</p>
+        <p>That is $15,600 of overtime pay on top of the $83,200 base — close to a 19% raise for five extra hours a week. Three things have to be true: you need to be non-exempt (overtime-eligible), you have to actually work those hours, and your employer has to pay overtime past 40 hours in a week. Salaried exempt workers get none of this, which is one reason an hourly $40 rate can beat a similar-looking salary. Our <a href="/articles/is-overtime-taxed-at-a-higher-rate/">overtime tax guide</a> clears up the myth that overtime gets taxed at a higher rate.</p>
       </section>
 
       <section class="article-section" id="unpaid-weeks">
@@ -134,7 +134,7 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>Paid vacation and holidays do not reduce the total — you are paid for those weeks. Only <em>unpaid</em> time off cuts the year. When an offer quotes $40 an hour, ask how many weeks are paid: the difference between 52 and 48 paid weeks is $6,400.</p>
+        <p>Paid vacation and holidays do not shrink the total — you are paid for those weeks. Only <em>unpaid</em> time off cuts into the year. When an offer quotes $40 an hour, ask how many weeks are paid: the gap between 52 and 48 paid weeks is $6,400.</p>
       </section>
 
       <section class="article-section" id="after-taxes">
@@ -143,7 +143,7 @@ export const article28 = {
           <img src="/assets/images/how-much-is-40-an-hour-a-year-paycheck.jpg" alt="Office worker at a desk reading a printed pay stub beside a laptop in a bright office" width="1280" height="720" loading="lazy">
           <figcaption>After federal tax and FICA, the stub — not the headline rate — shows what a $40-an-hour paycheck really deposits.</figcaption>
         </figure>
-        <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch — state tax, 401(k), and health premiums are excluded, so your real paycheck will be lower:</p>
+        <p>Gross pay is not spending money. For a single filer in 2026 taking the standard deduction, here is the federal-only sketch. State tax, 401(k), and health premiums are not in it, so your real paycheck will be lower:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -157,13 +157,13 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>That is $5,613.43 a month on average, or $2,590.05 per biweekly paycheck, before state tax. Two rates are worth separating: your <em>marginal</em> bracket is 22% (the rate on your last dollars), but your <em>effective</em> federal rate is only 11.4% ($9,474 ÷ $83,200), because the lower brackets tax the first dollars at 10% and 12%. The FICA piece uses the same 7.65% explained in our <a href="/articles/what-is-fica-tax/">FICA guide</a>; the same method drives our <a href="/articles/60000-a-year-after-taxes/">$60,000 after-tax guide</a> and <a href="/articles/100000-a-year-after-taxes/">$100,000 after-tax guide</a>.</p>
-        <p><em>Honesty note:</em> this sketch assumes all $83,200 counts as wages for both income tax and FICA, with no pre-tax deductions. A 401(k) contribution would lower the income-tax lines but not the FICA lines; cafeteria-plan health premiums would lower both.</p>
+        <p>That works out to $5,613.43 a month on average, or $2,590.05 per biweekly paycheck, before state tax. Two rates are worth telling apart: your <em>marginal</em> bracket is 22% (the rate on your last dollars), but your <em>effective</em> federal rate is only 11.4% ($9,474 ÷ $83,200), because your first dollars get taxed at 10% and 12%. The FICA piece uses the same 7.65% explained in our <a href="/articles/what-is-fica-tax/">FICA guide</a>; the same method drives our <a href="/articles/60000-a-year-after-taxes/">$60,000 after-tax guide</a> and <a href="/articles/100000-a-year-after-taxes/">$100,000 after-tax guide</a>.</p>
+        <p><em>Honesty note:</em> this sketch assumes all $83,200 counts as wages for both income tax and FICA, with no pre-tax deductions. A 401(k) contribution would lower the income-tax lines but not the FICA lines; health premiums through a cafeteria plan would lower both.</p>
       </section>
 
       <section class="article-section" id="nearby-rates">
         <h2>$40 vs Nearby Rates</h2>
-        <p>Hourly rates compound fast — $5 an hour is $10,400 a year. Here is $40 against its neighbours and against two salaries readers often compare it with:</p>
+        <p>Hourly rates add up fast — $5 an hour is $10,400 a year. Here is $40 next to its neighbors and two salaries people often compare it with:</p>
         <div class="table-wrap">
           <table class="pay-table">
             <thead><tr><th>Pay level</th><th>Hourly equivalent</th><th>Annual gross</th><th>Difference from $40/hr</th></tr></thead>
@@ -177,35 +177,35 @@ export const article28 = {
             </tbody>
           </table>
         </div>
-        <p>The comparison that surprises people: $40 an hour full-time beats a $60,000 salary by $23,200 gross — before overtime, which only widens the gap. The reverse is also true: a $100,000 salary beats $40 an hour by $16,800, and no realistic overtime schedule closes that. Compare offers on annual gross first, then on take-home, then on benefits and paid weeks. Our <a href="/articles/how-much-is-35-an-hour-a-year/">$35 guide</a> and <a href="/articles/how-much-is-45-an-hour-annually/">$45 guide</a> use the same method, so the three are directly comparable.</p>
+        <p>The comparison that catches people off guard: $40 an hour full-time beats a $60,000 salary by $23,200 gross — before overtime, which only widens the gap. It cuts the other way too: a $100,000 salary beats $40 an hour by $16,800, and no realistic overtime schedule closes that. Compare offers on annual gross first, then on take-home, then on benefits and paid weeks. Our <a href="/articles/how-much-is-35-an-hour-a-year/">$35 guide</a> and <a href="/articles/how-much-is-45-an-hour-annually/">$45 guide</a> use the same method, so all three line up directly.</p>
       </section>
 
       <section class="article-section" id="good-salary">
         <h2>Is $40 an Hour a Good Salary?</h2>
-        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $22–23 an hour in recent Bureau of Labor Statistics data, so $40 an hour is roughly 78% above the median, and $83,200 clears $80,000 a year full-time. It is the range of skilled trades, experienced technicians, shift supervisors, and specialist support roles — jobs where the rate reflects a skill, a licence, or unsocial hours.</p>
-        <p>But "good" is local. In a low-cost city, $67,361.20 of federal-only take-home covers a comfortable life; in a high-rent metro, the same money is tight, especially with no paid leave or employer health coverage. Judge the rate three ways: against the median, against your city's rent, and against the total package — paid weeks, health premiums, retirement match, and overtime availability. A $40 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
+        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $22–23 an hour in recent Bureau of Labor Statistics data, so $40 an hour is roughly 78% above the median, and $83,200 clears $80,000 a year full-time. It is the range of skilled trades, experienced technicians, shift supervisors, and specialist support roles — jobs where the rate reflects a skill, a license, or unsocial hours.</p>
+        <p>But "good" is local. In a low-cost city, $67,361.20 of federal-only take-home covers a comfortable life; in a high-rent metro, the same money is tight, especially with no paid leave or employer health coverage. Judge the rate three ways: against the median, against your city's rent, and against the whole package — paid weeks, health premiums, retirement match, and overtime availability. A $40 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
         <h2>How to Use the Calculator</h2>
         <p>Run your own numbers in four steps:</p>
         <ol>
-          <li><strong>Step 1 — Enter your hourly rate</strong> into the hourly-to-salary calculator.</li>
-          <li><strong>Step 2 — Set your schedule:</strong> adjust hours per week and paid weeks to match your job.</li>
+          <li><strong>Step 1 — Enter your hourly rate</strong> in the hourly-to-salary calculator.</li>
+          <li><strong>Step 2 — Set your schedule:</strong> change hours per week and paid weeks to match your job.</li>
           <li><strong>Step 3 — Check the receipt:</strong> the panel under the tool shows your inputs, the formula, and the result.</li>
-          <li><strong>Step 4 — Compare:</strong> try the nearby rates in this guide to see how a different pay level changes the result.</li>
+          <li><strong>Step 4 — Compare:</strong> try the nearby rates in this guide and see how a different pay level changes the result.</li>
         </ol>
         <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a></p>
       </section>
 
       <section class="article-section" id="limitations">
         <h2>Limitations</h2>
-        <p>Keep these limits in mind before using any figure above as a budget:</p>
+        <p>A few limits to keep in mind before you use any figure above as a budget:</p>
         <ol>
-          <li><strong>State income tax excluded:</strong> most states tax income too, so actual take-home is lower; the after-tax sketch is federal only.</li>
+          <li><strong>State income tax excluded:</strong> most states tax income too, so real take-home is lower; the after-tax sketch is federal only.</li>
           <li><strong>Benefits excluded:</strong> 401(k) contributions, health premiums, and other deductions come out of your check and are not counted here.</li>
-          <li><strong>Overtime is conditional:</strong> the $98,800 overtime figure needs non-exempt status, actual overtime hours, and an employer that pays past 40 hours.</li>
-          <li><strong>Schedule assumption:</strong> figures use the schedule stated in each section; fewer hours or unpaid weeks change every number.</li>
+          <li><strong>Overtime is conditional:</strong> the $98,800 overtime figure needs non-exempt status, real overtime hours, and an employer that pays past 40 hours.</li>
+          <li><strong>Schedule assumption:</strong> the figures use the schedule stated in each section; fewer hours or unpaid weeks change every number.</li>
           <li><strong>Not tax advice:</strong> the take-home sketch uses 2026 federal rules for a single filer taking the standard deduction. Credits, other income, and filing status change your real return.</li>
         </ol>
       </section>
@@ -222,27 +222,27 @@ export const article28 = {
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>$40 an hour is $83,200 a year</strong> full-time ($1,600 a week, $3,200 biweekly, $6,933.33 a month on average), before taxes.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Budget from the average month,</strong> not any single month — four-week months pay $6,400, three-paycheck months pay $9,600.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Five overtime hours a week add $15,600</strong> a year ($98,800 total) — if you are non-exempt and actually work them.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each unpaid week costs $1,600:</strong> ask how many weeks are paid before accepting any hourly offer.</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Federal-only take-home is $67,361.20</strong> for a single filer — 22% marginal bracket, but only an 11.4% effective federal rate.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Each unpaid week costs $1,600:</strong> ask how many weeks are paid before you accept any hourly offer.</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Federal-only take-home is $67,361.20</strong> for a single filer — a 22% marginal bracket, but only an 11.4% effective federal rate.</li>
             <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle;margin-right:6px;color:var(--primary)"><polyline points="20 6 9 17 4 12"/></svg><strong>Compare on annual gross first,</strong> then take-home, then benefits — $40 an hour beats a $60,000 salary by $23,200 gross.</li>
           </ul>
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks); monthly averages divide the annual total by 12 and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $83,200 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Here is how we got the numbers. Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks); monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $83,200 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">
         <div>
           <h2>Check your own rate</h2>
-          <p>Enter your hourly rate and schedule to see its annual equivalent, then work through the same scenarios.</p>
+          <p>Put in your hourly rate and schedule to see what it adds up to a year, then try the same scenarios with your own numbers.</p>
         </div>
         <a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a>
       </div>
       <h2>3 Things to Remember</h2>
       <ol>
         <li>Full-time gross pay is $83,200 a year — $1,600 a week, $6,933.33 a month.</li>
-        <li>Part-time, overtime, and unpaid weeks change the total — the guide works through each case.</li>
+        <li>Part-time hours, overtime, and unpaid weeks all change the total — we walk through each case in the guide.</li>
         <li>Whether $40 an hour covers a comfortable life depends on your rent and location — in a high-rent metro, the same money is tight.</li>
       </ol>
   `
