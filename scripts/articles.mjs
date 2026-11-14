@@ -71,6 +71,7 @@ import { article71 } from './article-71.mjs';
 import { article72 } from './article-72.mjs';
 import { article73 } from './article-73.mjs';
 import { article74 } from './article-74.mjs';
+import { article75 } from './article-75.mjs';
 
 // ==========================================================================
 // ARTICLES DATA
@@ -787,5 +788,6 @@ export const articles = [
   article71,
   article72,
   article73,
-  article74
+  article74,
+  article75
 ];
