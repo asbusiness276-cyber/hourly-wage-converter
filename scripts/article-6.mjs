@@ -115,7 +115,7 @@ export const article6 = {
 
       <!-- Section 2: National Context -->
       <h2 id="national-context">Where Does $45 an Hour Put You in the US Economy?</h2>
-      <p>The U.S. Bureau of Labor Statistics (BLS) and the U.S. Census Bureau put median income for full-time American workers at roughly $48,000 to $52,000 a year. At <strong>$93,600 a year</strong>, you're well clear of that, in roughly the <strong>top 20% to 25% of individual earners nationwide</strong>. The median line sits almost exactly where <a href="/articles/how-much-is-23-an-hour-a-year/">$23 an hour lands over a full year ($47,840)</a>, and our $23-an-hour guide breaks that rate down paycheck by paycheck.</p>
+      <p>The U.S. Bureau of Labor Statistics (BLS) puts the national median wage at $24.51 an hour — $50,980 a year (May 2025). At <strong>$93,600 a year</strong>, you're well clear of that, in roughly the <strong>top 20% to 25% of individual earners nationwide</strong>. The median line sits just above where <a href="/articles/how-much-is-23-an-hour-a-year/">$23 an hour lands over a full year ($47,840)</a>, and our $23-an-hour guide breaks that rate down paycheck by paycheck.</p>
 
       <p>In lower-cost parts of the country (the Midwest, the South, the Mountain West), $93,600 goes a long way. A household can buy a home, run two cars, invest steadily, and still handle a surprise bill without panic. Even in pricier coastal cities (Seattle, Chicago, or Washington D.C.), $45 an hour gives a single person a solid, self-sufficient footing.</p>
 

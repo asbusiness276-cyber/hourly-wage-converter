@@ -113,7 +113,7 @@ export const article5 = {
 
       <!-- Section 2: National Context -->
       <h2 id="national-context">Where Does $23 an Hour Put You in the US Workforce?</h2>
-      <p>The U.S. Bureau of Labor Statistics (BLS) and the U.S. Census Bureau put the national median wage for full-time workers somewhere between $48,000 and $50,000 a year. At <strong>$47,840 per year</strong>, $23 an hour puts you right in the middle of the American workforce.</p>
+      <p>The U.S. Bureau of Labor Statistics (BLS) puts the national median wage at $24.51 an hour — $50,980 a year (May 2025). At <strong>$47,840 a year</strong>, $23 an hour lands just under that middle line, about $3,140 below the median.</p>
 
       <p>What $23 an hour buys depends a lot on where you live:</p>
       <ul>

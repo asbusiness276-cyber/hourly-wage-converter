@@ -51,7 +51,7 @@ export const article7 = {
     ],
     [
       'Is $30 an hour considered a good wage?',
-      'Yes. At $62,400 gross a year, $30 an hour sits well above the median individual income in the US (around $48,000–$50,000). In most low-to-moderate cost areas, a single earner can live on their own, keep rent within the 30% rule (up to $1,300/month), and still put money aside for retirement and emergencies.'
+      'Yes. At $62,400 gross a year, $30 an hour sits well above the national median wage of $50,980 a year ($24.51 an hour, BLS, May 2025). In most low-to-moderate cost areas, a single earner can live on their own, keep rent within the 30% rule (up to $1,300/month), and still put money aside for retirement and emergencies.'
     ],
     [
       'What is time-and-a-half overtime for $30 an hour?',
@@ -114,7 +114,7 @@ export const article7 = {
 
       <!-- Section 2: National Context -->
       <h2 id="national-context">Where Does $30 an Hour Put You in the US Economy?</h2>
-      <p>The Bureau of Labor Statistics (BLS) and the U.S. Census Bureau put median personal income for full-time American workers between $48,000 and $50,000 a year. At <strong>$62,400 a year</strong>, you're comfortably above that, in roughly the 55th to 60th percentile of individual earners nationwide.</p>
+      <p>The Bureau of Labor Statistics (BLS) puts the national median wage at $24.51 an hour — $50,980 a year (May 2025). At <strong>$62,400 a year</strong>, you're comfortably above that, in roughly the 55th to 60th percentile of individual earners nationwide.</p>
 
       <p>That said, what $30 an hour buys you depends a lot on where you live:</p>
       <ul>
@@ -531,7 +531,7 @@ export const article7 = {
 
         <details>
           <summary>Is $30 an hour considered a good wage?<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m6 9 6 6 6-6"/></svg></summary>
-          <p>Yes. At $62,400 gross a year, $30 an hour sits well above the median individual income in the US (around $48,000–$50,000). In most low-to-moderate cost areas, a single earner can live on their own, keep rent within the 30% rule (up to $1,300/month), and still put money aside for retirement and emergencies.</p>
+          <p>Yes. At $62,400 gross a year, $30 an hour sits well above the national median wage of $50,980 a year ($24.51 an hour, BLS, May 2025). In most low-to-moderate cost areas, a single earner can live on their own, keep rent within the 30% rule (up to $1,300/month), and still put money aside for retirement and emergencies.</p>
         </details>
 
         <details>
