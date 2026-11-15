@@ -41,7 +41,7 @@ export const article36 = {
     ],
     [
       'Is $24 an hour a good wage?',
-      'Yes, by the national yardstick. Recent Bureau of Labor Statistics data puts the national median hourly wage at $22.26, so $24 an hour sits $1.74 above the typical American worker. That is about 3.3 times the $7.25 federal minimum wage. Whether it feels good mostly comes down to your rent and the benefits that come with the job.'
+      'Yes, by the national yardstick. Recent Bureau of Labor Statistics data puts the national median hourly wage at $24.51, so $24 an hour sits 51 cents below the typical American worker. That is about 3.3 times the $7.25 federal minimum wage. Whether it feels good mostly comes down to your rent and the benefits that come with the job.'
     ],
     [
       'How much is $24 an hour part-time?',
@@ -229,7 +229,7 @@ export const article36 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $24 an Hour a Good Wage?</h2>
-        <p>Against the national yardstick, $24 an hour is a solidly above-typical wage, and "above typical" here is a real position, not a rounding error. It's about 3.3 times the $7.25 federal minimum wage, and it's the range of construction supervisors, experienced warehouse leads, medical assistants, and skilled trades roles. Jobs where the rate reflects training or responsibility, not just hours. Because the median hourly wage sits at $22.26, $24 an hour is $1.74 above the middle of the market, worth $3,619.20 a year more than the median worker's $46,300.80. One small raise, a shift differential, or a few overtime hours a week puts you further above it still.</p>
+        <p>Against the national yardstick, $24 an hour sits just below the middle of the market — 51 cents under the median hourly wage of $24.51, worth $1,060.80 a year less than the median worker’s $50,980.80. It's about 3.3 times the $7.25 federal minimum wage, and it's the range of construction supervisors, experienced warehouse leads, medical assistants, and skilled trades roles. Jobs where the rate reflects training or responsibility, not just hours. One small raise, a shift differential, or a few overtime hours a week puts you above it.</p>
         <p>But "good" is local. In a low-cost city, $42,290.72 of federal-only take-home covers a comfortable modest life, especially with paid leave and employer health coverage. In a high-rent metro, the same money is tight on its own, and the job's extras matter more than the rate: paid weeks, health premiums, a retirement match, and reliable overtime hours. Judge the rate three ways: against the median, against your city's rent, and against the total package. A $24 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
@@ -279,7 +279,7 @@ export const article36 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $49,920 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $22.26). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $49,920 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $24.51). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">
