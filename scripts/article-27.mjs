@@ -43,7 +43,7 @@ export const article27 = {
     ],
     [
       'Is $35 an hour a good salary?',
-      'By the national yardstick, yes. $35 an hour sits well above the median hourly wage of roughly $22–23 an hour, and it clears $70,000 a year full-time. Whether it feels good depends on your city, your hours, and your benefits. A $35 rate with no paid leave and no health coverage is worth less than the same rate with both.'
+      'By the national yardstick, yes. $35 an hour sits well above the median hourly wage of roughly $24.51 an hour, and it clears $70,000 a year full-time. Whether it feels good depends on your city, your hours, and your benefits. A $35 rate with no paid leave and no health coverage is worth less than the same rate with both.'
     ],
     [
       'What is $35 an hour with overtime?',
@@ -181,7 +181,7 @@ export const article27 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $35 an Hour a Good Salary?</h2>
-        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $22–23 an hour in recent Bureau of Labor Statistics data, so $35 an hour is roughly 55% above the median, and $72,800 clears $70,000 a year full-time. This is the range of skilled trades, shift supervisors, experienced drivers, and specialist support roles, jobs where the rate reflects a skill, a license, or unsocial hours.</p>
+        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $24.51 an hour in recent Bureau of Labor Statistics data, so $35 an hour is roughly 43% above the median, and $72,800 clears $70,000 a year full-time. This is the range of skilled trades, shift supervisors, experienced drivers, and specialist support roles, jobs where the rate reflects a skill, a license, or unsocial hours.</p>
         <p>But "good" is local. In a low-cost city, $60,044.80 of federal-only take-home covers a comfortable life. In a high-rent metro, the same money is tight, especially with no paid leave or employer health coverage. Judge the rate three ways: against the median, against your city's rent, and against the total package, meaning paid weeks, health premiums, retirement match, and overtime availability. A $35 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
@@ -228,7 +228,7 @@ export const article27 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $72,800 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $72,800 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $24.51 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

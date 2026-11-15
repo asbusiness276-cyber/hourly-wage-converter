@@ -41,7 +41,7 @@ export const article34 = {
     ],
     [
       'Is $21 an hour a good wage?',
-      'Close to the middle of the US labor market, it is a genuinely decent rate with real limits. At nearly three times the $7.25 federal minimum wage, $21 an hour sits only about 7% below the national median hourly wage of around $22–23 an hour. Whether it feels good depends mostly on your rent: it stretches comfortably in a low-cost area and feels tight in a high-rent city.'
+      'Close to the middle of the US labor market, it is a genuinely decent rate with real limits. At nearly three times the $7.25 federal minimum wage, $21 an hour sits only about 14% below the national median hourly wage of around $24.51 an hour. Whether it feels good depends mostly on your rent: it stretches comfortably in a low-cost area and feels tight in a high-rent city.'
     ],
     [
       'How much is $21 an hour part-time?',
@@ -224,7 +224,7 @@ export const article34 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $21 an Hour a Good Wage?</h2>
-        <p>Measured against the country as a whole, $21 an hour is a solid working rate that sits just under the middle of the market. It's nearly three times the $7.25 federal minimum wage, and it's the range of auto technicians, warehouse leads, medical assistants, and skilled retail roles, jobs where the rate reflects training or responsibility, not just hours. The median hourly wage in the United States sits around $22–23 an hour in recent Bureau of Labor Statistics data, so $21 an hour is roughly 7% below the middle of the market. Close enough that one raise, a shift differential, or a few overtime hours a week puts you above it.</p>
+        <p>Measured against the country as a whole, $21 an hour is a solid working rate that sits just under the middle of the market. It's nearly three times the $7.25 federal minimum wage, and it's the range of auto technicians, warehouse leads, medical assistants, and skilled retail roles, jobs where the rate reflects training or responsibility, not just hours. The median hourly wage in the United States sits around $24.51 an hour in recent Bureau of Labor Statistics data, so $21 an hour is roughly 14% below the middle of the market. Close enough that one raise, a shift differential, or a few overtime hours a week puts you above it.</p>
         <p>But "good" is local. In a low-cost city, $37,276.88 of federal-only take-home covers a modest life, especially with paid leave and employer health coverage. In a high-rent metro, the same money is tight on its own, and the job's extras matter more than the rate: paid weeks, health premiums, a retirement match, and reliable overtime hours. Judge the rate three ways: against the median, against your city's rent, and against the total package. A $21 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
@@ -273,7 +273,7 @@ export const article34 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12 and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $43,680 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12 and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $43,680 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $24.51 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

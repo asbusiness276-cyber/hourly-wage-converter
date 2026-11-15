@@ -42,7 +42,7 @@ export const article45 = {
     ],
     [
       'Is $50 an hour good pay?',
-      'Nationally, yes. It sits about 125% above the median hourly wage of roughly $22.26 an hour, which annualizes to $46,300.80. That’s a gap of $57,699.20. It’s also 6.90 times the $7.25 federal minimum wage. Whether it feels good still comes down to your hours, your household size, and your city: $6,832.83 a month of federal-only take-home is comfortable in a low-cost city and tight in a high-rent one, and it assumes a full 40-hour week all year.'
+      'Nationally, yes. It sits about 104% above the median hourly wage of roughly $24.51 an hour, which annualizes to $50,980.80. That’s a gap of $53,019.20. It’s also 6.90 times the $7.25 federal minimum wage. Whether it feels good still comes down to your hours, your household size, and your city: $6,832.83 a month of federal-only take-home is comfortable in a low-cost city and tight in a high-rent one, and it assumes a full 40-hour week all year.'
     ],
     [
       'How much is $50 an hour part-time?',
@@ -248,7 +248,7 @@ export const article45 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $50 an Hour a Good Wage?</h2>
-        <p>Against national benchmarks, $50 clears the bar by a wide margin. The median hourly wage is roughly $22.26 an hour, which annualizes to $46,300.80. So $50 sits $27.74 an hour, or about 125%, above the median, worth $57,699.20 a year more than the median worker’s full-time gross. It’s also 6.90 times the $7.25 federal minimum wage. By the usual "above median" test, $50 is very good pay.</p>
+        <p>Against national benchmarks, $50 clears the bar by a wide margin. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $50 sits $25.49 an hour, or about 104%, above the median, worth $53,019.20 a year more than the median worker’s full-time gross. It’s also 6.90 times the $7.25 federal minimum wage. By the usual "above median" test, $50 is very good pay.</p>
         <p>Your own budget is the test that counts more. Federal-only take-home is $6,832.83 a month for one full-time earner, before state income tax, health premiums, and retirement contributions. In a low-cost city, that covers rent, transport, and savings with room to spare. In a high-rent city, it can feel tight, especially on one income. Here’s one concrete yardstick: a $10,000 emergency fund takes 253.7 take-home hours to earn (about 6.3 full weeks), not the 200 gross hours the headline rate suggests. That gap between gross hours and kept hours is the whole point of this guide. Judge $50 on your hours (a 30-hour week at this rate is $78,000, not $104,000), your paid weeks, and your city, not on the rate alone. Our <a href="/articles/how-much-is-45-an-hour-annually/">$45-an-hour guide</a> and <a href="/articles/how-much-is-35-an-hour-a-year/">$35-an-hour guide</a> use the same benchmarks if you want to see how the verdict shifts a few dollars down.</p>
       </section>
 

@@ -42,7 +42,7 @@ export const article37 = {
     ],
     [
       'Is $25 an hour a good wage?',
-      'Yes, by the national yardstick. Recent Bureau of Labor Statistics data puts the national median hourly wage at $22.26, so $25 an hour sits $2.74 above the typical American worker, about 3.4 times the $7.25 federal minimum wage. Whether it feels good depends mostly on your rent and on the benefits that come with the job.'
+      'Yes, by the national yardstick. Recent Bureau of Labor Statistics data puts the national median hourly wage at $24.51, so $25 an hour sits $0.49 above the typical American worker, about 3.4 times the $7.25 federal minimum wage. Whether it feels good depends mostly on your rent and on the benefits that come with the job.'
     ],
     [
       'How much is $25 an hour part-time?',
@@ -248,7 +248,7 @@ export const article37 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $25 an Hour a Good Wage?</h2>
-        <p>By the national yardstick, yes. Recent Bureau of Labor Statistics data puts the national median hourly wage at $22.26, so $25 an hour sits $2.74 above the typical American worker. That's $5,699.20 a year above the median full-time year, and about 3.4 times the $7.25 federal minimum wage. It also clears the $50,000 line with room to spare, which is where many job postings start describing a role as a career position rather than an entry-level one.</p>
+        <p>By the national yardstick, yes. Recent Bureau of Labor Statistics data puts the national median hourly wage at $24.51, so $25 an hour sits $0.49 above the typical American worker. That's $1,019.20 a year above the median full-time year, and about 3.4 times the $7.25 federal minimum wage. It also clears the $50,000 line with room to spare, which is where many job postings start describing a role as a career position rather than an entry-level one.</p>
         <p>Whether it feels good depends on the same two things as every other rate: rent and benefits. In a low-cost city, $3,663.50 of monthly federal-only take-home covers a modest life with room to save. In a high-rent city, the same paycheck can feel tight before state tax and health premiums. Judge the offer on the whole package, paid weeks, health premiums, retirement match, schedule control, not on the hourly number alone.</p>
       </section>
 
@@ -298,7 +298,7 @@ export const article37 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $52,000 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $22.26). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $52,000 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $24.51). State income tax, retirement contributions, health premiums, bonuses, and tips are excluded except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

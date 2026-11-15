@@ -45,7 +45,7 @@ export const article38 = {
     ],
     [
       'Is $26 an hour a good wage?',
-      'Yes, if you go by the national numbers. Recent Bureau of Labor Statistics data puts the typical hourly wage in the US at $22.26, so $26 an hour is $3.74 above what the typical American worker earns. That\'s $7,779.20 more over a full-time year, and about 3.6 times the $7.25 federal minimum wage. Whether it feels good in real life comes down mostly to your rent, your state tax, and the benefits that come with the job.'
+      'Yes, if you go by the national numbers. Recent Bureau of Labor Statistics data puts the typical hourly wage in the US at $24.51, so $26 an hour is $1.49 above what the typical American worker earns. That\'s $3,099.20 more over a full-time year, and about 3.6 times the $7.25 federal minimum wage. Whether it feels good in real life comes down mostly to your rent, your state tax, and the benefits that come with the job.'
     ],
     [
       'What is time and a half for $26 an hour?',
@@ -233,7 +233,7 @@ export const article38 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $26 an Hour a Good Wage?</h2>
-        <p>By the national yardstick, yes. Recent Bureau of Labor Statistics data puts the national median hourly wage at $22.26, so $26 an hour sits $3.74 above the typical American worker. That is $7,779.20 a year above the median full-time year, and about 3.6 times the $7.25 federal minimum wage. It also clears the $50,000 line by $4,080 and lands within $920 of a $55,000 salary, which is where many job postings start calling a role mid-level rather than entry-level.</p>
+        <p>By the national yardstick, yes. Recent Bureau of Labor Statistics data puts the national median hourly wage at $24.51, so $26 an hour sits $1.49 above the typical American worker. That is $3,099.20 a year above the median full-time year, and about 3.6 times the $7.25 federal minimum wage. It also clears the $50,000 line by $4,080 and lands within $920 of a $55,000 salary, which is where many job postings start calling a role mid-level rather than entry-level.</p>
         <p>Whether it feels good comes down to the same two things as every other rate: rent and benefits. In a low-cost city, $3,802.77 of monthly federal-only take-home covers a modest life with room to save. In a high-rent city, the same paycheck can feel tight once state tax and health premiums come out. Judge the offer on the whole package, paid weeks, health premiums, retirement match, schedule control, and any differential or overtime on offer, not on the hourly number alone.</p>
       </section>
 
@@ -283,7 +283,7 @@ export const article38 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, and 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $54,080 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $22.26). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, and 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $54,080 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (median hourly wage $24.51). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

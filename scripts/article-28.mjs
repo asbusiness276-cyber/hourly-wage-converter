@@ -43,7 +43,7 @@ export const article28 = {
     ],
     [
       'Is $40 an hour a good salary?',
-      'By the national yardstick, yes. $40 an hour is well above the median hourly wage of roughly $22–23 an hour, and it clears $80,000 a year full-time. But how it feels depends on your city, your hours, and your benefits — a $40 rate with no paid leave and no health coverage is worth less than the same rate with both.'
+      'By the national yardstick, yes. $40 an hour is well above the median hourly wage of roughly $24.51 an hour, and it clears $80,000 a year full-time. But how it feels depends on your city, your hours, and your benefits — a $40 rate with no paid leave and no health coverage is worth less than the same rate with both.'
     ],
     [
       'What is $40 an hour with overtime?',
@@ -182,7 +182,7 @@ export const article28 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $40 an Hour a Good Salary?</h2>
-        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $22–23 an hour in recent Bureau of Labor Statistics data, so $40 an hour is roughly 78% above the median, and $83,200 clears $80,000 a year full-time. It is the range of skilled trades, experienced technicians, shift supervisors, and specialist support roles — jobs where the rate reflects a skill, a license, or unsocial hours.</p>
+        <p>Against the national yardstick, yes. The median hourly wage in the United States sits around $24.51 an hour in recent Bureau of Labor Statistics data, so $40 an hour is roughly 63% above the median, and $83,200 clears $80,000 a year full-time. It is the range of skilled trades, experienced technicians, shift supervisors, and specialist support roles — jobs where the rate reflects a skill, a license, or unsocial hours.</p>
         <p>But "good" is local. In a low-cost city, $67,361.20 of federal-only take-home covers a comfortable life; in a high-rent metro, the same money is tight, especially with no paid leave or employer health coverage. Judge the rate three ways: against the median, against your city's rent, and against the whole package — paid weeks, health premiums, retirement match, and overtime availability. A $40 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
@@ -229,7 +229,7 @@ export const article28 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Here is how we got the numbers. Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks); monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $83,200 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Here is how we got the numbers. Gross figures use the standard full-time year of 2,080 hours (40 hours × 52 weeks); monthly averages divide the annual total by 12, and biweekly figures use 26 paychecks. The after-tax sketch uses 2026 federal rules for a single filer taking the standard deduction: standard deduction $16,100, brackets 10% to $12,400, 12% to $50,400, 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32; FICA 7.65% (Social Security 6.2% to the $184,500 wage base, Medicare 1.45%), with the full $83,200 below the wage base. The median-wage comparison uses recent Bureau of Labor Statistics data (roughly $24.51 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out except where a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

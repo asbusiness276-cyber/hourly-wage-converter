@@ -43,7 +43,7 @@ export const article31 = {
     ],
     [
       'Is $18 an hour a good wage?',
-      'It really comes down to where you live and what\'s included with the job. At nearly two and a half times the $7.25 federal minimum wage, $18 an hour is a respectable entry-level rate, though it\'s about a fifth below the national median hourly wage of around $22–23 an hour. In a low-cost area with paid leave and benefits, it goes a long way. In a high-rent city by itself, it\'s tight.'
+      'It really comes down to where you live and what\'s included with the job. At nearly two and a half times the $7.25 federal minimum wage, $18 an hour is a respectable entry-level rate, though it\'s about a quarter below the national median hourly wage of around $24.51 an hour. In a low-cost area with paid leave and benefits, it goes a long way. In a high-rent city by itself, it\'s tight.'
     ],
     [
       'What is $18 an hour with overtime?',
@@ -185,7 +185,7 @@ export const article31 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $18 an Hour a Good Wage?</h2>
-        <p>Stacked against the national picture, $18 an hour is a solid entry-level rate — with clear limits. It's nearly two and a half times the $7.25 federal minimum wage, and it's the going rate for retail, grocery, warehouse, food-service, and entry-level support roles, where the pay reflects the work rather than a license or a degree. Still, the median hourly wage in the United States is around $22–23 an hour in recent Bureau of Labor Statistics data, so $18 lands about a fifth below the middle of the market.</p>
+        <p>Stacked against the national picture, $18 an hour is a solid entry-level rate — with clear limits. It's nearly two and a half times the $7.25 federal minimum wage, and it's the going rate for retail, grocery, warehouse, food-service, and entry-level support roles, where the pay reflects the work rather than a license or a degree. Still, the median hourly wage in the United States is around $24.51 an hour in recent Bureau of Labor Statistics data, so $18 lands about a quarter below the middle of the market.</p>
         <p>But "good" is local. In a low-cost city, $32,263.04 of federal-only take-home covers a modest life, especially with paid leave and employer health coverage. In a high-rent metro, the same money is tight on its own, and the extras matter more than the rate: paid weeks, health premiums, a retirement match, and reliable overtime hours. We'd look at the rate three ways: against the median, against your city's rent, and against the total package. An $18 rate with paid leave and a match is worth several thousand more than the same rate without them.</p>
       </section>
 
@@ -233,7 +233,7 @@ export const article31 = {
         </div>
         <div class="methodology-box">
           <h3>Sources &amp; Method</h3>
-          <p>Here's how we worked the numbers out. Gross figures are based on a standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages come from dividing the annual total by 12, and biweekly figures assume 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: a $16,100 standard deduction, and brackets of 10% to $12,400, 12% to $50,400, and 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% up to the $184,500 wage base, Medicare 1.45%), and the full $37,440 falls below that wage base. The median-wage comparison comes from recent Bureau of Labor Statistics data (roughly $22–23 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out unless a note says otherwise. This article is general information, not tax advice.</p>
+          <p>Here's how we worked the numbers out. Gross figures are based on a standard full-time year of 2,080 hours (40 hours × 52 weeks). Monthly averages come from dividing the annual total by 12, and biweekly figures assume 26 paychecks. The after-tax estimate uses 2026 federal rules for a single filer taking the standard deduction: a $16,100 standard deduction, and brackets of 10% to $12,400, 12% to $50,400, and 22% to $105,700 of taxable income, per IRS Revenue Procedure 2025-32. FICA is 7.65% (Social Security 6.2% up to the $184,500 wage base, Medicare 1.45%), and the full $37,440 falls below that wage base. The median-wage comparison comes from recent Bureau of Labor Statistics data (roughly $24.51 an hour). State income tax, retirement contributions, health premiums, bonuses, and tips are left out unless a note says otherwise. This article is general information, not tax advice.</p>
         </div>
       </section>
       <div class="article-hero-cta" style="margin-top:40px">

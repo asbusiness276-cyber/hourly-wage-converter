@@ -41,7 +41,7 @@ export const article44 = {
     ],
     [
       'Is $33 an hour good pay?',
-      'Nationally, yes. It sits about 48% above the median hourly wage of roughly $22.26 an hour, which annualizes to $46,300.80. That’s a gap of $22,339.20. But whether it feels good depends on your hours, your household size, and your city: $4,759.85 a month of federal-only take-home goes a long way in a low-cost city and gets tight in a high-rent one, and it assumes a full 40-hour week all year.'
+      'Nationally, yes. It sits about 35% above the median hourly wage of roughly $24.51 an hour, which annualizes to $50,980.80. That’s a gap of $17,659.20. But whether it feels good depends on your hours, your household size, and your city: $4,759.85 a month of federal-only take-home goes a long way in a low-cost city and gets tight in a high-rent one, and it assumes a full 40-hour week all year.'
     ],
     [
       'How much is $33 an hour part-time?',
@@ -229,7 +229,7 @@ export const article44 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $33 an Hour a Good Wage?</h2>
-        <p>Against national benchmarks, $33 clears the bar with room to spare. The median hourly wage is roughly $22.26 an hour, which annualizes to $46,300.80. So $33 sits $10.74 an hour, or 48.2%, above the median, worth $22,339.20 a year more than the median worker’s full-time gross. It’s also 4.55 times the $7.25 federal minimum wage. By the usual "above median" test, $33 is good pay.</p>
+        <p>Against national benchmarks, $33 clears the bar with room to spare. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $33 sits $8.49 an hour, or 34.6%, above the median, worth $17,659.20 a year more than the median worker’s full-time gross. It’s also 4.55 times the $7.25 federal minimum wage. By the usual "above median" test, $33 is good pay.</p>
         <p>The test that matters more is your own budget. Federal-only take-home is $4,759.85 a month for one full-time earner, before state income tax, health premiums, and retirement contributions. In a low-cost city, that covers rent, transport, and savings with room to spare. In a high-rent city, it can feel tight, especially on one income. Judge $33 on your hours (a 30-hour week at this rate is $51,480, not $68,640), your paid weeks, and your city, not on the rate alone. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-31-an-hour-a-year/">$31-an-hour guide</a> use the same benchmarks if you want to see how the verdict shifts a dollar or two down.</p>
       </section>
 

@@ -41,7 +41,7 @@ export const article46 = {
     ],
     [
       'Is $34 an hour good pay?',
-      'Around the country, yes. It sits 52.7% above the median hourly wage of roughly $22.26 an hour, which works out to $46,300.80 a year. That\'s a gap of $24,419.20 gross ($19,198.83 after federal tax alone), and it\'s 4.69 times the $7.25 federal minimum wage. How good it feels still comes down to your hours, your household, and your city: $4,881.79 a month of federal-only take-home goes a long way in a cheaper city and gets stretched thin in a pricey one, and it assumes a full 40-hour week all year long.'
+      'Around the country, yes. It sits 38.7% above the median hourly wage of roughly $24.51 an hour, which works out to $50,980.80 a year. That\'s a gap of $19,739.20 gross ($15,438.45 after federal tax alone), and it\'s 4.69 times the $7.25 federal minimum wage. How good it feels still comes down to your hours, your household, and your city: $4,881.79 a month of federal-only take-home goes a long way in a cheaper city and gets stretched thin in a pricey one, and it assumes a full 40-hour week all year long.'
     ],
     [
       'How much is $34 an hour part-time?',
@@ -227,7 +227,7 @@ export const article46 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $34 an Hour a Good Wage?</h2>
-        <p>Stacked up against the country as a whole, $34 clears the bar by a wide margin. The median hourly wage is roughly $22.26 an hour, which works out to $46,300.80 a year. So $34 sits $11.74 an hour, or about 52.7%, above the median, worth $24,419.20 a year more than the median worker’s full-time gross ($19,198.83 more after federal tax alone). It is also 4.69 times the $7.25 federal minimum wage. By the usual “above median” test, $34 is very good pay.</p>
+        <p>Stacked up against the country as a whole, $34 clears the bar by a wide margin. The median hourly wage is roughly $24.51 an hour, which works out to $50,980.80 a year. So $34 sits $9.49 an hour, or about 38.7%, above the median, worth $19,739.20 a year more than the median worker’s full-time gross ($15,438.45 more after federal tax alone). It is also 4.69 times the $7.25 federal minimum wage. By the usual “above median” test, $34 is very good pay.</p>
         <p>The test that matters more is your own budget. Federal-only take-home is $4,881.79 a month for one full-time earner, before state income tax, health premiums, and retirement contributions. In a low-cost city that covers rent, transport, and savings with room to spare. In a high-rent city it can feel tight, especially on one income. Here is one concrete yardstick, and a trap to avoid: the familiar 30% rent rule applied to take-home pay gives a $1,464.54-a-month rent ceiling ($4,881.79 × 30%), but applied to gross pay it gives $1,768.00. That is a $303.46-a-month overstatement that quietly budgets money the taxman already took. Judge $34 on your hours (a 30-hour week at this rate is $53,040, not $70,720), your paid weeks, and your city, not on the rate alone. Our <a href="/articles/how-much-is-33-an-hour-a-year/">$33-an-hour guide</a> and <a href="/articles/how-much-is-35-an-hour-a-year/">$35-an-hour guide</a> use the same benchmarks if you want to see how the verdict shifts a dollar down and up.</p>
       </section>
 

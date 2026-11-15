@@ -41,7 +41,7 @@ export const article43 = {
     ],
     [
       'Is $31 an hour good pay?',
-      'Nationally, yes. It sits about 39% above the median hourly wage of roughly $22.26 an hour, which annualizes to $46,300.80, a gap of $18,179.20. Whether it feels good depends on your hours, household size, and city. $4,499.14 a month of federal-only take-home stretches comfortably in a low-cost city and tightly in a high-rent one. And it assumes a full 40-hour week all year.'
+      'Nationally, yes. It sits about 26% above the median hourly wage of roughly $24.51 an hour, which annualizes to $50,980.80, a gap of $13,499.20. Whether it feels good depends on your hours, household size, and city. $4,499.14 a month of federal-only take-home stretches comfortably in a low-cost city and tightly in a high-rent one. And it assumes a full 40-hour week all year.'
     ],
     [
       'How much is $31 an hour part-time?',
@@ -227,7 +227,7 @@ export const article43 = {
 
       <section class="article-section" id="good-salary">
         <h2>Is $31 an Hour a Good Wage?</h2>
-        <p>Against national benchmarks, $31 clears the bar comfortably. The median hourly wage is roughly $22.26 an hour, which annualizes to $46,300.80. So $31 sits $8.74 an hour, or 39.3%, above the median, worth $18,179.20 a year more than the median worker's full-time gross. It is also 4.28 times the $7.25 federal minimum wage. By the usual "above median" test, $31 is good pay.</p>
+        <p>Against national benchmarks, $31 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $31 sits $6.49 an hour, or 26.5%, above the median, worth $13,499.20 a year more than the median worker's full-time gross. It is also 4.28 times the $7.25 federal minimum wage. By the usual "above median" test, $31 is good pay.</p>
         <p>The test that matters more is your own budget. Federal-only take-home is $4,499.14 a month for one full-time earner, before state income tax, health premiums, and retirement contributions. In a low-cost city that covers rent, transport, and savings with room to spare. In a high-rent city it can feel tight, especially on one income. The household section above is the other half of the answer: the same rate that feels tight alone feels comfortable doubled. Judge $31 on your hours (a 30-hour week at this rate is $48,360, not $64,480), your paid weeks, and your city, not on the rate alone. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-29-an-hour-a-year/">$29-an-hour guide</a> use the same benchmarks if you want to see how the verdict shifts a dollar or two down.</p>
       </section>
 
