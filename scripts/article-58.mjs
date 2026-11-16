@@ -4,7 +4,7 @@ export const article58 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-08',
-  dateModified: '2026-11-08',
+  dateModified: '2026-11-16',
   title: 'How Much Is $38 an Hour a Year?',
   seoTitle: 'How Much Is $38 an Hour a Year? | Hourly Wage Converter',
   h1: '$38 an Hour Is How Much a Year? $79,040 Full-Time, Before Taxes',
@@ -23,6 +23,8 @@ export const article58 = {
     ['path-to-80000', 'The $80,000 Salary Test: 17 Overtime Hours Close It'],
     ['six-figure-path', 'The $100,000 Question: 7 Hours a Week Lands $212 Short'],
     ['good-salary', 'Is $38 an Hour a Good Wage?'],
+    ['state-takehome', 'What $38 an Hour Keeps in 5 States'],
+    ['real-years', 'Two $38-an-Hour Years That Don’t Look Alike'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -263,6 +265,40 @@ export const article58 = {
         <h2>Is $38 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $38 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which works out to $50,980.80 a year. So $38 sits $13.49 an hour, or 55.0%, above the median, worth $28,059.20 a year more than the median worker\u2019s full-time gross. It\u2019s also 5.24 times the $7.25 federal minimum wage, and 101.7% of the BLS average hourly earnings for private-sector workers (about $37.38 an hour in early 2026). Just above the average, well above the middle. By the usual \u201cabove median\u201d test, $38 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $5,369.55 a month, and the common 30% rent rule puts the rent budget at $1,610.87 a month on that figure. That\u2019s comfortable in most mid-size cities, tight in the most expensive ones, and the reason the same wage feels different in different places. Run the 50/30/20 budget on that $5,369.55 and it splits into $2,684.78 for needs, $1,610.87 for wants, and $1,073.91 for savings and extra debt payments. It\u2019s a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide: the $5,369.55 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $3,952.00 a year, which costs $3,082.56 of take-home after the $869.44 federal saving ($256.88 a month, $118.56 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 322.79 take-home hours (8.07 weeks), not the 263.16 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-37-an-hour-a-year/">$37-an-hour guide</a> put the same benchmarks at their rates, so you can see where $38 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="state-takehome">
+        <h2>What $38 an Hour Keeps in 5 States</h2>
+        <p>Every take-home figure above is federal only. Your state is the next bite, and it is the biggest single difference between two workers on the same $38 rate. The table below runs the same $79,040 year through five states, using the state tables in our paycheck calculator. Federal tax ($8,558.80) and FICA ($6,046.56) are the same in every row. Only the state line moves:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>State</th><th>State income tax</th><th>Take-home after federal + state</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Texas (no state income tax)</strong></td><td>$0.00</td><td><strong>$64,434.64</strong></td><td>$5,369.55</td></tr>
+              <tr><td>Pennsylvania (flat 3.07%)</td><td>$2,426.53</td><td>$62,008.11</td><td>$5,167.34</td></tr>
+              <tr><td>California (progressive)</td><td>$3,146.32</td><td>$61,288.32</td><td>$5,107.36</td></tr>
+              <tr><td>New York (progressive)</td><td>$3,671.16</td><td>$60,763.48</td><td>$5,063.62</td></tr>
+              <tr><td>Illinois (flat 4.95%)</td><td>$3,912.48</td><td>$60,522.16</td><td>$5,043.51</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The spread is real money. Texas keeps $3,912.48 a year more than Illinois on the same job, which is $326.04 a month or $150.48 on every biweekly check. Pennsylvania is the cheapest of the four taxing states here: its flat 3.07% on all wages comes to $2,426.53, while Illinois charges its flat 4.95% the same way and lands highest at $3,912.48. California and New York sit in the middle because their progressive rates start low and only the top slice of this income reaches their higher brackets. Two honest notes before you move for the tax rate. First, these are state estimates only: local taxes are not in them, so a New York City worker or a Pennsylvania worker with a local earned-income tax keeps less than the table shows. Second, the state line does not change your federal tax here, because this sketch uses the standard deduction and does not itemize state tax. Our <a href="/calculators/paycheck/">paycheck calculator</a> runs the same state tables on any rate, so you can price your own state before you compare offers.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two $38-an-Hour Years That Don’t Look Alike</h2>
+        <p>The $79,040 headline assumes the same 40-hour week, 52 weeks a year. Real $38-an-hour jobs rarely look like that. Here are two common ones, priced the same way as the rest of this guide:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$79,040.00</td><td>$64,434.64</td><td>$5,369.55</td></tr>
+              <tr><td><strong>School-year worker</strong></td><td>40 hrs × 40 wks</td><td>$60,800.00</td><td>$51,032.80</td><td>$4,252.73</td></tr>
+              <tr><td><strong>Night-shift worker</strong></td><td>20 hrs at $38 + 20 hrs at $41</td><td>$82,160.00</td><td>$66,629.56</td><td>$5,552.46</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The school-year worker is the quieter story. A school bus driver or cafeteria worker on a 40-week school calendar earns $60,800.00 gross and keeps $51,032.80 after federal tax alone, which is $4,252.73 a month. The summer off costs $18,240.00 of gross and $13,401.84 of take-home against the full year, but the year still beats a $60,000 salary by $800.00 gross and $642.80 of take-home, because the salary comparison uses the same federal method. The night-shift worker is the better-paid version of the same rate. Half the week at the $38.00 base and half at $41.00 with a $3.00 night differential pays $1,580.00 a week, or $82,160.00 a year, and keeps $66,629.56. That is $3,120.00 more gross and $2,194.92 more take-home than the straight-time year, and each $3.00 differential hour keeps $2.11 after federal tax and FICA. The differential is worth about the same as a $1.50 raise on every hour, with no extra hours at all.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
