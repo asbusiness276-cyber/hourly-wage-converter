@@ -4,7 +4,7 @@ export const article59 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-09',
-  dateModified: '2026-11-09',
+  dateModified: '2026-11-16',
   title: 'How Much Is $39 an Hour a Year?',
   seoTitle: 'How Much Is $39 an Hour a Year? | Hourly Wage Converter',
   h1: '$39 an Hour Is How Much a Year? $81,120 Full-Time, Before Taxes',
@@ -23,6 +23,8 @@ export const article59 = {
     ['path-to-85000', 'The $85,000 Salary Test: 67 Overtime Hours Close It'],
     ['six-figure-path', 'The $100,000 Question: 6 Hours a Week Lands $628 Short'],
     ['good-salary', 'Is $39 an Hour a Good Wage?'],
+    ['overtime-ladder', 'The Overtime Ladder: What Each Extra Hour Keeps'],
+    ['real-years', 'Two Overtime-Heavy $39-an-Hour Years'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -265,6 +267,41 @@ export const article59 = {
         <h2>Is $39 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $39 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which works out to $50,980.80 a year. So $39 sits $14.49 an hour, or 59.1%, above the median, worth $30,139.20 a year more than the median worker\u2019s full-time gross. It also sits just above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $39 in the top quarter of all U.S. wages, and it\u2019s 5.38 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way: at $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $81,120.00 is 24.7% above that. By the usual \u201cabove median\u201d test, $39 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $5,491.49 a month, and the common 30% rent rule puts the rent budget at $1,647.45 a month on that figure. That\u2019s comfortable in most mid-size cities, tight in the most expensive ones, and the reason the same wage feels different in different places. Run the 50/30/20 budget on that $5,491.49 and it splits into $2,745.75 for needs, $1,647.45 for wants, and $1,098.30 for savings and extra debt payments. It\u2019s a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide: the $5,491.49 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $4,056.00 a year, which costs $3,163.68 of take-home after the $892.32 federal saving ($263.64 a month, $121.68 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 315.64 take-home hours (7.89 weeks), not the 256.41 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-38-an-hour-a-year/">$38-an-hour guide</a> put the same benchmarks at their rates, so you can see where $39 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="overtime-ladder">
+        <h2>The Overtime Ladder: What Each Extra Hour Keeps</h2>
+        <p>The overtime section prices 5 and 10 extra hours a week. This ladder fills in the rest, so you can see what any steady overtime habit is worth. Every row uses the same single-filer, federal-only method, and every overtime hour pays $58.50:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Overtime hours per week</th><th>Annual gross</th><th>Federal-only take-home</th><th>Extra kept vs no overtime</th></tr></thead>
+            <tbody>
+              <tr><td><strong>0 (straight time)</strong></td><td>$81,120.00</td><td>$65,897.92</td><td>—</td></tr>
+              <tr><td>2</td><td>$87,204.00</td><td>$70,178.01</td><td>$4,280.09</td></tr>
+              <tr><td>4</td><td>$93,288.00</td><td>$74,458.11</td><td>$8,560.19</td></tr>
+              <tr><td>8</td><td>$105,456.00</td><td>$83,018.30</td><td>$17,120.38</td></tr>
+              <tr><td>12</td><td>$117,624.00</td><td>$91,578.48</td><td>$25,680.56</td></tr>
+              <tr><td>15</td><td>$126,750.00</td><td>$97,899.63</td><td>$32,001.71</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Two rules fall out of that ladder. First, every overtime hour keeps $41.15 as long as your taxable income stays in the 22% bracket. That is $58.50 minus 22% federal tax ($12.87) minus 7.65% FICA ($4.48). Two overtime hours a week keep $4,280.09 over 104 hours, which is $41.15 an hour, and the same rate holds at 4, 8, and 12 hours a week. Second, the 15-hour row is the only one that breaks the pattern. At $126,750.00 of gross, taxable income reaches $110,650.00, which is $4,950.00 past the $105,700.00 line where the 24% bracket starts, so those top hours keep $39.98 each instead of $41.15. The ladder also settles a comparison worth knowing: 36 overtime hours in the whole year, about 40 minutes a week, put a $39-an-hour year at $83,226.00 gross and $67,379.49 of take-home, which is $18.29 past a $40-an-hour straight-time year. Overtime is the cheapest way to beat the next rate on the ladder, as long as the hours are real and paid.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two Overtime-Heavy $39-an-Hour Years</h2>
+        <p>Some $39-an-hour jobs pay overtime in bursts, not in a steady weekly habit. Here are two of the most common patterns, priced the same way as the rest of this guide:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$81,120.00</td><td>$65,897.92</td><td>$5,491.49</td></tr>
+              <tr><td><strong>Peak-season warehouse</strong></td><td>40 hrs × 40 wks + 55 hrs × 12 wks</td><td>$91,650.00</td><td>$73,305.77</td><td>$6,108.81</td></tr>
+              <tr><td><strong>3×12 nurse + per-diem shifts</strong></td><td>36 hrs × 52 wks + 24 extra 12-hr shifts</td><td>$84,240.00</td><td>$68,092.84</td><td>$5,674.40</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The warehouse year is the overtime burst. Forty weeks at 40 hours and twelve peak weeks at 55 hours add up to 180 overtime hours, worth $10,530.00 at $58.50 an hour. Gross lands at $91,650.00, and take-home at $73,305.77 after $11,333.00 of federal tax and $7,011.23 of FICA. That is $7,407.85 more take-home than the straight-time year, earned in twelve weeks, and it is $2,819.45 on every biweekly check. The nurse year works the other way. Three 12-hour shifts a week are 36 hours, which is $73,008.00 gross and $60,191.13 of take-home on its own, or $5,015.93 a month. Add 24 per-diem 12-hour shifts at a second facility across the year, 288 hours at the same $39.00 rate, and gross rises to $84,240.00 with take-home of $68,092.84. The per-diem shifts add $11,232.00 of gross and $7,901.71 of take-home, because the second facility pays straight time and no week crosses 40 hours at either job. Both years beat the straight-time $39 year, and both do it without a raise.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
