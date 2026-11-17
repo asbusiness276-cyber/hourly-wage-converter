@@ -4,7 +4,7 @@ export const article62 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-10',
-  dateModified: '2026-11-10',
+  dateModified: '2026-11-17',
   title: 'How Much Is $43 an Hour a Year?',
   seoTitle: 'How Much Is $43 an Hour a Year? | Hourly Wage Converter',
   h1: '$43 an Hour Is How Much a Year? $89,440 Full-Time, Before Taxes',
@@ -23,6 +23,8 @@ export const article62 = {
     ['path-to-90000', 'The $90,000 Salary Test: 9 Overtime Hours Close the Whole Gap'],
     ['six-figure-path', 'The $100,000 Question: 163 Hours Leave You $46.50 Short'],
     ['good-salary', 'Is $43 an Hour a Good Wage?'],
+    ['state-takehome', 'What $43 an Hour Keeps in 5 States'],
+    ['real-years', 'Two $43-an-Hour Years That Don’t Look Alike'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -271,6 +273,40 @@ export const article62 = {
         <h2>Is $43 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $43 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $43 sits $18.49 an hour, or 75.4%, above the median, worth $38,459.20 a year more than the median worker’s full-time gross. It also sits comfortably above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $43 in the top quarter of all U.S. wages, and it is 5.93 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way. At $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $89,440.00 is 37.5% above that. By the usual “above median” test, $43 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $5,979.25 a month, and the common 30% rent rule puts the rent budget at $1,793.78 a month on that figure. That is comfortable in most mid-size cities, tight in the most expensive ones, and the reason the same wage feels different in different places. Run the 50/30/20 budget on that $5,979.25 and it splits into $2,989.63 for needs, $1,793.78 for wants, and $1,195.85 for savings and extra debt payments. That is a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $5,979.25 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $4,472.00 a year, which costs $3,488.16 of take-home after the $983.84 federal saving ($290.68 a month, $134.16 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 289.89 take-home hours (7.25 weeks), not the 232.56 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-42-an-hour-a-year/">$42-an-hour guide</a> put the same benchmarks at their rates, so you can see where $43 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="state-takehome">
+        <h2>What $43 an Hour Keeps in 5 States</h2>
+        <p>Every take-home figure above is federal only. Your state is the next bite, and it is the biggest single difference between two workers on the same $43 rate. The table below runs the same $89,440 year through five states, using the state tables in our paycheck calculator. Federal tax ($10,846.80) and FICA ($6,842.16) are the same in every row. Only the state line moves:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>State</th><th>State income tax</th><th>Take-home after federal + state</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Florida (no state income tax)</strong></td><td>$0.00</td><td><strong>$71,751.04</strong></td><td>$5,979.25</td></tr>
+              <tr><td><strong>Washington (no state income tax)</strong></td><td>$0.00</td><td><strong>$71,751.04</strong></td><td>$5,979.25</td></tr>
+              <tr><td>Ohio</td><td>$1,743.22</td><td>$70,007.81</td><td>$5,833.98</td></tr>
+              <tr><td>New Jersey</td><td>$3,572.83</td><td>$68,178.21</td><td>$5,681.52</td></tr>
+              <tr><td>Michigan (flat 4.25%)</td><td>$3,801.20</td><td>$67,949.84</td><td>$5,662.49</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The spread is real money. Florida and Washington keep the full $71,751.04, which is $3,801.20 a year more than Michigan on the same job, or $316.77 a month and $146.20 on every biweekly check. Ohio is the cheapest of the three taxing states here: its bill comes to $1,743.22, less than half of Michigan\u2019s flat 4.25% on the same wages. New Jersey sits in the middle because its progressive rates start low and only the top slice of this income reaches its higher brackets. Two honest notes before you move for the tax rate. First, these are state estimates only: local taxes are not in them, so a worker in a city with its own income tax keeps less than the table shows. Second, the state line does not change your federal tax here, because this sketch uses the standard deduction and does not itemize state tax. Our <a href="/calculators/paycheck/">paycheck calculator</a> runs the same state tables on any rate, so you can price your own state before you compare offers.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two $43-an-Hour Years That Don\u2019t Look Alike</h2>
+        <p>The $89,440 headline assumes the same 40-hour week, 52 weeks a year. Real $43-an-hour jobs rarely look like that. Here are two common ones, priced the same way as the rest of this guide:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$89,440.00</td><td>$71,751.04</td><td>$5,979.25</td></tr>
+              <tr><td><strong>Seasonal construction worker</strong></td><td>40 hrs × 44 wks</td><td>$75,680.00</td><td>$62,070.88</td><td>$5,172.57</td></tr>
+              <tr><td><strong>Weekend-shift worker</strong></td><td>20 hrs at $43 + 20 hrs at $47</td><td>$93,600.00</td><td>$74,677.60</td><td>$6,223.13</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The seasonal worker is the quieter story. Eight weeks off between jobs costs $13,760.00 of gross and $9,680.16 of take-home against the full year, but the year still beats a $75,000 salary by $680.00 gross and $478.38 of take-home, because the salary comparison uses the same federal method. The weekend-shift worker is the better-paid version of the same rate. Half the week at the $43.00 base and half at $47.00 with a $4.00 weekend differential pays $1,800.00 a week, or $93,600.00 a year, and keeps $74,677.60. That is $4,160.00 more gross and $2,926.56 more take-home than the straight-time year, and each $4.00 differential hour keeps $2.81 after federal tax and FICA. The differential is worth about the same as a $2.00 raise on every hour, with no extra hours at all. Our <a href="/articles/how-much-is-42-an-hour-a-year/">$42-an-hour guide</a> and <a href="/articles/how-much-is-44-an-hour-a-year/">$44-an-hour guide</a> put the same benchmarks at their rates, so you can see where $43 sits on the whole ladder.</p>
       </section>
 
       <section class="article-section" id="how-to-use">

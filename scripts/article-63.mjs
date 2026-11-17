@@ -4,7 +4,7 @@ export const article63 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-10',
-  dateModified: '2026-11-10',
+  dateModified: '2026-11-17',
   title: 'How Much Is $44 an Hour a Year?',
   seoTitle: 'How Much Is $44 an Hour a Year? | Hourly Wage Converter',
   h1: '$44 an Hour Is How Much a Year? $91,520 Full-Time, Before Taxes',
@@ -23,6 +23,8 @@ export const article63 = {
     ['path-to-95000', 'The $95,000 Salary Test: 53 Overtime Hours Close the Whole Gap'],
     ['six-figure-path', 'The $100,000 Question: 128 Hours Leave You $32 Short'],
     ['good-salary', 'Is $44 an Hour a Good Wage?'],
+    ['overtime-ladder', 'The Overtime Ladder: What Each Extra Hour Keeps'],
+    ['real-years', 'Two Overtime-Heavy $44-an-Hour Years'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -272,6 +274,41 @@ export const article63 = {
         <h2>Is $44 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $44 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $44 sits $19.49 an hour, or 79.5%, above the median, worth $40,539.20 a year more than the median worker’s full-time gross. It also sits well above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $44 in the top quarter of all U.S. wages, and it is 6.07 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way. At $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $91,520.00 is 40.7% above that. By the usual “above median” test, $44 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $6,101.19 a month, and the common 30% rent rule puts the rent budget at $1,830.36 a month on that figure. That is comfortable in most mid-size cities and tight in the most expensive ones, and it is the reason the same wage feels different in different places. Run the 50/30/20 budget on that $6,101.19 and it splits into $3,050.60 for needs, $1,830.36 for wants, and $1,220.24 for savings and extra debt payments. That is a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $6,101.19 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $4,576.00 a year, which costs $3,569.28 of take-home after the $1,006.72 federal saving ($297.44 a month, $137.28 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 284.09 take-home hours (7.10 weeks), not the 227.27 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-30-an-hour-annually/">$30-an-hour guide</a> and <a href="/articles/how-much-is-43-an-hour-a-year/">$43-an-hour guide</a> put the same benchmarks at their rates, so you can see where $44 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="overtime-ladder">
+        <h2>The Overtime Ladder: What Each Extra Hour Keeps</h2>
+        <p>The overtime section prices 5 and 10 extra hours a week. This ladder fills in the rest, so you can see what any steady overtime habit is worth. Every row uses the same single-filer, federal-only method, and every overtime hour pays $66.00:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Overtime hours per week</th><th>Annual gross</th><th>Federal-only take-home</th><th>Extra kept vs no overtime</th></tr></thead>
+            <tbody>
+              <tr><td><strong>0 (straight time)</strong></td><td>$91,520.00</td><td>$73,214.32</td><td>—</td></tr>
+              <tr><td>2</td><td>$98,384.00</td><td>$78,043.14</td><td>$4,828.82</td></tr>
+              <tr><td>4</td><td>$105,248.00</td><td>$82,871.97</td><td>$9,657.65</td></tr>
+              <tr><td>8</td><td>$118,976.00</td><td>$92,529.62</td><td>$19,315.30</td></tr>
+              <tr><td>12</td><td>$132,704.00</td><td>$101,969.18</td><td>$28,754.86</td></tr>
+              <tr><td>15</td><td>$143,000.00</td><td>$109,006.50</td><td>$35,792.18</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Two rules fall out of that ladder. First, every overtime hour keeps $46.43 as long as your taxable income stays in the 22% bracket. That is $66.00 minus 22% federal tax ($14.52) minus 7.65% FICA ($5.05). Two overtime hours a week keep $4,828.82 over 104 hours, which is $46.43 an hour, and the same rate holds at 4 and 8 hours a week. Second, the 12-hour row is the first one that breaks the pattern. Taxable income passes the $105,700.00 line where the 24% bracket starts once gross passes $121,800.00, which happens at about 8.8 overtime hours a week, so the four extra hours from 8 to 12 keep $45.38 each on average, and from 12 to 15 each keeps $45.11. The ladder also settles a comparison worth knowing: 32 overtime hours in the whole year, about 37 minutes a week, put a $44-an-hour year at $93,632.00 gross and $74,700.11 of take-home, which is $22.51 past a $45-an-hour straight-time year. Overtime is the cheapest way to beat the next rate on the ladder, as long as the hours are real and paid. Our <a href="/overtime-calculator/">overtime calculator</a> runs the same ladder on your own rate and hours.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two Overtime-Heavy $44-an-Hour Years</h2>
+        <p>Some $44-an-hour jobs pay overtime in bursts, not in a steady weekly habit. Here are two of the most common patterns, priced the same way as the rest of this guide:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$91,520.00</td><td>$73,214.32</td><td>$6,101.19</td></tr>
+              <tr><td><strong>Steady 50-hour weeks</strong></td><td>50 hrs × 52 wks</td><td>$125,840.00</td><td>$97,277.64</td><td>$8,106.47</td></tr>
+              <tr><td><strong>Holiday-season burst</strong></td><td>40 hrs × 44 wks + 60 hrs × 8 wks</td><td>$102,080.00</td><td>$80,643.28</td><td>$6,720.27</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The steady 50-hour year is the overtime habit. Ten extra hours every week add up to 520 overtime hours, worth $34,320.00 at $66.00 an hour. Gross lands at $125,840.00, and take-home at $97,277.64 after $18,935.60 of federal tax and $9,626.76 of FICA. That is $24,063.32 more take-home than the straight-time year, or $925.51 on every biweekly check. One honest note: at this gross, part of the year sits in the 24% bracket, so the top overtime hours keep $45.11 each instead of $46.43. The holiday-burst year works the other way. Forty-four ordinary weeks and eight weeks at 60 hours add up to 160 overtime hours, worth $10,560.00. Gross lands at $102,080.00 with take-home of $80,643.28, which is $7,428.96 more take-home than the straight-time year and beats a $100,000 salary by $2,080.00 gross and $1,463.28 of take-home. Both years beat the straight-time $44 year, and both do it without a raise. Our <a href="/articles/how-much-is-43-an-hour-a-year/">$43-an-hour guide</a> and <a href="/articles/how-much-is-45-an-hour-annually/">$45-an-hour guide</a> put the same patterns at their rates, so you can see where $44 sits on the whole ladder.</p>
       </section>
 
       <section class="article-section" id="how-to-use">

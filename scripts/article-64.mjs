@@ -4,7 +4,7 @@ export const article64 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-10',
-  dateModified: '2026-11-10',
+  dateModified: '2026-11-17',
   title: 'How Much Is $46 an Hour a Year?',
   seoTitle: 'How Much Is $46 an Hour a Year? | Hourly Wage Converter',
   h1: '$46 an Hour Is How Much a Year? $95,680 Full-Time, Before Taxes',
@@ -23,6 +23,8 @@ export const article64 = {
     ['path-to-95000', 'The $95,000 Salary Test: First Rate on the Ladder to Clear It'],
     ['six-figure-path', 'The $100,000 Question: 62 Hours Leave You $29.55 Short'],
     ['good-salary', 'Is $46 an Hour a Good Wage?'],
+    ['monthly-budget', 'A Month on $46 an Hour: A Line-by-Line Budget'],
+    ['real-years', 'Two $46-an-Hour Years That Don’t Look Alike'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -275,6 +277,55 @@ export const article64 = {
         <h2>Is $46 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $46 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which works out to $50,980.80 a year. So $46 sits $21.49 an hour, or 87.7%, above the median, worth $44,699.20 a year more than the median worker’s full-time gross. It also sits well above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $46 in the top quarter of all U.S. wages, and it is 6.34 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way. At $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $95,680.00 is 47.1% above that. By the usual “above median” test, $46 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $6,345.07 a month, and the common 30% rent rule puts the rent budget at $1,903.52 a month on that figure. That is comfortable in most mid-size cities and tight in the most expensive ones, and it is the reason the same wage feels different in different places. Run the 50/30/20 budget on that $6,345.07 and it splits into $3,172.54 for needs, $1,903.52 for wants, and $1,269.01 for savings and extra debt payments. That is a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $6,345.07 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $4,784.00 a year, which costs $3,731.52 of take-home after the $1,052.48 federal saving ($310.96 a month, $143.52 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 273.18 take-home hours (6.83 weeks), not the 217.39 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-45-an-hour-annually/">$45-an-hour guide</a> and <a href="/articles/how-much-is-44-an-hour-a-year/">$44-an-hour guide</a> put the same benchmarks at their rates, so you can see where $46 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="monthly-budget">
+        <h2>A Month on $46 an Hour: A Line-by-Line Budget</h2>
+        <p>The good-wage section splits $6,345.07 a month into the 50/30/20 shares. This table spends the same month line by line, so you can see where the money actually goes. It is built for a single renter in a mid-size city, with no state tax and no 401(k) taken off yet:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Line</th><th>Monthly amount</th></tr></thead>
+            <tbody>
+              <tr><td>Rent</td><td>$1,750.00</td></tr>
+              <tr><td>Utilities</td><td>$220.00</td></tr>
+              <tr><td>Groceries</td><td>$560.00</td></tr>
+              <tr><td>Transport (gas + insurance)</td><td>$450.00</td></tr>
+              <tr><td>Health premium</td><td>$200.00</td></tr>
+              <tr><td>Phone</td><td>$80.00</td></tr>
+              <tr><td><strong>Needs subtotal</strong></td><td><strong>$3,260.00</strong></td></tr>
+              <tr><td>Dining out</td><td>$240.00</td></tr>
+              <tr><td>Streaming + subscriptions</td><td>$50.00</td></tr>
+              <tr><td>Clothing</td><td>$120.00</td></tr>
+              <tr><td>Travel fund</td><td>$220.00</td></tr>
+              <tr><td>Hobbies</td><td>$130.00</td></tr>
+              <tr><td>Personal care</td><td>$90.00</td></tr>
+              <tr><td><strong>Wants subtotal</strong></td><td><strong>$850.00</strong></td></tr>
+              <tr><td>Emergency fund</td><td>$450.00</td></tr>
+              <tr><td>Roth IRA</td><td>$550.00</td></tr>
+              <tr><td>Extra debt payment</td><td>$300.00</td></tr>
+              <tr><td>House deposit fund</td><td>$935.07</td></tr>
+              <tr><td><strong>Savings subtotal</strong></td><td><strong>$2,235.07</strong></td></tr>
+              <tr><td><strong>Total</strong></td><td><strong>$6,345.07</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Needs run 51.4% of take-home, a little over the 50% target, because rent alone is 27.6% of the month. Wants are 13.4% and savings are 35.2%. Against the 50/30/20 split in the good-wage section ($3,172.54 for needs, $1,903.52 for wants, $1,269.01 for savings), this budget spends $87.46 more on needs, $1,053.52 less on wants, and saves $966.06 more. The house deposit line is the one that turns the budget into a plan. At $935.07 a month it builds $11,220.84 a year, which covers a 3.5% FHA down payment on a $300,000 home ($10,500) in about 11 months, a 10% down payment ($30,000) in about 32 months, and a 20% down payment ($60,000) in about 64 months, roughly five and a third years. Two things shrink this budget before it starts: state tax comes off the top in most states, and the 5% 401(k) contribution from the good-wage section costs $310.96 a month of take-home. Either one lands on the savings lines first, so treat the deposit dates above as the no-state-tax, no-401(k) case.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two $46-an-Hour Years That Don\u2019t Look Alike</h2>
+        <p>The $95,680 headline assumes the same 40-hour week, 52 weeks a year. Two common $46-an-hour years break that pattern in opposite directions:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$95,680.00</td><td>$76,140.88</td><td>$6,345.07</td></tr>
+              <tr><td><strong>Four-day week</strong></td><td>32 hrs × 52 wks</td><td>$76,544.00</td><td>$62,678.70</td><td>$5,223.23</td></tr>
+              <tr><td><strong>On-call stipend</strong></td><td>40 hrs × 52 wks + $200 a week</td><td>$106,080.00</td><td>$83,457.28</td><td>$6,954.77</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The four-day week is the trade most people actually weigh. Dropping to 32 hours costs $19,136.00 of gross and $13,462.18 of take-home against the full year, but the year still beats a $75,000 salary by $1,544.00 gross and $1,086.20 of take-home, because the salary comparison uses the same federal method. The on-call year works the other way. The same 40-hour week plus a $200.00 weekly on-call stipend pays $10,400.00 more gross and keeps $7,316.40 more take-home, which is $140.70 kept on every stipend week. The stipend alone is worth about the same as a $5.00 raise on every hour, with no extra hours at all. Both years show the same lesson from opposite sides: at $46 an hour, the schedule is worth almost as much as the rate. Our <a href="/articles/how-much-is-45-an-hour-annually/">$45-an-hour guide</a> and <a href="/articles/how-much-is-47-an-hour-a-year/">$47-an-hour guide</a> put the same benchmarks at their rates, so you can see where $46 sits on the whole ladder.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
