@@ -4,7 +4,7 @@ export const article65 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-11',
-  dateModified: '2026-11-11',
+  dateModified: '2026-11-17',
   title: 'How Much Is $47 an Hour a Year?',
   seoTitle: 'How Much Is $47 an Hour a Year? | Hourly Wage Converter',
   h1: '$47 an Hour Is How Much a Year? $97,760 Full-Time, Before Taxes',
@@ -22,6 +22,8 @@ export const article65 = {
     ['bracket-slice', 'The $31,260 Slice: What the 22% Bracket Really Costs'],
     ['six-figure-test', 'The $100,000 Salary Test: One Extra Hour a Week'],
     ['good-salary', 'Is $47 an Hour a Good Wage?'],
+    ['state-takehome', 'What $47 an Hour Keeps in 5 States'],
+    ['real-years', 'Two $47-an-Hour Years That Don’t Look Alike'],
     ['how-to-use', 'How to Use the Calculator'],
     ['limitations', 'Limitations'],
     ['faqs', 'Frequently Asked Questions'],
@@ -254,6 +256,40 @@ export const article65 = {
         <h2>Is $47 an Hour a Good Wage?</h2>
         <p>Stacked against national benchmarks, $47 clears the bar with room to spare. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80, so $47 sits $22.49 an hour, or 91.8%, above the median, worth $46,779.20 a year more than the median worker’s full-time gross. It also sits well above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $47 in the top quarter of all U.S. wages, and it is 6.48 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way: at $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $97,760.00 is 50.3% above that. By the usual “above median” test, $47 is good pay.</p>
         <p>The test that matters more is the monthly one. Federal-only take-home is $6,467.01 a month, and the common 30% rent rule puts the rent budget at $1,940.10 a month on that figure. That’s comfortable in most mid-size cities and tight in the most expensive ones, and it’s the reason the same wage feels different in different places. Run the 50/30/20 budget on that $6,467.01 and it splits into $3,233.51 for needs, $1,940.10 for wants, and $1,293.40 for savings and extra debt payments. That’s a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $6,467.01 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $4,888.00 a year, which costs $3,812.64 of take-home after the $1,075.36 federal saving ($317.72 a month, $146.64 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 268.03 take-home hours (6.70 weeks), not the 212.77 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-46-an-hour-a-year/">$46-an-hour guide</a> and <a href="/articles/how-much-is-45-an-hour-annually/">$45-an-hour guide</a> put the same benchmarks at their rates, so you can see where $47 sits on the whole ladder.</p>
+      </section>
+
+      <section class="article-section" id="state-takehome">
+        <h2>What $47 an Hour Keeps in 5 States</h2>
+        <p>Every take-home figure above is federal only. Your state is the next bite, and it is the biggest single difference between two workers on the same $47 rate. The table below runs the same $97,760 year through five states, using the state tables in our paycheck calculator. Federal tax ($12,677.20) and FICA ($7,478.64) are the same in every row. Only the state line moves:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>State</th><th>State income tax</th><th>Take-home after federal + state</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Arizona</strong></td><td>$2,041.50</td><td><strong>$75,562.66</strong></td><td>$6,296.89</td></tr>
+              <tr><td>Colorado</td><td>$3,593.04</td><td>$74,011.12</td><td>$6,167.59</td></tr>
+              <tr><td>Georgia</td><td>$4,129.72</td><td>$73,474.44</td><td>$6,122.87</td></tr>
+              <tr><td>Massachusetts (flat 5%)</td><td>$4,888.00</td><td>$72,716.16</td><td>$6,059.68</td></tr>
+              <tr><td>Oregon</td><td>$7,980.38</td><td>$69,623.79</td><td>$5,801.98</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The spread is real money. Arizona keeps $5,938.87 a year more than Oregon on the same job, which is $494.91 a month or $228.42 on every biweekly check. Arizona is the cheapest of the five taxing states here at $2,041.50, while Oregon charges the most at $7,980.38 because its progressive rates climb fastest on this income. Massachusetts lands at $4,888.00 on its flat 5%, and Colorado and Georgia sit in the middle. Two honest notes before you move for the tax rate. First, these are state estimates only: local taxes are not in them, so a worker in a city with its own income tax keeps less than the table shows. Second, the state line does not change your federal tax here, because this sketch uses the standard deduction and does not itemize state tax. Our <a href="/calculators/paycheck/">paycheck calculator</a> runs the same state tables on any rate, so you can price your own state before you compare offers.</p>
+      </section>
+
+      <section class="article-section" id="real-years">
+        <h2>Two $47-an-Hour Years That Don\u2019t Look Alike</h2>
+        <p>The $97,760 headline assumes the same 40-hour week, 52 weeks a year. Real $47-an-hour jobs rarely look like that. Here are two common ones, priced the same way as the rest of this guide:</p>
+        <div class="table-wrap">
+          <table class="pay-table">
+            <thead><tr><th>Year</th><th>Hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Straight time (baseline)</strong></td><td>40 hrs × 52 wks</td><td>$97,760.00</td><td>$77,604.16</td><td>$6,467.01</td></tr>
+              <tr><td><strong>Oil-field rotation</strong></td><td>60 hrs × 26 wks, then 26 weeks off</td><td>$85,540.00</td><td>$69,007.39</td><td>$5,750.62</td></tr>
+              <tr><td><strong>Part-time 30-hour weeks</strong></td><td>30 hrs × 52 wks</td><td>$73,320.00</td><td>$60,410.62</td><td>$5,034.22</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The rotation year is the overtime burst. Twenty-six weeks at 60 hours, forty at $47.00 and twenty at the $70.50 overtime rate, pay $3,290.00 a week, and the other twenty-six weeks pay nothing at all. The 520 overtime hours are worth $36,660.00, and the year lands at $85,540.00 gross with take-home of $69,007.39. That is $12,220.00 less gross and $8,596.77 less take-home than the straight-time year, but it still beats an $85,000 salary by $540.00 gross and $379.89 of take-home, because the salary comparison uses the same federal method. The part-time year works the other way. Thirty hours a week is $73,320.00 gross and $60,410.62 of take-home, or $5,034.22 a month, which costs $24,440.00 of gross and $17,193.54 of take-home against the full year. Both years show the same lesson from opposite sides: at $47 an hour, the calendar is worth almost as much as the rate. Our <a href="/articles/how-much-is-46-an-hour-a-year/">$46-an-hour guide</a> and <a href="/articles/how-much-is-48-an-hour-a-year/">$48-an-hour guide</a> put the same benchmarks at their rates, so you can see where $47 sits on the whole ladder.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
