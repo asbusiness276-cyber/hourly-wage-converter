@@ -24,8 +24,8 @@ export const article75 = {
     ['bracket-slice', 'The Last Flat Raise'],
     ['one-twenty-line', 'The $125,000 Line: 51 Overtime Hours Away'],
     ['good-salary', 'Is $58 an Hour a Good Wage?'],
-    ['how-to-use', 'How to Use the Calculator'],
-    ['limitations', 'Limitations'],
+    ['how-to-use', 'Before You Sign: Five Checks at $58'],
+    ['limitations', 'Seven Ifs That Change Your Number'],
     ['faqs', 'Frequently Asked Questions'],
     ['key-takeaways', 'Key Takeaways & Action Plan'],
   ],
@@ -205,7 +205,7 @@ export const article75 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$58 an Hour After Taxes (Federal Only)</h2>
-        <p>Here is the tax bill line by line, for a single filer in 2026 taking the $16,100 standard deduction. Every step is shown, so you can check it against your own pay stub:</p>
+        <p>Read the table the way you would read a pay stub, top to bottom: gross first, then what comes off, then what stays. The figures are for a single filer in 2026 taking the $16,100 standard deduction:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -223,7 +223,7 @@ export const article75 = {
             </tbody>
           </table>
         </div>
-        <p>Three numbers describe that result. You keep 77.7% of gross pay, your effective federal income-tax rate is 14.7% ($17,710.80 ÷ $120,640.00), and your marginal rate is 22%. But only $54,140.00 of your income is actually taxed at 22%, which is why the effective rate stays near 15%. Per hour worked you keep $45.05 of the $58.00. One label to watch for: DollarCalcs, the top-ranking page for this query, matches our $93,700 take-home but calls the 22.3% combined rate the "effective federal rate", when the real federal rate is 14.7% and the rest is FICA. FinalRoundAI contradicts itself on the same page, with a $93,210 summary against its own $93,700.24 detail, and its married-filing-jointly figure of $101,011 is $283.24 below the $101,294.24 the same brackets give. Takehomepay.online gives a federal figure of $18,492.10, which is $781.30 too high because it mixes 2026 and 2027 brackets, and its headline $85,680.54 is a California figure, not a federal one. Wagemetric gives only a vague $86,076.64-to-$96,934.24 range with no bracket steps. Applyquick.ai uses 2025 brackets and lands at $93,390. Timehackhero uses 2023 brackets, taxes the whole year at 24%, and lands at $82,338.03. Paycheckscalc answers the same question for Ontario, Canada, at $92,790 after Canadian tax, which does not apply to a U.S. paycheck. State income tax is the variable this sketch leaves out. In a state with no income tax the $93,700.24 stands, and in a state that taxes wages it falls. Our <a href="/articles/how-to-calculate-taxes-on-paycheck/">paycheck-tax guide</a> explains how to read the state line on your own stub, and our <a href="/articles/what-is-fica-tax/">FICA guide</a> breaks the 7.65% into its two parts and the $184,500 wage base. Our <a href="/calculators/paycheck/">paycheck calculator</a> runs the same federal method on any rate and schedule, including a 401(k) contribution, which lowers the taxable income in Step 3 but not the FICA in Steps 8 and 9.</p>
+        <p>Start with the three numbers that describe the result. You keep 77.7% of gross pay. Your effective federal income-tax rate is 14.7%, from $17,710.80 of federal tax on $120,640 of gross. And your marginal rate is 22%, because only $54,140.00 of your income is actually taxed there, which is why the effective rate stays near 15%. Per hour worked you keep $45.05 of the $58.00. The other pages that answer this question mostly get the label wrong, not the math. DollarCalcs, the top-ranking page for this query, matches our $93,700 take-home but calls the 22.3% combined rate the "effective federal rate", when the real federal rate is 14.7% and the rest is FICA. FinalRoundAI contradicts itself on the same page, with a $93,210 summary against its own $93,700.24 detail, and its married-filing-jointly figure of $101,011 is $283.24 below the $101,294.24 the same brackets give. Takehomepay.online gives a federal figure of $18,492.10, which is $781.30 too high because it mixes 2026 and 2027 brackets, and its headline $85,680.54 is a California figure, not a federal one. Wagemetric gives only a vague $86,076.64-to-$96,934.24 range with no bracket steps. Applyquick.ai uses 2025 brackets and lands at $93,390. Timehackhero uses 2023 brackets, taxes the whole year at 24%, and lands at $82,338.03. Paycheckscalc answers the same question for Ontario, Canada, at $92,790 after Canadian tax, which does not apply to a U.S. paycheck. State income tax is the variable this sketch leaves out. In a state with no income tax the $93,700.24 stands, and in a state that taxes wages it falls. To see the state line on your own stub, our <a href="/articles/how-to-calculate-taxes-on-paycheck/">paycheck-tax guide</a> walks through it line by line. The 7.65% splits into Social Security and Medicare in our <a href="/articles/what-is-fica-tax/">FICA guide</a>, which also covers the $184,500 wage base. And the <a href="/calculators/paycheck/">paycheck calculator</a> applies this same federal method to any rate and schedule you enter, treating a 401(k) contribution the way the table does: it cuts the taxable income in Step 3 while leaving the FICA in Steps 8 and 9 alone.</p>
       </section>
 
       <section class="article-section" id="nearby-rates">
@@ -277,18 +277,18 @@ export const article75 = {
 
       <section class="article-section" id="bracket-slice">
         <h2>The Last Flat Raise</h2>
-        <p>No competitor page writes this section, and it is the one that changes how you read your next raise. Your taxable income is $104,540.00, and the 12% bracket runs to $50,400.00. So <strong>$54,140.00 of your whole year is taxed at 22%</strong>, costing $11,910.80, while the other $50,400.00 is taxed at 10% and 12%. That is why your effective federal rate is 14.7% even though your marginal rate is 22%. Two consequences follow, both priced:</p>
+        <p>The $58-to-$59 raise is the first one on this ladder that comes back smaller: $1,444.88 instead of $1,463.28. The reason is a line in the tax table. Your taxable income is $104,540.00, and the 12% bracket runs to $50,400.00, so <strong>$54,140.00 of your whole year is taxed at 22%</strong>, costing $11,910.80, while the other $50,400.00 is taxed at 10% and 12%. That split is why your effective federal rate is 14.7% even though your marginal rate is 22%:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Raise</th><th>Gross added</th><th>Take-home added</th><th>Why</th></tr></thead>
             <tbody>
-              <tr><td>$56 → $57 an hour</td><td>$2,080.00</td><td><strong>$1,463.28</strong></td><td>The whole raise is taxed at 22% + 7.65% FICA</td></tr>
-              <tr><td>$57 → $58 an hour</td><td>$2,080.00</td><td><strong>$1,463.28</strong></td><td>Same again — the 22% bracket runs to $105,700 taxable</td></tr>
-              <tr><td>$58 → $59 an hour</td><td>$2,080.00</td><td><strong>$1,444.88</strong></td><td>$920 of the raise is taxed at 24% + 7.65% FICA</td></tr>
+              <tr><td>$56 → $57 an hour</td><td>$2,080.00</td><td><strong>$1,463.28</strong></td><td>The whole $2,080 is taxed at 22% + 7.65% FICA</td></tr>
+              <tr><td>$57 → $58 an hour</td><td>$2,080.00</td><td><strong>$1,463.28</strong></td><td>Same flat $1,463.28 — the last of its kind</td></tr>
+              <tr><td>$58 → $59 an hour</td><td>$2,080.00</td><td><strong>$1,444.88</strong></td><td>$920 crosses into the 24% bracket and costs an extra $18.40</td></tr>
             </tbody>
           </table>
         </div>
-        <p>From $32 an hour upward, every $1 raise kept exactly $1,463.28. That is $2,080.00 less 22% federal ($457.60) and less 7.65% FICA ($159.12). The flat $1,463.28 holds until taxable income crosses $105,700.00, which takes a gross of $121,800.00, or about $58.56 an hour. The $58-to-$59 raise is the first step on this ladder where the raise shrinks: $920.00 of it lands in the 24% bracket, costing an extra $18.40, so it keeps $1,444.88 instead. The flat-rate myth is the expensive version of the same mistake. Tax the whole $104,540.00 of taxable income at 22% and the federal bill is $22,998.80, which is $5,288.00 more than the real $17,710.80. The flat-25% shortcut some pages use is worse still: $26,135.00 of federal tax and a take-home of only $85,276.04, which is $8,424.20 below the real figure. The practical point: if you are choosing between a $1 raise and eight paid days off, the paid days are worth more. Eight paid days at $58.00 are $3,712.00 gross and about $2,611.39 of take-home, against $1,463.28 for the raise, and they do not push a single dollar into a higher bracket. Our <a href="/articles/how-much-is-57-an-hour-a-year/">$57-an-hour guide</a> and <a href="/articles/how-much-is-56-an-hour-a-year/">$56-an-hour guide</a> carry the same ladder, so the $1,463.28 figure ties out across all three pages.</p>
+        <p>When the raise shrinks, the negotiation should change with it. Eight paid days off at $58.00 are $3,712.00 gross and about $2,611.39 of take-home, against $1,463.28 for the $1 raise, and they do not push a single dollar into a higher bracket. The flat $1,463.28 held from $32 an hour upward, which is $2,080.00 less 22% federal ($457.60) and less 7.65% FICA ($159.12), until taxable income crossed $105,700.00, which takes a gross of $121,800.00, or about $58.56 an hour. The flat-rate myth is the expensive version of the same mistake: tax the whole $104,540.00 of taxable income at 22% and the federal bill is $22,998.80, which is $5,288.00 more than the real $17,710.80. The flat-25% shortcut some pages use is worse still: $26,135.00 of federal tax and a take-home of only $85,276.04, which is $8,424.20 below the real figure. The same ladder runs through our <a href="/articles/how-much-is-57-an-hour-a-year/">$57-an-hour guide</a> and our <a href="/articles/how-much-is-56-an-hour-a-year/">$56-an-hour guide</a>, and the $1,463.28 figure ties out on all three pages.</p>
       </section>
 
       <section class="article-section" id="one-twenty-line">
@@ -324,27 +324,29 @@ export const article75 = {
       </section>
 
       <section class="article-section" id="how-to-use">
-        <h2>How to Use the Calculator</h2>
-        <p>Four steps run your own schedule through the calculator:</p>
+        <h2>Before You Sign: Five Checks at $58</h2>
+        <p>An offer at $58 an hour looks like a $120,640 year, and on straight time it is. But five questions decide whether that year shows up in your bank account, so ask them before you sign:</p>
         <ol>
-          <li><strong>Step 1 — Enter $58 as your rate</strong> in the hourly-to-salary calculator, with your real hours per week and paid weeks. Leave paid weeks at 52 only if every week of your year is paid.</li>
-          <li><strong>Step 2 — Try your schedule</strong> from the schedules table (20, 25, 30, 35, or 37.5 hours) and watch the gross figure move before you compare offers. Watch the net-kept-per-hour column too, since it rises as hours fall.</li>
-          <li><strong>Step 3 — Add overtime</strong> in the overtime calculator if your role offers it. Use the hours you verified, not the hours you hope for.</li>
-          <li><strong>Step 4 — Compare against a salary offer</strong> by annualizing both on paid weeks and pricing benefits in dollars before you decide.</li>
+          <li><strong>Is the job non-exempt?</strong> If it is, one overtime hour a week keeps $3,115.35 across the year and already beats a $125,000 salary by $112.09. If the role is exempt, that whole upside does not exist, and the $93,700.24 is the ceiling.</li>
+          <li><strong>How many weeks are paid?</strong> The headline counts 52. A single unpaid week costs $1,632.12 of take-home and drops you $168.84 below a full-time $57-an-hour year, so a job with thin PTO is a pay cut in disguise.</li>
+          <li><strong>What does the $120,000 salary next door really pay?</strong> You beat it by $450.24 of take-home, a margin so thin that its 3% match flips the comparison by $3,149.76. Compare the match, not the headline.</li>
+          <li><strong>Which state taxes this?</strong> The $93,700.24 is federal tax only. In a state with no income tax it stands as written; anywhere else it falls. Run your state through the paycheck calculator before you budget $7,808.35 a month.</li>
+          <li><strong>What does the next $1 buy?</strong> The $58-to-$59 raise keeps $1,444.88, the first raise on this ladder that comes back smaller, while eight paid days off are worth $2,611.39 kept. Negotiate days as well as dollars.</li>
         </ol>
         <p><a class="btn" href="/hourly-to-salary-calculator/">Run my numbers</a> <a class="btn" href="/overtime-calculator/">Add my overtime</a></p>
       </section>
 
       <section class="article-section" id="limitations">
-        <h2>Limitations</h2>
+        <h2>Seven Ifs That Change Your Number</h2>
+        <p>Every figure on this page holds only while its condition holds. Here are the seven that move the $93,700.24 most:</p>
         <ol>
-          <li><strong>Federal only unless stated:</strong> the take-home sketch uses 2026 federal rules for a single filer taking the $16,100 standard deduction. State and local taxes are left out, so your actual take-home is lower in most states.</li>
-          <li><strong>Full-time year assumed:</strong> the $120,640.00 headline assumes 40 paid hours in all 52 weeks. Part-time hours, unpaid weeks, and seasonal gaps lower it, and the schedules and unpaid-weeks tables show exactly how much.</li>
-          <li><strong>Overtime is not guaranteed:</strong> the overtime sections assume those extra hours are actually there and paid at time and a half. Exempt workers get no overtime premium, and some employers cap overtime hours.</li>
-          <li><strong>The 22% bracket slice is exact for this rate only:</strong> the $54,140.00 figure depends on $120,640.00 of gross and the $16,100 standard deduction. A 401(k) contribution, a different filing status, or a second income moves the bracket line. The 24% bracket starts at $105,700.00 of taxable income, or about $58.56 an hour on straight time, though one overtime hour a week already reaches it at $58 an hour.</li>
-          <li><strong>Benefits are priced separately:</strong> the salary comparisons leave out health premiums, 401(k) matches, and paid time off unless a note says otherwise. A strong benefits package can flip the $120,000 row.</li>
-          <li><strong>Rounding:</strong> per-check figures are rounded to the cent, so multiplying a rounded monthly figure by 12 can differ from the annual figure by a few cents.</li>
-          <li><strong>Not tax or legal advice:</strong> these figures are 2026 federal estimates for a single filer taking the standard deduction, worked out the same way as the site's other guides. Your employer's payroll calendar, withholding elections, and benefit deductions change the figures.</li>
+          <li><strong>If you pay state income tax,</strong> the take-home falls. The $93,700.24 is federal tax only, for a single filer taking the $16,100 standard deduction, so it stands as written only in a state with no income tax.</li>
+          <li><strong>If you file jointly,</strong> the same year keeps $101,294.24 instead. The deduction doubles to $32,200 and the 12% bracket runs wider, so the federal bill drops and the marginal rate falls to 12%.</li>
+          <li><strong>If you put 5% in a 401(k),</strong> take-home drops $4,704.96 a year, after a $1,327.04 federal saving, and the $54,140 slice taxed at 22% moves with it. The contribution does not cut FICA. The 24% line sits at $105,700 of taxable income. On straight time that is about $58.56 an hour, but a single overtime hour a week gets there first at $58.</li>
+          <li><strong>If any week goes unpaid,</strong> the headline breaks. One unpaid week costs $1,632.12 of take-home, and thirteen unpaid weeks trail a $100,000 salary by $6,697.32.</li>
+          <li><strong>If your job is exempt,</strong> the overtime numbers are fiction. There is no time-and-a-half premium, no $3,115.35 for one extra hour a week, and some employers cap overtime hours even for non-exempt staff.</li>
+          <li><strong>If the salary offer carries a strong match,</strong> the $450.24 lead over a $120,000 salary evaporates. Its 3% match alone wins by $3,149.76, and health premiums and paid time off are not in these comparisons unless a note says so.</li>
+          <li><strong>If you round per-check figures,</strong> the year drifts by a few cents, because multiplying a rounded monthly figure by 12 does not always land on the annual figure. And none of this is tax or legal advice: your employer's payroll calendar, withholding elections, and benefit deductions change the final numbers.</li>
         </ol>
       </section>
 
