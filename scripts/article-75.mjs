@@ -4,7 +4,7 @@ export const article75 = {
   category: 'Hourly Wage Guides',
   minutes: 12,
   datePublished: '2026-11-14',
-  dateModified: '2026-11-14',
+  dateModified: '2026-11-25',
   title: 'How Much Is $58 an Hour a Year?',
   seoTitle: 'How Much Is $58 an Hour a Year? | Hourly Wage Converter',
   h1: '$58 an Hour Is How Much a Year? $120,640 Full-Time, Before Taxes',
@@ -61,7 +61,7 @@ export const article75 = {
 
       <section class="article-section" id="short-answer">
         <h2>The Short Answer: $120,640 a Year</h2>
-        <p>The gross is one multiplication, and the take-home is three subtractions. Here is the whole year in six steps, all worked from the same $58.00 rate we use in every section below:</p>
+        <p>Six steps stand between the rate and the year. Gross pay is one multiplication. Take-home is three subtractions. Every step uses the same $58.00 rate, and so does every section that follows, so the numbers in this guide all come from one place.</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -75,12 +75,12 @@ export const article75 = {
             </tbody>
           </table>
         </div>
-        <p>One honest note before you go further: that take-home figure is federal only, for a single filer taking the $16,100 standard deduction, with no state tax and no 401(k) or health premium taken off. It also assumes 40 paid hours in all 52 weeks, which no real year quite delivers. The $11,910.80 in Step 2 is the detail most guides skip: $54,140 of the $104,540 taxable income actually sits in the 22% bracket, and the flat-22% shortcut would overstate your federal tax by $5,288.00. The bracket-slice section below prices exactly what that means for your next raise. The sections that follow run the same $58.00 rate through every schedule, overtime, and unpaid-week variation, so you can read the number that matches your real year.</p>
+        <p>That take-home number comes with limits, and they matter. It is federal tax only, for a single filer taking the $16,100 standard deduction. No state tax is in it. No 401(k) and no health premium comes off it. It also assumes 40 paid hours in all 52 weeks, which no real year quite delivers. The detail most guides skip is in Step 2: $54,140 of the $104,540 taxable income actually sits in the 22% bracket, and that slice costs $11,910.80. Tax the whole year at a flat 22% and you overstate the federal bill by $5,288.00. The bracket-slice section below prices exactly what that slice means for your next raise. The sections that follow run the same $58.00 rate through every schedule, overtime, and unpaid-week variation, so you can read the number that matches your real year.</p>
       </section>
 
       <section class="article-section" id="pay-breakdown">
         <h2>$58 an Hour in Every Pay Period</h2>
-        <p>Same $120,640 a year, sliced six ways. We put gross and the federal-only after-tax estimate side by side, so you can match the row to the paycheck you actually get:</p>
+        <p>The year is $120,640, and this table cuts it six ways. Gross and the federal-only take-home estimate sit side by side in every row, so find the pay period you get paid on and read across:</p>
         <div class="table-wrap">
           <table class="pay-table">
             <thead><tr><th>Pay period</th><th>Hours</th><th>Gross pay</th><th>Federal-only take-home</th></tr></thead>
@@ -95,16 +95,16 @@ export const article75 = {
             </tbody>
           </table>
         </div>
-        <p>Two rows in that table cause most of the confusion. First, biweekly and semi-monthly are not the same check. Biweekly is 26 paychecks of $4,640.00, semi-monthly is 24 paychecks of $5,026.67, and the two extra biweekly checks a year are what make the totals equal. A month with three biweekly checks pays $13,920.00 gross ($10,811.58 take-home) against a normal two-check month of $9,280.00 ($7,207.72 take-home), which is why biweekly pay feels lumpy. Second, the monthly average divides by 12, not by 4: four weeks is only $9,280.00, and the $773.33 difference is the extra 1.33 weeks the average month actually holds. Our <a href="/articles/how-many-paychecks-in-a-year/">paychecks-per-year guide</a> maps the three-paycheck months for every 2026 cycle, and our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly-versus-semimonthly comparison</a> runs the two schedules through a full year on the same salary.</p>
+        <p>Two rows cause the confusion. Biweekly and semi-monthly are not the same check. Biweekly is 26 paychecks of $4,640.00. Semi-monthly is 24 paychecks of $5,026.67. The two extra biweekly checks a year are what make the totals equal. A month with three biweekly checks pays $13,920.00 gross ($10,811.58 take-home). A normal two-check month pays $9,280.00 ($7,207.72 take-home). That is why biweekly pay feels lumpy. The monthly average has its own trap: it divides by 12, not by 4. Four weeks is only $9,280.00, and the $773.33 difference is the extra 1.33 weeks the average month actually holds. Our <a href="/articles/how-many-paychecks-in-a-year/">paychecks-per-year guide</a> maps the three-paycheck months for every 2026 cycle, and our <a href="/articles/biweekly-vs-semi-monthly-pay-difference/">biweekly-versus-semimonthly comparison</a> runs the two schedules through a full year on the same salary.</p>
       </section>
 
       <section class="article-section" id="schedules">
         <h2>$58 an Hour at Different Schedules</h2>
         <figure>
           <img src="/assets/images/how-much-is-58-an-hour-a-year-schedules.jpg" alt="A registered nurse in navy blue scrubs with orange trim reviewing a blank weekly shift roster on a clipboard at a bright modern hospital nurses station with soft daylight through large windows" width="1280" height="720" loading="lazy">
-          <figcaption>Same rate, different week — the schedule decides what the year pays.</figcaption>
+          <figcaption>Same $58 rate, different week. Every hour you drop buys back more of itself.</figcaption>
         </figure>
-        <p>The rate is only half the paycheck. The schedule is the other half. Here is $58 an hour at every common schedule, gross and federal-only take-home (single filer, 2026 rules, same method as the after-tax section), with one column no other guide on this ladder carries: what each hour actually keeps after tax:</p>
+        <p>Hours move the year as much as the rate does. This table runs $58 an hour through every common schedule, with gross and federal-only take-home for a single filer under the 2026 rules, worked out the same way as the after-tax section. The last column is the one no other guide on this ladder carries: what each hour actually keeps after tax.</p>
         <div class="table-wrap">
           <table class="pay-table">
             <thead><tr><th>Weekly hours</th><th>Annual gross</th><th>Federal-only take-home</th><th>Take-home per month</th><th>Net kept per hour</th></tr></thead>
@@ -118,16 +118,16 @@ export const article75 = {
             </tbody>
           </table>
         </div>
-        <p>Read the last column top to bottom, because the pattern is the point of this section: <strong>the fewer hours you work, the more each hour keeps</strong>. That’s $48.70 at 20 hours a week against $45.05 at 40, a $3.65-an-hour gap on the same $58.00 rate. The reason is the bracket. None of a 20-hour year’s $44,220.00 of taxable income reaches the 22% bracket, while a 25-hour year’s $59,300.00 of taxable income runs $8,900.00 into it, so the 25-hour row is the first schedule on this page where the 22% bracket shows up at all. Three things in that table matter more than the headline. First, the 35-hour week crosses $100,000 gross on its own, at $105,560.00, and its $83,091.46 of take-home already beats a $100,000 salary by $3,911.46, before overtime or a raise. Second, the 37.5-hour paid week, common in offices that pay for a 7.5-hour day, is $113,100.00 gross, which still beats a $110,000 salary by $3,100.00 gross and $2,180.85 of take-home. A 2.5-hour shorter week costs $7,540.00 gross and $5,304.39 of take-home. Third, the step from 30 to 40 hours is worth $30,160.00 gross and $21,217.56 of take-home ($1,768.13 a month). That is the single biggest lever on this page, bigger than any raise in the nearby-rates table. Part-time keeps a bigger share: at 20 hours you keep 84.0% of gross, against 77.7% full-time, and a 25-hour week at $58 beats a $70,000 salary’s take-home by $3,798.90, while a 20-hour week beats a full-time $27-an-hour job by $3,342.56. Our <a href="/articles/how-to-convert-part-time-hourly-pay-to-annual-salary/">part-time conversion guide</a> works the same ladder for any rate and any hours, and our <a href="/articles/how-many-hours-is-full-time/">full-time-hours guide</a> explains why 30 hours is the line where benefits usually start.</p>
+        <p>Read the last column from the top down and the pattern is the point of this section: the fewer hours you work, the more each hour keeps. At 20 hours a week you keep $48.70 an hour. At 40 hours you keep $45.05. The gap is $3.65 an hour on the same $58.00 rate, and the bracket is behind it. A 20-hour year carries $44,220.00 of taxable income, and none of it reaches the 22% bracket. A 25-hour year carries $59,300.00, and $8,900.00 of it lands in the 22% bracket, so the 25-hour row is the first schedule on this page where the 22% bracket shows up at all. Three rows matter more than the headline. First, the 35-hour week crosses $100,000 gross on its own, at $105,560.00, and its $83,091.46 of take-home already beats a $100,000 salary by $3,911.46, before overtime or a raise. Second, the 37.5-hour paid week, common in offices that pay for a 7.5-hour day, is $113,100.00 gross, which still beats a $110,000 salary by $3,100.00 gross and $2,180.85 of take-home. A 2.5-hour shorter week costs $7,540.00 gross and $5,304.39 of take-home. Third, the step from 30 to 40 hours is worth $30,160.00 gross and $21,217.56 of take-home ($1,768.13 a month). That is the single biggest lever on this page, bigger than any raise in the nearby-rates table. Part-time keeps a bigger share: at 20 hours you keep 84.0% of gross, against 77.7% full-time, and a 25-hour week at $58 beats a $70,000 salary’s take-home by $3,798.90, while a 20-hour week beats a full-time $27-an-hour job by $3,342.56. Our <a href="/articles/how-to-convert-part-time-hourly-pay-to-annual-salary/">part-time conversion guide</a> works the same ladder for any rate and any hours, and our <a href="/articles/how-many-hours-is-full-time/">full-time-hours guide</a> explains why 30 hours is the line where benefits usually start.</p>
       </section>
 
       <section class="article-section" id="overtime">
         <h2>What Overtime Adds</h2>
         <figure>
           <img src="/assets/images/how-much-is-58-an-hour-a-year-overtime.jpg" alt="A subway train operator in a navy blue uniform with orange accents standing beside a large glowing station clock at night inside a subway depot with a train softly lit behind him" width="1280" height="720" loading="lazy">
-          <figcaption>Past 40 hours, every hour pays $87.00 — and at $58, one extra hour a week already beats a $125,000 salary.</figcaption>
+          <figcaption>Past 40 hours, every hour pays $87.00. At $58, one extra hour a week already beats a $125,000 salary.</figcaption>
         </figure>
-        <p>Non-exempt hourly workers earn at least time and a half past 40 hours in a workweek under the Fair Labor Standards Act. At $58.00 an hour, that’s $87.00 an overtime hour. Five extra hours a week, every week, is the most common pattern, and it is worth pricing properly:</p>
+        <p>The Fair Labor Standards Act sets the floor: non-exempt hourly workers earn at least time and a half past 40 hours in a workweek. At $58.00 an hour, the overtime hour pays $87.00. Five extra hours a week, every week, is the most common pattern, and it is worth pricing properly:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -163,7 +163,7 @@ export const article75 = {
 
       <section class="article-section" id="after-taxes">
         <h2>$58 an Hour After Taxes (Federal Only)</h2>
-        <p>Here is the full bracket-by-bracket working for a single filer in 2026 taking the $16,100 standard deduction. We show every step, so you can check it against your own pay stub:</p>
+        <p>The tax bill, worked out line by line, for a single filer in 2026 taking the $16,100 standard deduction. Every step is shown, so you can check it against your own pay stub:</p>
         <div class="table-wrap">
           <table class="pay-table worked-table">
             <thead><tr><th>Step</th><th>Math</th><th>Result</th></tr></thead>
@@ -230,7 +230,7 @@ export const article75 = {
             </tbody>
           </table>
         </div>
-        <p>Read the take-home column, not the gross column, when you compare. The $57-to-$58 step keeps exactly $1,463.28, the same as every $1 step since $32 an hour. But look at the next row: the $58-to-$59 step keeps only $1,444.88. The next section prices why the ladder stops being flat right here. Against salaries, $58 an hour beats a $115,000 salary by $5,640.00 gross and $3,967.74 of take-home, more than double the $3,560.00 gross and $2,504.46 of take-home that $57 managed against the same salary. The $60,000 salary is the clearest win for the hourly job: $58 an hour beats it by $60,640.00 gross and $43,310.24 of take-home, and no realistic benefits package closes a gap that size. And the $120,000 row is the closest call on the whole page — except this time the hourly job is the one ahead: $640.00 on gross and $450.24 on take-home. Our <a href="/articles/hourly-vs-salary-which-pays-more/">hourly-versus-salary comparison</a> prices any two offers head to head on the same paid-weeks basis, and our <a href="/calculators/salary-comparison/">salary-comparison calculator</a> runs any two offers through the same paid-weeks math.</p>
+        <p>Read the take-home column, not the gross column, when you compare. The $57-to-$58 step keeps exactly $1,463.28, the same as every $1 step since $32 an hour. But look at the next row: the $58-to-$59 step keeps only $1,444.88. The next section prices why the ladder stops being flat right here. Against salaries, $58 an hour beats a $115,000 salary by $5,640.00 gross and $3,967.74 of take-home, more than double the $3,560.00 gross and $2,504.46 of take-home that $57 managed against the same salary. The $60,000 salary is the clearest win for the hourly job: $58 an hour beats it by $60,640.00 gross and $43,310.24 of take-home, and no realistic benefits package closes a gap that size. And the $120,000 row is the closest call on the whole page, except this time the hourly job is the one ahead: $640.00 on gross and $450.24 on take-home. Our <a href="/articles/hourly-vs-salary-which-pays-more/">hourly-versus-salary comparison</a> prices any two offers head to head on the same paid-weeks basis, and our <a href="/calculators/salary-comparison/">salary-comparison calculator</a> runs any two offers through the same paid-weeks math.</p>
       </section>
 
       <section class="article-section" id="bracket-slice">
@@ -278,7 +278,7 @@ export const article75 = {
       <section class="article-section" id="good-salary">
         <h2>Is $58 an Hour a Good Wage?</h2>
         <p>Against national benchmarks, $58 clears the bar comfortably. The median hourly wage is roughly $24.51 an hour, which annualizes to $50,980.80. So $58 sits $33.49 an hour, or 136.6%, above the median, worth $69,659.20 a year more than the median worker’s full-time gross. It also sits well above the 75th-percentile wage of $38.71 an hour (BLS, May 2025), which puts $58 in the top quarter of all U.S. wages, and it is 8.00 times the $7.25 federal minimum wage. Median full-time earnings tell the same story another way: at $1,251 a week (BLS, second quarter of 2026) the median full-time worker earns $65,052.00 a year, and $120,640.00 is 85.5% above that. By the usual “above median” test, $58 is good pay.</p>
-        <p>The test that matters more is the monthly one. Federal-only take-home is $7,808.35 a month, and the common 30% rent rule puts the rent budget at $2,342.51 a month on that figure. That’s comfortable in most mid-size cities and tight in the most expensive ones, and it is the reason the same wage feels different in different places. Run the 50/30/20 budget on that $7,808.35 and it splits into $3,904.18 for needs, $2,342.51 for wants, and $1,561.67 for savings and extra debt payments. That is a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $7,808.35 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $6,032.00 a year, which costs $4,704.96 of take-home after the $1,327.04 federal saving ($392.08 a month, $180.96 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 221.98 take-home hours (5.55 weeks), not the 172.41 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-57-an-hour-a-year/">$57-an-hour guide</a> and <a href="/articles/how-much-is-56-an-hour-a-year/">$56-an-hour guide</a> put the same benchmarks at their rates, so you can see where $58 sits on the whole ladder.</p>
+        <p>The test that matters more is the monthly one. Federal-only take-home is $7,808.35 a month, and the common 30% rent rule puts the rent budget at $2,342.51 a month on that figure. That is comfortable in most mid-size cities and tight in the most expensive ones, and it is the reason the same wage feels different in different places. Run the 50/30/20 budget on that $7,808.35 and it splits into $3,904.18 for needs, $2,342.51 for wants, and $1,561.67 for savings and extra debt payments. That is a workable split, as long as the needs column is honest about state tax and health premiums. Two cautions before you decide. The $7,808.35 assumes a full 40-hour week all year with no unpaid weeks and no state tax, and it assumes no 401(k) or health premium comes off first. A 5% 401(k) contribution is $6,032.00 a year, which costs $4,704.96 of take-home after the $1,327.04 federal saving ($392.08 a month, $180.96 a biweekly check), as our <a href="/articles/how-does-a-401k-contribution-affect-your-paycheck/">401(k)-paycheck guide</a> prices in dollars. One milestone to keep in sight: $10,000 of spending money takes 221.98 take-home hours (5.55 weeks), not the 172.41 gross hours the rate alone suggests. Our <a href="/articles/how-much-is-57-an-hour-a-year/">$57-an-hour guide</a> and <a href="/articles/how-much-is-56-an-hour-a-year/">$56-an-hour guide</a> put the same benchmarks at their rates, so you can see where $58 sits on the whole ladder.</p>
       </section>
 
       <section class="article-section" id="how-to-use">
